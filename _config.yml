@@ -1,0 +1,12 @@
+# Site settings
+title: Your awesome title
+email: asifamod@designfundi.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: "/jekyll"
+url: "http://yourdomain.com"
+twitter_username: jekyllrb
+github_username: designfundi
+
+# Build settings
+markdown: kramdown
+permalink: pretty
