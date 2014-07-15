@@ -148,19 +148,19 @@ display:none;
 
 
 .fui-git {
-	background: url(images/git-icon-off.png) top no-repeat;
+	background: url(/jekyll/images/git-icon-off.png) top no-repeat;
 	height:22px;
 	width:22px;
 }
 
 .fui-git-on {
-	background: url(images/git-icon-on.png) top no-repeat;
+	background: url(/jekyll/images/git-icon-on.png) top no-repeat;
 	height:22px;
 	width:22px;
 }
 
 .sfheader-new .social-btns.git > * > *:first-child {
-    background: url(images/git-icon-off.png);
+    background: url(/jekyll/images/git-icon-off.png);
 }
 
 
@@ -196,6 +196,6 @@ margin-right: 16px;
 /* thinking styles */
 
 .content-12 .btn-wide {
-	background:url(images/fellows-page-header.png) center top no-repeat;
+	background:url(/jekyll/images/fellows-page-header.png) center top no-repeat;
 	color:#fff;
 }
