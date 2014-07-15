@@ -6,7 +6,7 @@
 /* styles from flat-ui-free2.0.0-fix.less files */
 body {
   color: #34495e;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.231;
 }
@@ -14,7 +14,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 a {
@@ -511,7 +511,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #2c3e50;
 }
 h1 {
@@ -539,7 +539,7 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
   color: #7f8c8d;
@@ -575,7 +575,7 @@ header .brand {
   font-size: 25px;
   font-weight: normal;
   color: #34495e;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 800;
   letter-spacing: -1px;
   color: #2c3e50;
@@ -738,7 +738,7 @@ section * {
 .footer-11 .additional-links a {
   margin: 0 10px;
   color: #95a5a6;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .footer-11 .additional-links a:hover,
 .footer-11 .additional-links a:focus,
@@ -1016,7 +1016,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-size: 25px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 800;
 }
 .header-10 .navbar .brand img:first-child {
@@ -1139,14 +1139,14 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-size: 45px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 .header-10-sub .hero-unit p {
   font-size: 25px;
   font-weight: normal;
   color: #bdc3c7;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 37.5px;
 }
@@ -1155,7 +1155,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     font-size: 36px;
     font-weight: normal;
     color: #ffffff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
   }
   .header-10-sub .hero-unit p {
@@ -1171,7 +1171,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-weight: normal;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   border: 8px solid white;
   display: inline-block;
   margin: 0;
@@ -1245,7 +1245,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-size: 37px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 50px;
   text-align: center;
@@ -1274,7 +1274,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-size: 20px;
   font-weight: normal;
   color: #e74c3c;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
 .content-15 .features h6:first-child {
@@ -1351,7 +1351,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding-bottom: 200px;
   position: relative;
   background-color: #ecf0f1;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #35495d;
 }
 @media (max-width: 768px) {
@@ -1364,7 +1364,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin: 0 0 20px;
   font-size: 35px;
   font-weight: 500;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   letter-spacing: -1px;
 }
 .blog-2 h3 img {
@@ -1374,7 +1374,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .blog-2 h4 {
   margin: 0 0 24px;
   color: #34495e;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 30px;
   letter-spacing: -1px;
   font-weight: 300;
@@ -1650,7 +1650,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-size: 24px;
   font-weight: normal;
   color: #34495e;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 .content-11 > .container {
