@@ -29,15 +29,10 @@ font-family:'Lora', serif !important;
     color: #fff;
 }
 
-.footer-11 .additional-links {
-    background: #3ba933;
-    color: #fff;
-    border-top: none;
-}
+/* Header New stylesheet */
 
-.footer-11 .additional-links .lead,
-.footer-11 .additional-links a {
-	color: #fff;
+header.sfheader-new {
+    padding-bottom: 0px;
 }
 
 
@@ -50,9 +45,11 @@ font-family:'Lora', serif !important;
   padding-bottom: 40px;
   position: relative;
 }
-.sfheader-new a {
-  color: #bdc3c7;
+.sfheader-new a,
+.footer-11 a {
+  color: #788c8d;
   font-weight: normal;
+  text-transform:uppercase;
 }
 .sfheader-new a:hover,
 .sfheader-new a:focus,
@@ -71,13 +68,15 @@ font-family:'Lora', serif !important;
 .sfheader-new nav {
   margin: 0 100px;
 }
-.sfheader-new nav ul {
+.sfheader-new nav ul,
+.footer-11 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   font-size: 16px;
   font-weight: normal;
-  color: #34495e;
+  color: #788c8d;
+  font-family:'Lora', serif;	
 }
 .sfheader-new nav ul li {
   display: inline-block;
@@ -86,11 +85,12 @@ font-family:'Lora', serif !important;
 .sfheader-new nav ul li:first-child {
   margin-left: 0;
 }
-.sfheader-new nav ul li a {
+.sfheader-new nav ul li a,
+.footer-11 nav ul li a {
   font-size: 18px;
   font-weight: normal;
   font-weight: 500;
-  color: #34495e;
+  color: #788c8d;
 }
 .sfheader-new nav ul li a:hover,
 .sfheader-new nav ul li a:focus,
@@ -109,8 +109,8 @@ font-family:'Lora', serif !important;
   font-size: 16px;
   font-weight: normal;
   color: #34495e;
-  width: 16px;
-  height: 19px;
+  width: 22px;
+  height: 22px;
   overflow: hidden;
   text-align: center;
 }
@@ -132,11 +132,70 @@ font-family:'Lora', serif !important;
 .sfheader-new .social-btns > *:hover > * {
   top: -100%;
 }
-.sfheader-new .additional-links {
+.sfheader-new .additional-links,
+.footer-11 {
   border-top: 2px solid #ecf0f1;
   background: #f4f5f6;
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   font-size: 14px;
   font-weight: normal;
   color: inherit;
+}
+
+.sfheader-new nav .subnav {
+display:none;	
+}
+
+
+.fui-git {
+	background: url(/jekyll/images/git-icon-off.png) top no-repeat;
+	height:22px;
+	width:22px;
+}
+
+.fui-git-on {
+	background: url(/jekyll/images/git-icon-on.png) top no-repeat;
+	height:22px;
+	width:22px;
+}
+
+.sfheader-new .social-btns.git > * > *:first-child {
+    background: url(/jekyll/images/git-icon-off.png);
+}
+
+
+/* Footer Styles */
+
+.footer-11 .brand {
+    top: -15px;
+}
+
+.footer-11 .additional-links {
+    background: #3ba933;
+    color: #fff;
+    border-top: none;
+}
+
+.footer-11 .additional-links .lead,
+.footer-11 .additional-links a {
+	color: #fff;
+}
+
+.footer-11 .social-btns > * {
+  width: 22px;
+  height: 22px;
+}
+
+ul.footer-menu li {
+float: left;
+list-style-type: none;
+margin-right: 16px;	
+}
+
+
+/* thinking styles */
+
+.content-12 .btn-wide {
+	background:url(/jekyll/images/fellows-page-header.png) center top no-repeat;
+	color:#fff;
 }

@@ -1,25 +1,31 @@
-<footer class="sfheader-new">
+<header class="sfheader-new">
     <div class="container">
         <a class="brand" href="#">
             <img src="{{ "/images/logo-icon.png" | prepend: site.baseurl }}" width="42" height="21" alt="The Shuttleworth Foundation">
         </a>
         <nav>
             <ul>
-                <li><a data-scroll href="#about" >About</a></li>
-                <li><a data-scroll href="#fellows" >Fellows</a></li>
-                <li><a data-scroll href="#open" >Open</a></li>
-                <li><a data-scroll href="#thinking" >Thinking</a></li>
+                <li><a data-scroll href="#about">About</a>
+                    <ul class="subnav">
+                        <li><a href="#">Annual Reports</a></li>
+                    </ul>
+                </li>
+                <li><a data-scroll href="#fellows">Fellows</a>
+                	<ul class="subnav">
+                        <li><a href="#">Fellows</a></li>
+                        <li><a href="#">Alumni</a></li>
+                        <li><a href="#">Applications</a></li>
+                    </ul>
+                </li>
+                <li><a data-scroll href="#open">Open</a></li>
+                <li><a data-scroll href="#thinking">Thinking</a></li>
             </ul>
         </nav>
         <div class="social-btns">
             <a href="#">
                 <div class="fui-git"></div>
-                <div class="fui-fit"></div>
-            </a>
-            <a href="#">
-                <div class="fui-twitter"></div>
-                <div class="fui-twitter"></div>
+                <div class="fui-git-on"></div>
             </a>
         </div>
     </div>
-</footer>
+</header>
