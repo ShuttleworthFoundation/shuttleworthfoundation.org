@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
 <div class="page-wrapper">
   <header class="header-10">
     <div class="header-background"></div>
@@ -11,10 +13,13 @@ layout: default
     <div>
         <div class="container">
             <div class="hero-unit">
-                <h1>We are the Shuttleworth Foundation and we</h1>
-                <p>...fund people who are unafraid to re-imagine the world and the way we live in it.</p>
-                <p>...are trying to build an open knowledge society with limitless possibilities.</p>
-                <p> ...hold a vision for a better future centered around open principles.</p>
+                <h1> We are the Shuttleworth Foundation and we
+                    <div id="rotate"> 
+                        <div>fund people who are unafraid to re-imagine the world and the way we live in it.</div> 
+                        <div>are trying to build an open knowledge society with limitless possibilities.</div> 
+                        <div>hold a vision for a better future centered around open principles.</div> 
+                    </div> 
+                </h1>
             </div>
         </div>
     </div>
@@ -157,3 +162,44 @@ If we are deliberate about finding great people, supporting and  sharing their p
          <!-- Placed at the end of the document so the pages load faster -->
 
         </div>
+
+
+<script>
+$(function(){
+    $.fn.extend({ 
+        rotaterator: function(options) {
+ 
+            var defaults = {
+                fadeSpeed: 500,
+                pauseSpeed: 100,
+                child:null
+            };
+             
+            var options = $.extend(defaults, options);
+         
+            return this.each(function() {
+                  var o =options;
+                  var obj = $(this);                
+                  var items = $(obj.children(), obj);
+                  items.each(function() {$(this).hide();})
+                  if(!o.child){var next = $(obj).children(':first');
+                  }else{var next = o.child;
+                  }
+                  $(next).fadeIn(o.fadeSpeed, function() {
+                        $(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function() {
+                            var next = $(this).next();
+                            if (next.length == 0){
+                                    next = $(obj).children(':first');
+                            }
+                            $(obj).rotaterator({child : next, fadeSpeed : o.fadeSpeed, pauseSpeed : o.pauseSpeed});
+                        })
+                    });
+            });
+        }
+    });
+});
+
+ $(document).ready(function() {
+    $('#rotate').rotaterator({fadeSpeed:500, pauseSpeed:1200});
+ });
+</script>
