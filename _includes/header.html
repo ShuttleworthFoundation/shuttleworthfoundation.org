@@ -18,9 +18,21 @@
                     </ul>
                 </li>
                 <li><a data-scroll href="#open">Open</a></li>
-                <li><a data-scroll href="#thinking">Thinking</a></li>
+                <li class="dropdown">  
+                    <a href="#thinking" data-scroll class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                        Thinking <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Philosophy</a></li>
+                        <li><a href="#">Thought Pieces</a></li>
+                        <li><a href="#">Fellows Blogs</a></li>
+                        <li><a href="#">Tweets</a></li>
+                        <li><a href="#">Videos</a></li>
+                    </ul>
+                </li>  
             </ul>
         </nav>
+
         <div class="social-btns">
             <a href="#">
                 <div class="fui-git"></div>
@@ -29,3 +41,22 @@
         </div>
     </div>
 </header>
+
+<style>
+    ul.dropdown-menu li:first-child {
+        margin-left: calc() !important;
+    }
+    ul.dropdown-menu li {
+        float: left !important;
+        margin-left: auto !important;
+        width: 100% !important;
+    }
+    ul.dropdown-menu a {
+        font-size: small !important;
+    }
+
+    .dropdown-menu li > a:hover{
+      background-color: transparent !important;
+    }
+
+</style>
