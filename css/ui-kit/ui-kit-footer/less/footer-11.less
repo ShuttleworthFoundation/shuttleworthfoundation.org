@@ -1,0 +1,133 @@
+/**
+ * Footer 11 stylesheet  
+ * */
+ .footer-11 {
+    padding-top: 110px;
+    text-align: center;
+    > .container {
+        padding-bottom: 40px;
+        position: relative;
+    }
+    a {
+        .a-color(@silver, @brand-info);
+        font-weight: normal;
+    }
+    .brand {
+        position: absolute;
+        top: 0;
+        left: 15px;
+        img:first-child {
+            float: left;
+            margin: 0 15px 0 0;
+        }
+    }
+    nav {
+        margin: 0 100px;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            .font(16px, @base);
+            li {
+                display: inline-block;
+                margin-left: 25px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                a {
+                    .font(18px, @base);
+                    font-weight:500;
+                    .a-color(@base, @silver);
+                }
+            }
+        }
+    }
+    .social-btns {
+        white-space: nowrap;
+        position: absolute;
+        top: 0;
+        right: 15px;
+        > * {
+            display: inline-block;
+            margin-left: 15px;
+            .font(16px, @base);
+            width: 16px;
+            height: 19px;
+            overflow: hidden;
+            text-align: center;
+            &:first-child {
+                margin-left: 0;
+            }
+            > * {
+                display: block;
+                position: relative;
+                top: 0;
+                .transition(0.25s top);
+                &:first-child {
+                    color: @silver;
+                }
+            }
+            &:hover > * {
+                top: -100%;
+            }
+        }
+    }
+    .additional-links {
+        border-top: 2px solid @clouds;
+        background: #f4f5f6;
+        padding: 50px 0;
+        .font(14px, inherit);
+        @media (max-width: 767px) {
+            margin-right: -5px;
+            margin-left: -5px;
+            .container {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+        .lead {
+            margin-bottom: 28px;
+            .font(24px, @base);
+            b {
+                font-weight:500;
+            }
+        }
+        a {
+            margin: 0 10px;
+            .a-color(@concrete);
+            font-family: @font-family-demo;
+        }
+    }
+    @media (max-width: 480px) {
+        border-top: 0;
+        text-align: left;
+        .brand {
+            display: none;
+        }
+        nav {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+        nav ul li {
+            float: none;
+            margin: 0;
+            display: block;
+            text-align: left;
+            border-bottom: 2px solid @clouds;
+            padding: 11px 20px;
+            &:first-child {
+                margin-top: 0;
+                border-top: 2px solid @clouds;
+            }
+        }
+        .social-btns {
+            position: static;
+            margin-top: 30px;
+            margin-bottom: 11px;
+        }
+        .additional-links a {
+            margin: 0 20px 0 0;
+            .line-height(18.0667px);
+        }
+    }
+}

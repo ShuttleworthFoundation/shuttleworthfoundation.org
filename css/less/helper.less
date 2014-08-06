@@ -1,0 +1,67 @@
+//--  HELPER FUNCTIONS AND VARIABLES ----------------------------------------------------------------------------
+
+// There is a path to fonts folder
+@startup-fontPath: "../fonts/";
+
+@base: @wet-asphalt;
+@font-size-base: 14px;
+@line-height-base: 1.231;
+@text-color-heading: @midnight-blue;
+@text-color-default: @asbestos;
+
+// 14px - base font-size in flat-ui, so if it will change we should change all fonts. And this mixin do it!
+.font(@font-size:16px,@color:@text-color-default){
+  @font-flat-ui: (@font-size/14); 
+  font-size: @font-flat-ui * @font-size-base;
+  font-weight:normal;
+  color: @color;
+}
+
+//1.231em - flat-ui standart line-height
+@em-px:18; //18px=1em standart. If you declarate another value change this variable to your value!!! 
+.line-height(@line-height: (@line-height-base * @em-px)px){ 
+  @tem-lh: @line-height * 1.231;
+  line-height:(@tem-lh /  (@line-height-base * @em-px)) * @em-px;
+}
+
+//-- end HELPER FUNCTIONS ---------------------------------------------------------------------------------------
+.delimiter {
+    margin-top: 200px;
+    &.line {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        border-top: 2px solid #ebedee;
+    }
+}
+header {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  z-index:100;
+  .brand {
+      .font(25px,@base);
+      font-family:@font-family-demo;
+      font-weight: 800;
+      letter-spacing:-1px;
+      color: #2c3e50;
+      img:first-child {float: left; margin: -10px 15px 0 0;}
+  }
+}
+
+section{ *{z-index:2;} }
+.background {
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0; z-index:1;
+  background: 50% 50% no-repeat;
+  .background-size(cover);
+  .opacity(20);
+}
+.container{
+  position:relative;
+  z-index:2;
+}
+
+header{
+  @media (max-width: 767px){
+    .box-sizing(border-box);
+  }
+}

@@ -1,62 +1,53 @@
-<header class="sfheader-new">
-    <div class="container">
-        <a class="brand" href="#">
-            <img src="{{ "/images/logo-icon.png" | prepend: site.baseurl }}" width="42" height="21" alt="The Shuttleworth Foundation">
-        </a>
-        <nav>
-            <ul>
-                <li><a data-scroll href="#about">About</a>
-                    <ul class="subnav">
-                        <li><a href="#">Annual Reports</a></li>
-                    </ul>
-                </li>
-                <li><a data-scroll href="#fellows">Fellows</a>
-                	<ul class="subnav">
-                        <li><a href="#">Fellows</a></li>
-                        <li><a href="#">Alumni</a></li>
-                        <li><a href="#">Applications</a></li>
-                    </ul>
-                </li>
-                <li><a data-scroll href="#open">Open</a></li>
-                <li class="dropdown">  
-                    <a href="#thinking" data-scroll class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
-                        Thinking <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Philosophy</a></li>
-                        <li><a href="#">Thought Pieces</a></li>
-                        <li><a href="#">Fellows Blogs</a></li>
-                        <li><a href="#">Tweets</a></li>
-                        <li><a href="#">Videos</a></li>
-                    </ul>
-                </li>  
-            </ul>
-        </nav>
-
-        <div class="social-btns">
-            <a href="#">
-                <div class="fui-git"></div>
-                <div class="fui-git-on"></div>
-            </a>
+<!-- header-21 -->
+<header class="header-21">
+  <div class="container">
+    <div class="row">
+      <div class="navbar col-sm-12" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle"></button>
+          <a class="brand" href="{{ site.baseurl }}/">
+              <img src="{{ "/images/logo-icon.png" | prepend: site.baseurl }}" width="42" height="21" alt="The Shuttleworth Foundation">
+          </a>
         </div>
+        <div class="navbar-collapse collapse">
+          
+          <ul class="nav">
+              <li class="dropdown">
+              <a data-scroll href="#about" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+              About <b class="caret"></b>
+              </a>
+                  <ul class="dropdown-menu">
+                      <li><a href="{{ "/reports" | prepend: site.baseurl }}">Annual Reports</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                  <a href="#fellowship" data-scroll class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">
+                      Fellows <b class="caret"></b>
+                  </a>
+                  
+                  <ul class="dropdown-menu">
+                      <li><a href="{{ "/fellows" | prepend: site.baseurl }}">Fellows</a></li>
+                      <li><a href="{{ "/alumni" | prepend: site.baseurl }}">Alumni</a></li>
+                      <li><a href="{{ "/applications" | prepend: site.baseurl }}">Applications</a></li>
+                  </ul>
+              </li>
+              <li><a href="{{ "/open" | prepend: site.baseurl }}">Open</a></li>
+
+              <li><a href="{{ "/thinking" | prepend: site.baseurl }}">Thinking</a></li>
+          </ul>
+
+          <div class="social-btns git pull-right">
+              <a href="https://github.com/ShuttleworthFoundation/shuttleworthfoundation.github.io" target="_blank">
+                  <div class="fui-git"></div>
+                  <div class="fui-git-on"></div>
+              </a>
+          </div>
+        </div>
+
+      
+      </div>
     </div>
+  </div>
 </header>
+<!-- header end -->
 
-<style>
-    ul.dropdown-menu li:first-child {
-        margin-left: calc() !important;
-    }
-    ul.dropdown-menu li {
-        float: left !important;
-        margin-left: auto !important;
-        width: 100% !important;
-    }
-    ul.dropdown-menu a {
-        font-size: small !important;
-    }
-
-    .dropdown-menu li > a:hover{
-      background-color: transparent !important;
-    }
-
-</style>
