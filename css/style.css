@@ -1777,7 +1777,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .header-10-sub .background {
-  background-image: url('../../startup/common-files/img/header/img-3.jpg');
+  background-image: url('../images/img/header/img-3.jpg');
   opacity: 20;
   filter: alpha(opacity=2000);
   opacity: 0.2;

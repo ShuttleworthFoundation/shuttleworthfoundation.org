@@ -61,7 +61,7 @@ display:none;
 }
 
 .header-10-sub .background {
-  background-image: url(../../images/home-header-bg.jpg);
+  background-image: url(../images/home-header-bg.jpg);
 }
 
 .header-10 { 
@@ -79,7 +79,7 @@ display:none;
 }
 
 .header-21 .navbar .navbar-toggle {
-    background-image: url(../../images/icons/menu-icon-header-8@2x.png);
+    background-image: url(../images/icons/menu-icon-header-8@2x.png);
 }
 
 #header-21.navbar-collapse .social-btns {
@@ -511,19 +511,19 @@ margin-bottom: 15px;
 
 /* Git icon */
 .fui-git {
-	background: url(../../images/git-icon-off.png) top no-repeat;
+	background: url(../images/git-icon-off.png) top no-repeat;
 	height:22px;
 	width:22px;
 }
 
 .fui-git-on {
-	background: url(../../images/git-icon-on.png) top no-repeat;
+	background: url(../images/git-icon-on.png) top no-repeat;
 	height:22px;
 	width:22px;
 }
 
 .header-21 .social-btns.git > * > *:first-child {
-    background: url(../../images/git-icon-off.png);
+    background: url(../images/git-icon-off.png);
 }
 
 .caret {
