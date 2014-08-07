@@ -562,7 +562,7 @@ margin-top:15px;
   margin-bottom: 28px;
   font-style:italic;
   font-size: 20px;
-  color: #fff;
+  color: #fff !important;
 }
 
 
