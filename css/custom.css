@@ -557,7 +557,7 @@ margin-right: 16px;
 margin-top:15px;	
 }
 
-.footer-11 .additional-links .lead {
+body .footer-11 .additional-links p.lead {
 	font-family: 'Lora',serif;
   margin-bottom: 28px;
   font-style:italic;
