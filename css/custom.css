@@ -16,7 +16,7 @@ a {
 }
 
 h1, h2, h3 {
-	font-family:'Lora', serif !important;	
+	font-family:'Open Sans', sans-serif !important;	
 }
 
 li {
@@ -37,7 +37,7 @@ text-align:center !important;
 }
 
 .highlighted-text {
-	font-family:'Lora', serif;
+	font-family:'Open Sans', sans-serif;
 	font-style:italic;
 	color:#3ba933;
 	font-size: 24px;
@@ -57,7 +57,7 @@ display:none;
     color: #3ba933;
     font-size: 14px;
     font-weight: 300;
-    font-family:'Lora', serif;
+    font-family:'Open Sans', sans-serif;
 }
 
 .header-10-sub .background {
@@ -110,12 +110,8 @@ body > .navbar-collapse .nav > li > a .caret {
 
 /* Home Content Styles */
 
-#home #thinking .btn-inverse {
-	background: #6e9f89;
-}
-
 #home .blog-2 h3 {
-	text-transform:uppercase;
+	
 }
 
 #home #thinking.blog-2 {
@@ -160,9 +156,7 @@ body > .navbar-collapse .nav > li > a .caret {
 #default .content-15,
 #fellow .content-15,
 #thinking .content-15,
-#thinking .projects-1,
- #single .projects-1,
- #single .projects-15{
+#thinking .projects-1 {
     padding-bottom: 60px;
     padding-top: 60px;
 }
@@ -173,34 +167,16 @@ body > .navbar-collapse .nav > li > a .caret {
 margin:0;	
 }
 
-/*#single .content-12 h1 {
-margin:0; 
-}*/
-
-#single .marg h1 {
-margin:0 !important; 
-}
 #default .content-12 .btn-wide,
 #thinking .content-12 .btn-wide {
 	padding: 40px 0 80px 0;
 }
 
-#single .content-12 .btn-wide2 {
-  padding: 40px 0 80px 0;
-}
 
 #home #fellowship h2 {
 font-weight:normal;
-text-transform:uppercase;
 font-size:35px;
 text-align:center;	
-margin-bottom: 30px;
-}
-#fellowship h2 {
-font-weight:normal;
-text-transform:uppercase;
-font-size:35px;
-text-align:center;  
 margin-bottom: 30px;
 }
 
@@ -269,7 +245,7 @@ margin-bottom: 30px;
 
 /* single post styles */
 #single .header-10-sub {
-    max-height: 250px !important;
+    max-height: 250px;
 }
 
 #single .blog-1 #b1-pt-1,
@@ -322,7 +298,7 @@ position:relative;
 
 
 .name {
-	font-family:'Lora',georgia, serif !important;
+	font-family:'Open Sans', sans-serif;
 }
 
 .content-15 {
@@ -365,7 +341,7 @@ margin-bottom: 15px;
 }
 
 .fellows-links h4 {
-	font-family:'Lora', serif !important;
+	font-family:'Open Sans', sans-serif !important;
 	font-size: 18px;
 }
 
@@ -444,7 +420,7 @@ margin-bottom: 15px;
 /* Header New stylesheet */
 
 .header-21 .navbar {
-    font-family:'Lora', serif !important;	
+    font-family:'Open Sans', sans-serif !important;	
     margin: 15px 0px 25px 0px;
 }
 
@@ -603,9 +579,9 @@ margin-top:15px;
 
 .content-12 .btn-wide {
     color: #fff;
-    font-family:'Lora', serif;	
+    font-family:'Open Sans', sans-serif;	
     font-size: 40px;
-	text-transform:uppercase;
+	
 }
 
 h2.page-subtitle {
@@ -644,6 +620,7 @@ body { padding-bottom: 70px; }
 	background:#fff;
 }
 
+/*
 .header-21 .navbar.navbar-fixed-top .nav > li > a {
     padding: 18px 10px 0;
 	font-size: 16px;
@@ -661,6 +638,7 @@ body { padding-bottom: 70px; }
     right: 15px;
     top: 16px;
 }
+*/
 
 .photo-link {
 display:block;
