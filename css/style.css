@@ -271,10 +271,10 @@ footer {
   background-color: #bdc3c7;
 }
 .bg-concrete {
-  background-color: #7f8c8d;
+  background-color: #505d5e;
 }
 .bg-asbestos {
-  background-color: #7f8c8d;
+  background-color: #505d5e;
 }
 .bg-base {
   background-color: #34495e;
@@ -325,7 +325,7 @@ footer {
   border-color: #bdc3c7;
 }
 .bordered.bg-concrete {
-  border-color: #7f8c8d;
+  border-color: #505d5e;
 }
 html,
 body {
@@ -333,7 +333,7 @@ body {
 }
 body {
   overflow-x: hidden;
-  color: #7f8c8d;
+  color: #505d5e;
   line-height: 1.29;
 }
 @media (max-width: 767px) {
@@ -542,7 +542,7 @@ input[type="color"],
   font-family:'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #505d5e;
 }
 a:hover,
 button:hover,
@@ -951,7 +951,7 @@ section * {
   -moz-border-radius: 6px;
   border-radius: 6px;
   overflow: hidden;
-  color: #7f8c8d;
+  color: #505d5e;
   min-height: 330px;
   position: relative;
 }
@@ -963,7 +963,7 @@ section * {
   top: 0;
   right: 0;
   bottom: 0;
-  background: #ebedee url('../../common-files/img/header/ipad@2x.png') 100% 50% no-repeat;
+  background: #ebedee url('.././common-files/img/header/ipad@2x.png') 100% 50% no-repeat;
   -webkit-background-size: 826px 772px;
   -moz-background-size: 826px 772px;
   -o-background-size: 826px 772px;
@@ -1096,12 +1096,12 @@ section * {
 .projects-1 .projects .info {
   text-align: left;
   font-size: 14px;
-  color: #7f8c8d;
+  color: #505d5e;
   margin-top: 39px;
   line-height: 1.4;
 }
 .projects-1 .projects .info b {
-  color: #7f8c8d;
+  color: #505d5e;
 }
 .projects-1 .projects .name {
   color: #3ba933;
@@ -1172,7 +1172,7 @@ section * {
 .content-5 h3 + .lead {
   font-size: 25px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #505d5e;
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   text-align: center;
@@ -1209,7 +1209,7 @@ section * {
 .content-5 .features > [class*="col-sm-"] p {
   font-size: 16px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #505d5e;
 }
 .content-5 .features > [class*="col-sm-"] h6 {
   font-size: 22px;
@@ -1227,16 +1227,12 @@ section * {
 .content-12 {
   position: relative;
 }
-
-
 .content-12 .wide {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
 }
-
-
 .content-12 .btn-wide {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -1244,7 +1240,7 @@ section * {
   font-size: 40px;
   font-weight: normal;
   font-family:'Open Sans', sans-serif;
-  color: #7f8c8d;
+  color: #505d5e;
   background: #1abc9c;
   font-weight: 300;
   -webkit-transition: 0.25s color, 0.25s background-color;
@@ -1252,8 +1248,6 @@ section * {
   -o-transition: 0.25s color, 0.25s background-color;
   transition: 0.25s color, 0.25s background-color;
 }
-
-
 .content-12 .btn-wide:hover,
 .content-12 .btn-wide:focus,
 .content-12 .btn-wide.active {
@@ -1264,7 +1258,7 @@ section * {
   background: #e74c3c;
 }
 @media (max-width: 767px) {
-  .content-12 .btn-wide,.content-12 .btn-wide2 {
+  .content-12 .btn-wide {
     font-size: 30px;
   }
 }
@@ -1328,10 +1322,14 @@ section * {
   color: #bdc3c7;
 }
 .footer-11 .social-btns {
+  /*
   white-space: nowrap;
   position: absolute;
   top: 0;
   right: 15px;
+  */
+  width:100%;
+  text-align:center;
 }
 .footer-11 .social-btns > * {
   display: inline-block;
@@ -1391,7 +1389,7 @@ section * {
 }
 .footer-11 .additional-links a {
   margin: 0 10px;
-  color: #7f8c8d;
+  color: #505d5e;
   font-family:'Open Sans', sans-serif;
 }
 .footer-11 .additional-links a:hover,
@@ -1468,7 +1466,7 @@ section * {
   padding: 0;
   width: 30px;
   height: 30px;
-  background: url("../../startup/common-files/icons/menu-icon@2x.png") 50% no-repeat;
+  background: url(".././startup/common-files/icons/menu-icon@2x.png") 50% no-repeat;
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -1687,7 +1685,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   padding: 29px 0 27px;
   font-size: 17px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #505d5e;
   font-weight: 500;
   letter-spacing: 1px;
   color: #ffffff;
@@ -1855,7 +1853,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   text-align: center;
   font-size: 19px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #505d5e;
   color: #ffffff;
   background: #121518;
   opacity: 80;
@@ -2003,7 +2001,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   color: #e74c3c;
 }
 .header-21 .navbar .navbar-toggle {
-  background-image: url("../../../common-files/icons/menu-icon-header-21@2x.png");
+  background-image: url("../images/icons/menu-icon-header-21@2x.png");
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
@@ -2161,7 +2159,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .content-15 p {
   font-size: 18px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #505d5e;
 }
 .content-15 .features {
   margin-top: 120px;
@@ -2188,7 +2186,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .content-15 .features p {
   font-size: 16px;
   font-weight: normal;
-  color: #7f8c8d;
+  color: #505d5e;
 }
 .content-15 .features .col-sm-7 img {
   width: 100%;
@@ -2250,7 +2248,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: relative;
   background-color: #ecf0f1;
   font-family:'Open Sans', sans-serif;
-  color: #35495d;
+  color: #505d5e;
 }
 @media (max-width: 768px) {
   .blog-2 {
@@ -2273,7 +2271,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin: 0 0 24px;
   color: #34495e;
   font-family:'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: -1px;
   font-weight: 300;
 }
@@ -2489,11 +2487,11 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .projects-3 .projects .info {
   text-align: center;
   font-size: 16px;
-  color: #7f8c8d;
+  color: #505d5e;
   margin-top: 43px;
 }
 .projects-3 .projects .info b {
-  color: #7f8c8d;
+  color: #505d5e;
 }
 .projects-3 .projects .name {
   color: #34495e;
