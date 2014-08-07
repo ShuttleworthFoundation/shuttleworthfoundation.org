@@ -666,6 +666,6 @@ text-align:center;
 
 
 body p {
-font-size: 18px;
-color:#505d5e;	
+	font-size: 18px !important;
+	color:#505d5e !important;	
 }
