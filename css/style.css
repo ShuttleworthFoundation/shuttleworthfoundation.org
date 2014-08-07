@@ -89,7 +89,7 @@ h5 {
 h6 {
   font-weight: normal;
 }
-p {
+p, li {
   font-size: 18.004px;
   /* 18px */
   line-height: 1.722169;
@@ -2268,12 +2268,13 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin-bottom: 80px;
 }
 .blog-2 h4 {
-  margin: 0 0 24px;
+  margin: 5px 0 24px;
   color: #34495e;
   font-family:'Open Sans', sans-serif;
-  font-size: 25px;
+  font-size: 23px;
   letter-spacing: -1px;
   font-weight: 300;
+  line-height:30px;
 }
 .blog-2 h6 {
   font-size: 20px;
