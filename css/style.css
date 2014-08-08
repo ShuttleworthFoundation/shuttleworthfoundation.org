@@ -2144,7 +2144,6 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 50px;
-  text-align: center;
 }
 @media (max-width: 767px) {
   .content-15 h3 {
