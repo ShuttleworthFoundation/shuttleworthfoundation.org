@@ -663,7 +663,8 @@ width:100%;
 text-align:center;	
 }
 
-.fsPage input[disabled="disabled"] {
+.fsPage input[disabled="disabled"],
+.fsPage textarea[disabled="disabled"] {
 	display:none;
 	visibility:hidden;	
 }
