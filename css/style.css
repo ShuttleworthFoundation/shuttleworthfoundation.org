@@ -2137,12 +2137,11 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: relative;
 }
 .content-15 h3 {
-  margin-bottom: 68px;
+  margin-bottom: 30px;
   font-size: 37px;
-  font-weight: normal;
   color: #2c3e50;
   font-family:'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 50px;
 }
 @media (max-width: 767px) {
