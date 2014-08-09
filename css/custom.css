@@ -74,7 +74,7 @@ display:none;
 }
 
 .header-10-sub .hero-unit p {
-    color: #fff;
+    color: #fff !important;
     font-family: 'Open Sans',sans-serif;
 }
 
@@ -190,7 +190,7 @@ margin-bottom: 30px;
 .projects-1 .projects .name {
     color: #3ba933;
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 #thinking .blog-title {
@@ -201,7 +201,7 @@ margin-bottom: 30px;
 
 .blog-author-date,
 .blog-meta {
-	font-size:12px;
+	font-size:12px !important;
 	color:#999999;
 	margin-bottom:10px;
 }
