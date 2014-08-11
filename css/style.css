@@ -96,7 +96,7 @@ p, li {
   /* 31px */
 }
 .lead {
-  font-size: 28px;
+  font-size: 28px !important;
   /* 28px */
   line-height: 1.4642745;
   /* 41px */
