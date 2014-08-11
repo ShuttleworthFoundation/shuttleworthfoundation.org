@@ -717,7 +717,7 @@ body p {
 
 .breadcrumbs {
 	text-transform:capitalize;
-	margin-top:20px;
+	padding-top:20px;
 }
 
 .breadcrumb-divider {
