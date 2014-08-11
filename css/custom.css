@@ -33,20 +33,20 @@ text-align:center !important;
 }
 
 .green {
-	color:	#3ba933 !important;
+	color: #3ba933 !important;
 }
 
 .highlighted-text {
 	font-family:'Open Sans', sans-serif;
-	font-style:italic;
-	color:#3ba933;
-	font-size: 24px;
+	/*font-style: italic;*/
+	color: #3ba933;
+	/*font-size: 24px;*/
 	line-height: 42px;
 }
 
 @media (max-width: 1024px) {
 .full-screen-break {
-display:none;	
+	display:none;	
 }
 }
 
@@ -61,7 +61,7 @@ display:none;
 }
 
 .header-10-sub .background {
-  background-image: url(../images/home-header-bg.jpg);
+	background-image: url(../images/home-header-bg.jpg);
 }
 
 .header-10 { 
@@ -83,7 +83,7 @@ display:none;
 }
 
 #header-21.navbar-collapse .social-btns {
-display:none;	
+	display:none;	
 }
 
 .nav .open > a,
