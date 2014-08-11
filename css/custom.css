@@ -693,7 +693,8 @@ text-align:center;
 }
 
 .fsPage input[disabled="disabled"],
-.fsPage textarea[disabled="disabled"] {
+.fsPage textarea[disabled="disabled"]
+.fsHidden {
 	display:none;
 	visibility:hidden;	
 }
