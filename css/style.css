@@ -620,19 +620,27 @@ section * {
 /**
  * Blog 1 stylesheet  
  * */
-.blog-1 {
+.blog-1,
+.blog-1-thinking {
   padding-bottom: 130px;
 }
-.blog-1 .box-icon {
+.blog-1 .box-icon,
+.blog-1-thinking .box-icon {
   margin: 0 auto 35px;
   text-align: center;
   font-size: 16px;
 }
+.blog-1-thinking > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .blog-1 .box-icon > * {
   display: inline-block;
   vertical-align: middle;
 }
-.blog-1 .box-icon .icon {
+.blog-1 .box-icon .icon,
+ .blog-1-thinking .box-icon .icon{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -735,7 +743,8 @@ section * {
   background: none;
   border: 3px solid #1fe0ba;
 }
-.blog-1 .title {
+.blog-1 .title,
+.blog-1-thinking .title {
   margin-bottom: 85px;
   padding: 88px 0 76px;
   border-bottom: 2px solid #ebedee;
@@ -1466,7 +1475,7 @@ section * {
   padding: 0;
   width: 30px;
   height: 30px;
-  background: url(".././startup/common-files/icons/menu-icon@2x.png") 50% no-repeat;
+  background: url("../images/icons/menu-icon@2x.png") 50% no-repeat;
   -webkit-background-size: 17px 12px;
   -moz-background-size: 17px 12px;
   -o-background-size: 17px 12px;
