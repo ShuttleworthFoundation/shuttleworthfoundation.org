@@ -717,6 +717,7 @@ body p {
 	text-transform:capitalize;
 	padding:20px 0;
 	display:block;
+	text-align:center;
 }
 
 .breadcrumb-divider {
