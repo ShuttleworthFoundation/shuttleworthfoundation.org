@@ -717,9 +717,14 @@ body p {
 
 .breadcrumbs {
 	text-transform:capitalize;
-	padding-top:20px;
+	padding:20px 0;
+	display:block;
 }
 
 .breadcrumb-divider {
 	margin: 0 15px;	
+}
+
+#single .title {
+    border-bottom: 2px solid #ebedee;
 }
