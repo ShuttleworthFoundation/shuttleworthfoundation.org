@@ -714,3 +714,11 @@ body p {
 }
 
 .blog-1-thinking{ text-align:center;}
+
+.breadcrumbs {
+	text-transform:capitalize;	
+}
+
+.breadcrumb-divider {
+	margin: 0 15px;	
+}
