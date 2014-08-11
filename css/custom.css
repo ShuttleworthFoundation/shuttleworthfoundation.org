@@ -254,19 +254,39 @@ margin-bottom: 30px;
 	padding:0;
 }
 
+#single .blog-1-thinking #b1-pt-1,
+#single .blog-1-thinking .pt-page {
+    height:380px;
+  padding:0;
+}
+
+
 #single .header-10-sub .container
 #single .blog-1 .pt-page,
 #single .blog-1 .box-1 {
 position:relative;	
 }
 
+#single .header-10-sub .container
+#single .blog-1-thinking .pt-page,
+#single .blog-1-thinking .box-1 {
+position:relative;  
+}
+
 #single .blog-1 .boxes .box-1 {
+    height: auto;
+}
+
+#single .blog-1-thinking .boxes .box-1 {
     height: auto;
 }
 #single .blog-1 .boxes [class*="box-"] {
     background-color: #fff;
 }
 
+#single .blog-1-thinking .boxes [class*="box-"] {
+    background-color: #fff;
+}
 #single .header-10-sub .container .credit,
 #single .blog-1 .box-1 .credit,
 .projects-1 .credit {
@@ -286,6 +306,23 @@ position:relative;
 	border-radius: 8px;
 }
 
+#single .blog-1-thinking .box-1 .credit,
+.projects-1 .credit {
+    max-width: 500px;
+    position: absolute;
+  bottom: 15px;
+  right:15px;
+  text-align:right;
+  font-size:10px !important;
+  color: #fff;
+  margin-bottom:0;
+  padding:5px;
+  background-color:#34495e;
+  background: rgba(33, 57, 81, 0.7);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
 /* Get Started Call to Action Bar */
 .content-11 {
     background: #3ba933;
@@ -675,3 +712,5 @@ body p {
 	font-size: 18px !important;
 	color:#505d5e !important;	
 }
+
+.blog-1-thinking{ text-align:center;}
