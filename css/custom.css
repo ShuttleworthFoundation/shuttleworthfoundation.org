@@ -637,8 +637,8 @@ h2.page-subtitle {
 
 .content-15 h3 {
     color: #2c3e50;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 35px;
+    font-weight: 400;
     line-height: 50px;
     /*margin: 30px 0;*/
     text-align: center;
@@ -726,4 +726,12 @@ body p {
 
 #single .title {
     border-bottom: 2px solid #ebedee;
+}
+
+
+.navbar {
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1030;
 }
