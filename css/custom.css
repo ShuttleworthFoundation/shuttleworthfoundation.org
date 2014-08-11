@@ -716,7 +716,8 @@ body p {
 .blog-1-thinking{ text-align:center;}
 
 .breadcrumbs {
-	text-transform:capitalize;	
+	text-transform:capitalize;
+	margin-top:20px;
 }
 
 .breadcrumb-divider {
