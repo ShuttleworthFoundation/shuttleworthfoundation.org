@@ -732,3 +732,9 @@ body .footer-11 .additional-links p.lead {
 #single .title {
     border-bottom: 2px solid #ebedee;
 }
+
+
+.textcontainer {
+	 border-left: 5px solid #ebedee;
+	 border-right: 5px solid #ebedee;
+}
