@@ -14,6 +14,6 @@
             {% capture url_parts %}{{ url_parts |remove_first:first_word }}{% endcapture %}
           {% endfor %}
         {% endif %}
-           <span class="breadcrumb-divider">&#187;</span><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}}</a>
+           <span class="breadcrumb-divider">&#187;</span>{{ page.title}}
       </span>
 </span>
