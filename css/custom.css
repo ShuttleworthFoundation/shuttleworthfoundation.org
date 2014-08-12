@@ -738,3 +738,9 @@ body .footer-11 .additional-links p.lead {
 	 border-left: 5px solid #ebedee;
 	 border-right: 5px solid #ebedee;
 }
+
+.textcontainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
