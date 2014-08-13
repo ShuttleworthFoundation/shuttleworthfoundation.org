@@ -183,7 +183,8 @@ margin:0;
 }
 
 
-#home #fellowship h2 {
+#home #fellowship h2,
+#single h2 {
 font-weight:normal;
 font-size:35px;
 text-align:center;	
