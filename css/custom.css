@@ -123,6 +123,13 @@ body > .navbar-collapse .nav > li > a .caret {
     padding-top: 90px;
 }
 
+#home .header-10-sub h2 {
+	font-weight: 300;
+	font-size:35px;
+	margin-bottom: 30px;
+	margin-top:0;
+}
+
 
 .content-15 h3 {
 	font-size:32px;	
