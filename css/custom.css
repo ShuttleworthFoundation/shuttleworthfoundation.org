@@ -235,12 +235,11 @@ margin-bottom: 30px;
 
 .projects-1 .head-box .brand {
     color: #fff;
-    font-family:'Lora',georgia, serif;
 }
 
 .projects-1 .head-box p,
 .projects-1 .head-box a {
-	color: #fff;
+	color: #fff !important;
 }
 
 /* single post styles */
@@ -338,9 +337,13 @@ position:relative;
 	font-family:'Open Sans', sans-serif;
 }
 
-.content-15 {
+.content-15,
+.projects-1,
+.projects-3 {
     padding: 60px 0;
 }
+
+
 
 #terms .content-15 h3 {
     margin-bottom: 30px;
