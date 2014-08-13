@@ -123,10 +123,11 @@ body > .navbar-collapse .nav > li > a .caret {
     padding-top: 90px;
 }
 
-#home #about h2 {
-	font-weight: 300;
+#home #about h2,
+#application h2 {
+	font-weight: 400;
 	font-size:35px;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 	margin-top:0;
 }
 
@@ -758,3 +759,6 @@ body .footer-11 .additional-links p.lead {
   clear: both;
 }
 
+#team .textcontainer {
+	margin-bottom: 60px;
+}
