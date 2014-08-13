@@ -173,7 +173,7 @@ body > .navbar-collapse .nav > li > a .caret {
 #default .content-12 h1,
 #fellow .content-12 h1,
 #thinking .content-12 h1,
-#single .content-12 h1 {
+#single h1 {
 margin:0;	
 }
 
