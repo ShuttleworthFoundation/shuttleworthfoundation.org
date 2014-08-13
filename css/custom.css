@@ -124,7 +124,8 @@ body > .navbar-collapse .nav > li > a .caret {
 }
 
 #home #about h2,
-#application h2 {
+#application h2
+#single h2 {
 	font-weight: 400;
 	font-size:35px;
 	margin-bottom: 60px;
@@ -171,7 +172,8 @@ body > .navbar-collapse .nav > li > a .caret {
 
 #default .content-12 h1,
 #fellow .content-12 h1,
-#thinking .content-12 h1 {
+#thinking .content-12 h1,
+#single .content-12 h1 {
 margin:0;	
 }
 
@@ -474,7 +476,7 @@ margin-bottom: 15px;
 
 .header-21 .navbar .nav > li > a {
     color: #788c8d;
-    font-family: 'Lora',serif;
+    /*font-family: 'Lora',serif;*/
     font-size: 18px;
     font-weight: 500;
 	text-transform:uppercase;
