@@ -631,16 +631,20 @@ body { padding-bottom: 70px; }
 }
 
 .header-21 .navbar.navbar-fixed-top .brand img:first-child {
-    float: left;
+    /*
+	float: left;
     margin: -8px 15px 0 0;
 	width: auto !important;
 	height: 33px !important;
+	*/
 }
 
 .header-21 .navbar-fixed-top .social-btns {
+	/*
     position: absolute;
     right: 15px;
     top: 16px;
+	*/
 }
 
 .photo-link {

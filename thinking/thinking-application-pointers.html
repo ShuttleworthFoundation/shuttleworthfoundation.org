@@ -16,25 +16,9 @@ title: Application Pointers
 
 <!-- Everything after this should be Editable as content -->
 <section class="blog-1">
-    <span class="no-print">
-        <span class="breadcrumbs"><!-- Breadcrumbs: -->
-            {% capture url_parts %}{{ page.url | replace:'/'," " }}{% endcapture %}
-            {% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
-            {% assign previous="" %}
-            {% if num_parts == "0" or num_parts == "-1" or page.no_breadcrumbs %}
-              <a href="{{ site.baseurl }}/">home</a> &nbsp;
-            {% else %}
-              <a href="{{ site.baseurl }}/">home</a> <span class="breadcrumb-divider">&#187;</span>
-              {% for unused in site.breadcrumb_list limit:num_parts %}
-                {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
-                {% capture previous %}{{ previous }}/{{ first_word }}{% endcapture %}
-                <a href="{{previous | prepend: site.baseurl}}">{{ first_word }}</a> {% unless forloop.last %}<span class="breadcrumb-divider">&#187;</span>{% endunless %}
-                {% capture url_parts %}{{ url_parts |remove_first:first_word }}{% endcapture %}
-              {% endfor %}
-            {% endif %}
-               <span class="breadcrumb-divider">&#187;</span><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title}}</a>
-          </span>
-    </span>
+
+	{% include breadcrumbs.html %}
+    
     <div class="title" id="articlestart">
         <div class="container">
             <h3>Application Pointers</h3>
