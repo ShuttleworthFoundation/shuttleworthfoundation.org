@@ -148,6 +148,10 @@ body > .navbar-collapse .nav > li > a .caret {
     font-size: 16px;
 }
 
+#applications .content-15 .features {
+    margin-top: 50px;
+}
+
 #application .content-15 h3 + .lead {
     color: #7f8c8d;
     font-family: 'Open Sans',sans-serif;
