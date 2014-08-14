@@ -735,6 +735,7 @@ body { padding-bottom: 70px; }
 	-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.32);
 	box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.32);
 	background:#fff;
+	max-width: 1170px;
 }
 
 /*
