@@ -1963,7 +1963,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   color: white;
 }
 .header-21 .navbar .brand {
-  padding-top: 18px;
+  padding-top: 12px;
   padding-bottom: 0;
   font-size: 25px;
   font-weight: normal;
@@ -1988,7 +1988,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .header-21 .navbar .nav > li > a {
-  padding: 30px 10px 0;
+  padding: 17px 10px 0;
   font-size: 16px;
   font-weight: normal;
   font-family:'Open Sans', sans-serif;
