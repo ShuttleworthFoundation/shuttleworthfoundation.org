@@ -3,7 +3,10 @@
 body {
 	font-family:'Open Sans', sans-serif;
 	color:#6c797a;
-	padding-top:88px !important;
+}
+
+body > div {
+	margin-top:88px !important;
 }
 
 p {
