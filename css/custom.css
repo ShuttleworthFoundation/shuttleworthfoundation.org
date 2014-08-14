@@ -340,6 +340,10 @@ position:relative;
   -moz-border-radius: 8px;
   border-radius: 8px;
 }
+
+.blog-1 .tags.title {
+padding: 5px 0;
+}
 /* Get Started Call to Action Bar */
 .content-11 {
     background: #3ba933;
