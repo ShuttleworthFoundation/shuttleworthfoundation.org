@@ -28,6 +28,7 @@ title:  Shuttleworth Foundation - Applications
         <div class="row">
             <div class="textcontainer">
                 <div class="textbox col-sm-8 col-sm-offset-2">
+                	<p class="centered"><a href="#checklist" data-scroll>Application Checklist</a> &nbsp; <a href="#checklist" data-scroll>Application Pointers</a>  &nbsp; <a href="#getstarted" data-scroll>Get Started</a></p>
                     <p>
                         The Shuttleworth Foundation offers fellowships to individuals to implement their innovative idea for social change. We are most interested in exceptional ideas at the intersection between technology, knowledge and learning, with openness being the key requirement.
                     </p>
@@ -36,8 +37,7 @@ title:  Shuttleworth Foundation - Applications
                     </p>
                 </div>
             </div>
-			<a href="#checklist">Application Checklist</a> &nbsp; <a href="#checklist">Application Pointers</a>  &nbsp; <a href="#getstarted">Get Started</a>
-        </div>
+		</div>
         
         <div class="row" id="checklist">
             <div class="col-sm-10 col-sm-offset-1">
@@ -133,53 +133,4 @@ title:  Shuttleworth Foundation - Applications
 </div>
 </section>
 
-<!-- Get Started -->
-<section class="content-11">
-    <div class="container">
-        Are you interested in applying for a fellowship? 
-        <a class="btn btn-large btn-inverse" href="{{ "/fellows" | prepend: site.baseurl }}">Get Started</a>
-    </div>
-</section>
-
 </div>
-
-
-<script>
-    $(function(){
-                $.fn.extend({ 
-                    rotaterator: function(options) {
-             
-                        var defaults = {
-                            fadeSpeed: 500,
-                            pauseSpeed: 100,
-                            child:null
-                        };
-                         
-                        var options = $.extend(defaults, options);
-                     
-                        return this.each(function() {
-                              var o =options;
-                              var obj = $(this);                
-                              var items = $(obj.children(), obj);
-                              items.each(function() {$(this).hide();})
-                              if(!o.child){var next = $(obj).children(':first');
-                              }else{var next = o.child;
-                              }
-                              $(next).fadeIn(o.fadeSpeed, function() {
-                                    $(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function() {
-                                        var next = $(this).next();
-                                        if (next.length == 0){
-                                                next = $(obj).children(':first');
-                                        }
-                                        $(obj).rotaterator({child : next, fadeSpeed : o.fadeSpeed, pauseSpeed : o.pauseSpeed});
-                                    })
-                                });
-                        });
-                    }
-                });
-            });
-
-             $(document).ready(function() {
-                $('#rotate').rotaterator({fadeSpeed:800, pauseSpeed:5000});
-             });
-            </script>
