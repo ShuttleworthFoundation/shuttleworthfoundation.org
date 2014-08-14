@@ -522,6 +522,24 @@ text-align:center;
 	color:#2c3e50;
 }
 
+.title {
+  margin: 0 0 50px;
+  line-height: 1.5;
+}
+.title a {
+  color: #bdc3c7;
+  font-size: 13px;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
+.title a:hover,
+.title a:focus,
+.title a.active {
+  color: #3ba933;
+}
 
 
 /* Header New stylesheet */
