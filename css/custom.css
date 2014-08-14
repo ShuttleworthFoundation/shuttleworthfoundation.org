@@ -762,7 +762,7 @@ body { padding-bottom: 70px; }
   z-index: 1029;
   height:88px;
   background:#fff;
-  width:100%;
+  width:100% !important;
 }
 
 /*
