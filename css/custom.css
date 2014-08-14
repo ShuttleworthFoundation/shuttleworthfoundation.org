@@ -755,6 +755,14 @@ body { padding-bottom: 70px; }
 	padding: 15px 0 25px;
 }
 
+.header-21 .container {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height:88px;
+}
+
 /*
 .header-21 .navbar.navbar-fixed-top .nav > li > a {
     padding: 18px 10px 0;
