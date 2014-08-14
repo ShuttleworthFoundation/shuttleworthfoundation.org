@@ -2584,3 +2584,16 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     margin: 30px 0 0;
   }
 }
+
+.header-21.header-21-shrink {
+    height: 90px;
+    border-bottom: 1px solid #DCDCDC;
+    -webkit-box-shadow: 0px 0px 8px 2px #000000;
+       -moz-box-shadow: 0px 0px 8px 2px #000000;
+            box-shadow: 0px 0px 8px 2px #000000;
+    opacity: 0.90;
+}
+
+.header-21.header-21-shrink .navbar {
+    margin: 0 0 15px;
+}
