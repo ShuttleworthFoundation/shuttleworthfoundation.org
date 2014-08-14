@@ -525,6 +525,7 @@ text-align:center;
 .title {
   margin: 0 0 50px;
   line-height: 1.5;
+  text-align:center;
 }
 .title a {
   color: #bdc3c7;
