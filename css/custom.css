@@ -766,6 +766,11 @@ body { padding-bottom: 70px; }
   width:100% !important;
 }
 
+.home .page-content,
+#single .page-content {
+	margin-top:88px;	
+}
+
 /*
 .header-21 .navbar.navbar-fixed-top .nav > li > a {
     padding: 18px 10px 0;
