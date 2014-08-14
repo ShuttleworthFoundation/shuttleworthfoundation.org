@@ -53,6 +53,13 @@ text-align:center !important;
 
 /* header */
 
+.header-21 {
+    height: 88px;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.32);
+	-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.32);
+	box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.32);
+}
+
 .header-21 .navbar .brand {
     color: #3ba933;
     font-size: 14px;
