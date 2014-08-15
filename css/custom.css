@@ -837,8 +837,10 @@ body .footer-11 .additional-links p.lead {
 
 
 .textcontainer {
+	 /*
 	 border-left: 5px solid #ebedee;
 	 border-right: 5px solid #ebedee;
+	 */
 	 margin: 30px 0;
 }
 
