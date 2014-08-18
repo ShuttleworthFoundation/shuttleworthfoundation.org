@@ -6,3 +6,4 @@ We use open licenses which allow others to reuse, remix, adapt, improve, transla
 
 Once others are able to have insight into our work in this way, it opens the door for engagement and unexpected opportunities for collaboration from previously unknown places. Our work may find applications we could not imagine and spark ideas well beyond our current reach.
 Thanks.
+Thanks agian.
