@@ -331,15 +331,18 @@ title: Application Form
                       <h5><span>6. Have you started implementation of the idea?<span class="fsRequiredMarker">*</span></span></h5>
                       </legend>
                       </legend>
-                      <div class="fieldset-content"> <span class="col-sm-2">
-                        <label class="fsOptionLabel vertical" for="field26612280_1">
-                          <input type="radio" id="field26612280_1" name="field26612280" value="Yes"  class="fsField form-control fsRequired vertical" aria-required="true"  />
-                          Yes</label>
-                        </span> <span class="col-sm-2">
-                        <label class="fsOptionLabel vertical" for="field26612280_2">
-                          <input type="radio" id="field26612280_2" name="field26612280" value="No"  class="fsField form-control fsRequired vertical" aria-required="true"  />
-                          No</label>
-                        </span> </div>
+                      <div class="fieldset-content">
+                          <span class="col-sm-2">
+                            <label class="fsOptionLabel vertical" for="field26612280_1">
+                              <input type="radio" id="field26612280_1" name="field26612280" value="Yes"  class="fsField form-control fsRequired vertical" aria-required="true"  />
+                              Yes</label>
+                            </span>
+                            <span class="col-sm-2">
+                            <label class="fsOptionLabel vertical" for="field26612280_2">
+                              <input type="radio" id="field26612280_2" name="field26612280" value="No"  class="fsField form-control fsRequired vertical" aria-required="true"  />
+                              No</label>
+                            </span>
+                        </div>
                     </fieldset>
                   </div>
                 </div>
@@ -640,7 +643,7 @@ title: Application Form
             <script type="text/javascript" src="https://www.formstack.com/forms/js/3/jquery-ui.min.js?20140508"></script> 
             <script type="text/javascript" src="https://www.formstack.com/forms/js/3/scripts.js?20140804"></script> 
             <script type="text/javascript" src="https://www.formstack.com/forms/js/3/analytics.js?20140409"></script> 
-            <script type="text/javascript">
+              <script type="text/javascript">
 			if(window.addEventListener) {
 			window.addEventListener('load', loadFormstack, false);
 			} else if(window.attachEvent) {
@@ -653,12 +656,13 @@ title: Application Form
 			form1786579.checks.push({target: '26612155', action: 'Show', bool: 'AND', fields: ['26612148'],checks: [{field: '26612148', condition: '==', option: 'No'}]});
 			form1786579.checks.push({target: '26612161', action: 'Show', bool: 'AND', fields: ['26612148'],checks: [{field: '26612148', condition: '==', option: 'Yes'}]});
 			form1786579.checks.push({target: '26612267', action: 'Show', bool: 'AND', fields: ['26612245'],checks: [{field: '26612245', condition: '==', option: 'Yes'}]});
+			form1786579.checks.push({target: '26612291', action: 'Show', bool: 'AND', fields: ['26612280'],checks: [{field: '26612280', condition: '==', option: 'Yes'}]});
 			form1786579.checks.push({target: '26612350', action: 'Show', bool: 'AND', fields: ['26612302'],checks: [{field: '26612302', condition: '==', option: 'Other'}]});
 			form1786579.checks.push({target: '26612824', action: 'Show', bool: 'AND', fields: ['26612784'],checks: [{field: '26612784', condition: '==', option: 'Other country or city'}]});
 			form1786579.checks.push({target: '26612861', action: 'Show', bool: 'AND', fields: ['26612784'],checks: [{field: '26612784', condition: '==', option: 'Other country or city'}]});
 			form1786579.checks.push({target: '26612880', action: 'Show', bool: 'AND', fields: ['26612870'],checks: [{field: '26612870', condition: '==', option: 'Yes'}]});
 			form1786579.checks.push({target: '26612889', action: 'Show', bool: 'AND', fields: ['26612885'],checks: [{field: '26612885', condition: '==', option: 'Yes'}]});
-			form1786579.logicFields = ['26612885','26612870','26612784','26612302','26612245','26612148'];
+			form1786579.logicFields = ['26612885','26612870','26612784','26612302','26612280','26612245','26612148'];
 			form1786579.calcFields = [];
 			form1786579.init();
 			form1786579.plugins.analytics = new Formstack.Analytics('', 1786579, form1786579);
@@ -667,8 +671,8 @@ title: Application Form
 			window.form1786579 = form1786579;
 			};
 			</script>
-          </form>
-          <img src="https://www.formstack.com/forms/count.php?1786579" alt="Form View Counter" width="1" height="1" border="0" /> </div>
+			</form>
+			<img src="https://www.formstack.com/forms/count.php?1786579" alt="Form View Counter" width="1" height="1" border="0" />
       </div>
       <!-- end row --> 
       
