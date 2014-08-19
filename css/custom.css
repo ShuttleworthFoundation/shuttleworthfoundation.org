@@ -114,6 +114,12 @@ body > .navbar-collapse .nav > li > a .caret {
 	color:#4c5357;
 }
 
+.dropdown-menu li:last-child > a {
+    border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
 
 /* Home Content Styles */
 
