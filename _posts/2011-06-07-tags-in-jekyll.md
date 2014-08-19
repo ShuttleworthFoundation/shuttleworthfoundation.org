@@ -4,6 +4,7 @@ tags:
 - jekyll
 - code
 summary: A quick overview of adding tags to a Jekyll-powered blog.
+author: tags auther
 ---
 
 <div class="update_box">

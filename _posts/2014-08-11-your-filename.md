@@ -3,6 +3,7 @@ layout: post
 title:  "Post Title!"
 date:   2014-08-18 12:14:45
 categories: jekyll update
+author: update auther
 ---
 ##The three pillars of our theory of change are innovation, openness and living out loud.
 
