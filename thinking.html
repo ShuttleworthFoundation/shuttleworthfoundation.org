@@ -1,9 +1,6 @@
 ---
 layout: default
 title: Shuttleworth Foundation- Our Thinking
-redirect_from:
-  - /thinking/tags/privacy/
-  - /thinking/tags/announcements/
 ---
 <body id="thinking">
 <div class="page-wrapper">
@@ -31,7 +28,6 @@ redirect_from:
        
 
         <div class="title">
-            
             <a href="{{ "/thinking/tags/announcements" | prepend: site.baseurl }}">Announcements</a>
             <a href="{{ "/thinking/tags/open" | prepend: site.baseurl }}">Open</a>
             <a href="{{ "/thinking/tags/privacy" | prepend: site.baseurl }}">Privacy</a>
@@ -167,7 +163,7 @@ redirect_from:
         
     </div>
     <!--/.container-->
-    <ul class="posts">  
+  <!--   <ul class="posts">  
         {% for post in site.posts limit:20 %}  
            <li>  
                <span>{{ post.date | date_to_string }}</span> &raquo;  
@@ -175,7 +171,7 @@ redirect_from:
                {{ post.title }}</a>  
            </li>  
         {% endfor %}  
-    </ul>
+    </ul> -->
 </section>
 
 </body >
