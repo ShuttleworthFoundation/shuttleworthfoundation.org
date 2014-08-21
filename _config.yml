@@ -2,7 +2,7 @@
 title: The Shuttleworth Foundation
 email: asifamod@designfundi.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
+baseurl: "/jekyll"
 url: "http://yourdomain.com"
 twitter_username: jekyllrb
 github_username: designfundi
@@ -11,5 +11,3 @@ github_username: designfundi
 markdown: kramdown
 permalink: pretty
 breadcrumb_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-#gems:
-#  - jekyll-redirect-from
