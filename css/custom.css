@@ -76,7 +76,8 @@ text-align:center !important;
 }
 
 .header-10-sub {
-	height:600px;
+	/*height:600px;*/
+	height: 500px;
 	background: #3ba933;
 }
 
