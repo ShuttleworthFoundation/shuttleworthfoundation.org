@@ -23,7 +23,7 @@ title: Shuttleworth Foundation - Thinking articles tagged in Announcements
         </div>
 
 
-		<!-- Thought Pieces posted within the tag Announcement -->
+		<!-- Thought Pieces posted within the tag Open -->
         <div class="projects row">
 
 <div class="project-wrapper">
@@ -56,7 +56,7 @@ title: Shuttleworth Foundation - Thinking articles tagged in Announcements
                     </div>
                 </div>
             </div>
-	
+
 	<div class="project-wrapper">
                 <div class="project">
                     <div class="photo-wrapper">
@@ -72,11 +72,9 @@ title: Shuttleworth Foundation - Thinking articles tagged in Announcements
                     </div>
                 </div>
             </div>
-	</div><!-- end projects row -->
-
-<!-- Thought Pieces posted within the tag Announcement -->
+             <div class="clearfix"></div>
         <div class="projects row">
-            <div class="project-wrapper">
+	<div class="project-wrapper">
                 <div class="project">
                     <div class="photo-wrapper">
                         <div class="photo"><img src="../../../images/blog/blog-electronics.jpg" alt="Sean Bonner"></div>
@@ -88,14 +86,31 @@ title: Shuttleworth Foundation - Thinking articles tagged in Announcements
                         <p class="blog-author-date">by <a href="{{ "/team" | prepend: site.baseurl }}">SF Team</a>, 26 August 2014</p>
                         <p class="blog-excerpt">Sean Bonner will be joining the Shuttleworth Foundaton Fellowship Program on...</p>
                    		<p class="blog-meta">posted in <a href="{{ "/thinking/tags/announcements" | prepend: site.baseurl }}">Announcements</a></p>
-            
                     </div>
                 </div>
             </div>
-		</div>
-        
-    </div>
-    <!--/.container-->
+
+            <div class="project-wrapper">
+                <div class="project">
+                    <div class="photo-wrapper">
+                        <div class="photo"><img src="../../../images/blog/blog-application-pointers.jpg" alt="Applications Pointers"></div>
+                        <a href="{{ "/thinking/thinking-application-pointers" | prepend: site.baseurl }}">
+                        <div class="overlay"><span class="fui-eye"></span></div></a>
+                    </div>
+                    <div class="info">
+                        <h4 class="name"><a href="{{ "/thinking/thinking-application-pointers" | prepend: site.baseurl }}">Application Pointers</a></h4>
+                        <p class="blog-author-date">by <a href="{{ "/team" | prepend: site.baseurl }}">SF Team</a>, 20 February 2014</p>
+                        <p class="blog-excerpt">Over the years we have reviewed (and funded) many, many proposals and fellowship applications...</p>
+                   		<p class="blog-meta">posted in <a href="{{ "/thinking/tags/open" | prepend: site.baseurl }}">Announcements</a></p>
+                    </div>
+                </div>
+            </div>
+            
+		</div><!-- end projects row -->
+           </div>
+    </div><!--/.container-->
+</div>
 </section>
 
-</body >
+</body>
+
