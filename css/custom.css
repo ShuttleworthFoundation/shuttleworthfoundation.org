@@ -594,9 +594,29 @@ text-align:center;
   background-color: #fff;
 }
 
+.header-21 .navbar li:hover,
+.header-21 .navbar li,
+.header-21 .navbar li a,
+.header-21 .navbar li:hover {
+	background-color: #fff !important;
+}
+
 .header-21 .navbar .nav > li:hover {
 	color: #3ba933;
   background-color: #fff;
+}
+
+/* dropdown nav */
+
+.header-21 .dropdown-menu {
+    background-color: #34495e !important;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.32);
+	-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.32);
+	box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.32);
+}
+
+.header-21 .navbar .dropdown-menu > li > a {
+	/*color:#fff;	*/
 }
 
 .header-21 .social-btns {
