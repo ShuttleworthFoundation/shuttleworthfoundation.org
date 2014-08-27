@@ -936,9 +936,10 @@ section * {
 .projects-1 .title {
   margin: 0 0 50px;
   line-height: 1.5;
+  padding:10px;
 }
 .projects-1 .title a {
-  color: #bdc3c7;
+  color: #788c8d;
   font-size: 13px;
   font-family:'Open Sans', sans-serif;
   font-weight: 500;
