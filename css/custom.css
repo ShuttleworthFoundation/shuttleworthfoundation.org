@@ -881,3 +881,9 @@ body .footer-11 .additional-links p.lead {
 #team .textcontainer {
 	margin-bottom: 60px;
 }
+
+@media (min-width: 779px) {
+  .blog-excerpt {
+		min-height:155px;  
+  }
+}
