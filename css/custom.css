@@ -129,7 +129,7 @@ body > .navbar-collapse .nav > li > a .caret {
 }
 
 #home #thinking.blog-2 {
-	background:#e1ede7;
+	/*background:#e1ede7;*/
 }
 
 #home .content-15 {
@@ -537,7 +537,7 @@ margin-bottom: 20px;
 #application .col-sm-3 label,
 #application .col-sm-2 label {
 width:100%;
-text-align:center;	
+/*text-align:center;*/
 }
 
 .fsPage input[disabled="disabled"],
