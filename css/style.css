@@ -2301,7 +2301,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: relative;
 }
 .blog-2 .promo {
-  margin: -20px 0 49px;
+  /*margin: -20px 0 49px;*/
 }
 .blog-2 .btn {
   padding: 11px 22px;
