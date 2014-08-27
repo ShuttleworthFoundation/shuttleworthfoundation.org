@@ -2264,7 +2264,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .blog-2 h3 {
-  margin: 0 0 20px;
+  margin: 0 0 14px;
   font-size: 35px;
   font-weight: 500;
   font-family:'Open Sans', sans-serif;
@@ -2275,7 +2275,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin-bottom: 80px;
 }
 .blog-2 h4 {
-  margin: 5px 0 24px;
+  margin: 14px 0;
   color: #34495e;
   font-family:'Open Sans', sans-serif;
   font-size: 23px;

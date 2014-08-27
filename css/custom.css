@@ -208,6 +208,9 @@ font-size:35px;
 text-align:center;	
 margin-bottom: 30px;
 }
+#home #fellowship h2 {
+	margin-bottom: 14px;
+}
 
 #home #fellowship h3 {
 	font-family:'Open Sans', sans-serif;
@@ -432,6 +435,11 @@ margin-bottom: 15px;
 	display:block;
 	width:220px;
 	height:220px;
+}
+
+#home #fellowship.projects-3 h3 {
+	font-size: 23px !important;
+	margin: 14px 0 !important;	
 }
 
 
