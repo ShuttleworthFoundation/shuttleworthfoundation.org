@@ -109,6 +109,7 @@ title: Application Form
                                 <option value="30" >30</option>
                                 <option value="31" >31</option>
                               </select>
+                          </span>
                           <span class="col-sm-3">
                               <div class="hidden">
                                 <label for="field26612134M">Month</label>
@@ -199,24 +200,32 @@ title: Application Form
                       </fieldset>
                     </div>
                   </div>
+                  
+                  
+                  
                   <div id="fsRow1786579-4" class="fsRow fsFieldRow fsLastRow">
                     <div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell26612140" lang="en">
                       <fieldset id="label26612140">
                         <legend class="fsLabel fsRequiredLabel fsLabelVertical">
                         <h5><span>Gender<span class="fsRequiredMarker">*</span></span></h5>
                         </legend>
-                        <div class="fieldset-content"> <span class="col-sm-2">
-                          <label class="fsOptionLabel vertical" for="field26612140_1">
-                            <input type="radio" id="field26612140_1" name="field26612140" value="Male"  class="fsField form-control fsRequired vertical" aria-required="true"  />
+                        <div class="fieldset-content">
+                            <span class="col-sm-2">
+                            <label class="fsOptionLabel vertical" for="field26612140_1">
+                            <input type="radio" id="field26612140_1" name="field26612140" value="Male"  class="fsField fsRequired vertical" aria-required="true"  />
                             Male</label>
-                          </span> <span class="col-sm-2">
-                          <label class="fsOptionLabel vertical" for="field26612140_2">
-                            <input type="radio" id="field26612140_2" name="field26612140" value="Female"  class="fsField form-control fsRequired vertical" aria-required="true"  />
+                            </span>
+                            <span class="col-sm-2">
+                            <label class="fsOptionLabel vertical" for="field26612140_2">
+                            <input type="radio" id="field26612140_2" name="field26612140" value="Female"  class="fsField fsRequired vertical" aria-required="true"  />
                             Female</label>
-                          </span> </div>
+                            </span>
+                         </div>
                       </fieldset>
                     </div>
                   </div>
+                  
+                  
                   <div id="fsRow1786579-5" class="fsRow fsFieldRow fsLastRow">
                     <div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell26612148" lang="en">
                       <fieldset id="label26612148">
@@ -621,7 +630,7 @@ title: Application Form
                             value="Submit Form" />
                 <div class="clear"></div>
               </div>
-              <script type="text/javascript" src="https://www.formstack.com/forms/js/3/jquery.min.js"></script>
+                <script type="text/javascript" src="https://www.formstack.com/forms/js/3/jquery.min.js"></script>
               <link href="https://www.formstack.com/forms/css/3/jquery-ui.css?20140508" rel="stylesheet" type="text/css" />
               <script type="text/javascript" src="https://www.formstack.com/forms/js/3/jquery-ui.min.js?20140508"></script> 
               <script type="text/javascript" src="https://www.formstack.com/forms/js/3/scripts.js?20140804"></script> 
@@ -635,24 +644,24 @@ title: Application Form
             loadFormstack();
             }
             function loadFormstack() {
-			var form1786579 = new Formstack.Form(1786579, 'https://www.formstack.com/forms/');
-			form1786579.checks.push({target: '26612155', action: 'Show', bool: 'AND', fields: ['26612148'],checks: [{field: '26612148', condition: '==', option: 'No'}]});
-			form1786579.checks.push({target: '26612161', action: 'Show', bool: 'AND', fields: ['26612148'],checks: [{field: '26612148', condition: '==', option: 'Yes'}]});
-			form1786579.checks.push({target: '26612267', action: 'Show', bool: 'AND', fields: ['26612245'],checks: [{field: '26612245', condition: '==', option: 'Yes'}]});
-			form1786579.checks.push({target: '26612291', action: 'Show', bool: 'AND', fields: ['26612280'],checks: [{field: '26612280', condition: '==', option: 'Yes'}]});
-			form1786579.checks.push({target: '26612350', action: 'Show', bool: 'AND', fields: ['26612302'],checks: [{field: '26612302', condition: '==', option: 'Other'}]});
-			form1786579.checks.push({target: '26612824', action: 'Show', bool: 'AND', fields: ['26612784'],checks: [{field: '26612784', condition: '==', option: 'Other country or city'}]});
-			form1786579.checks.push({target: '26612861', action: 'Show', bool: 'AND', fields: ['26612784'],checks: [{field: '26612784', condition: '==', option: 'Other country or city'}]});
-			form1786579.checks.push({target: '26612880', action: 'Show', bool: 'AND', fields: ['26612870'],checks: [{field: '26612870', condition: '==', option: 'Yes'}]});
-			form1786579.checks.push({target: '26612889', action: 'Show', bool: 'AND', fields: ['26612885'],checks: [{field: '26612885', condition: '==', option: 'Yes'}]});
-			form1786579.logicFields = ['26612885','26612870','26612784','26612302','26612280','26612245','26612148'];
-			form1786579.calcFields = [];
-			form1786579.init();
-			form1786579.plugins.analytics = new Formstack.Analytics('', 1786579, form1786579);
-			form1786579.plugins.analytics.trackTouch();
-			form1786579.plugins.analytics.trackBottleneck();
-			window.form1786579 = form1786579;
-			};
+            var form1786579 = new Formstack.Form(1786579, 'https://www.formstack.com/forms/');
+            form1786579.checks.push({target: '26612155', action: 'Show', bool: 'AND', fields: ['26612148'],checks: [{field: '26612148', condition: '==', option: 'No'}]});
+            form1786579.checks.push({target: '26612161', action: 'Show', bool: 'AND', fields: ['26612148'],checks: [{field: '26612148', condition: '==', option: 'Yes'}]});
+            form1786579.checks.push({target: '26612267', action: 'Show', bool: 'AND', fields: ['26612245'],checks: [{field: '26612245', condition: '==', option: 'Yes'}]});
+            form1786579.checks.push({target: '26612291', action: 'Show', bool: 'AND', fields: ['26612280'],checks: [{field: '26612280', condition: '==', option: 'Yes'}]});
+            form1786579.checks.push({target: '26612350', action: 'Show', bool: 'AND', fields: ['26612302'],checks: [{field: '26612302', condition: '==', option: 'Other'}]});
+            form1786579.checks.push({target: '26612824', action: 'Show', bool: 'AND', fields: ['26612784'],checks: [{field: '26612784', condition: '==', option: 'Other country or city'}]});
+            form1786579.checks.push({target: '26612861', action: 'Show', bool: 'AND', fields: ['26612784'],checks: [{field: '26612784', condition: '==', option: 'Other country or city'}]});
+            form1786579.checks.push({target: '26612880', action: 'Show', bool: 'AND', fields: ['26612870'],checks: [{field: '26612870', condition: '==', option: 'Yes'}]});
+            form1786579.checks.push({target: '26612889', action: 'Show', bool: 'AND', fields: ['26612885'],checks: [{field: '26612885', condition: '==', option: 'Yes'}]});
+            form1786579.logicFields = ['26612885','26612870','26612784','26612302','26612280','26612245','26612148'];
+            form1786579.calcFields = [];
+            form1786579.init();
+            form1786579.plugins.analytics = new Formstack.Analytics('', 1786579, form1786579);
+            form1786579.plugins.analytics.trackTouch();
+            form1786579.plugins.analytics.trackBottleneck();
+            window.form1786579 = form1786579;
+            };
             </script>
             </form>
             <img src="https://www.formstack.com/forms/count.php?1786579" alt="Form View Counter" width="1" height="1" border="0" />
