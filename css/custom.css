@@ -883,7 +883,17 @@ body .footer-11 .additional-links p.lead {
 }
 
 @media (min-width: 779px) {
-  .blog-excerpt {
+  /*
+  .projects .blog-excerpt {
 		min-height:155px;  
+  }
+  
+  .projects .name {
+	  min-height:45px;  
+  }
+  */
+  
+  .projects.thinking .info {
+	  min-height:271px;  
   }
 }
