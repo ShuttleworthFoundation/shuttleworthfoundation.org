@@ -523,6 +523,10 @@ h3 {
 img {
   -webkit-backface-visibility: hidden;
 }
+
+.photo img {
+  -webkit-backface-visibility: visible;
+}
 textarea,
 input[type="text"],
 input[type="password"],

@@ -395,13 +395,23 @@ margin-bottom: 15px;
 .photo {
     background: none no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
     border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
     height: 100%;
+	max-height:220px;
     left: 0;
     opacity: 1;
     overflow: hidden;
     top: 0;
     transition: opacity 0.4s ease 0s;
     width: 100%;
+	max-width:220px;
+}
+
+.photo img {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
 }
 
 .fellows-links a {
