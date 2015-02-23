@@ -405,10 +405,6 @@ margin-bottom: 15px;
     top: 0;
     transition: opacity 0.4s ease 0s;
     width: 100%;
-	max-width:220px;
-}
-
-.thinking .photo {
 	max-width:auto;
 }
 
