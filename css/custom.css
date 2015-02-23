@@ -408,6 +408,10 @@ margin-bottom: 15px;
 	max-width:220px;
 }
 
+.thinking .photo {
+	max-width:auto;
+}
+
 .photo img {
 	border-radius: 50%;
 	-moz-border-radius: 50%;
