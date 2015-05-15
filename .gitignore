@@ -4,3 +4,7 @@ _site
 *~
 \#*#
 .#*
+
+#vagrant files
+Vagrantfile
+.vagrant
