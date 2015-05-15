@@ -1086,6 +1086,8 @@ section * {
   -moz-transition: opacity 0.4s;
   -o-transition: opacity 0.4s;
   transition: opacity 0.4s;
+  max-width: none;
+  background-size: cover;
 }
 .projects-1 .projects .overlay {
   display: block;
