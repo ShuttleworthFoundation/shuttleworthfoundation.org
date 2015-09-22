@@ -3,7 +3,7 @@ layout: post
 post_date: 22 September 2015
 tags:
   - open
-title: "How do we measure success"
+title: "How we measure success"
 author: SF Team
 description: "As we go through our most recent application round, we are struck again by the question many applicants ask: How do you measure success? "
 banner: "/images/blog/blog-open-strategy 2.jpg"
