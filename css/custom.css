@@ -401,6 +401,16 @@ margin-bottom: 15px;
     overflow: hidden;
     top: 0;
     transition: opacity 0.4s ease 0s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(min-width:768px) {
+    .photo {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 .photo img {
