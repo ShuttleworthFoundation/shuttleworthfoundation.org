@@ -433,6 +433,11 @@ margin-bottom: 15px;
 	font-size: 18px;
 }
 
+.fellows-links .col-sm-3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 #fellow .content-12 .btn-wide {
 	font-size: 35px;
 	text-transform:none;
