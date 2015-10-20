@@ -35,31 +35,8 @@ title: The Shuttleworth Foundation-Fellowship
             </div>
 
             <h3>Current Fellows</h3>
+            {% include fellowsgenerator.html %}
             <!-- row 1 -->
-                {% for fellow in site.categories.newfellows %}
-                {% assign loopindex = forloop.index | modulo: 3 %}
-                {% if loopindex == 1 %}
-                <div class="projects">
-                {% endif %}
-                <div class="project-wrapper">
-                    <div class="project">
-                        <div class="photo-wrapper">
-                            <a href="{{ fellow.url }}" >
-                                <div class="photo"><img src="../images/fellows/{{fellow.photo}}" alt="{{fellow.fullname}}"></div>
-                            </a>
-                            <a href="{{ fellow.url }}" >
-                                <div class="overlay"><span class="fui-eye"></span></div>
-                            </a>
-                        </div>
-                        <div class="info">
-                            <div class="name">{{fellow.fullname}}</div>
-                            {{fellow.project}}</div>
-                    </div>
-                </div>
-                {% if loopindex == 0 %}
-                </div>
-                {% endif %}
-                {% endfor %}
 <!-- row 5 -->
 <div class="projects">
          <div class="project-wrapper">
