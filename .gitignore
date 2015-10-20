@@ -8,3 +8,4 @@ _site
 #vagrant files
 Vagrantfile
 .vagrant
+*.swp
