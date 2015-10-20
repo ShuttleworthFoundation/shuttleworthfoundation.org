@@ -1,11 +1,12 @@
 ---
 title: "David Wiley"
-layout: fellow 
+layout: fellow
 fullname: "David Wiley"
 project: "Open Education Rersources (OER)"
 type: "Open Education Rersources (OER)"
+date: 2013-03-01
 photo: "David\ Wiley.jpg"
-links: 
+links:
     - Personal webpage: http://davidwiley.org/
     - Blog: http://opencontent.org/blog/
 projects:
@@ -18,4 +19,3 @@ permalink: /:categories/david-wiley
 David is working to lower the cost and improve the quality of education. During his fellowship David worked through [Lumen Learning](http://lumenlearning.com/) to help community colleges and universities in the US adopt open educational resources (OER) and move away from expensive textbooks, increasing access and reducing costs for students.
 
 Along with increasing access to and improving the quality of education, he is working on [improving the quality of research](http://openedgroup.org/) on the impacts of OER adoption and exploring and proving sustainability models for OER adoption and support. He continues working to expand the collective vision of what is now possible in the context of "open" and helping K-12 and higher education institutions, faculty and learners take full advantage of its benefits to cut costs and strengthen student learning.
-
