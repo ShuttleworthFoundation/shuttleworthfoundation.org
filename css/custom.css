@@ -406,8 +406,18 @@ margin-bottom: 15px;
     margin-right: auto;
 }
 
+.photo img {
+    width: 220px;
+    height: 220px;
+}
+
 @media(min-width:768px) {
     .photo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .photo img {
         width: 150px;
         height: 150px;
     }
