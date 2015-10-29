@@ -1,0 +1,33 @@
+---
+layout: default
+title: Flash Grants
+---
+<div class="page-wrapper" id="fellows">
+<!-- Everything after this should be Editable as content -->
+<section class="content-12">
+    <h1><a class="wide btn-wide " href="#" style="background:url(../../images/fellows-page-header.jpg) center top no-repeat">Flash Grants
+    </a></h1>
+</section>
+<!-- Fellows -->
+<section class="projects-3" id="fellow">
+	<div class="container">
+    	<div class="textcontainer">
+            <div class="textbox col-sm-8 col-sm-offset-2">
+                <p>
+                	Twice a year we award a number of small grants to a collection of social change agents, no strings attached, in support of their work.
+                  We call these Flash Grants and recipients are selected based on nominations from our Fellows. Each award is worth $5,000
+                </p>
+                <p>Here is a list of previous recipients:</p>
+            </div>
+        </div>
+        {% for flashgrants in site.data.flashgrants %}
+            {% capture month %}{{ flashgrants.date | date: '%m%Y' }}{% endcapture %}
+            {% capture nmonth %}{{ flashgrants.next.date | date: '%m%Y' }}{% endcapture %}
+                {% if month != nmonth %}
+                    {% if forloop.index != 1 %}
+                    <h3>{{ flashgrants.date | date: '%Y' }}</h3><ul>
+                {% endif %}
+            <li><a href="{{ flashgrants.homepage }}">{{ flashgrants.name }}</a></li>
+            <time>{{ flashgrants.date | date: "%B" }}</time>
+            </ul>{% endif %}
+        {% endfor %}

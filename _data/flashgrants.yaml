@@ -1,0 +1,665 @@
+-   name: "Kerry Anderson"
+    fellow: "Andrew Rens"
+    homepage: http://africanlii.org
+    date: 2011-11-01
+
+-   name: Dan Rhodes
+    fellow: Andrew Rens
+    homepage: http://theotherjournal.com/article_author/dan-rhodes/
+    date: 2012-05-01
+
+-   name: "Jérémie Zimmerman"
+    fellow: "Andrew Rens"
+    homepage: http://www.laquadrature.net/
+    date: 2012-11-01
+
+-   name: "John Parks"
+    fellow: "Andrew Rens"
+    homepage: http://adoctorforgood.blogspot.com/
+    date: 2013-05-01
+
+-   name: "Tobias Schonwetter"
+    fellow: "Andrew Rens"
+    homepage: http://www.openair.org.za/
+    date: 2013-11-01
+-
+    name: "Pria Chetty"
+    fellow: "Andrew Rens"
+    homepage:
+    date: 2014-05-01
+-
+    name: "David Gluckman"
+    fellow: "Andrew Rens"
+    homepage: http://lumkani.com/
+    date: 2014-11-01
+-
+    name: "Alison Gillwald"
+    fellow: "Andrew Rens"
+    homepage: http://www.researchictafrica.net/about
+    date: 2015-05-01
+-
+    name: "Matthew Brown"
+    fellow: "Arthur Attwell"
+    homepage: http://seamonster.co.za
+    date: 2011-11-01
+-
+    name: "Andreas Keller"
+    fellow: "Arthur Attwell"
+    homepage: http://earthworksmagazine.co.za/projects/ishack-more-than-just-shelter/
+    date: 2012-05-01
+-
+    name: "Deb van Dyke"
+    fellow: "Arthur Attwell"
+    homepage: http://globalhealthmedia.org/
+    date: 2012-11-01
+-
+    name: "Hugh McGuire"
+    fellow: "Arthur Attwell"
+    homepage: http://pressbooks.com/
+    date: 2013-05-01
+-
+    name: "Greg Kempe"
+    fellow: "Arthur Attwell"
+    homepage: http://openbylaws.org.za/
+    date: 2013-11-01
+-
+    name: "Xinran Wang"
+    fellow: "Arthur Attwell"
+    homepage: https://github.com/xinranwang/Markdown-Graphics
+    date: 2014-05-01
+-
+    name: "Marion Walton"
+    fellow: "Arthur Attwell"
+    homepage: http://www.marionwalton.com/2014/06/19/creative-code/
+    date: 2014-11-01
+-
+    name: "Pieter Gunst"
+    fellow: "Catharina Maracke"
+    homepage: https://beta.lawgives.com/
+    date: 2012-11-01
+-
+    name: "Jim Hazard"
+    fellow: "Catharina Maracke"
+    homepage: http://commonaccord.com/
+    date: 2013-05-01
+-
+    name: "Carolina Botero"
+    fellow: "Catharina Maracke"
+    homepage: http://karisma.org.co/
+    date: 2013-11-01
+-
+    name: "Shamnad Basheer"
+    fellow: "Catharina Maracke"
+    homepage: http://spicyip.com/about-us/team/shamnad-basheer
+    date: 2014-05-01
+-
+    name: "Thomas Margoni"
+    fellow: "Catharina Maracke"
+    homepage: http://www.ivir.nl/medewerkerpagina?id=39
+    date: 2014-11-01
+-
+    name: "Rebecca MacKinnon"
+    fellow: "Catharina Maracke"
+    homepage: http://en.wikipedia.org/wiki/Rebecca_MacKinnon
+    date: 2015-05-01
+-
+    name: "Seamus Kraft"
+    fellow: "Dan Whaley"
+    homepage: http://opengovfoundation.org/
+    date: 2013-05-01
+-
+    name: "Ivan Grubisic"
+    fellow: "Dan Whaley"
+    homepage: http://www.elifesciences.org/lens/
+    date: 2013-11-01
+-
+    name: "Waldo Jaquith"
+    fellow: "Dan Whaley"
+    homepage: http://waldo.jaquith.org/about/
+    date: 2014-05-01
+-
+    name: "Javier de la Cueva"
+    fellow: "Daniel Lombrana Gonzalez"
+    homepage: http://javierdelacueva.es/
+    date: 2013-11-01
+-
+    name: "Armin Ronacher"
+    fellow: "Daniel Lombrana Gonzalez"
+    homepage: http://lucumr.pocoo.org/about/
+    date: 2014-05-01
+-
+    name: "Salvatore Sanfilippo"
+    fellow: "Daniel Lombrana Gonzalez"
+    homepage: http://redis.io/
+    date: 2015-05-01
+-
+    name: "Jim Groom"
+    fellow: "David Wiley"
+    homepage: http://ds106.us/
+    date: 2013-05-01
+-
+    name: "Audrey Watters"
+    fellow: "David Wiley"
+    homepage: http://audreywatters.com/
+    date: 2014-11-01
+-
+    name: "Ben Wermuller"
+    fellow: "David Wiley"
+    homepage: http://withknown.com/
+    date: 2015-05-01
+-
+    name: "Rima Al-Sheikh"
+    fellow: "Esra'a Al Shafei"
+    homepage:
+    date: 2013-05-01
+-
+    name: "Cesar Harada"
+    fellow: "Esra'a Al Shafei"
+    homepage: http://protei.org/
+    date: 2013-11-01
+-
+    name: "Michelle McCloskey"
+    fellow: "Esra'a Al Shafei"
+    homepage: http://linguaphileblog.tumblr.com/
+    date: 2014-05-01
+-
+    name: "Eman Elshafei"
+    fellow: "Esra'a Al Shafei"
+    homepage:
+    date: 2015-05-01
+-
+    name: "Aparna Rao"
+    fellow: "Esra'a Al Shafei"
+    homepage: http://www.porsandrao.com/works/
+    date: 2014-11-01
+-
+    name: "Ramzi Jaber"
+    fellow: "Esra'a Al Shafei"
+    homepage: http://visualizingjustice.org/
+    date: 2012-11-01
+-
+    name: "Luping Xu"
+    fellow: "Francois Grey"
+    homepage: http://wiser-u.net/
+    date: 2011-11-01
+-
+    name: "Margaret Gold"
+    fellow: "Francois Grey"
+    homepage:
+    date: 2012-05-01
+-
+    name: "Yang Ishigaki"
+    fellow: "Francois Grey"
+    homepage: http://www.radiation-watch.org/2012/11/shuttleworth-we-receive-support-from.html
+    date: 2012-11-01
+-
+    name: "Liz Barry"
+    fellow: "Francois Grey"
+    homepage: http://publiclab.org/
+    date: 2013-05-01
+-
+    name: "Darlene Cavalier"
+    fellow: "Francois Grey"
+    homepage: http://www.scistarter.com/
+    date: 2013-11-01
+-
+    name: "Nagarjuna Gadiraju"
+    fellow: "Francois Grey"
+    homepage: http://www.hbcse.tifr.res.in/people/academic/nagarjuna-g/nagarjuna-g
+    date: 2014-05-01
+-
+    name: "Sean Auriti"
+    fellow: "Francois Grey"
+    homepage: http://www.emrals.com/
+    date: 2015-05-01
+-
+    name: "Anna Lewis"
+    fellow: "Gavin Weale"
+    homepage: http://completelynovel.com
+    date: 2011-11-01
+-
+    name: "Tau Tavengwa"
+    fellow: "Gavin Weale"
+    homepage:
+    date: 2012-05-01
+-
+    name: "Lily Lappenna"
+    fellow: "Gavin Weale"
+    homepage: www.mybnk.org
+    date: 2012-11-01
+-
+    name: "Michael Ettershank"
+    fellow: "Gavin Weale"
+    homepage: http://www.robotscience.co.za/about/michael.htm
+    date: 2013-11-01
+-
+    name: "Julian Rademeyer"
+    fellow: Gavin Weale
+    homepage: http://africacheck.org/
+    date: 2014-11-01
+-
+    name: "Zakheni Ngubo"
+    fellow: Gavin Weale
+    homepage: http://syafunda.co.za/
+    date: 2015-05-01
+-
+    name: "Shawn Ahmed"
+    fellow: Jaisen Mathai
+    homepage: http://uncultured.com/about/
+    date: 2012-11-01
+-
+    name: "Angela Bullock"
+    fellow: "Jaisen Mathai"
+    homepage: http://www.100cameras.org/the-team/
+    date: 2013-05-01
+-
+    name: "Grace Garey"
+    fellow: "Jaisen Mathai"
+    homepage: http://blog.watsi.org/post/21043263585/meet-grace
+    date: 2013-11-01
+
+-
+    name: "Astra Taylor"
+    fellow: "Jesse von Doom"
+    homepage: https://debtcollective.org/
+    date: 2014-11-01
+-
+    name: "Deray Mckesson"
+    fellow: "Jesse von Doom"
+    homepage: http://www.wetheprotesters.org/#/policeaccountabilitytool/
+    date: 2015-05-01
+-
+    name: "Simon Redfern"
+    fellow: "Johnny West"
+    homepage: https://openbankproject.com/en/
+    date: 2014-05-01
+-
+    name: "Nisha Thompson"
+    fellow: Johnny West
+    homepage: http://datameet.org/
+    date: 2014-11-01
+-
+    name: "Tom Longley"
+    fellow: "Johnny West"
+    homepage: http://rudiment.info/flash-grant/
+    date: 2015-05-01
+-
+    name: "Konstantin Dmitriev"
+    fellow: "Jonas Öberg"
+    homepage: http://synfig.org/
+    date: 2013-05-01
+-
+    name: "Valentina Pellizzer"
+    fellow: "Jonas Öberg"
+    homepage: http://oneworldsee.org/
+    date: 2013-11-01
+-
+    name: "Martin Samuelsson"
+    fellow: "Jonas Öberg"
+    homepage: http://columbiegg.com/outstanding/
+    date: 2014-05-01
+-
+    name: "Stefano Zacchiroli"
+    fellow: "Jonas Öberg"
+    homepage: http://upsilon.cc/~zack/
+    date: 2014-11-01
+-
+    name: "Luis Falcón"
+    fellow: "Jonas Öberg"
+    homepage: http://health.gnu.org/
+    date: 2015-05-01
+-
+    name: "Arun Pai"
+    fellow: "Kabir Bavikatte"
+    homepage: http://www.uglyindian.com
+    date: 2011-11-01
+-
+    name: "Deepta Sateesh"
+    fellow: "Kabir Bavikatte"
+    homepage:
+    date: 2012-11-01
+-
+    name: "Abhishek Choudhury"
+    fellow: "Kabir Bavikatte"
+    homepage: http://www.behance.net/abhishekchoudhury
+    date: 2013-05-01
+-
+    name: "Negar Tayyar"
+    fellow: "Kabir Bavikatte"
+    homepage:
+    date: 2013-11-01
+-
+    name: "Lesle Jansen"
+    fellow: "Kabir Bavikatte"
+    homepage:
+    date: 2014-05-01
+-
+    name: "Petra Lentz-Snow"
+    fellow: "Kabir Bavikatte"
+    homepage: http://journeysintohealing.wordpress.com/
+    date: 2014-11-01
+-
+    name: "Lata Mani"
+    fellow: "Kabir Bavikatte"
+    homepage: https://www.youtube.com/watch?v=wKuj2mFx7XQ
+    date: 2015-05-01
+-
+    name: "Carl Scheffler"
+    fellow: "Kathi Fletcher"
+    homepage: http://carlscheffler.blogspot.co.za/
+    date: 2011-11-01
+-
+    name: "Caitlin Holman"
+    fellow: "Kathi Fletcher"
+    homepage: http://www.caitholman.com/
+    date: 2012-05-01
+-
+    name: "Emil Ivov"
+    fellow: "Kathi Fletcher"
+    homepage: http://jitsi.org/
+    date: 2012-11-01
+-
+    name: "Rob Beezer"
+    fellow: "Kathi Fletcher"
+    homepage: http://www.beezers.org/
+    date: 2013-05-01
+-
+    name: "Bart Snapp"
+    fellow: "Kathi Fletcher"
+    homepage: https://people.math.osu.edu/snapp.14/
+    date: 2014-05-01
+-
+    name: "Taja Topolovec"
+    fellow: "Luka Mustafa"
+    homepage: http://podcrto.si/about/
+    date: 2015-05-01
+-
+    name: "Joe Justice"
+    fellow: "Marcin Jakubowski"
+    homepage: http://wikispeed.org/joe-justice/
+    date: 2012-05-01
+-
+    name: "Catarina Mota"
+    fellow: "Marcin Jakubowski"
+    homepage: http://openmaterials.org/about/
+    date: 2012-11-01
+-
+    name: "Yann Lischetti"
+    fellow: "Marcin Jakubowski"
+    homepage: http://velocar.fr/index-en.html
+    date: 2013-11-01
+-
+    name: "Philip Rutter"
+    fellow: "Marcin Jakubowski"
+    homepage: http://badgersett.com/
+    date: 2015-05-01
+-
+    name: "Heidi Wiesspeiner"
+    fellow: "Mark Horner"
+    homepage:
+    date: 2011-11-01
+-
+    name: "William Mapham"
+    fellow: "Mark Horner"
+    homepage: http://www.vulamobile.com
+    date: 2012-11-01
+-
+    name: "Michael Aufreiter"
+    fellow: Mark Horner
+    homepage: http://substance.io
+    date: 2013-05-01
+-
+    name: "Kate Ray"
+    fellow: "Mark Horner"
+    homepage: https://github.com/kateray
+    date: 2013-11-01
+-
+    name: "Kelsey Wiens"
+    fellow: "Mark Horner"
+    homepage: https://www.openaccessbutton.org/
+    date: 2014-05-01
+-
+    name: "Mike Markovina"
+    fellow: "Mark Horner"
+    homepage: http://movingsushi.com/about
+    date: 2015-05-01
+-
+    name: "Emma Mulqueeny"
+    fellow: "Mark Surman"
+    homepage: http://www.emmamulqueeny.com/
+    date: 2011-11-01
+-
+    name: "Forrest Oliphant"
+    fellow: "Mark Surman"
+    homepage: http://meemoo.org/iframework/
+    date: 2012-05-01
+-
+    name: "Nick Liow"
+    fellow: "Mark Surman"
+    homepage: http://www.craftyy.com/
+    date: 2012-11-01
+-
+    name: "Jesse Von Doom"
+    fellow: "Mark Surman"
+    homepage: http://cashmusic.org
+    date: 2013-05-01
+-
+    name: "Matt Thompson"
+    fellow: "Mark Surman"
+    homepage: http://workopen.org/flashgrant
+    date: 2014-05-01
+-
+    name: "Beebdan Kidron"
+    fellow: "Mark Surman"
+    homepage: http://www.theguardian.com/commentisfree/2013/sep/13/abandoned-children-internet-addicted-virtual-damage
+    date: 2014-11-01
+-
+    name: "Sarah Shourd"
+    fellow: "Moxie Marlinspike"
+    homepage: http://www.sarahshourd.com/
+    date: 2013-11-01
+-
+    name: "Shane Bauer"
+    fellow: "Moxie Marlinspike"
+    homepage: http://www.beaconreader.com/projects/the-prison-problem
+    date: 2014-05-01
+-
+    name: "Mark Pesce"
+    fellow: "Paul Gardner-Stephen"
+    homepage: http://markpesce.com/
+    date: 2011-11-01
+-
+    name: "Mitar Milutinovic"
+    fellow: "Paul Gardner-Stephen"
+    homepage: http://dev.wlan-si.net/
+    date: 2012-05-01
+-
+    name: "Thomas Sprinkmeier"
+    fellow: "Paul Gardner-Stephen"
+    homepage: http://ogpc.com.au/wiki/One_Geek_Per_Classroom
+    date: 2012-11-01
+-
+    name: "Martin Leadbeater"
+    fellow: "Paul Gardner-Stephen"
+    homepage: https://github.com/latproc/latproc
+    date: 2013-05-01
+-
+    name: "Luka Mustafa"
+    fellow: "Paul Gardner-Stephen"
+    homepage: http://koruza.net/
+    date: 2013-11-01
+-
+    name: "Jernej Kos"
+    fellow: "Paul Gardner-Stephen"
+    homepage: https://github.com/kostko
+    date: 2014-05-01
+-
+    name: "Bodo Hoenen"
+    fellow: "Paul Gardner-Stephen"
+    homepage: http://www.dev4x.com/
+    date: 2014-11-01
+-
+    name: "Santiago Garcia Gago"
+    fellow: "Peter Bloom"
+    homepage: http://radioslibres.net/
+    date: 2014-11-01
+-
+    name: "Guido Iribarren"
+    fellow: "Peter Bloom"
+    homepage: http://www.altermundi.net
+    date: 2015-05-01
+-
+    name: "Sophie Kay-Kershaw"
+    fellow: "Peter Murray-Rust"
+    homepage: http://sophiekershaw.wordpress.com/
+    date: 2014-11-01
+-
+    name: "Erin McKiernan"
+    fellow: "Peter Murray-Rust"
+    homepage: https://emckiernan.wordpress.com/
+    date: 2015-05-01
+-
+    name: "David Albert"
+    fellow: "Philipp Schmidt"
+    homepage: http://dave.is/
+    date: 2011-11-01
+-
+    name: "Ari Bader Natal"
+    fellow: "Philipp Schmidt"
+    homepage: http://aribadernatal.com/
+    date: 2012-05-01
+-
+    name: "Karen Fasimpaur"
+    fellow: "Philipp Schmidt"
+    homepage: http://k12opened.com/
+    date: 2012-11-01
+-
+    name: "Shaka Senghor"
+    fellow: "Philipp Schmidt"
+    homepage: http://www.shakasenghor.com/
+    date: 2013-05-01
+-
+    name: "Jeff Sturges"
+    fellow: "Philipp Schmidt"
+    homepage: http://www.mtelliottmakerspace.com/author/jsturges/
+    date: 2013-11-01
+-
+    name: "Grif Peterson"
+    fellow: "Philipp Schmidt"
+    homepage: http://blackbearhat.tumblr.com/
+    date: 2014-05-01
+-
+    name: "Charlie De Tar"
+    fellow: "Philipp Schmidt"
+    homepage: https://tirl.org/
+    date: 2014-11-01
+-
+    name: "Julie Legault"
+    fellow: "Philipp Schmidt"
+    homepage: http://julielegault.com/amino
+    date: 2015-05-01
+-
+    name: "Alex Alekseyenko"
+    fellow: "Rory Aronson"
+    homepage:
+    date: 2014-05-01
+-
+    name: "Tristan Smith"
+    fellow: "Rory Aronson"
+    homepage: http://www.opensourcebeehives.net/
+    date: 2014-11-01
+-
+    name: "Philip Neustrom"
+    fellow: "Rory Aronson"
+    homepage: https://localwiki.org/
+    date: 2015-05-01
+-
+    name: "Friedrich Lindenberg"
+    fellow: "Rufus Pollock"
+    homepage: http://pudo.org/portfolio/
+    date: 2011-11-01
+-
+    name: "Pedro Markun"
+    fellow: "Rufus Pollock"
+    homepage: http://br.okfn.org/
+    date: 2012-05-01
+-
+    name: "Adi Eyal"
+    fellow: "Rufus Pollock"
+    homepage: http://www.burgercom.co.za/
+    date: 2012-11-01
+-
+    name: "Jenny Molloy"
+    fellow: "Rufus Pollock"
+    homepage: http://science.okfn.org/author/jmolloy/
+    date: 2013-05-01
+-
+    name: "Prakash Neupane"
+    fellow: "Rufus Pollock"
+    homepage: http://prakashneupane.com.np/
+    date: 2013-11-01
+-
+    name: "Rayna Stamboliyska"
+    fellow: "Rufus Pollock"
+    homepage: http://me.hatewasabi.info/
+    date: 2014-05-01
+-
+    name: "Ahmed Maawy"
+    fellow: "Rufus Pollock"
+    homepage: http://ahmedmaawy.com/
+    date: 2014-11-01
+-
+    name: "Everton Alvarenga"
+    fellow: "Rufus Pollock"
+    homepage: http://br.okfn.org/
+    date: 2015-05-01
+-
+    name: "Nicole Sylianteng"
+    fellow: "Seamus Kraft"
+    homepage: http://nikkisylianteng.com/project/parking-sign-redesign/
+    date: 2014-11-01
+-
+    name: "Travis Moore"
+    fellow: "Seamus Kraft"
+    homepage:
+    date: 2015-05-01
+-
+    name: "Topher White"
+    fellow: "Sean Bonner"
+    homepage: https://rfcx.org/
+    date: 2014-11-01
+-
+    name: "Wendy Hsu"
+    fellow: "Sean Bonner"
+    homepage: http://beingwendyhsu.info/?page_id=1106
+    date: 2015-05-01
+-
+    name: "Carlos Rey Moreno"
+    fellow: "Steve Song"
+    homepage: http://uwc.academia.edu/CarlosReyMoreno
+    date: 2012-05-01
+-
+    name: "Marco Zennaro"
+    fellow: "Steve Song"
+    homepage: http://wireless.ictp.it/tvws/book/
+    date: 2013-05-01
+-
+    name: "Peter Bloom"
+    fellow: "Steve Song"
+    homepage: http://rhizomatica.org/
+    date: 2013-11-01
+-
+    name: "Bunnie Huang"
+    fellow: "Steve Song"
+    homepage: http://www.crowdsupply.com/kosagi/novena-open-laptop
+    date: 2014-05-01
+-
+    name: "Allison Burtch"
+    fellow: "Steve Song"
+    homepage: http://www.allisonburtch.net/about/
+    date: 2014-11-01
+-
+    name: "Marco Rainone"
+    fellow: "Steve Song"
+    homepage: https://github.com/marcorainone/RfTrack/blob/master/README.md
+    date: 2015-05-01
