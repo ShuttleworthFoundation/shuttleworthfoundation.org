@@ -1,0 +1,12 @@
+<div class="row flashgrants-row">
+  <h3>{{ include.heading }}</h3>
+  {% for flashgrant in include.items %}
+  <div class="col-md-4 flashgrants-item">
+    {% if flashgrant.homepage %}<a href="{{ flashgrant.homepage }}">{% endif %}
+      {{ flashgrant.name }}
+      {% if flashgrant.homepage %}</a>{% endif %}
+    <br/>
+    <span class="flashgrant-month">{{ flashgrant.date | date: include.date_fmt }}</span>
+  </div>
+  {% endfor %}
+</div>

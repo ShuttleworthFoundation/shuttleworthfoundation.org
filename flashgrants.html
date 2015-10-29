@@ -10,24 +10,33 @@ title: Flash Grants
 </section>
 <!-- Fellows -->
 <section class="projects-3" id="fellow">
-	<div class="container">
-    	<div class="textcontainer">
-            <div class="textbox col-sm-8 col-sm-offset-2">
-                <p>
-                	Twice a year we award a number of small grants to a collection of social change agents, no strings attached, in support of their work.
-                  We call these Flash Grants and recipients are selected based on nominations from our Fellows. Each award is worth $5,000
-                </p>
-                <p>Here is a list of previous recipients:</p>
-            </div>
-        </div>
-        {% for flashgrants in site.data.flashgrants %}
-            {% capture month %}{{ flashgrants.date | date: '%m%Y' }}{% endcapture %}
-            {% capture nmonth %}{{ flashgrants.next.date | date: '%m%Y' }}{% endcapture %}
-                {% if month != nmonth %}
-                    {% if forloop.index != 1 %}
-                    <h3>{{ flashgrants.date | date: '%Y' }}</h3><ul>
-                {% endif %}
-            <li><a href="{{ flashgrants.homepage }}">{{ flashgrants.name }}</a></li>
-            <time>{{ flashgrants.date | date: "%B" }}</time>
-            </ul>{% endif %}
-        {% endfor %}
+
+  <div class="container flashgrants-container">
+
+    <div class="textcontainer">
+      <div class="textbox col-sm-8 col-sm-offset-2">
+        <p>
+          Twice a year we award a number of small grants to a
+          collection of social change agents, no strings attached, in
+          support of their work.  We call these Flash Grants and
+          recipients are selected based on nominations from our
+          Fellows. Each award is worth $5,000.
+        </p>
+        <p>Here is a list of previous recipients:</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+	{% assign by_year = site.data.flashgrants | group_by_year: "date" | sort: "year" %}
+
+	{% for for_year in by_year %}
+	{% assign items = for_year.items | sort_two: "date", "name" %}
+	{% include flashgrants_block.html heading=for_year.year items=items date_fmt="%B" %}
+	{% endfor %}
+      </div>
+    </div>
+
+  </div>
+
+</section>

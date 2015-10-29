@@ -2604,3 +2604,16 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-21.header-21-shrink .navbar {
     margin: 0 0 15px;
 }
+
+.flashgrants-container .textcontainer {
+    margin: 30px 0 0 0;
+}
+
+.flashgrants-row h3 {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.flashgrants-row .flashgrants-item {
+    margin: 10px 0;
+}
