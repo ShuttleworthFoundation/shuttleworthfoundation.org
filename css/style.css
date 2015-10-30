@@ -2617,3 +2617,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .flashgrants-row .flashgrants-item {
     margin: 10px 0;
 }
+
+.fellow-flashgrants-row .flashgrants-row h3 {
+    font-size: 25px;
+    margin: 20px 0;
+}

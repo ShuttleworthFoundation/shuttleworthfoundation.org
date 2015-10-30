@@ -28,7 +28,7 @@ title: Flash Grants
 
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
-	{% assign by_year = site.data.flashgrants | group_by_year: "date" | sort: "year" %}
+	{% assign by_year = site.data.flashgrants | group_by_year: "date" | sort: "year" | reverse %}
 
 	{% for for_year in by_year %}
 	{% assign items = for_year.items | sort_two: "date", "name" %}
