@@ -28,7 +28,7 @@ to the Fellowship program.
 
 Their work builds on some of the investments we have made in the past and compliment current investments working towards the future.
 
-We are also pleased to have offered current Fellows <a href="{{ "/fellows/daniel-lombrana" | prepend: site.baseurl }}">Daniel Lombraña González</a> (Citizen Science) and <a href="{{ "/fellows/esraa-alshafei" | prepend: site.baseurl }}">Esra'a Al Shafei</a> (Access to Information) another year of fellowship. Their work on Crowdcrafting and CrowdVoice respectively have involved citizens in actively participating in science and tracking voices of dissent. We believe they will inspire even greater understanding and engagement over the next year.
+We are also pleased to have offered current Fellows <a href="{{ "/fellows/daniel-lombrana" | prepend: site.baseurl }}">Daniel Lombraña González</a> (Citizen Science) and <a href="{{ "/alumni/esraa-alshafei" | prepend: site.baseurl }}">Esra'a Al Shafei</a> (Access to Information) another year of fellowship. Their work on Crowdcrafting and CrowdVoice respectively have involved citizens in actively participating in science and tracking voices of dissent. We believe they will inspire even greater understanding and engagement over the next year.
 
 We look forward to working and learning with each of them.
 

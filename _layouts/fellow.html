@@ -5,9 +5,11 @@ layout: default
 <div class="page-wrapper" id="fellow">
 <!-- Everything after this should be Editable as content -->
 <section class="content-12">
-    <h1><a class="wide btn-wide" href="#" style="background:url(../../images/fellows-page-header.png) center top no-repeat">{{page.fullname}}<br />
-            {{page.type}}
-    </a></h1>
+  <h1>
+    <span class="wide btn-wide" style="background:url(../../images/fellows-page-header.png) center top no-repeat">{{page.fullname}}<br />
+      {{page.type}}
+    </span>
+  </h1>
 </section>
 
 <section class="content-15 v-center">
@@ -33,7 +35,7 @@ layout: default
             <div class="row fellows-links">
                 <!-- 12 columns full width -->
                 <div class="col-sm-3 col-sm-offset-3">
-                    <img src="../../images/fellows-links-icon.png" />
+                    <img src="../../images/fellows-links-icon.png" alt="Links" />
                     <h4>
                         Links
                     </h4>
@@ -45,7 +47,7 @@ layout: default
                 </div>
                 <div class="col-sm-3">
                 {% if page.projects %}
-                    <img src="../../images/fellows-projects-icon.png" />
+                    <img src="../../images/fellows-projects-icon.png" alt="Projects" />
                     <h4>
                         Projects
                     </h4>
@@ -59,7 +61,7 @@ layout: default
 
                 <div class="col-sm-3">
                 {% if page.twitter %}
-                <img src="../../images/fellows-tweets-icon.png" />
+                <img src="../../images/fellows-tweets-icon.png" alt="Tweets" />
                     <h4>
                         Twitter
                     </h4>

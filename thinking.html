@@ -6,7 +6,7 @@ title: Shuttleworth Foundation- Our Thinking
   <!-- Everything after this should be Editable as content -->
   <section class="content-12 marg">
     <h1>
-      <a class="wide btn-wide btn-wide2" data-scroll href="#blog" style="background:transparent url(../images/open-page-header.jpg) center top no-repeat;">Our Thinking</a>
+      <span class="wide btn-wide btn-wide2" style="background:transparent url(../images/open-page-header.jpg) center top no-repeat;">Our Thinking</span>
     </h1>
   </section>
 
@@ -38,11 +38,11 @@ title: Shuttleworth Foundation- Our Thinking
 	<div id="blog" class="head-box" style="background-image: url(../images/blog/blog-legal-agreements2.jpg) !important;">
         	<div class="featured-image-title">
                 <div class="brand">
-                    <a href="{{ "/2015/02/06/thinking-legal-agreements" | prepend: site.baseurl }}">
+                    <a href="{{ "/thinking/2015/02/06/thinking-legal-agreements/" | prepend: site.baseurl }}">
                     	Legal Agreements
                     </a>
                 </div>
-                <p><a href="{{ "/2015/02/06/thinking-legal-agreements" | prepend: site.baseurl }}">
+                <p><a href="{{ "/thinking/2015/02/06/thinking-legal-agreements/" | prepend: site.baseurl }}">
                     	Eating our own dogfood - download, remix, share...
                     </a>
                 </p>
@@ -54,7 +54,7 @@ title: Shuttleworth Foundation- Our Thinking
         </div>
         <div class="info">
             <h3 class="blog-title name">
-                <a href="{{ "/2015/02/06/thinking-legal-agreements" | prepend: site.baseurl }}">
+                <a href="{{ "/thinking/2015/02/06/thinking-legal-agreements/" | prepend: site.baseurl }}">
                     Download our legal templates
                 </a>
             </h3>
@@ -65,7 +65,7 @@ title: Shuttleworth Foundation- Our Thinking
 		</div>
       
       <!-- Other Thought Pieces -->
-      {% for post in site.posts %}
+      {% for post in site.categories.thinking %}
       {% assign rowindex = forloop.index0 | modulo: 3 %}
       {% if rowindex == 0 or forloop.first %}
         <div class="projects row">
