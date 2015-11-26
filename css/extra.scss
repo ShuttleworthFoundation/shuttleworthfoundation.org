@@ -1,0 +1,14 @@
+---
+---
+
+.nav .dropdown:hover {
+    & > .dropdown-menu {
+	margin-top: 0 !important;
+	opacity: 1;
+	visibility: visible;
+    }
+}
+
+.nav .dropdown > .dropdown-menu {
+    margin-top: -10px !important;
+}
