@@ -1,0 +1,63 @@
+---
+---
+
+.fsEmbed {
+    color: #505d5e;
+    
+    input, textarea {
+	background-color: #f3f3f3;
+	border: 1px solid #aaa;
+	width: 100%;
+    }
+
+    input[type="text"], input[type="email"], input[type="file"], select, textarea {
+	padding: 5px;
+    }
+
+    input[type="radio"], input[type="checkbox"] {
+	width: auto;
+	margin: 4px 5px 0 5px;
+    }
+
+    input[type="submit"] {
+	width: auto;
+	padding: 10px 20px;
+	margin: 20px auto;
+    }
+
+    textarea {
+    }
+
+    .fsLabel, .fsLabelVertical {
+	display: block;
+	font-size: 18px;
+    }
+
+    .fsRequiredMarker {
+	color: red;
+    }
+
+    .fsSupporting {
+	color: #aaa;
+	display: block;
+    }
+
+    .fsOptionLabel {
+	display: block;
+
+	input {
+	    display: inline-block;
+	}
+    }
+
+    .fsSubFieldGroup {
+	.fsSubField {
+	    display: inline-block;
+
+	    input, textarea {
+		width: auto;
+	    }
+	}
+    }
+
+}
