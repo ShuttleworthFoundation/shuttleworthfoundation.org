@@ -1,0 +1,75 @@
+---
+---
+
+$white: white;
+$black: #6C797A;
+$red: rgb(226,34,48);
+$grey: #ECF0F1;
+$green: #3BA933;
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18pt;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+.btn-success {
+    background-color: $green;
+
+    &:hover {
+	background-color: lighten($green, 10%);
+    }
+}
+
+
+.container-banner {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-padded {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.outer-thinking {
+    background-color: $grey;
+    padding-bottom: 10px;
+
+    .container-thinking {
+	.col-thinking-left {
+	    text-align: right;
+	    margin-bottom: 30px;
+	    
+	    p {
+		font-weight: bold;
+		margin-bottom: 10px;
+	    }
+	}
+	
+	.col-thinking-right {
+	    border-left: 1px solid #2c3e50;
+	    margin-bottom: 30px;
+	    
+	    p {
+		margin-bottom: 0;
+	    }
+	}
+    }
+}
+
+.outer-money {
+    background-color: $grey;
+    padding-bottom: 10px;
+
+    #bubbletree {
+	width: 100%;
+	height: 700px;
+	border: none;
+    }
+}
+
+{% include_relative css/_icons.scss %}
+{% include_relative css/_fellow-spend.scss %}

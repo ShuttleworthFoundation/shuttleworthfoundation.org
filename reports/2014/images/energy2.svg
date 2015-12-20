@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-46.5 0 90 117">
+  <defs>
+    <style>
+      path { stroke-width: 0.3; stroke: black; fill: none; }
+      g.active path.data { stroke: rgb(186,122,209); }
+      g.active path.hardware { stroke: rgb(77,111,190); }
+      g.active path.privacy { stroke: rgb(180,178,170); }
+      g.active path.intellectualproperty { stroke: rgb(97,172,70); }
+      g.active path.publishing { stroke: rgb(13,151,159); }
+      g.active path.education { stroke: rgb(251,185,22); }
+      g.active path.web { stroke: rgb(226,48,38); }
+      g.active path.science { stroke: rgb(120,80,51); }
+      g.active path.goverment { stroke: rgb(240,110,37); }
+      
+      g.active circle.data { fill: rgb(186,122,209); }
+      g.active circle.hardware { fill: rgb(77,111,190); }
+      g.active circle.privacy { fill: rgb(180,178,170); }
+      g.active circle.intellectualproperty { fill: rgb(97,172,70); }
+      g.active circle.publishing { fill: rgb(13,151,159); }
+      g.active circle.education { fill: rgb(251,185,22); }
+      g.active circle.web { fill: rgb(226,48,38); }
+      g.active circle.science { fill: rgb(120,80,51); }
+      g.active circle.goverment { fill: rgb(240,110,37); }
+      
+      g.inactive path { stroke: rgb(200,200,200); }
+    </style>
+  </defs>
+  <g class="inactive">
+    <path class="arthur intellectualproperty" d="M-42,3.5 H18 V57.5 H43.5"/>
+    <path class="arthur publishing" d="M-42,4.5 H15 V82.5 H43.5"/>
+    <path class="arthur education" d="M-42,5.5 H24 V42.5 H43.5"/>
+    
+    <path class="daniel education" d="M-33,12 H-24 V43.5  H43.5"/>
+    <path class="daniel web" d="M-33,13 H6 V13.5 H43.5"/>
+    <path class="daniel data" d="M-33,14 H3 V95.5 H43.5"/>
+    <path class="daniel science" d="M-33,15 H-12 V71 H43.5"/>
+    
+    <path class="moxie privacy" d="M-42,22.5 H0 V6.5 H43.5"/>
+    
+    <path class="esra publishing" d="M-33,30 H-6 V83.5 H43.5"/>
+    <path class="esra goverment" d="M-33,31 H0 V32 H43.5"/>
+    <path class="esra data" d="M-33,32 H0 V96.5 H43.5"/>
+    <path class="esra web" d="M-33,33 H-3 V16.5 H43.5"/>
+    
+    <path class="marcin hardware" d="M-42,40.5 H-9 V108 H24 V110.5 H43.5"/>
+    
+    <path class="rufus data" d="M-33,48 H-15 V97.5 H43.5"/>
+    <path class="rufus science" d="M-33,49 H-24 V72 H43.5"/>
+    <path class="rufus goverment" d="M-33,50 H-27 V36.5 H6 V33 H43.5"/>
+    <path class="rufus education" d="M-33,51 H-21 V44.5 H43.5"/>
+    
+    <path class="dan web" d="M-42,58 H-18 V26.25 H6 V15.5 H43.5"/>
+    <path class="dan education" d="M-42,59 H-3 V45.5 H43.5"/>
+    
+    <path class="jonas intellectualproperty" d="M-33,66.5 H-18 V63 H24 V58.5 H43.5"/>
+    <path class="jonas web" d="M-33,67.5 H9 V17.5 H43.5"/>
+    <path class="jonas data" d="M-33,68.5 H-21 V98.5 H43.5"/>
+
+    <path class="catharina intellectualproperty" d="M-42,76 H-3 V69.25 H27 V59.5 H43.5"/>
+    <path class="catharina web" d="M-42,77 H-27 V67.5 H9 V18.5 H43.5"/>
+
+    <path class="gavin education" d="M-33,84.5 H-12 V79.75 H6 V46.5 H43.5"/>
+    <path class="gavin publishing" d="M-33,85.5 H-6 V84.5 H43.5"/>
+    <path class="gavin web" d="M-33,86.5 H-18 V67.5 H9 V19.5 H43.5"/>
+
+    <path class="david education" d="M-42,93.5 H6 V46.5 H43.5"/>
+    <path class="david publishing" d="M-42,94.5 H-3 V85.5 H43.5"/>
+    <path class="david web" d="M-42,95.5 H-18 V67.5 H9 V20.5 H43.5"/>
+
+    <path class="kathi education" d="M-33,102.5 H6 V46.5 H43.5"/>
+    <path class="kathi publishing" d="M-33,103.5 H9 V86.5 H43.5"/>
+    <path class="kathi web" d="M-33,104.5 H12 V21.5 H43.5"/>
+    
+    <path class="jaisen data" d="M-42,111.5 H15 V99.5 H43.5"/>
+    <path class="kathi publishing" d="M-42,112.5 H18 V87.5 H43.5"/>
+    <path class="kathi web" d="M-42,113.5 H21 V22.5 H43.5"/>
+  </g>
+  <g class="active">
+    <path class="arthur intellectualproperty" d="M-42,3.5 H18 V57.5 H43.5"/>
+    <path class="arthur publishing" d="M-42,4.5 H15 V82.5 H43.5"/>
+    <path class="arthur education" d="M-42,5.5 H24 V42.5 H43.5"/>
+    <circle class="arthur intellectualproperty" cx="-42" cy="3.5" r="0.45"/>
+    <circle class="arthur publishing" cx="-42" cy="4.5" r="0.45"/>
+    <circle class="arthur education" cx="-42" cy="5.5" r="0.45"/>
+    
+    <path class="daniel education" d="M-33,12 H-24 V43.5  H43.5"/>
+    <path class="daniel web" d="M-33,13 H6 V13.5 H43.5"/>
+    <path class="daniel data" d="M-33,14 H3 V95.5 H43.5"/>
+    <path class="daniel science" d="M-33,15 H-12 V71 H43.5"/>
+    <circle class="daniel education" cx="-33" cy="12" r="0.45"/>
+    <circle class="daniel web" cx="-33" cy="13" r="0.45"/>
+    <circle class="daniel data" cx="-33" cy="14" r="0.45"/>
+    <circle class="daniel science" cx="-33" cy="15" r="0.45"/>
+    
+    <path class="moxie privacy" d="M-42,22.5 H0 V6.5 H43.5"/>
+    <circle class="moxie privacy" cx="-42" cy="22.5" r="0.45"/>
+    
+    <path class="esra publishing" d="M-33,30 H-6 V83.5 H43.5"/>
+    <path class="esra goverment" d="M-33,31 H0 V32 H43.5"/>
+    <path class="esra data" d="M-33,32 H0 V96.5 H43.5"/>
+    <path class="esra web" d="M-33,33 H-3 V16.5 H43.5"/>
+    <circle class="daniel publishing" cx="-33" cy="30" r="0.45"/>
+    <circle class="daniel goverment" cx="-33" cy="31" r="0.45"/>
+    <circle class="daniel data" cx="-33" cy="32" r="0.45"/>
+    <circle class="daniel web" cx="-33" cy="33" r="0.45"/>
+    
+    <path class="marcin hardware" d="M-42,40.5 H-9 V108 H24 V110.5 H43.5"/>
+    <circle class="marcin hardware" cx="-42" cy="40.5" r="0.45"/>
+    
+    <path class="rufus data" d="M-33,48 H-15 V97.5 H43.5"/>
+    <path class="rufus science" d="M-33,49 H-24 V72 H43.5"/>
+    <path class="rufus goverment" d="M-33,50 H-27 V36.5 H6 V33 H43.5"/>
+    <path class="rufus education" d="M-33,51 H-21 V44.5 H43.5"/>
+    <circle class="rufus data" cx="-33" cy="48" r="0.45"/>
+    <circle class="rufus science" cx="-33" cy="49" r="0.45"/>
+    <circle class="rufus goverment" cx="-33" cy="50" r="0.45"/>
+    <circle class="rufus education" cx="-33" cy="51" r="0.45"/>
+    
+    <path class="dan web" d="M-42,58 H-18 V26.25 H6 V15.5 H43.5"/>
+    <path class="dan education" d="M-42,59 H-3 V45.5 H43.5"/>
+    <circle class="dan web" cx="-42" cy="58" r="0.45"/>
+    <circle class="dan education" cx="-42" cy="59" r="0.45"/>
+    
+    <path class="jonas intellectualproperty" d="M-33,66.5 H-18 V63 H24 V58.5 H43.5"/>
+    <path class="jonas web" d="M-33,67.5 H9 V17.5 H43.5"/>
+    <path class="jonas data" d="M-33,68.5 H-21 V98.5 H43.5"/>
+    <circle class="jonas intellectualproperty" cx="-33" cy="66.5" r="0.45"/>
+    <circle class="jonas web" cx="-33" cy="67.5" r="0.45"/>
+    <circle class="jonas data" cx="-33" cy="68.5" r="0.45"/>
+
+    <path class="catharina intellectualproperty" d="M-42,76 H-3 V69.25 H27 V59.5 H43.5"/>
+    <path class="catharina web" d="M-42,77 H-27 V67.5 H9 V18.5 H43.5"/>
+    <circle class="catharina intellectualproperty" cx="-42" cy="76" r="0.45"/>
+    <circle class="catharina web" cx="-42" cy="77" r="0.45"/>
+
+    <path class="gavin education" d="M-33,84.5 H-12 V79.75 H6 V46.5 H43.5"/>
+    <path class="gavin publishing" d="M-33,85.5 H-6 V84.5 H43.5"/>
+    <path class="gavin web" d="M-33,86.5 H-18 V67.5 H9 V19.5 H43.5"/>
+    <circle class="gavin education" cx="-33" cy="84.5" r="0.45"/>
+    <circle class="gavin publishing" cx="-33" cy="85.5" r="0.45"/>
+    <circle class="gavin web" cx="-33" cy="86.5" r="0.45"/>
+
+    <path class="david education" d="M-42,93.5 H6 V46.5 H43.5"/>
+    <path class="david publishing" d="M-42,94.5 H-3 V85.5 H43.5"/>
+    <path class="david web" d="M-42,95.5 H-18 V67.5 H9 V20.5 H43.5"/>
+    <circle class="david education" cx="-42" cy="93.5" r="0.45"/>
+    <circle class="david publishing" cx="-42" cy="94.5" r="0.45"/>
+    <circle class="david web" cx="-42" cy="95.5" r="0.45"/>
+
+    <path class="kathi education" d="M-33,102.5 H6 V46.5 H43.5"/>
+    <path class="kathi publishing" d="M-33,103.5 H9 V86.5 H43.5"/>
+    <path class="kathi web" d="M-33,104.5 H12 V21.5 H43.5"/>
+    <circle class="kathi education" cx="-33" cy="102.5" r="0.45"/>
+    <circle class="kathi publishing" cx="-33" cy="103.5" r="0.45"/>
+    <circle class="kathi web" cx="-33" cy="104.5" r="0.45"/>
+    
+    <path class="jaisen data" d="M-42,111.5 H15 V99.5 H43.5"/>
+    <path class="jaisen publishing" d="M-42,112.5 H18 V87.5 H43.5"/>
+    <path class="jaisen web" d="M-42,113.5 H21 V22.5 H43.5"/>
+    <circle class="jaisen data" cx="-42" cy="111.5" r="0.45"/>
+    <circle class="jaisen publishing" cx="-42" cy="112.5" r="0.45"/>
+    <circle class="jaisen web" cx="-42" cy="113.5" r="0.45"/>
+  </g>
+</svg>

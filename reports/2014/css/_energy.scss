@@ -1,0 +1,255 @@
+section#energy {
+    .container-infographic {
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+	svg {
+	    margin-left: 100px;
+	    
+	    path {
+		stroke: black;
+		stroke-width: 0.3;
+		fill: none;
+		transition: opacity 0.2s;
+	    }
+	    
+	    circle {
+		transition: opacity 0.2s;
+	    }
+	    
+	    g.active {
+		path.data { stroke: rgb(186,122,209); }
+		path.hardware { stroke: rgb(77,111,190); }
+		path.privacy { stroke: rgb(180,178,170); }
+		path.intellectualproperty { stroke: rgb(97,172,70); }
+		path.publishing { stroke: rgb(13,151,159); }
+		path.education { stroke: rgb(251,185,22); }
+		path.web { stroke: rgb(226,48,38); }
+		path.science { stroke: rgb(120,80,51); }
+		path.government { stroke: rgb(240,110,37); }
+		
+		circle.data { fill: rgb(186,122,209); }
+		circle.hardware { fill: rgb(77,111,190); }
+		circle.privacy { fill: rgb(180,178,170); }
+		circle.intellectualproperty { fill: rgb(97,172,70); }
+		circle.publishing { fill: rgb(13,151,159); }
+		circle.education { fill: rgb(251,185,22); }
+		circle.web { fill: rgb(226,48,38); }
+		circle.science { fill: rgb(120,80,51); }
+		circle.government { fill: rgb(240,110,37); }
+	    }
+	    
+	    g.inactive {
+		path { stroke: rgb(210,210,210); }
+		circle { fill: rgb(210,210,210); }
+	    }
+	    
+	    g.categories.active {
+		path { stroke-width: 0; }
+		path.data { fill: rgb(186,122,209); }
+		path.hardware { fill: rgb(77,111,190); }
+		path.privacy { fill: rgb(180,178,170); }
+		path.intellectualproperty { fill: rgb(97,172,70); }
+		path.publishing { fill: rgb(13,151,159); }
+		path.education { fill: rgb(251,185,22); }
+		path.web { fill: rgb(226,48,38); }
+		path.science { fill: rgb(120,80,51); }
+		path.government { fill: rgb(240,110,37); }
+	    }
+	    
+	    g.categories.inactive {
+		path { stroke-width: 0; fill: rgb(210,210,210); }
+	    }
+	}
+	
+	.energy-categories {
+	    
+	    .energy-category {
+		color: #fff;
+		position: absolute;
+		font-size: 14px;
+		font-weight: 600;
+		width: 177px;
+		line-height: 40px;
+		padding: 5px;
+		
+		&:after {
+		    content: '';
+		    width: 65px;
+		    height: 31px;
+		    position: absolute;
+		    right: 0;
+		    top: 10px;
+		    display: block;
+		    background-size: contain;
+		    background-repeat: no-repeat;
+		    background-position: 50% 50%;
+		}
+		
+		&.privacy {
+		    top: 5px;
+		    right: 83px;
+		    
+		    &:after {
+			background-image: url(../images/energy/icon-privacy.svg);
+		    }
+		}
+		
+		&.web {
+		    top: 77.715px;
+		    right: 83px;
+		    
+		    &:after {
+			background-image: url(../images/energy/icon-web.svg);
+		    }
+		}
+		
+		&.government {
+		    top: 150.43px;
+		    right: 83px;
+		    
+		    &:after {
+			background-image: url(../images/energy/icon-government.svg);
+		    }
+		}
+		
+		&.education {
+		    top: 223.145px;
+		    right: 83px;
+		    
+		    &:after {
+			background-image: url(../images/energy/icon-education.svg);
+		    }
+		}
+		
+		&.intellectualproperty {
+		    top: 295.86px;
+		    right: 83px;
+		    font-size: 13px;
+		    letter-spacing: -0.5px;
+		    
+		    &:after {
+			background-image: url(../images/energy/icon-intellectualproperty.svg);
+		    }
+		}
+		
+		&.science {
+		    top: 368.575px;
+		    right: 83px;
+		    
+		    &:after {
+			background-image: url(../images/energy/icon-science.svg);
+		    }
+		}
+		
+		&.publishing {
+		    top: 441.29px;
+		    right: 83px;
+		    
+		    &:after {
+			background-image: url(../images/energy/icon-publishing.svg);
+		    }
+		}
+		
+		&.data {
+		    top: 514.005px;
+		    right: 83px;
+		    
+		    &:after {
+			background-image: url(../images/energy/icon-data.svg);
+		    }
+		}
+		
+		&.hardware {
+		    top: 586.72px;
+		    right: 83px;
+		    
+		    &:after {
+			background-image: url(../images/energy/icon-hardware.svg);
+		    }
+		}
+	    }
+	}
+	
+	.energy-fellows {
+	    .energy-fellow {
+		background-size: cover;
+		position: absolute;
+		border: 2px solid white;
+		border-radius: 50%;
+		width: 80px;
+		height: 80px;
+		
+		&.arthur {
+		    top: -17px;
+		    left: 45px;
+		}
+		
+		&.daniel {
+		    top: 33px;
+		    left: 110px;
+		}
+		
+		&.moxie {
+		    top: 83px;
+		    left: 45px;
+		}
+		
+		&.esra {
+		    top: 133px;
+		    left: 110px;
+		}
+		
+		&.marcin {
+		    top: 183px;
+		    left: 45px;
+		}
+		
+		&.rufus {
+		    top: 233px;
+		    left: 110px;
+		}
+		
+		&.dan {
+		    top: 283px;
+		    left: 45px;
+		}
+		
+		&.jonas {
+		    top: 333px;
+		    left: 110px;
+		}
+		
+		&.catharina {
+		    top: 383px;
+		    left: 45px;
+		}
+		
+		&.gavin {
+		    top: 433px;
+		    left: 110px;
+		}
+		
+		&.david {
+		    top: 483px;
+		    left: 45px;
+		}
+		
+		&.kathi {
+		    top: 533px;
+		    left: 110px;
+		}
+		
+		&.jaisen {
+		    top: 583px;
+		    left: 45px;
+		}
+	    }
+	    
+	    .energy-fellow {
+		
+	    }
+	}
+    }
+}
