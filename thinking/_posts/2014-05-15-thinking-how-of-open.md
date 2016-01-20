@@ -10,6 +10,7 @@ banner: "/images/blog/blog-how-of-open 2.jpg"
 image: "/images/blog/blog-how-of-open 2.jpg"
 image_credit: "opensource.com (CC BY-SA 2.0)"
 image_source: "https://www.flickr.com/photos/opensourceway/8297629922"
+on_report: true
 ---
 
 This success has also made the term fashionable and sometimes leads to overenthusiastic uses of the open label or, more worryingly, <a title="Open Washing" href="http://blog.okfn.org/2014/03/10/open-washing-the-difference-between-opening-your-data-and-simply-making-them-available/" target="_blank">open-washing</a> . It can result in uncertainty and confusion for those who plan to open up knowledge resources for strategic purposes. The detail of how open is open, matters.

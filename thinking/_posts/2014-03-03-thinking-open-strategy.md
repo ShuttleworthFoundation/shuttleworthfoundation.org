@@ -10,6 +10,7 @@ banner: "/images/blog/blog-open-strategy 2.jpg"
 image: "/images/blog/blog-open-strategy 2.jpg"
 image_credit: "Jessica Duensing for opensource.com. (CC BY-SA 2.0)"
 image_source: "https://www.flickr.com/photos/opensourceway/6555466069"
+on_report: true
 ---
 
 The more we expose the thinking, working and practices of our organisation, our ideas and our projects, the better. Exposing this information allows other organisations, project implementers, funders, policy makers, change agents, advocates and academics to learn from what we have done.

@@ -1,0 +1,12 @@
+money:
+  fellows:
+    - id: arthur
+      name: "Arthur Atwell"
+      blog: "http://arthuratwell.com"
+      twitter: "@arthuratwell"
+      web: "http://paperight.com"
+    - id: arthur2
+      name: "Arthur Atwell"
+      blog: "http://arthuratwell.com"
+      twitter: "@arthuratwell"
+      web: "http://paperight.com"
