@@ -6,7 +6,9 @@ title:  The Shuttleworth Foundation - Year in Review 2014
 <link href="style.css" rel="stylesheet" type="text/css">
 <div id="report2013">
   <div class="container-fluid container-banner">
-    <img src="banner.gif" alt="2014, Year in review - We believe that people, not projects, change the world."/>
+    <video autoplay="" name="media" style="width: 100%;">
+      <source src="banner.webm" type="video/webm" alt="2014, Year in review - We believe that people, not projects, change the world.">
+    </video>
   </div>
 
   <div class="container container-padded">
@@ -57,7 +59,8 @@ title:  The Shuttleworth Foundation - Year in Review 2014
 	  <h2>Year in <strong>THINKING</strong></h2>
 	</div>
 	
-	{% for post in site.categories.thinking %}
+        {% for post in site.categories.thinking %}
+        {% if post.on_report %}
 	{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
 	{% if year == "2014" %}
 	<div class="col-md-6 col-thinking-left">
@@ -69,6 +72,7 @@ title:  The Shuttleworth Foundation - Year in Review 2014
 	    {{ post.content | strip_html | truncatewords: 50 }}... <a href="{{ post.url }}">&gt;&gt;</a>
 	  </p>
 	</div>
+	{% endif %}
 	{% endif %}
 	{% endfor %}
 	
@@ -87,32 +91,317 @@ title:  The Shuttleworth Foundation - Year in Review 2014
 	  transparancy and the Web.
 	</p>
       </div>
-      <div class="col-md-12">
-	<p>Here goes the line connecting chart thingy.</p>
-	<svg id="line-graph" viewBox="-50 -50 100 100">
+    </div>
+    <div class="col-md-12">
+      <div class="container-infographic">
+	<div class="container-infographic-inner">
+	  <div class="energy-links"></div>
+	  <div class="energy-fellows"></div>
+	  <div class="energy-categories"></div>
+	  <div style="clear: both;"></div>
+	</div>
+        <script>
+          _jqq.push(function() {
 
-	</svg>
-	<script>
-          (function() {
+	      function slugify(text)
+	      {
+		  return text.toString().toLowerCase()
+		      .replace(/\s+/g, '-')           // Replace spaces with -
+		      .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+		      .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+		      .replace(/^-+/, '')             // Trim - from start of text
+		      .replace(/-+$/, '');            // Trim - from end of text
+	      }
+
+	      function shuffle(array) {
+		  var currentIndex = array.length, temporaryValue, randomIndex;
+		  
+		  // While there remain elements to shuffle...
+		  while (0 !== currentIndex) {
+		      
+		      // Pick a remaining element...
+		      randomIndex = Math.floor(Math.random() * currentIndex);
+		      currentIndex -= 1;
+		      
+		      // And swap it with the current element.
+		      temporaryValue = array[currentIndex];
+		      array[currentIndex] = array[randomIndex];
+		      array[randomIndex] = temporaryValue;
+		  }
+		  
+		  return array;
+	      }
+	      
 	      var lines = [
 	          {% for fellow in site.data.reports.2014.fellows %}
                   {% if forloop.last %}
 	          {% for category in fellow.categories %}
-	          ["{{ fellow.name }}", "{{ category }}"]{% unless forloop.last %},{% endunless %}
+	          ["{{ fellow.id }}", "{{ category }}"]{% unless forloop.last %},{% endunless %}
                   {% endfor %}
 	          {% else %}
 	          {% for category in fellow.categories %}
-	          ["{{ fellow.name }}", "{{ category }}"],
+	          ["{{ fellow.id }}", "{{ category }}"],
                   {% endfor %}
 	          {% endif %}
 	          {% endfor %}
 	      ];
+
+	      var position = { 'category': {}, 'fellow': {} };
+	      /* Initialize the categories here to ensure the order is
+	       * as provided. Any cetegories omitted here will be
+	       * added at the end of the array. */
+	      var categories = ['Government', 'Hardware', 'Web', 'Science',
+				'Telecoms', 'Education', 'Environment',
+				'Privacy', 'Data', 'Music', 'Publishing',
+				'Transparency', 'Intellectual Property'];
+	      var fellows = [];
+	      for (line=0; line<lines.length; line++) {
+		  var fellow = lines[line][0];
+		  var category = lines[line][1];
+		  
+		  if (fellows.indexOf(fellow) == -1) {
+		      fellows.push(fellow);
+		  }
+
+		  if (categories.indexOf(category) == -1) {
+		      categories.push(category);
+		  }
+	      }
+
+	      var full_height = (fellows.length*50+30);
+	      var line_height = (full_height - (categories.length * 20) - ((categories.length - 1) * 10)) / lines.length;
+
+	      var fellows_container = $('.energy-fellows');
+	      var top = 0;
+	      for (fellow_id=0; fellow_id<fellows.length; fellow_id++) {
+		  var fellow_slug = fellows[fellow_id];
+		  fellows_container.append('<div class="energy-fellow '+fellow_slug+'" data-fellow="'+fellow_slug+'" style="background-image: url(images/fellows/'+fellow_slug+'.jpg);"></div>');
+		  var left;
+		  if (fellow_id % 2 == 0) {
+		      left = 130;
+		  } else {
+		      left = 195;
+		  }
+		  position['fellow'][fellow_slug] = {'middle': top+40, 'left': left, 'offset': 0, 'count': 0};
+		  top += 50;
+	      }
+
+	      var categories_container = $('.energy-categories');
+	      var top = 0;
+	      for (category_id=0; category_id<categories.length; category_id++) {
+		  var height = 0;
+		  var category = categories[category_id];
+		  var category_slug = slugify(category);
+		  for (line=0; line<lines.length; line++) {
+		      if (lines[line][1] == category) {
+			  height += line_height;
+		      }
+		  }
+		  categories_container.append('<div class="energy-category '+category_slug+'" data-category="'+category_slug+'" style="line-height: '+height+'px; top: '+top+'px;">'+category+'</div>');
+		  position['category'][category_slug] = {'middle': top+(height/2)+10, 'left': 700, 'offset': 0, 'count': 0};
+		  top += height;
+		  top += 30;
+	      }
+	      for (line=0; line<lines.length; line++) {
+		  var fellow = slugify(lines[line][0]);
+		  var category = slugify(lines[line][1]);
+
+		  $('.energy-categories .energy-category.'+category).addClass(fellow);
+		  $('.energy-fellows .energy-fellow.'+fellow).addClass(category);
+	      }
+
+	      $('.container-infographic-inner').css('height', full_height+'px');
+
+	      shuffle(lines);
+	      var svg = d3.select('.energy-links')
+		  .append('svg')
+		  .attr('id', 'energy-svg')
+		  .attr('height', full_height)
+		  .attr('width', 940);
+	      var inactivelines = svg.append('g').attr('class', 'links inactive');
+	      var activelines = svg.append('g').attr('class', 'links active');
+	      for (line=0; line<lines.length; line++) {
+		  var fellow = slugify(lines[line][0]);
+		  var category = slugify(lines[line][1]);
+
+		  var vertical;
+		  if (line == 0) {
+		      vertical = 450;
+		  } else if (line % 2 == 0) {
+		      vertical = 450 + line * 4;
+		  } else {
+		      vertical = 450 - line * 4;
+		  }
+
+		  if (position['fellow'][fellow]['count'] == 0) {
+		      position['fellow'][fellow]['offset'] = 0;
+		  } else if (position['fellow'][fellow]['count'] % 2 == 0) {
+		      position['fellow'][fellow]['offset'] = -position['fellow'][fellow]['offset'];
+		  } else {
+		      position['fellow'][fellow]['offset'] = Math.abs(position['fellow'][fellow]['offset']) + 5;
+		  }
+		  position['fellow'][fellow]['count'] += 1
+
+		  if (position['category'][category]['count'] == 0) {
+		      position['category'][category]['offset'] = 0;
+		  } else if (position['category'][category]['count'] % 2 == 0) {
+		      position['category'][category]['offset'] = -position['category'][category]['offset'];
+		  } else {
+		      position['category'][category]['offset'] = Math.abs(position['category'][category]['offset']) + 8;
+		  }
+		  position['category'][category]['count'] += 1
+		  
+		  var y1 = position['fellow'][fellow]['middle'] + position['fellow'][fellow]['offset'];
+		  var y2 = position['category'][category]['middle'] + position['category'][category]['offset'];
+		  var x1 = position['fellow'][fellow]['left'];
+		  var x2 = position['category'][category]['left'];
+		  var path = 'M'+x1+','+y1+' H'+vertical+' V'+y2+' H'+x2;
+		  
+		  activelines.append('svg:path')
+		      .attr('d', path)
+		      .attr('stroke-width', 10)
+		      .classed(fellow, true)
+		      .classed(category, true);
+		  activelines.append('svg:circle')
+		      .attr('cx', x1)
+		      .attr('cy', y1)
+		      .attr('r', 2)
+		      .classed(fellow, true)
+		      .classed(category, true);
+		  inactivelines.append('svg:path')
+		      .attr('d', path)
+		      .attr('stroke-width', 10)
+		      .classed(fellow, true)
+		      .classed(category, true);
+		  inactivelines.append('svg:circle')
+		      .attr('cx', x1)
+		      .attr('cy', y1)
+		      .attr('r', 2)
+		      .classed(fellow, true)
+		      .classed(category, true);
+	      }
+
+
 	      
-	  })();
+	      (function() {
+		  var element = {};
+		  element.node = $('#energy-svg');
+		  element.top = element.node.offset().top;
+		  element.height = element.node.height()
+		  
+		  var screen = {}
+		  screen.height = $(window).height();
+		  screen.document = $(document);
+		  screen.trigger = element.top + (element.height / 2);
+		  
+		  var interval = setInterval(function() {
+		      screen.top = screen.document.scrollTop();
+		      screen.bottom = screen.top + screen.height;
+		      if ((screen.top < screen.trigger) && (screen.bottom > screen.trigger)) {
+			  var links = d3.select('#energy-svg').selectAll('g.links path');
+			  links.transition()
+			      .duration(1000)
+			      .ease("linear")
+			      .attr("stroke-dashoffset", 0);
+		      }
+		  }, 500);
+	      })();
+	      var links = d3.select('#energy-svg').selectAll('g.links path');
+	      links.attr("stroke-dasharray", function(d, i) {
+		  var length = this.getTotalLength();
+		  return length + " " + length;
+	      }).attr("stroke-dashoffset", function(d, i) {
+		  return this.getTotalLength();
+	      });
+	      
+	      $('.energy-fellow').on('mouseenter', function() {
+		  var fellow = $(this).data('fellow');
+		  var svg = $('#energy-svg');
+		  var categories = $('.energy-categories');
+		  svg.find('.active path').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+fellow+' ') != -1) {
+			  elem.css('opacity', 1);
+		      } else {
+			  elem.css('opacity', 0);		  
+		      }
+		  });
+		  svg.find('.active circle').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+fellow+' ') != -1) {
+			  elem.css('opacity', 1);
+		      } else {
+			  elem.css('opacity', 0);		  
+		      }
+		  });
+		  categories.find('.energy-category').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+fellow+' ') != -1) {
+			  elem.removeClass('inactive');
+		      } else {
+			  elem.addClass('inactive');	  
+		      }
+		  });
+	      });
+	      $('.energy-fellow').on('mouseleave', function() {
+		  var svg = $('#energy-svg');
+		  var categories = $('.energy-categories');
+		  var fellows = $('.energy-fellows');
+		  svg.find('.active path').css('opacity', 1);
+		  svg.find('.active circle').css('opacity', 1);
+		  categories.find('.energy-category.inactive').removeClass('inactive');
+		  fellows.find('.energy-fellow.inactive').removeClass('inactive');
+	      });
+	      
+	      $('.energy-category').on('mouseenter', function() {
+		  var category = $(this).data('category');
+		  var svg = $('#energy-svg');
+		  var fellows = $('.energy-fellows');
+		  svg.find('.active path').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+category+' ') != -1) {
+			  elem.css('opacity', 1);
+		      } else {
+			  elem.css('opacity', 0);		  
+		      }
+		  });
+		  svg.find('.active circle').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+category+' ') != -1) {
+			  elem.css('opacity', 1);
+		      } else {
+			  elem.css('opacity', 0);		  
+		      }
+		  });
+		  fellows.find('.energy-fellow').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+category+' ') != -1) {
+			  elem.removeClass('inactive');
+		      } else {
+			  elem.addClass('inactive');	  
+		      }
+		  });
+	      });
+	      $('.energy-category').on('mouseleave', function() {
+		  var svg = $('#energy-svg');
+		  var categories = $('.energy-categories');
+		  var fellows = $('.energy-fellows');
+		  svg.find('.active path').css('opacity', 1);
+		  svg.find('.active circle').css('opacity', 1);
+		  categories.find('.energy-category.inactive').removeClass('inactive');
+		  fellows.find('.energy-fellow.inactive').removeClass('inactive');
+	      });
+	  });
 	</script>
       </div>
     </div>
-  </div>
+    </div>
 
   <div class="outer-money">
     <div class="container container-money">
@@ -138,7 +427,12 @@ title:  The Shuttleworth Foundation - Year in Review 2014
       <div class="row">
 	<div class="col-md-12">
 	  <iframe id="bubbletree" src="bubbletree.html"></iframe>
-	  <!--<p>World Map Chart Thingy</p>-->
+	  <div id="our-spend-worldmap"></div>
+	  <script>
+	    var mapdata = {"BR": 63170.0, "CA": 4650.0, "IM": 7309.09+589744.07, "ZA": 153440.86+414473.57, "MX": 144312.95, "MU": 0+62488.38, "IN": 2400.0, "GB": 128711.2, "CH": 585.05, "SE": 267586.0, "DE": 266158.97, "BH": 46511.36, "BE": 26000.0, "JP": 18000.0, "US": 2042844.43, "ES": 100851.51};
+	    /*{"US": 2279275.98, "IM": 2250167.71, "ZA": 929763.38, "GB": 766334.53, "SE": 293141.87, "DE": 148088.39, "BE": 57808.05, "BH": 45522.74, "ES": 45180.92, "CR": 30534.55, "BR": 21000, "CA": 9949.19, "MX": 8750, "CH": 8320.06, "MU": 7328, "IN": 5000, "FR": 5000, "RU": 5000, "AE": 5000, "AT": 5000};*/
+	    {% include_relative js/worldmap.js %}
+	  </script>
 	</div>
       </div>
 

@@ -10,6 +10,7 @@ banner: "/images/blog/blog-make-better.jpg"
 image: "/images/blog/blog-make-better.jpg"
 image_credit: "Race Bannon (CC BY 2.0)"
 image_source: "https://www.flickr.com/photos/bewareofdog/284783751/"
+on_report: true
 ---
 
 Our main goal was to improve the quality of education in South Africa. We invested in projects that offered unique and innovative solutions to educational challenges in a developing society, focused on the areas of science, technology, entrepreneurship and maths in education, as well as propagating the use of open source software. The Foundation operated as a traditional funding agency – we accepted proposals and funded them. Grantees implemented their projects and came back with reports.

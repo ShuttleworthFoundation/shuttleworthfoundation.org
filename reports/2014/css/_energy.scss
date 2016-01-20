@@ -1,15 +1,33 @@
-section#energy {
-    .container-infographic {
+$energy-colors: (
+    government #3899a0,
+    hardware #8b4dac,
+    web #ce2326,
+    science #f05b1d,
+    telecoms #257a38,
+    education #4ebd38,
+    environment #5167bb,
+    privacy #9ba7a6,
+    data #ec44aa,
+    music #633d27,
+    publishing #f8b30c,
+    transparency #707378,
+    intellectual-property #7f195e
+);
+
+.container-infographic {
+    .container-infographic-inner {
 	position: relative;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	max-width: 900px;
+	margin: 30px auto;
 	
-	svg {
-	    margin-left: 100px;
+	svg#energy-svg {
+	    width: 100%;
 	    
 	    path {
 		stroke: black;
-		stroke-width: 0.3;
+		stroke-width: 1.5;
 		fill: none;
 		transition: opacity 0.2s;
 	    }
@@ -19,47 +37,15 @@ section#energy {
 	    }
 	    
 	    g.active {
-		path.data { stroke: rgb(186,122,209); }
-		path.hardware { stroke: rgb(77,111,190); }
-		path.privacy { stroke: rgb(180,178,170); }
-		path.intellectualproperty { stroke: rgb(97,172,70); }
-		path.publishing { stroke: rgb(13,151,159); }
-		path.education { stroke: rgb(251,185,22); }
-		path.web { stroke: rgb(226,48,38); }
-		path.science { stroke: rgb(120,80,51); }
-		path.government { stroke: rgb(240,110,37); }
-		
-		circle.data { fill: rgb(186,122,209); }
-		circle.hardware { fill: rgb(77,111,190); }
-		circle.privacy { fill: rgb(180,178,170); }
-		circle.intellectualproperty { fill: rgb(97,172,70); }
-		circle.publishing { fill: rgb(13,151,159); }
-		circle.education { fill: rgb(251,185,22); }
-		circle.web { fill: rgb(226,48,38); }
-		circle.science { fill: rgb(120,80,51); }
-		circle.government { fill: rgb(240,110,37); }
+		@each $color in $energy-colors {
+		    path.#{nth($color, 1)} { stroke: nth($color, 2); }
+		    circle.#{nth($color, 1)} { stroke: nth($color, 2); fill: nth($color, 2); }
+		}
 	    }
 	    
 	    g.inactive {
 		path { stroke: rgb(210,210,210); }
 		circle { fill: rgb(210,210,210); }
-	    }
-	    
-	    g.categories.active {
-		path { stroke-width: 0; }
-		path.data { fill: rgb(186,122,209); }
-		path.hardware { fill: rgb(77,111,190); }
-		path.privacy { fill: rgb(180,178,170); }
-		path.intellectualproperty { fill: rgb(97,172,70); }
-		path.publishing { fill: rgb(13,151,159); }
-		path.education { fill: rgb(251,185,22); }
-		path.web { fill: rgb(226,48,38); }
-		path.science { fill: rgb(120,80,51); }
-		path.government { fill: rgb(240,110,37); }
-	    }
-	    
-	    g.categories.inactive {
-		path { stroke-width: 0; fill: rgb(210,210,210); }
 	    }
 	}
 	
@@ -70,103 +56,36 @@ section#energy {
 		position: absolute;
 		font-size: 14px;
 		font-weight: 600;
-		width: 177px;
-		line-height: 40px;
-		padding: 5px;
+		width: 210px;
+		padding: 10px;
+		border-radius: 15px 0 15px 0;
+		background-color: lightgrey;
+		right: 0;
+		transition: background-color 0.2s;
 		
 		&:after {
 		    content: '';
 		    width: 65px;
-		    height: 31px;
+		    height: 24px;
 		    position: absolute;
 		    right: 0;
-		    top: 10px;
+		    top: 50%;
+		    margin-top: -12px;
 		    display: block;
 		    background-size: contain;
 		    background-repeat: no-repeat;
 		    background-position: 50% 50%;
 		}
 		
-		&.privacy {
-		    top: 5px;
-		    right: 83px;
-		    
-		    &:after {
-			background-image: url(../images/energy/icon-privacy.svg);
-		    }
-		}
-		
-		&.web {
-		    top: 77.715px;
-		    right: 83px;
-		    
-		    &:after {
-			background-image: url(../images/energy/icon-web.svg);
-		    }
-		}
-		
-		&.government {
-		    top: 150.43px;
-		    right: 83px;
-		    
-		    &:after {
-			background-image: url(../images/energy/icon-government.svg);
-		    }
-		}
-		
-		&.education {
-		    top: 223.145px;
-		    right: 83px;
-		    
-		    &:after {
-			background-image: url(../images/energy/icon-education.svg);
-		    }
-		}
-		
-		&.intellectualproperty {
-		    top: 295.86px;
-		    right: 83px;
-		    font-size: 13px;
-		    letter-spacing: -0.5px;
-		    
-		    &:after {
-			background-image: url(../images/energy/icon-intellectualproperty.svg);
-		    }
-		}
-		
-		&.science {
-		    top: 368.575px;
-		    right: 83px;
-		    
-		    &:after {
-			background-image: url(../images/energy/icon-science.svg);
-		    }
-		}
-		
-		&.publishing {
-		    top: 441.29px;
-		    right: 83px;
-		    
-		    &:after {
-			background-image: url(../images/energy/icon-publishing.svg);
-		    }
-		}
-		
-		&.data {
-		    top: 514.005px;
-		    right: 83px;
-		    
-		    &:after {
-			background-image: url(../images/energy/icon-data.svg);
-		    }
-		}
-		
-		&.hardware {
-		    top: 586.72px;
-		    right: 83px;
-		    
-		    &:after {
-			background-image: url(../images/energy/icon-hardware.svg);
+		@each $color in $energy-colors {
+		    &.#{nth($color, 1)} {
+  		        background-color: nth($color, 2);
+			&:after {
+			    background-image: url(images/energy/icon-#{nth($color, 1)}.svg);
+			}
+			&.inactive {
+			    background-color: #d2d2d2;
+			}
 		    }
 		}
 	    }
@@ -180,75 +99,23 @@ section#energy {
 		border-radius: 50%;
 		width: 80px;
 		height: 80px;
-		
-		&.arthur {
-		    top: -17px;
-		    left: 45px;
+		transition: opacity 0.2s;
+
+		@for $i from 1 through 20 {
+	    	    &:nth-child(#{$i}) {
+		        top: (50px * ($i - 1));
+			@if $i % 2 == 0 {
+			    left: 110px;
+			} @else {
+			    left: 45px;
+			}
+			
+		    }
 		}
 		
-		&.daniel {
-		    top: 33px;
-		    left: 110px;
+		&.inactive {
+		    opacity: 0.2;
 		}
-		
-		&.moxie {
-		    top: 83px;
-		    left: 45px;
-		}
-		
-		&.esra {
-		    top: 133px;
-		    left: 110px;
-		}
-		
-		&.marcin {
-		    top: 183px;
-		    left: 45px;
-		}
-		
-		&.rufus {
-		    top: 233px;
-		    left: 110px;
-		}
-		
-		&.dan {
-		    top: 283px;
-		    left: 45px;
-		}
-		
-		&.jonas {
-		    top: 333px;
-		    left: 110px;
-		}
-		
-		&.catharina {
-		    top: 383px;
-		    left: 45px;
-		}
-		
-		&.gavin {
-		    top: 433px;
-		    left: 110px;
-		}
-		
-		&.david {
-		    top: 483px;
-		    left: 45px;
-		}
-		
-		&.kathi {
-		    top: 533px;
-		    left: 110px;
-		}
-		
-		&.jaisen {
-		    top: 583px;
-		    left: 45px;
-		}
-	    }
-	    
-	    .energy-fellow {
-		
 	    }
 	}
     }

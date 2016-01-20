@@ -326,6 +326,9 @@
 		    &.slice-travel > path {
 			fill: rgb(251,185,22);
 		    }
+		    &.slice-legal > path {
+			fill: #7f195e;
+		    }
 		    
 		    .label {
 			font-family: 'Georgia', 'Merriweather', sans-serif;

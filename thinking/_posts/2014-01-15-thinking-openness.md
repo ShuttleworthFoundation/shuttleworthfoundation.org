@@ -10,6 +10,7 @@ banner: "/images/blog/blog-openness 2.jpg"
 image: "/images/blog/blog-openness 2.jpg"
 image_credit: "opensource.com (CC BY-SA 2.0)"
 image_source: "https://www.flickr.com/photos/opensourceway/6555465757"
+on_report: true
 ---
 
 The open source software movement has not only created widely used software but million dollar businesses. Although the model is well established for software development, distribution and use, it is not the case for education, philanthropy, hardware or social development, to name but a few important endeavours. The default imposed on knowledge resources by copyright law is automatic lock down. This default makes little sense if your agenda is social change.

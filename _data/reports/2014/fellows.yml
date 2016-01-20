@@ -1,7 +1,7 @@
 - id: arthur-attwell
   name: Arthur Attwell
   spend:
-  - {category: People, percentage: 0.53011765, amount: "26,230.35"}
+  - {category: People, percentage: 0.53011765, amount: "41,302.91"}
   - {category: Software, percentage: 0.28445824, amount: "14,075.06"}
   - {category: Marketing & Admin, percentage: 0.08272055, amount: "4,093.03"}
   - {category: Infrastructure, percentage: 0.05770808, amount: "2,855.41"}
@@ -12,11 +12,12 @@
   fellowship_start: "September 2011"
   fellowship_end: "present"
   fellowship_duration: 12
-  categories: [Environment, Intellectual Property, Education]
+  categories: [Intellectual Property, Publishing, Education]
 
 - id: catharina-maracke
   name: Catharina Maracke
   spend:
+  - {category: People, percentage: 0.53011765, amount: "161,291.80"}
   - {category: Travel, percentage: 1.00000000, amount: "31,450.00"}
   total: "31,450.00"
   fellow_contribution: "1,950.00"
@@ -29,8 +30,8 @@
 - id: daniel-lombrana-gonzalez
   name: Daniel Lombrana Gonzalez
   spend:
+  - {category: People, percentage: 0.36284641, amount: "149,766.71"}
   - {category: Software, percentage: 0.58801080, amount: "120,881.87"}
-  - {category: People, percentage: 0.36284641, amount: "74,593.11"}
   - {category: Travel, percentage: 0.04620714, amount: "9,499.15"}
   - {category: Marketing, percentage: 0.00293565, amount: "603.50"}
   total: "205,577.64"
@@ -44,7 +45,7 @@
 - id: daniel-whaley
   name: Daniel Whaley
   spend:
-  - {category: People, percentage: 1.00000000, amount: "245,000.00"}
+  - {category: People, percentage: 1.00000000, amount: "344,511.00"}
   total: "245,000.00"
   fellow_contribution: "19,488.64"
   foundation_contribution: "225,511.36"
@@ -56,7 +57,7 @@
 - id: david-wiley
   name: David Wiley
   spend:
-  - {category: People, percentage: 0.91000000, amount: "222,950.00"}
+  - {category: People, percentage: 0.91000000, amount: "347,461.00"}
   - {category: Travel, percentage: 0.09000000, amount: "22,050.00"}
   total: "245,000.00"
   fellow_contribution: "19,488.64"
@@ -64,13 +65,13 @@
   fellowship_start: "March 2013"
   fellowship_end: "present"
   fellowship_duration: 12
-  categories: [Education, Environment, Web]
+  categories: [Education, Publishing, Web]
 
 - id: esraa-al-shafei
   name: Esra'a Al Shafei
   spend:
   - {category: Software, percentage: 0.91500615, amount: "144,246.14"}
-  - {category: People, percentage: 0.05911211, amount: "9,318.73"}
+  - {category: People, percentage: 0.05911211, amount: "55,830.09"}
   - {category: Travel, percentage: 0.02588174, amount: "4,080.13"}
   total: "157,645.00"
   fellow_contribution: "13,458.16"
@@ -80,24 +81,13 @@
   fellowship_duration: 12
   categories: [Government, Data, Web, Privacy]
 
-#- id: gavin-weale
-#  name: Gavin Weale
-#  spend: []
-#  total: "0.00"
-#  fellow_contribution: "0.00"
-#  foundation_contribution: "0.00"
-#  fellowship_start: "March 2011"
-#  fellowship_end: "March 2014"
-#  fellowship_duration: 2
-#  categories: [Education, Environment, Web]
-
 - id: jaisen-mathai
   name: Jaisen Mathai
   spend:
+  - {category: People, percentage: 0.12169444, amount: "70,289.41"}
   - {category: Software, percentage: 0.43433541, amount: "57,225.43"}
   - {category: Marketing, percentage: 0.22198508, amount: "29,247.42"}
   - {category: Travel, percentage: 0.12613250, amount: "16,618.46"}
-  - {category: People, percentage: 0.12169444, amount: "16,033.73"}
   - {category: Legal, percentage: 0.09585258, amount: "12,628.96"}
   total: "131,754.01"
   fellow_contribution: "8,234.63"
@@ -110,7 +100,7 @@
 - id: jonas-oberg
   name: Jonas Öberg
   spend:
-  - {category: People, percentage: 0.67000000, amount: "173,429.50"}
+  - {category: People, percentage: 0.67000000, amount: "246,565.50"}
   - {category: Travel, percentage: 0.16000000, amount: "41,416.00"}
   - {category: Marketing, percentage: 0.10000000, amount: "25,885.00"}
   - {category: Infrastructure, percentage: 0.07000000, amount: "18,119.50"}
@@ -121,17 +111,6 @@
   fellowship_end: "present"
   fellowship_duration: 12
   categories: [Data, Web, Intellectual Property]
-
-#- id: kathi-fletcher
-#  name: Kathi Fletcher
-#  spend: []
-#  total: "0.00"
-#  fellow_contribution: "0.00"
-#  foundation_contribution: "0.00"
-#  fellowship_start: "March 2011"
-#  fellowship_end: "March 2014"
-#  fellowship_duration: 2
-#  categories: [Education, Environment, Web]
 
 - id: marcin-jakubowski
   name: Marcin Jakubowski
@@ -144,12 +123,13 @@
   fellowship_start: "March 2012"
   fellowship_end: "March 2014"
   fellowship_duration: 2
-  categories: [Hardware, Publishing]
+  categories: [Hardware, Environment]
 
 - id: moxie-marlinspike
   name: Moxie Marlinspike
   spend:
   - {category: Software, percentage: 1.00000000, amount: "100,000.00"}
+  - {category: People, percentage: 0.0, amount: "77,755.50"}
   total: "100,000.00"
   fellow_contribution: "9,090.91"
   foundation_contribution: "90,909.09"
@@ -161,7 +141,7 @@
 - id: jesse-von-doom
   name: Jesse Von Doom
   spend:
-  - {category: People, percentage: 0.86111111, amount: "186,000.00"}
+  - {category: People, percentage: 0.86111111, amount: "263,511.00"}
   - {category: Travel, percentage: 0.06018519, amount: "13,000.00"}
   - {category: Software, percentage: 0.04629630, amount: "10,000.00"}
   - {category: Infrastructure, percentage: 0.03240741, amount: "7,000.00"}
@@ -176,7 +156,7 @@
 - id: johnny-west
   name: Johnny West
   spend:
-  - {category: People, percentage: 0.62003417, amount: "98,211.58"}
+  - {category: People, percentage: 0.62003417, amount: "173,437.68"}
   - {category: Travel, percentage: 0.28466532, amount: "45,090.14"}
   - {category: Software, percentage: 0.04517514, amount: "7,155.61"}
   - {category: Infrastructure, percentage: 0.03555686, amount: "5,632.10"}
@@ -187,11 +167,16 @@
   fellowship_start: "March 2014"
   fellowship_end: "present"
   fellowship_duration: 10
-  categories: [Data, Government, Transparency, Publishing]
+  categories: [Data, Government, Transparency, Environment]
 
 - id: peter-bloom
   name: Peter Bloom
-  spend: []
+  spend: 
+  - {category: People, percentage: 0.17642751916443927, amount: "50,255.50"}
+  - {category: Legal, percentage: 0.17642751916443927 , amount: "20,000.00"}
+  - {category: Software, percentage: 0.17642751916443927, amount: "20,000.00"}
+  - {category: Travel, percentage: 0.016769964979137447, amount: "1,901.06"}
+  - {category: Infrastructure, percentage: 0.4539474775275448, amount: "51,459.94"}
   total: "113,361.00"
   fellow_contribution: "10,305.55"
   foundation_contribution: "103,055.45"
@@ -205,7 +190,7 @@
   spend:
   - {category: Infrastructure, percentage: 0.32827023, amount: "31,110.12"}
   - {category: Software, percentage: 0.31348165, amount: "29,708.61"}
-  - {category: People, percentage: 0.25509363, amount: "24,175.19"}
+  - {category: People, percentage: 0.25509363, amount: "24,176.79"}
   - {category: Travel, percentage: 0.09839785, amount: "9,325.15"}
   - {category: Marketing, percentage: 0.00475664, amount: "450.79"}
   total: "94,769.86"
@@ -219,20 +204,21 @@
 - id: rory-aronson
   name: Rory Aronson
   spend:
+  - {category: People, percentage: 0.06209800, amount: "70,499.99"}
   - {category: Marketing, percentage: 0.41398900, amount: "10,000.00"}
   - {category: Infrastructure, percentage: 0.52391300, amount: "12,655.24"}
-  - {category: People, percentage: 0.06209800, amount: "1,499.99"}
   total: "24,155.24"
   fellow_contribution: "1,789.28"
   foundation_contribution: "22,365.96"
   fellowship_start: "March 2014"
   fellowship_end: "present"
   fellowship_duration: 10
-  categories: [Hardware, Publishing]
+  categories: [Hardware, Environment]
 
 - id: seamus-kraft
   name: Seamus Kraft
   spend:
+  - {category: People, percentage: 0.0, amount: "47,755.50"}
   - {category: Software, percentage: 1.00000000, amount: "29,000.00"}
   total: "29,000.00"
   fellow_contribution: "2,636.36"
@@ -246,6 +232,7 @@
   name: Sean Bonner
   spend:
   - {category: Software, percentage: 0.54028436, amount: "57,000.00"}
+  - {category: People, percentage: 0.0, amount: "42,755.50"}
   - {category: Travel, percentage: 0.18957346, amount: "20,000.00"}
   - {category: Infrastructure, percentage: 0.27014218, amount: "28,500.00"}
   total: "105,500.00"
@@ -254,4 +241,4 @@
   fellowship_start: "September 2014"
   fellowship_end: "present"
   fellowship_duration: 4
-  categories: [Publishing, Hardware, Science, Data]
+  categories: [Environment, Hardware, Science, Data]
