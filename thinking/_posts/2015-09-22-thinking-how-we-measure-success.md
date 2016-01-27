@@ -10,6 +10,7 @@ banner: "/images/blog/blog-open-strategy 2.jpg"
 image: "/images/blog/blog-success-cherry1.jpg"
 image_credit: "Billy Wilson (CC BY-NC 2.0)"
 image_source: "https://www.flickr.com/photos/billy_wilson/4227102330/"
+on_report: true
 ---
 
 Applicants, and sometimes even Fellows, find it difficult to compute the broad question "what do **YOU** want to do?". They keep looking for guidance to narrow down the scope of possibility and fit within prescribed parameters. Yes, we want open and innovative, we like technology and we get excited about access. Other than that, and even beyond that, we want applicants to tell us what they want to do, not the other way round.
