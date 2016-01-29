@@ -1,0 +1,130 @@
+#our-spend-worldmap {
+    text-align: center;
+    margin-bottom: 30px;
+    
+    svg {
+	width: 60%;
+	margin-top: 30px;
+	
+	g.popup text.currency {
+	    font-family: Georgia, serif;
+	    font-size: 60pt;
+	}
+	
+	g.marker text,
+	g.popup text {
+	    fill: #fff;
+	    text-anchor: middle;
+	    font-family: Georgia, serif;
+	    font-size: 70pt;
+	    font-weight: bold;
+	}
+	
+	g.marker {
+	    cursor: pointer;
+	    
+	    &:hover rect {
+		fill: #61AC46;
+	    }
+	    
+	    rect {
+		fill: rgb(180,178,170);
+	    }
+
+	    text {
+		fill: #000;
+	    }
+		
+	    text.name, text.value {
+		transition: opacity 0.2s;
+		text-anchor: start;
+		font-size: 75px;
+	    }
+	    
+	    &.active rect {
+		fill: #61AC46;
+	    }
+	}
+	
+	g.country {
+	    transition: opacity 0.5s;
+	    
+	    path {
+		fill: rgb(180,178,170);
+		stroke: #444;
+		stroke-width: 2;
+	    }
+	    
+	    &.active {
+		path {
+		    fill: #61AC46;
+		}
+	    }
+	}
+	
+	g.popup {
+	    opacity: 0;
+	    transition: opacity 0.2s;
+	    pointer-events: none;
+	    
+	    rect, path {
+		fill: #61AC46;
+	    }
+	    
+	    &.active {
+		opacity: 1;
+	    }
+	}
+	
+	&.rankmode {
+	    g.popup, g.country {
+		opacity: 0;
+		pointer-events: none;
+	    }
+	}
+	
+	&.mapmode {
+	    g.rank {
+		opacity: 0;
+		pointer-events: none;
+	    }
+	    
+	    g.marker {
+		text.name, text.value {
+		    opacity: 0;
+		    pointer-events: none;
+		}
+	    }
+	}
+	
+	g.mode {
+	    g.mode-map, g.mode-rank {
+		cursor: pointer;
+		
+		rect {
+		    fill: #000;
+		    stroke: #61AC46;
+		    stroke-width: 10;
+		}
+		
+		text {
+		    fill: #61AC46;
+		    font-size: 60px;
+		    text-anchor: middle;
+		}
+		
+		&.mode-active {
+		    rect {
+			fill: #61AC46;
+			stroke: #61AC46;
+			stroke-width: 10;
+		    }
+		    
+		    text {
+			fill: #000;
+		    }	
+		}
+	    }
+	}
+    }
+}

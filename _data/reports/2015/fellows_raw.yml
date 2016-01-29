@@ -1,0 +1,293 @@
+- id: adam-hyde
+  name: Adam Hyde
+  categories: [Publishing, Science, Education, Web]
+  fellowship_start: "September 2015"
+  fellowship_end: "present"
+  fellowship_duration: 4
+  blog: www.adamhyde.net
+  web: coko.foundation
+  twitter: cokofoundation
+  fellow_contribution: "20,000.00"
+  foundation_contribution: "217,500.00"
+  total: "237,500.00"
+  grant: "46,675.69"
+  spend:
+  - {category: Travel, percentage: 1.00000000, amount: "1.00"}
+
+- id: astra-taylor
+  name: Astra Taylor
+  categories: [Government, Data, Transparency]
+  fellowship_start: "September 2015"
+  fellowship_end: "present"
+  fellowship_duration: 4
+  web: debtcollective.org
+  twitter: astradisastra
+  blog: www.hiddendriver.com
+  fellow_contribution: "22,353.58"
+  foundation_contribution: "251,035.77"
+  total: "273,389.35"
+  grant: "27,500.00"
+  spend:
+  - {category: Office Space, percentage: 0.50000000, amount: "0.50"}
+  - {category: Infrastructure, percentage: 0.50000000, amount: "0.50"}
+
+- id: catharina-maracke
+  name: Catharina Maracke
+  fellowship_start: "May 2012"
+  fellowship_end: "March 2015"
+  fellowship_duration: 2
+  categories: [Intellectual Property, Web]
+  web: contributoragreements.org
+  fellow_contribution: "19,488.64"
+  foundation_contribution: "291,257.26"
+  total: ""
+  grant: "65,745.90"
+  spend:
+  - {category: People, percentage: 1.00, amount: "161,291.80"}
+
+- id: daniel-lombrana-gonzalez
+  name: Daniel Lombraña González
+  fellowship_start: "September 2013"
+  fellowship_end: "present"
+  fellowship_duration: 12
+  categories: [Science, Data, Education, Web]
+  blog: daniellombrana.es
+  web: pybossa.com
+  twitter: teleyinex
+  fellow_contribution: "15,933.34"
+  foundation_contribution: "223,095.10"
+  total: ""
+  grant: "63,761.75"
+  spend:
+  - {category: Software, percentage: 0.51208103, amount: "0.51"}
+  - {category: Infrastructure, percentage: 0.22555950, amount: "0.23"}
+  - {category: Marketing, percentage: 0.13411646, amount: "0.13"}
+  - {category: Legal, percentage: 0.06096203, amount: "0.06"}
+  - {category: Travel, percentage: 0.03558073, amount: "0.04"}
+  - {category: People, percentage: 0.03170025, amount: "0.03"}
+
+- id: daniel-whaley
+  name: Dan Whaley
+  fellowship_start: "March 2013"
+  fellowship_end: "present"
+  fellowship_duration: 12
+  categories: [Science, Education, Web]
+  web: hypothes.is
+  twitter: dwhly
+  fellow_contribution: "0.00"
+  foundation_contribution: "96,000.00"
+  total: "96,000.00"
+  grant: "96,000.00"
+  spend:
+  - {category: People, percentage: 1.00, amount: "161,291.80"}
+
+- id: david-wiley
+  name: David Wiley
+  fellowship_start: "March 2013"
+  fellowship_end: "March 2015"
+  fellowship_duration: 2
+  categories: [Education, Publishing, Web]
+  blog: opencontent.org/blog/
+  web: lumenlearning.com
+  twitter: opencontent
+  fellow_contribution: "0.00"
+  foundation_contribution: "0.00"
+  total: "0.00"
+  grant: "0.00"
+  spend:
+  - {category: People, percentage: 1.00, amount: "0.00"}
+
+- id: esraa-al-shafei
+  name: Esra'a Al Shafei
+  fellowship_start: "September 2012"
+  fellowship_end: "September 2015"
+  fellowship_duration: 9
+  categories: [Government, Data, Web, Privacy]
+  blog: mideastyouth.com/author/esra/
+  web: crowdvoice.org
+  twitter: ealshafei
+  fellow_contribution: "13,325.00"
+  foundation_contribution: "146,252.84"
+  total: ""
+  grant: "11,877.84"
+  spend:
+  - {category: Software, percentage: 0.78187919, amount: "0.78"}
+  - {category: People, percentage: 0.21812081, amount: "0.22"}
+
+- id: jesse-von-doom
+  name: Jesse Von Doom
+  fellowship_start: "March 2014"
+  fellowship_end: "present"
+  fellowship_duration: 12
+  categories: [Intellectual Property, Music]
+  blog: blog.whatistodaysvegetable.com
+  twitter: jessevondoom
+  fellow_contribution: "22,091.59"
+  foundation_contribution: "303,678.41"
+  total: ""
+  grant: "73,700.00"
+  spend:
+  - {category: People, percentage: 0.66789512, amount: "0.67"}
+  - {category: Software, percentage: 0.20925997, amount: "0.21"}
+  - {category: Infrastructure, percentage: 0.12284492, amount: "0.12"}
+
+- id: johnny-west
+  name: Johnny West
+  fellowship_start: "March 2014"
+  fellowship_end: "present"
+  fellowship_duration: 12
+  categories: [Data, Government, Transparency, Environment]
+  blog: openoil.net/author/johnny-west/
+  web: openoil.net
+  twitter: Open_Oil
+  fellow_contribution: "16,581.99"
+  foundation_contribution: "221,896.72"
+  total: ""
+  grant: "56,076.80"
+  spend:
+  - {category: People, percentage: 0.63462500, amount: "0.63"}
+  - {category: Office Space, percentage: 0.20460300, amount: "0.20"}
+  - {category: Travel, percentage: 0.16077200, amount: "0.16"}
+
+- id: jonas-oberg
+  name: Jonas Öberg
+  fellowship_start: "March 2013"
+  fellowship_end: "March 2015"
+  fellowship_duration: 2
+  categories: [Data, Web, Intellectual Property]
+  blog: jonasoberg.net
+  web: commonsmachinery.se
+  twitter: jonaso
+  fellow_contribution: "0.00"
+  foundation_contribution: "0.00"
+  total: "0.00"
+  grant: "0.00"
+  spend:
+  - {category: People, percentage: 1.00, amount: "0.00"}
+
+- id: luka-mustafa
+  name: Luka Mustafa
+  fellowship_start: "March 2015"
+  fellowship_end: "present"
+  fellowship_duration: 10
+  categories: [Telecoms, Hardware]
+  blog: irnas.eu/blog.html
+  web: koruza.net
+  twitter: institute_irnas
+  fellow_contribution: "18,163.26"
+  foundation_contribution: "228,308.31"
+  total: ""
+  grant: "46,675.69"
+  spend:
+  - {category: People, percentage: 0.45153758, amount: "0.45"}
+  - {category: Infrastructure, percentage: 0.36440138, amount: "0.36"}
+  - {category: Travel, percentage: 0.10087719, amount: "0.10"}
+  - {category: Marketing, percentage: 0.04868682, amount: "0.05"}
+  - {category: Office Space, percentage: 0.03449703, amount: "0.03"}
+
+- id: peter-bloom
+  name: Peter Bloom
+  fellowship_start: "September 2014"
+  fellowship_end: "present"
+  fellowship_duration: 12
+  categories: [Telecoms, Hardware, Government]
+  web: rhizomatica.org
+  blog: rhizomatica.org
+  twitter: rhizomatica
+  fellow_contribution: "9,716.74"
+  foundation_contribution: "188,301.24"
+  total: ""
+  grant: "60,511.00"
+  spend:
+  - {category: Software, percentage: 0.46265176, amount: "0.46"}
+  - {category: People, percentage: 0.19757065, amount: "0.20"}
+  - {category: Infrastructure, percentage: 0.18291250, amount: "0.18"}
+  - {category: Office Space, percentage: 0.12144668, amount: "0.12"}
+  - {category: Travel, percentage: 0.03541840, amount: "0.04"}
+
+- id: peter-murray-rust
+  name: Peter Murray-Rust
+  fellowship_start: "March 2014"
+  fellowship_end: "present"
+  fellowship_duration: 12
+  categories: [Science, Publishing, Intellectual Property, Data]
+  blog: blogs.ch.cam.ac.uk/pmr/
+  web: contentmine.org
+  twitter: petermurrayrust
+  fellow_contribution: "12,390.98"
+  foundation_contribution: "347,595.53"
+  total: ""
+  grant: "1.55"
+  spend:
+  - {category: Software, percentage: 0.47578888, amount: "0.48"}
+  - {category: People, percentage: 0.34608292, amount: "0.35"}
+  - {category: Travel, percentage: 0.15709325, amount: "0.16"}
+  - {category: Legal, percentage: 0.02103495, amount: "0.02"}
+
+- id: rory-aronson
+  name: Rory Aronson
+  fellowship_start: "March 2014"
+  fellowship_end: "March 2015"
+  fellowship_duration: 2
+  categories: [Hardware, Environment]
+  blog: roryaronson.com
+  web: farmbot.io
+  twitter: roryaronson
+  fellow_contribution: "1,481.48"
+  foundation_contribution: "18,518.52"
+  total: ""
+  grant: "0.00"
+  spend:
+  - {category: Software, percentage: 1.00000000, amount: "1.00"}
+
+- id: seamus-kraft
+  name: Seamus Kraft
+  fellowship_start: "September 2014"
+  fellowship_end: "present"
+  fellowship_duration: 12
+  categories: [Government, Transparency]
+  blog: www.opengovfoundation.org/about-us/
+  web: mymadison.io
+  twitter: seamus_kraft
+  fellow_contribution: "12,450.96"
+  foundation_contribution: "245,560.04"
+  total: ""
+  grant: "95,511.00"
+  spend:
+  - {category: Software, percentage: 1.00000000, amount: "1.00"}
+
+- id: sean-bonner
+  name: Sean Bonner
+  fellowship_start: "September 2014"
+  fellowship_end: "present"
+  fellowship_duration: 12
+  categories: [Environment, Hardware, Science, Data]
+  web: blog.safecast.org
+  blog: blog.seanbonner.com/about/
+  twitter: seanbonner
+  fellow_contribution: "16,701.70"
+  foundation_contribution: "280,809.30"
+  total: ""
+  grant: "85,511.00"
+  spend:
+  - {category: Travel, percentage: 0.52482270, amount: "0.52"}
+  - {category: Infrastructure, percentage: 0.28368794, amount: "0.28"}
+  - {category: Training, percentage: 0.10638298, amount: "0.11"}
+  - {category: Software, percentage: 0.08510638, amount: "0.09"}
+
+- id: waldo-jaquith
+  name: Waldo Jaquith
+  categories: [Government, Data, Transparency]
+  fellowship_start: "September 2015"
+  fellowship_end: "present"
+  fellowship_duration: 4
+  blog: waldo.jaquith.org
+  web: www.usopendata.org
+  twitter: waldojaquith
+  fellow_contribution: "1,714.02"
+  foundation_contribution: "86,663.98"
+  total: ""
+  grant: "62,500.00"
+  spend:
+  - {category: Office Space, percentage: 0.87015000, amount: "0.87"}
+  - {category: Infrastructure, percentage: 0.12985000, amount: "0.13"}

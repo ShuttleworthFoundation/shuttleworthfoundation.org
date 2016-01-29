@@ -10,6 +10,7 @@ banner: "/images/blog/blog-TOC.jpg"
 image: "/images/blog/blog-TOC.jpg"
 image_credit: "allison (CC BY-SA 2.0)"
 image_source: "https://www.flickr.com/photos/look_ma_im_flying_pictures/2222370392"
+on_report: true
 ---
 
 This is not where we started and it is almost certainly not who we will be indefinitely. But our experience in philanthropic investment so far has resulted in a couple of key principles that govern how we behave in the world, and specifically how we structure our relationships with those we invest resources in.
