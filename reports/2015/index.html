@@ -63,7 +63,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	  others.  We’ve started by creating a space where this seems
 	  not only possible, but inevitable.
 	</p>
-	<p>Please note that the figures below will be finalised once 
+	<p>Please note that the figures below will be finalised once
 	our audit has been concluded.
 	</p>
       </div>
@@ -76,7 +76,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	<div class="col-md-8 col-md-offset-2">
 	  <h2>Year in <strong>THINKING</strong></h2>
 	</div>
-	
+
         {% for post in site.categories.thinking %}
         {% if post.on_report %}
 	{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -93,7 +93,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	{% endif %}
 	{% endif %}
 	{% endfor %}
-	
+
       </div>
     </div>
   </div>
@@ -133,23 +133,23 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 
 	      function shuffle(array) {
 		  var currentIndex = array.length, temporaryValue, randomIndex;
-		  
+
 		  // While there remain elements to shuffle...
 		  while (0 !== currentIndex) {
-		      
+
 		      // Pick a remaining element...
 		      randomIndex = Math.floor(Math.random() * currentIndex);
 		      currentIndex -= 1;
-		      
+
 		      // And swap it with the current element.
 		      temporaryValue = array[currentIndex];
 		      array[currentIndex] = array[randomIndex];
 		      array[randomIndex] = temporaryValue;
 		  }
-		  
+
 		  return array;
 	      }
-	      
+
 	      var lines = [
 	          {% for fellow in site.data.reports.2015.fellows %}
                   {% if forloop.last %}
@@ -176,7 +176,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	      for (line=0; line<lines.length; line++) {
 		  var fellow = lines[line][0];
 		  var category = lines[line][1];
-		  
+
 		  if (fellows.indexOf(fellow) == -1) {
 		      fellows.push(fellow);
 		  }
@@ -268,13 +268,13 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 		      position['category'][category]['offset'] = Math.abs(position['category'][category]['offset']) + 8;
 		  }
 		  position['category'][category]['count'] += 1
-		  
+
 		  var y1 = position['fellow'][fellow]['middle'] + position['fellow'][fellow]['offset'];
 		  var y2 = position['category'][category]['middle'] + position['category'][category]['offset'];
 		  var x1 = position['fellow'][fellow]['left'];
 		  var x2 = position['category'][category]['left'];
 		  var path = 'M'+x1+','+y1+' H'+vertical+' V'+y2+' H'+x2;
-		  
+
 		  activelines.append('svg:path')
 		      .attr('d', path)
 		      .attr('stroke-width', 10)
@@ -300,18 +300,18 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	      }
 
 
-	      
+
 	      (function() {
 		  var element = {};
 		  element.node = $('#energy-svg');
 		  element.top = element.node.offset().top;
 		  element.height = element.node.height()
-		  
+
 		  var screen = {}
 		  screen.height = $(window).height();
 		  screen.document = $(document);
 		  screen.trigger = element.top + (element.height / 2);
-		  
+
 		  var interval = setInterval(function() {
 		      screen.top = screen.document.scrollTop();
 		      screen.bottom = screen.top + screen.height;
@@ -331,7 +331,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	      }).attr("stroke-dashoffset", function(d, i) {
 		  return this.getTotalLength();
 	      });
-	      
+
 	      $('.energy-fellow').on('mouseenter', function() {
 		  var fellow = $(this).data('fellow');
 		  var svg = $('#energy-svg');
@@ -342,7 +342,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 		      if (str.indexOf(' '+fellow+' ') != -1) {
 			  elem.css('opacity', 1);
 		      } else {
-			  elem.css('opacity', 0);		  
+			  elem.css('opacity', 0);
 		      }
 		  });
 		  svg.find('.active circle').each(function() {
@@ -351,7 +351,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 		      if (str.indexOf(' '+fellow+' ') != -1) {
 			  elem.css('opacity', 1);
 		      } else {
-			  elem.css('opacity', 0);		  
+			  elem.css('opacity', 0);
 		      }
 		  });
 		  categories.find('.energy-category').each(function() {
@@ -360,7 +360,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 		      if (str.indexOf(' '+fellow+' ') != -1) {
 			  elem.removeClass('inactive');
 		      } else {
-			  elem.addClass('inactive');	  
+			  elem.addClass('inactive');
 		      }
 		  });
 	      });
@@ -373,7 +373,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 		  categories.find('.energy-category.inactive').removeClass('inactive');
 		  fellows.find('.energy-fellow.inactive').removeClass('inactive');
 	      });
-	      
+
 	      $('.energy-category').on('mouseenter', function() {
 		  var category = $(this).data('category');
 		  var svg = $('#energy-svg');
@@ -384,7 +384,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 		      if (str.indexOf(' '+category+' ') != -1) {
 			  elem.css('opacity', 1);
 		      } else {
-			  elem.css('opacity', 0);		  
+			  elem.css('opacity', 0);
 		      }
 		  });
 		  svg.find('.active circle').each(function() {
@@ -393,7 +393,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 		      if (str.indexOf(' '+category+' ') != -1) {
 			  elem.css('opacity', 1);
 		      } else {
-			  elem.css('opacity', 0);		  
+			  elem.css('opacity', 0);
 		      }
 		  });
 		  fellows.find('.energy-fellow').each(function() {
@@ -402,7 +402,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 		      if (str.indexOf(' '+category+' ') != -1) {
 			  elem.removeClass('inactive');
 		      } else {
-			  elem.addClass('inactive');	  
+			  elem.addClass('inactive');
 		      }
 		  });
 	      });
@@ -441,7 +441,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	  <h3>How we spent our money</h3>
 	</div>
       </div>
-	
+
       <div class="row">
 	<div class="col-md-12">
 	  <iframe id="bubbletree" src="bubbletree.html"></iframe>
@@ -454,7 +454,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
       </div>
     </div>
   </div>
-  
+
   <div id="fellows">
     <div class="container container-money">
       <div class="row">
@@ -482,7 +482,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
     <div class="container-fluid container-money">
       <div class="row">
 	<div class="col-md-12">
-	  
+
 	  <div class="container-fellow-spend">
 	    <div class="container-fellow-spend-inner">
 
@@ -494,7 +494,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 		    <strong>Fellowship duration:</strong> {{ fellow.fellowship_start }} - {{ fellow.fellowship_end }}<br/>
 		    {{ fellow.fellowship_duration }} months of fellowship in 2015
 		  </div>
-		  
+
 		  <div class="fellow-spend-links">
 		    {% if fellow.blog %}
 		    <a href="http://{{ fellow.blog }}"><span class="icon-link icon-blog"></span> {{ fellow.blog }}</a><br/>
@@ -508,10 +508,11 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 		  </div>
 		</div>
 		<div class="fellow-spend-entry-right">
+      <h5>Committed funds</h5>
 		  <div class="fellow-spend-contributions">
 		    Fellow contribution: ${{ fellow.fellow_contribution }}<br/>
 		    Our contribution: ${{ fellow.foundation_contribution }}<br/>
-		    Total funds: <span class="red">${{ fellow.total }}</span>
+		  <!--  Total funds: <span class="red">${{ fellow.total }}</span>-->
 		  </div>
 		  <h5>Spend breakdown</h5>
 		  {% for category in fellow.spend %}
@@ -536,7 +537,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	      </div>
 	      {% endfor %}
 
-	      
+
 	      <div class="fellow-spend-arrow-left"></div>
 	      <div class="fellow-spend-arrow-right"></div>
 	      <div class="fellow-spend-dots">
@@ -548,7 +549,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	      </div>
 	    </div>
 	  </div>
-	    
+
 	</div>
       </div>
       <script>
@@ -564,13 +565,13 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	  ]{% unless forloop.last %},{% endunless %}
 	{% endfor %}
 	};
-    
+
 	_jqq.push(function() {
             {% include_relative js/fellow-spend.js %}
 	});
       </script>
     </div>
-    
+
     {% if site.data.reports.2015.data.alumni %}
     <div class="container container-money">
       <div class="row">
@@ -593,23 +594,23 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	<div class="col-md-12">
 	  <p>Alumni Spend Pie Thingy</p>
 	</div>
-      </div>  
-    </div> 
+      </div>
+    </div>
     {% endif %}
-    
+
  </div>
-  
+
 </div>
 
 <script src="js/d3.v3.min.js"></script>
 <script>
   Number.prototype.formatMoney = function(c, d, t){
-      var n = this, 
-      c = isNaN(c = Math.abs(c)) ? 2 : c, 
-      d = d == undefined ? "." : d, 
-      t = t == undefined ? "," : t, 
-      s = n < 0 ? "-" : "", 
-      i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+      var n = this,
+      c = isNaN(c = Math.abs(c)) ? 2 : c,
+      d = d == undefined ? "." : d,
+      t = t == undefined ? "," : t,
+      s = n < 0 ? "-" : "",
+      i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "",
       j = (j = i.length) > 3 ? j % 3 : 0;
       return s + '$' + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
   };

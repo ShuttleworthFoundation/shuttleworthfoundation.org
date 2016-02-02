@@ -28,8 +28,9 @@
   total: "273,389.35"
   grant: "27,500.00"
   spend:
-  - {category: Office Space, percentage: 0.50000000, amount: "0.50"}
-  - {category: Infrastructure, percentage: 0.50000000, amount: "0.50"}
+  - {category: Office Space, percentage: 0.0665251404, amount: "6,706.12"}
+  - {category: Infrastructure, percentage: 0.0654692488, amount: "6,599.68"}
+  - {category: People, percentage: 0.8680056108, amount: "87,500.00"}
 
 - id: catharina-maracke
   name: Catharina Maracke

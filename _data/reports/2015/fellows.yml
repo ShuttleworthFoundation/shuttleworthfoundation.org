@@ -5,13 +5,14 @@
   fellowship_end: present
   fellowship_start: September 2015
   foundation_contribution: 217,500.00
-  grant: 46,675.69
+  grant: 17,500.00
   id: adam-hyde
   name: Adam Hyde
   spend:
-  - {amount: '190,824.31', category: Travel, percentage: 1.0}
-  - {amount: '46,675.69', category: People, percentage: 0.0}
-  total: 237,500.00
+  - {amount: '60,000.00', category: Software, percentage: 0.58}
+  - {amount: '32,500.00', category: People, percentage: 0.31}
+  - {amount: '10,773.14', category: Travel, percentage: 0.1}
+  total: 103,273.14
   twitter: cokofoundation
   web: coko.foundation
 - blog: www.hiddendriver.com
@@ -25,10 +26,10 @@
   id: astra-taylor
   name: Astra Taylor
   spend:
-  - {amount: '122,944.67', category: Office Space, percentage: 0.5}
-  - {amount: '122,944.67', category: Infrastructure, percentage: 0.5}
-  - {amount: '27,500.00', category: People, percentage: 0.0}
-  total: 273,389.35
+  - {amount: '6,706.12', category: Office Space, percentage: 0.06}
+  - {amount: '6,599.68', category: Infrastructure, percentage: 0.06}
+  - {amount: '87,500.00', category: People, percentage: 0.868}
+  total: 100,805.80
   twitter: astradisastra
   web: debtcollective.org
 - categories: [Intellectual Property, Web]
@@ -105,8 +106,8 @@
   id: esraa-al-shafei
   name: Esra'a Al Shafei
   spend:
-  - {amount: '115,483.56', category: Software, percentage: 0.78187919}
-  - {amount: '44,094.28', category: People, percentage: 0.21812081}
+  - {amount: '106,400.00', category: People, percentage: 0.5649057606}
+  - {amount: '81,950.00', category: Software, percentage: 0.4350942394}
   total: 159,577.84
   twitter: ealshafei
   web: crowdvoice.org
@@ -275,9 +276,9 @@
   id: waldo-jaquith
   name: Waldo Jaquith
   spend:
-  - {amount: '62,500.00', category: People, percentage: 0.0}
-  - {amount: '22,517.74', category: Office Space, percentage: 0.87015}
-  - {amount: '3,360.26', category: Infrastructure, percentage: 0.12985}
-  total: 88,378.00
+  - {amount: '62,500.00', category: People, percentage: 0.98}
+  - {amount: '1,080.15', category: Office Space, percentage: 0.017}
+  - {amount: '172.63', category: Infrastructure, percentage: 0.003}
+  total: 63,752.78
   twitter: waldojaquith
   web: www.usopendata.org
