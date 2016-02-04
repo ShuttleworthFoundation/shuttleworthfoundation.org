@@ -234,7 +234,6 @@
   name: Rory Aronson
   spend:
   - {amount: '25,000.00', category: Software}
-  - {amount: '0.00', category: People}
   total: 25,000.00
   twitter: roryaronson
   web: farmbot.io
