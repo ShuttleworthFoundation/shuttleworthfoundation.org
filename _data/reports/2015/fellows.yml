@@ -9,9 +9,9 @@
   id: adam-hyde
   name: Adam Hyde
   spend:
-  - {amount: '60,000.00', category: Software, percentage: 0.58}
-  - {amount: '32,500.00', category: People, percentage: 0.31}
-  - {amount: '10,773.14', category: Travel, percentage: 0.1}
+  - {amount: '60,000.00', category: Software}
+  - {amount: '32,500.00', category: People}
+  - {amount: '10,773.14', category: Travel}
   total: 103,273.14
   twitter: cokofoundation
   web: coko.foundation
@@ -26,9 +26,9 @@
   id: astra-taylor
   name: Astra Taylor
   spend:
-  - {amount: '6,706.12', category: Office Space, percentage: 0.06}
-  - {amount: '6,599.68', category: Infrastructure, percentage: 0.06}
-  - {amount: '87,500.00', category: People, percentage: 0.868}
+  - {amount: '87,500.00', category: People}
+  - {amount: '6,705.80', category: Infrastructure}
+  - {amount: '6,600.00', category: Office Space}
   total: 100,805.80
   twitter: astradisastra
   web: debtcollective.org
@@ -41,9 +41,8 @@
   grant: 65,745.90
   id: catharina-maracke
   name: Catharina Maracke
-  spend:
-  - {amount: '310,745.90', category: People, percentage: 1.0}
-  total: 310,745.90
+  spend: []
+  total: '0.00'
   web: contributoragreements.org
 - blog: daniellombrana.es
   categories: [Science, Data, Education, Web]
@@ -56,14 +55,15 @@
   id: daniel-lombrana-gonzalez
   name: "Daniel Lombra\xF1a Gonz\xE1lez"
   spend:
-  - {amount: '89,750.75', category: Software, percentage: 0.51208103}
-  - {amount: '69,317.75', category: People, percentage: 0.03170025}
-  - {amount: '39,533.07', category: Infrastructure, percentage: 0.2255595}
-  - {amount: '23,506.15', category: Marketing, percentage: 0.13411646}
-  #- {amount: '10,684.61', category: Legal, percentage: 0.06096203}
-  #- {amount: '6,236.12', category: Travel, percentage: 0.03558073}
-  - {amount: '16,920.73', category: Other, percentage: 0.09648073}
-  total: 239,028.44
+  - {amount: '110,500.30', category: Software}
+  - {amount: '68,427.74', category: People}
+  - {amount: '12,655.35', category: Infrastructure}
+  - {amount: '1,766.42', category: Travel}
+  - {amount: '1,617.32', category: Other}
+  # Added together as 'Other' to fit into design.
+  #- {amount: '1,138.99', category: Marketing}
+  #- {amount: '478.33', category: Legal}
+  total: 194,967.13
   twitter: teleyinex
   web: pybossa.com
 - categories: [Science, Education, Web]
@@ -76,7 +76,7 @@
   id: daniel-whaley
   name: Dan Whaley
   spend:
-  - {amount: '96,000.00', category: People, percentage: 1.0}
+  - {amount: '96,000.00', category: People}
   total: 96,000.00
   twitter: dwhly
   web: hypothes.is
@@ -91,7 +91,7 @@
   id: david-wiley
   name: David Wiley
   spend:
-  - {amount: '0.00', category: People, percentage: 1.0}
+  - {amount: '0.00', category: People}
   total: '0.00'
   twitter: opencontent
   web: lumenlearning.com
@@ -106,9 +106,9 @@
   id: esraa-al-shafei
   name: Esra'a Al Shafei
   spend:
-  - {amount: '106,400.00', category: People, percentage: 0.5649057606}
-  - {amount: '81,950.00', category: Software, percentage: 0.4350942394}
-  total: 159,577.84
+  - {amount: '81,950.00', category: Software}
+  - {amount: '44,577.84', category: People}
+  total: 126,527.84
   twitter: ealshafei
   web: crowdvoice.org
 - blog: blog.whatistodaysvegetable.com
@@ -122,10 +122,11 @@
   id: jesse-von-doom
   name: Jesse Von Doom
   spend:
-  - {amount: '242,056.32', category: People, percentage: 0.66789512}
-  - {amount: '52,748.16', category: Software, percentage: 0.20925997}
-  - {amount: '30,965.52', category: Infrastructure, percentage: 0.12284492}
-  total: 325,770.00
+  - {amount: '231,370.00', category: People}
+  - {amount: '69,100.00', category: Software}
+  - {amount: '29,000.00', category: Infrastructure}
+  - {amount: '5,070.00', category: Legal}
+  total: 334,540.00
   twitter: jessevondoom
 - blog: openoil.net/author/johnny-west/
   categories: [Data, Government, Transparency, Environment]
@@ -138,10 +139,12 @@
   id: johnny-west
   name: Johnny West
   spend:
-  - {amount: '171,833.61', category: People, percentage: 0.634625}
-  - {amount: '37,319.98', category: Office Space, percentage: 0.204603}
-  - {amount: '29,325.12', category: Travel, percentage: 0.160772}
-  total: 238,478.71
+  - {amount: '306,501.76', category: People}
+  - {amount: '12,793.66', category: Travel}
+  - {amount: '8,398.06', category: Marketing}
+  - {amount: '3,881.84', category: Infrastructure}
+  - {amount: '1,209.00', category: Office Space}
+  total: 332,784.32
   twitter: Open_Oil
   web: openoil.net
 - blog: jonasoberg.net
@@ -155,7 +158,7 @@
   id: jonas-oberg
   name: "Jonas \xD6berg"
   spend:
-  - {amount: '0.00', category: People, percentage: 1.0}
+  - {amount: '0.00', category: People}
   total: '0.00'
   twitter: jonaso
   web: commonsmachinery.se
@@ -170,12 +173,12 @@
   id: luka-mustafa
   name: Luka Mustafa
   spend:
-  - {amount: '136,891.04', category: People, percentage: 0.45153758}
+  - {amount: '183,566.73', category: People, percentage: 0.45153758}
   - {amount: '72,805.89', category: Infrastructure, percentage: 0.36440138}
   - {amount: '20,154.85', category: Travel, percentage: 0.10087719}
   - {amount: '9,727.43', category: Marketing, percentage: 0.04868682}
   - {amount: '6,892.36', category: Office Space, percentage: 0.03449703}
-  total: 246,471.57
+  total: 293,147.26
   twitter: institute_irnas
   web: koruza.net
 - blog: rhizomatica.org
@@ -189,12 +192,15 @@
   id: peter-bloom
   name: Peter Bloom
   spend:
-  - {amount: '87,678.34', category: People, percentage: 0.19757065}
-  - {amount: '63,617.85', category: Software, percentage: 0.46265176}
-  - {amount: '25,151.75', category: Infrastructure, percentage: 0.1829125}
-  - {amount: '16,699.77', category: Office Space, percentage: 0.12144668}
-  - {amount: '4,870.28', category: Travel, percentage: 0.0354184}
-  total: 198,017.98
+  - {amount: '183,785.36', category: People}
+  - {amount: '154,074.96', category: Infrastructure}
+  - {amount: '22,250.53', category: Travel}
+  - {amount: '3,999.30', category: Marketing}
+  - {amount: '2,798.75', category: Other}
+  # Added together as 'Other' to fit into design.
+  #- {amount: '2,249.11', category: Office Space}
+  #- {amount: '549.64', category: Software}
+  total: 366,908.90
   twitter: rhizomatica
   web: rhizomatica.org
 - blog: blogs.ch.cam.ac.uk/pmr/
@@ -208,11 +214,12 @@
   id: peter-murray-rust
   name: Peter Murray-Rust
   spend:
-  - {amount: '171,276.84', category: Software, percentage: 0.47578888}
-  - {amount: '124,586.20', category: People, percentage: 0.34608292}
-  - {amount: '56,551.21', category: Travel, percentage: 0.15709325}
-  - {amount: '7,572.27', category: Legal, percentage: 0.02103495}
-  total: 359,986.51
+  - {amount: '29,021.08', category: Software}
+  - {amount: '19,774.54', category: People}
+  - {amount: '7,083.81', category: Travel}
+  - {amount: '1,680.00', category: Legal}
+  - {amount: '138.75', category: Training}
+  total: 57,698.18
   twitter: petermurrayrust
   web: contentmine.org
 - blog: roryaronson.com
@@ -226,8 +233,9 @@
   id: rory-aronson
   name: Rory Aronson
   spend:
-  - {amount: '20,000.00', category: Software, percentage: 1.0}
-  total: 20,000.00
+  - {amount: '25,000.00', category: Software}
+  - {amount: '0.00', category: People}
+  total: 25,000.00
   twitter: roryaronson
   web: farmbot.io
 - blog: www.opengovfoundation.org/about-us/
@@ -241,9 +249,10 @@
   id: seamus-kraft
   name: Seamus Kraft
   spend:
-  - {amount: '162,500.00', category: Software, percentage: 1.0}
-  - {amount: '95,511.00', category: People, percentage: 0.0}
-  total: 258,011.00
+  - {amount: '120,511.00', category: People}
+  - {amount: '40,500.00', category: Software}
+  - {amount: '5,000.00', category: Marketing}
+  total: 166,011.00
   twitter: seamus_kraft
   web: mymadison.io
 - blog: blog.seanbonner.com/about/
@@ -257,12 +266,16 @@
   id: sean-bonner
   name: Sean Bonner
   spend:
-  - {amount: '111,262.41', category: Travel, percentage: 0.5248227}
-  - {amount: '85,511.00', category: People, percentage: 0.0}
-  - {amount: '60,141.84', category: Infrastructure, percentage: 0.28368794}
-  - {amount: '22,553.19', category: Training, percentage: 0.10638298}
-  - {amount: '18,042.55', category: Software, percentage: 0.08510638}
-  total: 297,511.00
+  - {amount: '134,000.00', category: Travel}
+  - {amount: '90,000.00', category: Infrastructure}
+  - {amount: '85,511.00', category: People}
+  - {amount: '30,000.00', category: Training}
+  - {amount: '41,000.00', category: Other}
+  # Added together as 'Other' to fit into design.
+  #- {amount: '24,000.00', category: Software}
+  #- {amount: '12,000.00', category: Office Space}
+  #- {amount: '5,000.00', category: Legal}
+  total: 380,511.00
   twitter: seanbonner
   web: blog.safecast.org
 - blog: waldo.jaquith.org
@@ -276,9 +289,9 @@
   id: waldo-jaquith
   name: Waldo Jaquith
   spend:
-  - {amount: '62,500.00', category: People, percentage: 0.98}
-  - {amount: '1,080.15', category: Office Space, percentage: 0.017}
-  - {amount: '172.63', category: Infrastructure, percentage: 0.003}
+  - {amount: '62,500.00', category: People}
+  - {amount: '1,080.11', category: Office Space}
+  - {amount: '172.67', category: Infrastructure}
   total: 63,752.78
   twitter: waldojaquith
   web: www.usopendata.org
