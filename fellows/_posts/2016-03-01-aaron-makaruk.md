@@ -2,8 +2,8 @@
 title: "Aaron Makaruk"
 layout: fellow
 fullname:  "Aaron Makaruk"
-project: ""
-type: ""
+project: "Urban snap-fit garden kits"
+type: "Urban snap-fit garden kits"
 date:   2015-09-01
 links: http://aaronmakaruk.com/
 photo: aaron-makaruk.jpg
