@@ -1,6 +1,6 @@
 ---
 layout: post
-post_date: 1 March 2016
+post_date: 29 February 2016
 tags:
   - announcements
 title: "Welcome Aaron, Peter and Tiffiniy!"
