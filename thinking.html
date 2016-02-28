@@ -26,14 +26,14 @@ title: Shuttleworth Foundation- Our Thinking
           </p>
 	</div>
       </div>
-      
-      
+
+
       <div class="title">
 	<a href="{{ "/thinking/announcements" | prepend: site.baseurl }}">Announcements</a>
 	<a href="{{ "/thinking/open" | prepend: site.baseurl }}">Open</a>
 	<a href="{{ "/thinking/privacy" | prepend: site.baseurl }}">Privacy</a>
       </div>
-      
+
       <!-- Featured Thought Piece -->
 	<div id="blog" class="head-box" style="background-image: url(../images/blog/blog-legal-agreements2.jpg) !important;">
         	<div class="featured-image-title">
@@ -63,7 +63,7 @@ title: Shuttleworth Foundation- Our Thinking
                         <span class="blog-meta">posted in <a href="{{ "/thinking/open" | prepend: site.baseurl }}">Open</a></span>
                         </p>
 		</div>
-      
+
       <!-- Other Thought Pieces -->
       {% for post in site.categories.thinking %}
       {% assign rowindex = forloop.index0 | modulo: 3 %}
@@ -76,7 +76,7 @@ title: Shuttleworth Foundation- Our Thinking
 		<div class="photo">
 		  <img src="{{ post.image }}" alt="{{ post.title }}"/>
 		</div>
-		<a href="{{ post.url | prepend: site.baseurl }}">                        
+		<a href="{{ post.url | prepend: site.baseurl }}">
 		  <div class="overlay"><span class="fui-eye"></span></div>
 		</a>
               </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 post_date: 23 February 2015
-tags: 
+tags:
   - open
 title: "Our experiment in the world"
 author: SF Team
