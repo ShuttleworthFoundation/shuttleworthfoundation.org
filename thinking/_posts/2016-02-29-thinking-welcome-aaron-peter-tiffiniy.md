@@ -6,7 +6,7 @@ tags:
 title: "Welcome Aaron, Peter and Tiffiniy!"
 author: SF Team
 banner: "/images/blog/blog-welcome.jpg"
-description: "We are delighted to welcome 4 new Fellows into the Shuttleworth Fellowship Programme.  Each of them brings a new perspective and energy to the Fellowship and we are excited to learn with them as they progress upon their journeys."
+description: "We are delighted to welcome 3 new Fellows into the Shuttleworth Fellowship Programme.  Each of them brings a new perspective and energy to the Fellowship and we are excited to learn with them as they progress upon their journeys."
 image: "/images/blog/blog-new-fellows-032016.jpg"
 image_credit: "Wiredforlego (CC BY-NC 2.0)"
 image_source: "https://www.flickr.com/photos/wiredforsound23/10750177755/"
