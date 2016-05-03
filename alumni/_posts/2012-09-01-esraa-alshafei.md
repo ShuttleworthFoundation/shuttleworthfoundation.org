@@ -7,7 +7,7 @@ type: "Crowdvoice.org - Tracking voices of protest from around the world"
 date: 2012-09-01
 photo: "Esra.jpg"
 links:
-    - Personal webpage: http://mideastyouth.com/author/esra/
+    - Personal webpage: http://majal.org/
 projects:
     - Crowdvoice: http://crowdvoice.org/
 twitter: ealshafei
