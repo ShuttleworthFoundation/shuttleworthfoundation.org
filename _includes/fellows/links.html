@@ -1,0 +1,50 @@
+<div class="container container-fellow">
+  <div class="row row-links">
+    <div class="col-sm-12 col-md-8 col-lg-8">
+      <div class="video-container">
+	<iframe src="{{ include.video }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4 col-lg-4">
+      
+      {% if include.links %}
+      <div class="link-block clearfix">
+	<img src="../../images/icon-links.svg" alt="Links" />
+	<div class="link-heading">
+          Links
+	</div>
+	{% for link in include.links %}
+	{% for l in link %}
+	<a href="{{l[1]}}">{{l[0]}}</a></br>
+	{% endfor %}
+	{% endfor %}
+      </div>
+      {% endif %}
+      
+      {% if include.projects %}
+      <div class="link-block clearfix">
+	<img src="../../images/icon-projects.svg" alt="Projects" />
+	<div class="link-heading">
+          Projects
+	</div>
+	{% for link in include.projects %}
+	{% for l in link %}
+	<a href="{{l[1]}}">{{l[0]}}</a></br>
+	{% endfor %}
+	{% endfor %}
+      </div>
+      {% endif %}
+      
+      {% if include.twitter %}
+      <div class="link-block clearfix">
+	<img src="../../images/icon-twitter.svg" alt="Tweets" />
+	<div class="link-heading">
+          Twitter
+	</div>
+	<a href="http://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
+      </div>
+      {% endif %}
+      
+    </div>
+  </div>
+</div>

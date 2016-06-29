@@ -615,11 +615,13 @@
     date: 2015-05-01
 -
     name: "Nicole Sylianteng"
+    gender: female
     fellow: "Seamus Kraft"
     homepage: http://nikkisylianteng.com/project/parking-sign-redesign/
     date: 2014-11-01
 -
     name: "Travis Moore"
+    gender: male
     fellow: "Seamus Kraft"
     homepage:
     date: 2015-05-01
@@ -710,6 +712,7 @@
     date: 2015-12-01
 -
     name: "Andrea Hart"
+    gender: female
     fellow: "Seamus Kraft"
     homepage: http://www.andreafayehart.com/
     date: 2015-12-01

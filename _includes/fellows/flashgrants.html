@@ -1,0 +1,25 @@
+<div class="container container-fellow">
+  <div class="row row-flashgrants">
+    <div class="col-md-12">
+      <h2>Flash grants</h2>
+      <p>
+	Twice a year we award a number of small grants to a collection
+	of social change agents, no strings attached, in support of
+	their work. We call these Flash Grants and recipients are
+	selected based on nominations from our Fellows. Each award is
+	worth $5,000.
+      </p>
+    </div>
+    {% for grant in include.grants %}
+    <div class="col-sm-12 col-md-6 col-lg-4 col-flashgrant col-flashgrant-{{ grant.gender }}">
+      {% if grant.gender %}
+      <img src="../../images/icon-gender-{{ grant.gender }}.svg" alt="{{ grant.gender | capitalize }}"/>
+      {% endif %}
+      <div class="content">
+	{{ grant.name }}<br/>
+	<a href="{{ grant.homepage }}">{{ grant.homepage | remove:"http://" | remove:"https://" }}</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

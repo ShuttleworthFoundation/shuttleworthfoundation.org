@@ -1,4 +1,6 @@
-# Site settings
+##
+# SITE SETTINGS
+##
 title: The Shuttleworth Foundation
 email: jason@shuttleworthfoundation.org
 description: "We're the Shuttleworth Foundation. We provide funding for dynamic leaders who are at the forefront of social change."
@@ -7,7 +9,10 @@ url: "http://shuttleworthfoundation.org"
 twitter_username: ShuttleworthFdn
 github_username: jasonhudson
 
-# Build settings
+
+##
+# BUILD SETTINGS
+##
 markdown: kramdown
 permalink: pretty
 breadcrumb_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
@@ -15,3 +20,11 @@ breadcrumb_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 #  - jekyll-redirect-from
 
 exclude: [Makefile, README.md]
+
+
+##
+# COLLECTIONS
+##
+#collections:
+#  fellows:
+#    output: true

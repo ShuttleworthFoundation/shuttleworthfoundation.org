@@ -1,0 +1,218 @@
+<div class="container container-fellow">
+  <div class="row">
+    <div class="col-sm12 col-md-12 col-lg-12"><div class="spend-breakdown-introduction">
+	<h2>Spend breakdown</h2>
+	<p>
+	  At the heart of our co-investment fellowship model is the
+	  principle that Fellows continue to invest in their own
+	  ideas. The Foundation amplifies the Fellow’s investment by
+	  matching it at least tenfold, along with covering the cost
+	  of their time for the year.
+	</p>
+	<p>
+	  The figures you see here do not reflect each Fellow’s
+	  fellowship year funding, but rather the funds unlocked
+	  within our financial year, as the fellowship years start
+	  either March or September and Fellows are not required to
+	  spend the available funds proportionately throughout the
+	  year.
+	</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container container-fellow">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12"><div class="spend-breakdown-introduction">
+	<div class="spend-breakdown-legend">
+	  <div class="spend-breakdown-legend-item">
+	    <div class="spend-breakdown-segment spend-breakdown-segment-people"></div>People
+	  </div>
+	  <div class="spend-breakdown-legend-item">
+	    <div class="spend-breakdown-segment spend-breakdown-segment-marketing"></div>Marketing
+	  </div>
+	  <div class="spend-breakdown-legend-item">
+	    <div class="spend-breakdown-segment spend-breakdown-segment-software"></div>Software
+	  </div>
+	  <div class="spend-breakdown-legend-item">
+	    <div class="spend-breakdown-segment spend-breakdown-segment-travel"></div>Travel
+	  </div>
+	  <div class="spend-breakdown-legend-item">
+	    <div class="spend-breakdown-segment spend-breakdown-segment-infrastructure"></div>Infrastructure
+	  </div>
+	  <div class="spend-breakdown-legend-item">
+	    <div class="spend-breakdown-segment spend-breakdown-segment-training"></div>Training
+	  </div>
+	  <div class="spend-breakdown-legend-item">
+	    <div class="spend-breakdown-segment spend-breakdown-segment-office-space"></div>Office space
+	  </div>
+	  <div class="spend-breakdown-legend-item">
+	    <div class="spend-breakdown-segment spend-breakdown-segment-legal"></div>Legal
+	  </div>
+	</div>
+	
+	<div class="spend-breakdown">
+	  {% for yeardata in include.spend %}
+	  {% assign year = yeardata[0] %}
+	  {% assign categories = yeardata[1] %}
+	  {% assign contribution = include.contribution[year] %}
+	  <div class="spend-breakdown-year {% if include.spend.size > 3 %}spend-breakdown-year-compact{% endif %}">
+	    <div class="spend-breakdown-infographic spend-breakdown-infographic-{{ year }}">
+	      
+	    </div>
+	    <div class="spend-breakdown-summary-year">
+	      <h4>{{ year | slice: 0,2 }}<em>{{ year | slice: 2,4 }}</em></h4>
+	    </div>
+	    {% if contribution %}
+	    <div class="spend-breakdown-summary-fellow">
+	      Fellow contribution: {% if include.spend.size > 3 %}<br/>{% endif %}{{ contribution | money }}
+	    </div>
+	    {% endif %}
+	    <div class="spend-breakdown-summary-foundation">
+	      Our contribution: {% if include.spend.size > 3 %}<br/>{% endif %}{{ include.spend | spend_year:year | spend_total:contribution | money }}
+	    </div>
+	    <div class="spend-breakdown-summary-total">
+	      Total funds: {% if include.spend.size > 3 %}<br/>{% endif %}<em>{{ include.spend | spend_year:year | spend_total | money }}</em>
+	    </div>
+	  </div>
+          {% endfor %}
+	</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container container-fellow container-total-spend">
+  Total funding to date:
+  <div class="total">{{ include.spend | spend_total | money }}</div>
+</div>
+  
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script>
+  (function() {
+      var data = {{ include.spend | jsonify }};
+      var segments_per_row = {% if include.spend.size > 3 %}8{% else %}10{% endif %};
+      
+      /* Calculate the overall totals. */
+      var total = 0;
+      var total_segments = 0;
+      var years = {};
+      
+      for (var year in data) {
+	  var categories = data[year];
+	  total_segments += segments_per_row * 10;
+	  years[year] = 0
+	  
+	  for (var category in categories) {
+	      years[year] += categories[category];
+	      total += categories[category];
+	  }
+      };
+      
+      /* Calculate the segments for each year. */
+      var segments = {};
+      var per_segment = total / total_segments;
+      var running_total = 0;
+      var running_target = 0;
+      var segment_offset = 0;
+      
+      for (var year in data) {
+	  var categories = data[year];
+	  segments[year] = [];
+	  
+	  /*
+	    for (var i = 0; i < segment_offset % segments_per_row; i++) {
+	        segments[year].push('none');
+	    }
+	  */
+	  
+	  for (var category in categories) {
+	      var amount = categories[category];
+	      
+	      running_target += amount;
+	      while(running_total + per_segment <= running_target + 1) {
+		  running_total += per_segment;
+		  segments[year].push(category);
+		  segment_offset += 1;
+	      }
+	  }
+      };
+
+      var max_segments = 0;
+      for (var year in data) {
+	  if (segments[year].length > max_segments) {
+	      max_segments = segments[year].length;
+	  }
+      }
+      /* Round segments up to nearest segments_per_row. */
+      max_segments = Math.ceil(max_segments / segments_per_row) * segments_per_row;
+      for (var year in data) {
+	  for (var i = segments[year].length; i < max_segments; i++) {
+	        segments[year].push('none');
+	  }
+	  segments[year].reverse();
+      }
+      
+      
+      /* Finally draw the segments. */
+      for (var year in data) {
+	  var elements = d3.select('.spend-breakdown-infographic-'+year)
+	      .selectAll('div.spend-breakdown-segment')
+	      .data(segments[year])
+	      .enter()
+	      .append('div')
+	      .attr('class', function(d, i) {
+		  return 'spend-breakdown-segment spend-breakdown-segment-'+d+' tooltipster';
+	      });
+      };
+
+      /* And attach some tooltips. */
+      String.prototype.capitalize = function() {
+	  return this.charAt(0).toUpperCase() + this.slice(1).toLowerCase();
+      }
+
+      Number.prototype.formatMoney = function(c, d, t){
+	  var n = this, 
+	      c = isNaN(c = Math.abs(c)) ? 2 : c, 
+	      d = d == undefined ? "." : d, 
+	      t = t == undefined ? "," : t, 
+	      s = n < 0 ? "-" : "", 
+	      i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+	      j = (j = i.length) > 3 ? j % 3 : 0;
+	  return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+      };
+      
+      for (var year in data) {
+	  for (category in data[year]) {
+	      var amount = data[year][category];
+	      var cls =
+		  '.spend-breakdown-infographic-'+year+
+		  ' .spend-breakdown-segment-'+category;
+	      d3.selectAll(cls).attr('title', function(d, i) {
+		  category
+		  return category.replace('-', ' ').capitalize()+'<br/>$'+amount.formatMoney();
+	      });
+	  };
+      };
+      
+  })();
+
+  (function() {
+      /* Set all spend infographics to have the same height. */
+      var elements = d3.selectAll('.spend-breakdown-infographic');
+      var max = d3.max(elements[0], function(d) {
+	  return d.getBoundingClientRect()['height'];
+      });
+      elements.attr('style', 'height: '+max+'px');
+  })();
+
+  _jqq.push(function() {
+      $(document).ready(function() {
+	  $('.tooltipster').tooltipster({
+                contentAsHTML: true
+            });
+      });
+  });
+</script>
