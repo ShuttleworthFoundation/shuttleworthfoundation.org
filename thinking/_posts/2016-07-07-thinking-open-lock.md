@@ -16,7 +16,7 @@ If you're a social entrepreneur building open knowledge resources – open softw
 
 Contributors to your open project invest their time and energy because they trust you with their gift to the world. So the challenge is this: How can you keep their trust? Can you seal it in for the long term?
 
-There are many successful projects that have managed this, notably in open-source software. Linux, Firefox and Wikipedia are good examples. The practice of sharing knowledge in open-source-software communities is now common among researchers, civil society and open government projects. These social goods are built on the currency of trust.
+There are many successful projects that have managed this, notably in open-source software. [Linux](https://en.wikipedia.org/wiki/Linux), [Firefox](https://www.mozilla.org/en-GB/firefox/products/) and [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) are good examples. The practice of sharing knowledge in open-source-software communities is now common among researchers, civil society and open government projects. These social goods are built on the currency of trust.
 
 There have also been failures and defections, where a once-open project closes itself off. For example, exciting open-textbook initiatives have [reverted](https://en.wikipedia.org/wiki/Flat_World_Knowledge) to the very proprietary model they were created to replace, and open-access repositories have been [bought out](https://en.wikipedia.org/wiki/Social_Science_Research_Network) by proprietary publishers.
 
@@ -30,7 +30,7 @@ When projects lose their open nature, contributors become wary, and trust evapor
 
 An Open Lock is a way to bake a founder's commitment to openness into the legal structure of a social enterprise, so that it endures when circumstances change. It’s a binding legal obligation – explicit wording in foundational corporate documents – to share knowledge.
 
-For several years we’ve been locking openness into our work at the Shuttleworth Foundation. Here we’ll explain how Open Locks work and provide sample legal language you can use, too.
+For several years we’ve been locking [openness](https://www.shuttleworthfoundation.org/open/) into our work at the Shuttleworth Foundation. Here we’ll explain how Open Locks work and provide sample legal language you can use, too.
 
 How Open Locks work
 -------------------
@@ -48,7 +48,7 @@ Open Locks as an open experiment
 
 Using corporate documents to keep social enterprises focused on their mission, with their core values intact, is increasingly widespread. Mission Locks and Golden Shares are examples.
 
-At the Foundation we created Open Locks to add to this toolkit because we needed them to help our Fellows build new enterprises on a foundation of openness. For instance, Content Mine is a scientific data-mining non-profit that uses an Open Lock to guarantee that its data and software will remain open. And Siyavula is a textbook publisher committed to licensing all volunteer contributions under a Creative Commons Attribution license.
+At the Foundation we created Open Locks to add to this toolkit because we needed them to help our Fellows build new enterprises on a foundation of [openness](https://www.shuttleworthfoundation.org/thinking/2014/01/15/thinking-openness/). For instance, [Content Mine](http://contentmine.org/) is a scientific data-mining non-profit that uses an Open Lock to guarantee that its data and software will remain open. And [Siyavula](http://www.siyavula.com/) is a textbook publisher committed to licensing all volunteer contributions under a [Creative Commons](https://creativecommons.org/) Attribution license.
 
 While our Open Locks have already helped to protect commitments to open knowledge, we’ve only been using them for a few years. They are an experiment that will only be truly tested over the long term. There is much to learn. We are looking forward to seeing how other social enterprises do better than we have done, and extend the experiment in ways that we haven’t thought about.
 
