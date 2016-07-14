@@ -12,8 +12,6 @@ image_credit: "Perspecsys Photos (CC BY-SA 2.0)"
 image_source: "https://www.flickr.com/photos/111692634@N04/11406964255/"
 on_report: true
 ---
-If you're a social entrepreneur building open knowledge resources – open software, open textbooks, open science – you need people to share their knowledge, code and data with you. Your success depends on it.
-
 Contributors to your open project invest their time and energy because they trust you with their gift to the world. So the challenge is this: How can you keep their trust? Can you seal it in for the long term?
 
 There are many successful projects that have managed this, notably in open-source software. [Linux](https://en.wikipedia.org/wiki/Linux), [Firefox](https://www.mozilla.org/en-GB/firefox/products/) and [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) are good examples. The practice of sharing knowledge in open-source-software communities is now common among researchers, civil society and open government projects. These social goods are built on the currency of trust.
