@@ -24,6 +24,9 @@ It is our responsibility as the Foundation team to ensure a sense of continuity 
 
 We are looking for ideas that are decidedly off the beaten track.  It takes courage and conviction to put yourself out there, to be judged by others, on an idea that is not widely known or accepted yet. It takes the same to select two or three individuals to place your bet on, and to put your name to it publicly.
 
-"It was inspiring and delightful seeing all of the fellow applications and being allowed to look at them through the progressive and bold lens of the Shuttleworth Foundation. I’m super excited that we were able to find such suitable candidates in a diverse set of areas that I think are perfect for the opportunity and the challenge that the fellows program presents."
+<br/>
 
+> *"It was inspiring and delightful seeing all of the fellow applications and being allowed to look at them through the progressive and bold lens of the Shuttleworth Foundation. I’m super excited that we were able to find such suitable candidates in a diverse set of areas that I think are perfect for the opportunity and the challenge that the fellows program presents." -- Joi Ito*
+
+<br/>
 We want to thank Joi for the thoughtful way he engaged with us in this process, not only to select exciting [new Fellows](https://shuttleworthfoundation.org/thinking/2016/07/13/thinking-welcome-achal-isha-ugo/) but also to help us learn and evolve for next time.
