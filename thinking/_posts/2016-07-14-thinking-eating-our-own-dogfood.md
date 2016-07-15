@@ -26,7 +26,7 @@ We are looking for ideas that are decidedly off the beaten track.  It takes cour
 
 <br/>
 
-> *"It was inspiring and delightful seeing all of the fellow applications and being allowed to look at them through the progressive and bold lens of the Shuttleworth Foundation. I’m super excited that we were able to find such suitable candidates in a diverse set of areas that I think are perfect for the opportunity and the challenge that the fellows program presents." -- Joi Ito*
+> *"It was inspiring and delightful to see all of the fellow applications, and to be able to view them through the progressive and bold lens of the Shuttleworth Foundation. I’m super excited that we were able to find such suitable candidates in such diverse areas, which seem perfect for the opportunities and the challenges that the Fellowship Program presents." -- Joi Ito*
 
 <br/>
 We want to thank Joi for the thoughtful way he engaged with us in this process, not only to select exciting [new Fellows](https://shuttleworthfoundation.org/thinking/2016/07/13/thinking-welcome-achal-isha-ugo/) but also to help us learn and evolve for next time.
