@@ -3,7 +3,7 @@ title: "Mark Horner"
 layout: fellow
 fullname:  "Mark Horner"
 project: "Open and collaborative resources"
-type: "Global Village Construction Set"
+type: "Siyavula"
 date:   2008-05-01
 photo: "Mark.jpg"
 links:
