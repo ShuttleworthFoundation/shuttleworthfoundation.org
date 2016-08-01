@@ -16,7 +16,7 @@ permalink: /:categories/luka-mustafa
 fellowship:
   start: 2015-03-01
 contribution:
-  2015: 0.00
+  2015: 18163.26
   2016: 0.00
 ---
 

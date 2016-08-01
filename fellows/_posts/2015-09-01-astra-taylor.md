@@ -15,7 +15,7 @@ permalink: /:categories/astra-taylor
 fellowship:
   start: 2015-09-01
 contribution:
-  2015: 0.00
+  2015: 22353.58
   2016: 0.00
 ---
 

@@ -15,9 +15,16 @@ permalink: /:categories/johnny-west
 fellowship:
   start: 2014-03-01
 contribution:
-  2014: 0.00
-  2015: 0.00
+  2014: 15910.98
+  2015: 16581.99
   2016: 0.00
+spend:
+  2014:
+    administration: 2307.61
+    infrastructure: 5632.10
+    people: 173437.68
+    software: 7155.61
+    travel: 45090.14
 ---
 
 Johnny focuses his efforts on OpenOil, to establish public understanding of contractual relationships within the oil and mining industries. His work includes GaiaBase, an openly licensed geospatial database listing all natural resources on the planet and the pertaining physical, economic and legal data.
