@@ -85,6 +85,26 @@ module Fellows
 
           events, labels = set_positions(events)
           post.data['timeline'] = {'labels' => labels, 'events' => events}
+
+          # Add all spend data from site.data.spend.<year> to fellow.spend
+          if not post.data.key?('spend')
+            post.data['spend'] = {}
+          end
+
+          site.data['spend'].each do |year, data|
+            data.each do |fellow, spend|
+              if post.data['fullname'] == fellow
+                post.data['spend'][year.to_i] = spend
+              end
+            end
+          end
+
+          # Sort spend data by year then by category.
+          post.data['spend'] = Hash[post.data['spend'].sort_by {|k, v| k}]
+          post.data['spend'].each do |year, spend|
+            post.data['spend'][year] = Hash[post.data['spend'][year].sort_by {|k, v| k}]
+          end
+
         end
       end
     end

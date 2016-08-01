@@ -30,10 +30,12 @@ layout: default
   </div>
 </div>
 
+<!--
 {% if page.timeline %}
 {% include fellows/timeline.html labels=page.timeline.labels events=page.timeline.events %}
 {% endif %}
-  
+-->
+   
 {% assign flashgrants = site.data.flashgrants | where: "fellow", page.fullname | sort: "date" | reverse %}
 {% if flashgrants.size != 0 %}
 {% include fellows/flashgrants.html grants=flashgrants %}

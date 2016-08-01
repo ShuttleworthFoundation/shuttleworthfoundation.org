@@ -14,6 +14,12 @@ projects:
     - Github: https://github.com/Rhizomatica
 twitter: rhizomatica
 permalink: /:categories/peter-bloom
+fellowship:
+  start: 2014-09-01
+contribution:
+  2014: 0.00
+  2015: 0.00
+  2016: 0.00
 ---
 
 Peter's fellowship focus is Rhizomatica, establishing low-cost, low-power, open-source cellular infrastructure that can serve rural areas profitably using inexpensive handsets that many already own. His priorities include policy modelling and business model development.

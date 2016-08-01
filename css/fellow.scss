@@ -32,6 +32,11 @@
 	max-width: 970px;
 	margin: auto;
     }
+
+    .fellow-photo {
+	width: 150px;
+	height: 150px;
+    }
 }
 
 .row-links {
@@ -268,14 +273,14 @@
     margin: 2px;
     position: relative;
 
-    &:hover {
+    &:hover, &.highlighted {
 	width: 24px;
 	height: 24px;
 	margin: 0;
-	border: 2px solid #4E5867;
+	border: 2px solid #6c797a;
     }
 
-    &.spend-breakdown-segment-none:hover {
+    &.spend-breakdown-segment-none:hover, &.spend-breakdown-segment-none.highlighted {
 	border: none;
     }
 

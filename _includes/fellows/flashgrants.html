@@ -1,7 +1,7 @@
 <div class="container container-fellow">
   <div class="row row-flashgrants">
     <div class="col-md-12">
-      <h2>Flash grants</h2>
+      <h2>{% if page.fullname %}{{ page.fullname }}'s flash grant nominations{% else %}Flash grant nominations{% endif %}</h2>
       <p>
 	Twice a year we award a number of small grants to a collection
 	of social change agents, no strings attached, in support of

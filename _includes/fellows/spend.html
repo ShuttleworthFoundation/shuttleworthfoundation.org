@@ -1,6 +1,7 @@
 <div class="container container-fellow">
   <div class="row">
-    <div class="col-sm12 col-md-12 col-lg-12"><div class="spend-breakdown-introduction">
+    <div class="col-sm12 col-md-12 col-lg-12">
+      <div class="spend-breakdown-introduction">
 	<h2>Spend breakdown</h2>
 	<p>
 	  At the heart of our co-investment fellowship model is the
@@ -24,61 +25,62 @@
 
 <div class="container container-fellow">
   <div class="row">
-    <div class="col-sm-12 col-md-12 col-lg-12"><div class="spend-breakdown-introduction">
-	<div class="spend-breakdown-legend">
-	  <div class="spend-breakdown-legend-item">
-	    <div class="spend-breakdown-segment spend-breakdown-segment-people"></div>People
+    <div class="col-sm-12 col-md-12 col-lg-12">
+	
+      <div class="spend-breakdown">
+	{% for yeardata in include.spend %}
+	{% assign year = yeardata[0] %}
+	{% assign categories = yeardata[1] %}
+	{% assign contribution = include.contribution[year] %}
+	<div class="spend-breakdown-year {% if include.spend.size > 3 %}spend-breakdown-year-compact{% endif %}">
+	  <div class="spend-breakdown-infographic spend-breakdown-infographic-{{ year }}">
+	    
 	  </div>
-	  <div class="spend-breakdown-legend-item">
-	    <div class="spend-breakdown-segment spend-breakdown-segment-marketing"></div>Marketing
+	  <div class="spend-breakdown-summary-year">
+	    <h4>{{ year | slice: 0,2 }}<em>{{ year | slice: 2,4 }}</em></h4>
 	  </div>
-	  <div class="spend-breakdown-legend-item">
-	    <div class="spend-breakdown-segment spend-breakdown-segment-software"></div>Software
+	  {% if contribution %}
+	  <div class="spend-breakdown-summary-fellow">
+	    Fellow contribution: {% if include.spend.size > 3 %}<br/>{% endif %}{{ contribution | money }}
 	  </div>
-	  <div class="spend-breakdown-legend-item">
-	    <div class="spend-breakdown-segment spend-breakdown-segment-travel"></div>Travel
+	  {% endif %}
+	  <div class="spend-breakdown-summary-foundation">
+	    Our contribution: {% if include.spend.size > 3 %}<br/>{% endif %}{{ include.spend | spend_year:year | spend_total:contribution | money }}
 	  </div>
-	  <div class="spend-breakdown-legend-item">
-	    <div class="spend-breakdown-segment spend-breakdown-segment-infrastructure"></div>Infrastructure
-	  </div>
-	  <div class="spend-breakdown-legend-item">
-	    <div class="spend-breakdown-segment spend-breakdown-segment-training"></div>Training
-	  </div>
-	  <div class="spend-breakdown-legend-item">
-	    <div class="spend-breakdown-segment spend-breakdown-segment-office-space"></div>Office space
-	  </div>
-	  <div class="spend-breakdown-legend-item">
-	    <div class="spend-breakdown-segment spend-breakdown-segment-legal"></div>Legal
+	  <div class="spend-breakdown-summary-total">
+	    Total funds: {% if include.spend.size > 3 %}<br/>{% endif %}<em>{{ include.spend | spend_year:year | spend_total | money }}</em>
 	  </div>
 	</div>
-	
-	<div class="spend-breakdown">
-	  {% for yeardata in include.spend %}
-	  {% assign year = yeardata[0] %}
-	  {% assign categories = yeardata[1] %}
-	  {% assign contribution = include.contribution[year] %}
-	  <div class="spend-breakdown-year {% if include.spend.size > 3 %}spend-breakdown-year-compact{% endif %}">
-	    <div class="spend-breakdown-infographic spend-breakdown-infographic-{{ year }}">
-	      
-	    </div>
-	    <div class="spend-breakdown-summary-year">
-	      <h4>{{ year | slice: 0,2 }}<em>{{ year | slice: 2,4 }}</em></h4>
-	    </div>
-	    {% if contribution %}
-	    <div class="spend-breakdown-summary-fellow">
-	      Fellow contribution: {% if include.spend.size > 3 %}<br/>{% endif %}{{ contribution | money }}
-	    </div>
-	    {% endif %}
-	    <div class="spend-breakdown-summary-foundation">
-	      Our contribution: {% if include.spend.size > 3 %}<br/>{% endif %}{{ include.spend | spend_year:year | spend_total:contribution | money }}
-	    </div>
-	    <div class="spend-breakdown-summary-total">
-	      Total funds: {% if include.spend.size > 3 %}<br/>{% endif %}<em>{{ include.spend | spend_year:year | spend_total | money }}</em>
-	    </div>
-	  </div>
-          {% endfor %}
+        {% endfor %}
+      </div>
+      
+      <div class="spend-breakdown-legend">
+	<div class="spend-breakdown-legend-item">
+	  <div class="spend-breakdown-segment spend-breakdown-segment-people"></div>People
+	</div>
+	<div class="spend-breakdown-legend-item">
+	  <div class="spend-breakdown-segment spend-breakdown-segment-marketing"></div>Marketing
+	</div>
+	<div class="spend-breakdown-legend-item">
+	  <div class="spend-breakdown-segment spend-breakdown-segment-software"></div>Software
+	</div>
+	<div class="spend-breakdown-legend-item">
+	  <div class="spend-breakdown-segment spend-breakdown-segment-travel"></div>Travel
+	</div>
+	<div class="spend-breakdown-legend-item">
+	  <div class="spend-breakdown-segment spend-breakdown-segment-infrastructure"></div>Infrastructure
+	</div>
+	<div class="spend-breakdown-legend-item">
+	  <div class="spend-breakdown-segment spend-breakdown-segment-training"></div>Training
+	</div>
+	<div class="spend-breakdown-legend-item">
+	  <div class="spend-breakdown-segment spend-breakdown-segment-office-space"></div>Office space
+	</div>
+	<div class="spend-breakdown-legend-item">
+	  <div class="spend-breakdown-segment spend-breakdown-segment-legal"></div>Legal
 	</div>
       </div>
+      
     </div>
   </div>
 </div>
@@ -165,6 +167,14 @@
 	      .append('div')
 	      .attr('class', function(d, i) {
 		  return 'spend-breakdown-segment spend-breakdown-segment-'+d+' tooltipster';
+	      })
+	      .on('mouseover', function(d, i) {
+		  d3.select(this.parentElement).selectAll('.spend-breakdown-segment-'+d)
+		      .classed('highlighted', true);
+	      })
+	      .on('mouseout', function(d, i) {
+		  d3.select(this.parentElement).selectAll('.spend-breakdown-segment-'+d)
+		      .classed('highlighted', false);
 	      });
       };
 
@@ -211,8 +221,9 @@
   _jqq.push(function() {
       $(document).ready(function() {
 	  $('.tooltipster').tooltipster({
-                contentAsHTML: true
-            });
+              contentAsHTML: true
+          });
       });
   });
+						  
 </script>

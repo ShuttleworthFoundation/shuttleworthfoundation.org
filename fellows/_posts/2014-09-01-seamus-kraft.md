@@ -27,8 +27,6 @@ spend:
     people: 120511.00
     software: 40500.00
     marketing: 5000.00
-  2016:
-    infrastructure: 23262.40
 ---
 
 Seamus' focus is The Open Gov Foundation and its Madison Project, through which he will use the fellowship year to build tools and establish working models for open government, starting with participatory, collaborative policy making in the United States.

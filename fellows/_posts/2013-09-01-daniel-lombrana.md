@@ -39,11 +39,6 @@ spend:
     travel: 1766.42
     marketing: 1138.99
     legal: 478.33
-  2016:
-    software: 24101.05
-    people: 9332.01
-    marketing: 1016.40
-    travel: 8249.03
 ---
 
 Daniel's primary interest is Crowdcrafting and its underlying software PyBossa, a citizen science framework that allows and supports citizens and researchers to create citizen science projects and gather collaborative communities around them, using volunteer sensing, computing and thinking.
