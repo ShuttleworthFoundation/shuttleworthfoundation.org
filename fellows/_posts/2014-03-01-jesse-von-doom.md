@@ -10,6 +10,12 @@ links:
     - Blog: http://blog.whatistodaysvegetable.com/
 twitter: jessevondoom
 permalink: /:categories/jesse-von-doom
+fellowship:
+  start: 2014-03-01
+contribution:
+  2014: 0.00
+  2015: 0.00
+  2016: 0.00
 ---
 
 Jesse von Doom and his non-profit organization CASH Music build free and open tools to help musicians promote and sell their work. The goal is to use open source to explore new models and allow musicians to find their own paths to sustainable careers on an open web.

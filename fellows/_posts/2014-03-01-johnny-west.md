@@ -12,6 +12,12 @@ projects:
     - Open Oil: http://openoil.net/
 twitter: Open_Oil
 permalink: /:categories/johnny-west
+fellowship:
+  start: 2014-03-01
+contribution:
+  2014: 0.00
+  2015: 0.00
+  2016: 0.00
 ---
 
 Johnny focuses his efforts on OpenOil, to establish public understanding of contractual relationships within the oil and mining industries. His work includes GaiaBase, an openly licensed geospatial database listing all natural resources on the planet and the pertaining physical, economic and legal data.

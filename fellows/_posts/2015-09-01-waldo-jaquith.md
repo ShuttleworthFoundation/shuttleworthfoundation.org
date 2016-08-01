@@ -14,6 +14,11 @@ projects:
     - Code: https://github.com/opendata
 twitter: waldojaquith
 permalink: /:categories/waldo-jaquith
+fellowship:
+  start: 2015-09-01
+contribution:
+  2015: 0.00
+  2016: 0.00
 ---
 
 Waldo is the founder of [US Open Data](https://www.usopendata.org/). His goal is to support the US government, at all levels, to release useful, usable open data, and to help both the private and public sector realise the benefits of open data over time.

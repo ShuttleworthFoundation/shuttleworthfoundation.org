@@ -13,6 +13,11 @@ projects:
     - Github: https://github.com/IRNAS/KORUZA
 twitter: institute_irnas
 permalink: /:categories/luka-mustafa
+fellowship:
+  start: 2015-03-01
+contribution:
+  2015: 0.00
+  2016: 0.00
 ---
 
 Luka is developing Koruza, a 3D printable wireless optical system for connecting buildings up to 100m apart with internet access, as a viable low-cost alternative to fiber in urban environments. The objective is to empower individuals to take last-mile connectivity in their own hands and mitigate network bottlenecks through organic growth of wireless optical networks.
