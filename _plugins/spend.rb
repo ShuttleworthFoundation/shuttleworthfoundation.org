@@ -21,9 +21,9 @@ module Jekyll
       if contribution
         $total - contribution
       end
-      
+
       $total
-      
+
     end
   end
 end
