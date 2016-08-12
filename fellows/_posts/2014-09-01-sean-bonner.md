@@ -20,12 +20,6 @@ contribution:
   2014: 9590.91
   2015: 16701.70
   2016: 0.00
-spend:
-  2014:
-    infrastructure: 28500.00
-    people: 42755.50
-    software: 57000.00
-    travel: 20000.00
 ---
 
 Sean is working on Safecast, building open hardware, open source software and open systems to empower people with data about their environment, and the tools to both collect and independently verify that data. The initial focus is radiation levels, with the intent to expand into air quality over time.

@@ -14,6 +14,9 @@ projects:
     - GitHub : https://github.com/WhisperSystems
 twitter: moxie
 permalink: /:categories/moxie-marlinspike
+contribution:
+  2013: 3088.73
+  2014: 9090.91
 ---
 Moxie's focus is Open Whisper Systems, developing frictionless applications for secure communication, aimed at end users and providing an overall experience that is better than the non-secure defaults. Available applications include TextSecure, RedPhone and Flock.
 

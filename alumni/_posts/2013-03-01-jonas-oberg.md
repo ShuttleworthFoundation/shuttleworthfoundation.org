@@ -15,6 +15,9 @@ projects:
  - Elog.io : http://elog.io/
 twitter: jonaso
 permalink: /:categories/jonas-oberg
+contribution:
+  2013: 18623.01
+  2014: 20354.26
 ---
 
 Jonas founded Commons Machinery, an exploration of the importance of proper attribution in providing recognition and context to openly licensed resources. He built the technology needed to make it easier to openly and persistently associate the provenance of a digital work with the work itself.

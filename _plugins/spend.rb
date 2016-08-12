@@ -19,10 +19,10 @@ module Jekyll
       end
 
       if contribution
-        $total - contribution
+        return ($total - contribution)
       end
 
-      $total
+      return ($total)
 
     end
   end

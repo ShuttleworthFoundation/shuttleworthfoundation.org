@@ -14,6 +14,10 @@ projects:
     - Openfarm : https://openfarm.cc/
 twitter: roryaronson
 permalink: /:categories/rory-aronson
+contribution:
+  2014: 1789.28
+  2015: 1481.48
+  2016: 0.00
 ---
 Rory is spending his fellowship year developing FarmBot, a scalable, open source, automated precision farming machine with supporting software.
 

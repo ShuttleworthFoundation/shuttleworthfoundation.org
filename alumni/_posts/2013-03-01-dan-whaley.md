@@ -13,6 +13,8 @@ projects:
     - Hypothes.is : http://hypothes.is/
 twitter: dwhly
 permalink: /:categories/dan-whaley
+contribution:
+  2014: 19488.64
 ---
 
 Dan is building Hypothes.is, enabling wide spread annotation on the internet. The approach consists of an overlay for the web that enables conversation, collaboration and critique on any online content, anchored in place and context, regardless of the medium.

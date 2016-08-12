@@ -13,6 +13,9 @@ projects:
     - Paperight: http://www.paperight.com/
 twitter: arthurattwell
 permalink: /:categories/arthur-attwell
+contribution:
+  2013: 14804.28
+  2014: 4543.66
 ---
 
 Arthur's mission is to make reading accessible to all. His fellowship was spent working on Paperight, a rights clearing house and enabler of distributed printing of books that might not otherwise be available to potential readers. His experiment included using copy shops as print on demand booksellers.

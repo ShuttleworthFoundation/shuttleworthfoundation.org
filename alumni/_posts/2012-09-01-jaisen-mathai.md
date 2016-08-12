@@ -13,6 +13,9 @@ projects:
     - Trovebox : https://github.com/photo
 twitter: jmathai
 permalink: /:categories/jaisen-mathai
+contribution:
+  2013: 27221.73
+  2014: 8234.63
 ---
 Jaisen recognises the importance of preserving media for posterity, be that personal or societal. His fellowship focus was Trovebox, a web service and open source software that facilitated the easy archiving and affordable storage of photos and videos without vendor lock in.
 

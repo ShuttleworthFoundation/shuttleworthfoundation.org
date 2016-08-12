@@ -17,12 +17,6 @@ contribution:
   2014: 17676.14
   2015: 22091.59
   2016: 0.00
-spend:
-  2014:
-    infrastructure: 7000.00
-    people: 263511.00
-    software: 10000.00
-    travel: 13000.00
 ---
 
 Jesse von Doom and his non-profit organization CASH Music build free and open tools to help musicians promote and sell their work. The goal is to use open source to explore new models and allow musicians to find their own paths to sustainable careers on an open web.

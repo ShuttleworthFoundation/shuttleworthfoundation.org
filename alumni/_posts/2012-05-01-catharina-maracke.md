@@ -11,6 +11,11 @@ links:
 projects:
     - Contributor Agreements: http://contributoragreements.org/
 permalink: /:categories/catharina-maracke
+contribution:
+  2013: 16496.92
+  2014: 1950.00
+  2015: 19488.64
+  2016: 0.00
 ---
 
 

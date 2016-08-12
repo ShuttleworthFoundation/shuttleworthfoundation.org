@@ -14,6 +14,9 @@ projects:
     - Lumen learning: http://lumenlearning.com/
 twitter: opencontent
 permalink: /:categories/david-wiley
+contribution:
+  2013: 19488.64
+  2014: 19488.64
 ---
 
 

@@ -13,6 +13,8 @@ projects:
     - Open Knowledge : https://okfn.org/
 twitter: rufuspollock
 permalink: /:categories/rufus-pollock
+contribution:
+  2013: 19332.16
 ---
 Rufus is working to promote open knowledge around the world, including any kind of content or data from sonnets to statistics, genes to geodata, which is freely usable, sharable and reusable.
 
