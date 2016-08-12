@@ -3,11 +3,18 @@ Adam Hyde:
   people: 20000.0
   software: 130000.0
   travel: 15500.93
+Arthur Attwell: {}
 Astra Taylor:
   infrastructure: 6705.8
   office-space: 13200.0
   people: 120000.0
   software: 33150.0
+Catharina Maracke:
+  infrastructure: 4126.33
+  legal: 6730.55
+  office-space: 24421.7
+  software: 2493.17
+  travel: 28221.08
 "Daniel Lombra\xF1a Gonz\xE1lez":
   administration: 949.12
   infrastructure: 25855.54
@@ -16,6 +23,14 @@ Astra Taylor:
   people: 20997.0
   software: 119808.21
   travel: 18623.06
+Daniel Whaley: {}
+David Wiley: {}
+Esra's Al Shafei:
+  people: 79800.0
+  software: 81950.0
+Francois Grey: {}
+Gavin Weale: {}
+Jaisen Mathai: {}
 Jesse von Doom:
   infrastructure: 6000.0
   legal: 5070.0
@@ -29,11 +44,17 @@ Johnny West:
   office-space: 1209.0
   people: 152638.96
   travel: 18265.66
+Jonas Oberg: {}
+Kabir Bavikatte: {}
+Katherine Fletcher: {}
 Luka Mustafa:
   infrastructure: 190096.41
   marketing: 7237.61
   people: 98335.73
   travel: 22250.53
+Marcin Jakubowski: {}
+Mark Horner: {}
+Moxie Marlinspike: {}
 Peter Bloom:
   infrastructure: 15976.94
   office-space: 9538.67
@@ -41,6 +62,18 @@ Peter Bloom:
   software: 22517.63
   travel: 4945.84
 Peter Cunliffe-Jones: {}
+Peter Murray-Rust:
+  legal: 1930.15
+  marketing: 6044.82
+  office-space: 133.94
+  people: 48743.49
+  software: 72796.07
+  training: 138.75
+  travel: 12447.29
+Philipp Schmidt: {}
+Rory Aronson:
+  software: 20000.0
+Rufus Pollock: {}
 Seamus Kraft:
   marketing: 20174.06
   people: 110000.0
@@ -52,6 +85,7 @@ Sean Bonner:
   software: 24000.0
   training: 30000.0
   travel: 74000.0
+Steve Song: {}
 Tiffiniy Cheng: {}
 Waldo Jaquith:
   infrastructure: 677.89
