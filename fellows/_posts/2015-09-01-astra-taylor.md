@@ -6,6 +6,7 @@ project: "Lifting the lid on predatory lending"
 type: "Lifting the lid on predatory lending"
 date:   2015-09-01
 photo: astra-taylor.jpg
+video: https://player.vimeo.com/video/178610891
 links:
     - Blog: http://www.hiddendriver.com/
 projects:
