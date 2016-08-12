@@ -6,6 +6,7 @@ project: "Telecommunications and connectedness"
 type: "Telecommunications and connectedness"
 date:   2007-12-01
 photo: "Steve\ Song.jpg"
+video: https://player.vimeo.com/video/53852371
 links:
     - Blog : https://manypossibilities.net/
 projects:

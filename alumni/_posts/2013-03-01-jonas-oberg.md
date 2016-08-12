@@ -6,6 +6,7 @@ project: "License and attribution metadata"
 type: "License and attribution metadata"
 date: 2013-03-01
 photo: "Jonas\ oberg.jpg"
+video: https://player.vimeo.com/video/74215152
 links:
  - Blog : http://jonasoberg.net/
  - FSFE : http://fsfe.org/about/oberg/oberg.en.html

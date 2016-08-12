@@ -6,6 +6,7 @@ project: "Open and collaborative resources"
 type: "Siyavula"
 date:   2008-05-01
 photo: "Mark.jpg"
+video: https://player.vimeo.com/video/74215200
 links:
     - Blog : http://www.markhorner.net/
 projects:

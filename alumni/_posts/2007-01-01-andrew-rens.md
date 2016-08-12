@@ -6,6 +6,7 @@ project: "Intellectual property rights"
 type: "Intellectual property rights"
 date: 2007-04-01
 photo: "Andrew\ Rens.png"
+video: https://player.vimeo.com/video/53921939
 links:
     - Blog: http://www.aliquidnovi.org/
 twitter: Andrew_Rens

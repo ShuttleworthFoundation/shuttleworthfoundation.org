@@ -1,12 +1,13 @@
 ---
 title: "Peter Bloom"
-layout: fellow 
+layout: fellow
 fullname:  "Peter Bloom"
 project: "Telecommunications"
 type: "Telecommunications"
 date:   2014-03-01
 photo: "Peter\ Bloom.jpg"
-links: 
+video: https://player.vimeo.com/video/170794771
+links:
     - Blog: http://rhizomatica.org/
 
 projects:

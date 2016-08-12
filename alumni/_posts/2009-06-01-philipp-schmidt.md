@@ -6,6 +6,7 @@ project: "Reimagining higher education"
 type: "Reimagining higher education"
 date:   2009-06-01
 photo: "Philipp.jpg"
+video: https://player.vimeo.com/video/49246511
 links:
     - Blog : http://1l2p.net/
 projects:

@@ -8,6 +8,7 @@ date:   2013-09-01
 description: "Algo"
 links: http://daniellombrana.es/
 photo: Daniel_phatch.jpg
+video: https://player.vimeo.com/video/81097916
 links:
     - Blog: http://daniellombrana.es/
 projects:

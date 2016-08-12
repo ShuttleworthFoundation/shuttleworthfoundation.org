@@ -6,6 +6,7 @@ project: "Open philanthropy"
 type: "Open philanthropy"
 date:   2007-05-01
 photo: "Mark\ Surman.jpg"
+video: https://player.vimeo.com/video/49257701
 links:
     - Blog : http://marksurman.commons.ca/blog/
     - Mozilla Foundation : https://www.mozilla.org

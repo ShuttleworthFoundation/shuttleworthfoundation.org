@@ -6,6 +6,7 @@ project: "Crowdvoice.org - Tracking voices of protest from around the world"
 type: "Crowdvoice.org - Tracking voices of protest from around the world"
 date: 2012-09-01
 photo: "Esra.jpg"
+video: https://player.vimeo.com/video/53920246
 links:
     - Personal webpage: http://majal.org/
 projects:

@@ -6,6 +6,7 @@ project: "Open Education Rersources (OER)"
 type: "Open Education Rersources (OER)"
 date: 2013-03-01
 photo: "David\ Wiley.jpg"
+video: https://player.vimeo.com/video/74215092
 links:
     - Personal webpage: http://davidwiley.org/
     - Blog: http://opencontent.org/blog/

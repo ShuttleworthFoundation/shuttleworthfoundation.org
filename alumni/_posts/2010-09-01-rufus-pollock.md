@@ -6,6 +6,7 @@ project: "Open data, open knowledge"
 type: "Open data, open knowledge"
 date:   2010-09-01
 photo: "Rufus.jpg"
+video: https://player.vimeo.com/video/49291920
 links:
     - Blog : http://rufuspollock.org/
 projects:

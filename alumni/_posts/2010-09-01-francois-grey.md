@@ -6,6 +6,7 @@ project: "Citizen cyberscience"
 type: "Citizen cyberscience"
 date: 2011-09-01
 photo: "Francois.jpg"
+video: https://player.vimeo.com/video/49257702
 links:
     - Blog: http://www.billionbrainblog.com/
 projects:

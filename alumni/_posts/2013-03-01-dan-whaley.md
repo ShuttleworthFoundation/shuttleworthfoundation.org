@@ -1,12 +1,13 @@
 ---
 title: "Dan Whaley"
-layout: fellow 
+layout: fellow
 fullname:  "Dan Whaley"
 project: "Annotation for the web"
 type: "Annotation for the web"
 date:   2013-03-01
 photo: "Dan\ Whaley.jpg"
-links: 
+video: https://player.vimeo.com/video/74215041
+links:
     - LinkedIn: http://www.linkedin.com/in/danwhaley
 projects:
     - Hypothes.is : http://hypothes.is/

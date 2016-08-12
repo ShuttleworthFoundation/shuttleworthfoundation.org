@@ -6,6 +6,7 @@ project: "Ubiquitous mesh telephony"
 type: "Ubiquitous mesh telephony"
 date:   2011-09-01
 photo: "Paul.jpg"
+video: https://player.vimeo.com/video/49239572
 links:
     - Blog : http://servalpaul.blogspot.co.za/
 projects:

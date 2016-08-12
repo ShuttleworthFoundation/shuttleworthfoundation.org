@@ -6,6 +6,7 @@ project: "Global Village Construction Set"
 type: "Global Village Construction Set"
 date:   2012-03-01
 photo: "Marcin.jpg"
+video: https://player.vimeo.com/video/49239573
 links:
     - Blog : http://opensourceecology.org/blog-2/
 projects:

@@ -6,6 +6,7 @@ project: "Paperight - A web-based rights marketplace"
 type: "Paperight - A web-based rights marketplace"
 date: 2011-09-01
 photo: "Arthur.jpg"
+video: https://player.vimeo.com/video/49257700
 links:
     - Blog: http://www.arthurattwell.com/
 projects:

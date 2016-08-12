@@ -6,6 +6,7 @@ project: "Automated precision farming"
 type: "Automated precision farming"
 date:   2014-03-01
 photo: "Rory\ Aronson.jpg"
+video: https://player.vimeo.com/video/170786476
 links:
     - Blog : http://roryaronson.com/
 projects:

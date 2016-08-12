@@ -6,6 +6,7 @@ project: "Privacy enhancing technology"
 type: "Privacy enhancing technology"
 date:   2013-09-01
 photo: "Moxie.jpg"
+video: https://player.vimeo.com/video/81097913
 links:
     - Blog : http://thoughtcrime.org/
 projects:
