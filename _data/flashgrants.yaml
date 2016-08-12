@@ -1,615 +1,738 @@
 -   name: "Kerry Anderson"
+    genger: female
     fellow: "Andrew Rens"
     homepage: http://africanlii.org
     date: 2011-11-01
 
 -   name: "Dan Rhodes"
+    gender: male
     fellow: "Andrew Rens"
     homepage: http://theotherjournal.com/article_author/dan-rhodes/
     date: 2012-05-01
 
 -   name: "Jérémie Zimmerman"
+    gender: male
     fellow: "Andrew Rens"
     homepage: http://www.laquadrature.net/
     date: 2012-11-01
 
 -   name: "John Parks"
+    gender: male
     fellow: "Andrew Rens"
     homepage: http://adoctorforgood.blogspot.com/
     date: 2013-05-01
 
 -   name: "Tobias Schonwetter"
+    gender: male
     fellow: "Andrew Rens"
     homepage: http://www.openair.org.za/
     date: 2013-11-01
 -
     name: "Pria Chetty"
+    gender: female
     fellow: "Andrew Rens"
     homepage:
     date: 2014-05-01
 -
     name: "David Gluckman"
+    gender: male
     fellow: "Andrew Rens"
     homepage: http://lumkani.com/
     date: 2014-11-01
 -
     name: "Alison Gillwald"
+    gender: female
     fellow: "Andrew Rens"
     homepage: http://www.researchictafrica.net/about
     date: 2015-05-01
 -
     name: "Matthew Brown"
+    gender: male
     fellow: "Arthur Attwell"
     homepage: http://seamonster.co.za
     date: 2011-11-01
 -
     name: "Andreas Keller"
+    gender: male
     fellow: "Arthur Attwell"
     homepage: http://earthworksmagazine.co.za/projects/ishack-more-than-just-shelter/
     date: 2012-05-01
 -
     name: "Deb van Dyke"
+    gender: female
     fellow: "Arthur Attwell"
     homepage: http://globalhealthmedia.org/
     date: 2012-11-01
 -
     name: "Hugh McGuire"
+    gender: male
     fellow: "Arthur Attwell"
     homepage: http://pressbooks.com/
     date: 2013-05-01
 -
     name: "Greg Kempe"
+    gender: male
     fellow: "Arthur Attwell"
     homepage: http://openbylaws.org.za/
     date: 2013-11-01
 -
     name: "Xinran Wang"
+    gender: female
     fellow: "Arthur Attwell"
     homepage: https://github.com/xinranwang/Markdown-Graphics
     date: 2014-05-01
 -
     name: "Marion Walton"
+    gender: female
     fellow: "Arthur Attwell"
     homepage: http://www.marionwalton.com/2014/06/19/creative-code/
     date: 2014-11-01
 -
     name: "Pieter Gunst"
+    gender: male
     fellow: "Catharina Maracke"
     homepage: https://beta.lawgives.com/
     date: 2012-11-01
 -
     name: "Jim Hazard"
+    gender: male
     fellow: "Catharina Maracke"
     homepage: http://commonaccord.com/
     date: 2013-05-01
 -
     name: "Carolina Botero"
+    gender: female
     fellow: "Catharina Maracke"
     homepage: http://karisma.org.co/
     date: 2013-11-01
 -
     name: "Shamnad Basheer"
+    gender: male
     fellow: "Catharina Maracke"
     homepage: http://spicyip.com/about-us/team/shamnad-basheer
     date: 2014-05-01
 -
     name: "Thomas Margoni"
+    gender: male
     fellow: "Catharina Maracke"
     homepage: http://www.ivir.nl/medewerkerpagina?id=39
     date: 2014-11-01
 -
     name: "Rebecca MacKinnon"
+    gender: female
     fellow: "Catharina Maracke"
     homepage: http://en.wikipedia.org/wiki/Rebecca_MacKinnon
     date: 2015-05-01
 -
     name: "Seamus Kraft"
+    gender: male
     fellow: "Dan Whaley"
     homepage: http://opengovfoundation.org/
     date: 2013-05-01
 -
     name: "Ivan Grubisic"
+    gender: male
     fellow: "Dan Whaley"
     homepage: http://www.elifesciences.org/lens/
     date: 2013-11-01
 -
     name: "Waldo Jaquith"
+    gender: male
     fellow: "Dan Whaley"
     homepage: http://waldo.jaquith.org/about/
     date: 2014-05-01
 -
     name: "Javier de la Cueva"
+    gender: male
     fellow: "Daniel Lombrana Gonzalez"
     homepage: http://javierdelacueva.es/
     date: 2013-11-01
 -
     name: "Armin Ronacher"
+    gender: male
     fellow: "Daniel Lombrana Gonzalez"
     homepage: http://lucumr.pocoo.org/about/
     date: 2014-05-01
 -
     name: "Salvatore Sanfilippo"
+    gender: male
     fellow: "Daniel Lombrana Gonzalez"
     homepage: http://redis.io/
     date: 2015-05-01
 -
     name: "Jim Groom"
+    gender: male
     fellow: "David Wiley"
     homepage: http://ds106.us/
     date: 2013-05-01
 -
     name: "Audrey Watters"
+    gender: female
     fellow: "David Wiley"
     homepage: http://audreywatters.com/
     date: 2014-11-01
 -
     name: "Ben Wermuller"
+    gender: male
     fellow: "David Wiley"
     homepage: http://withknown.com/
     date: 2015-05-01
 -
     name: "Rima Al-Sheikh"
+    gender: female
     fellow: "Esra'a Al Shafei"
     homepage:
     date: 2013-05-01
 -
     name: "Cesar Harada"
+    gender: male
     fellow: "Esra'a Al Shafei"
     homepage: http://protei.org/
     date: 2013-11-01
 -
     name: "Michelle McCloskey"
+    gender: female
     fellow: "Esra'a Al Shafei"
     homepage: http://linguaphileblog.tumblr.com/
     date: 2014-05-01
 -
     name: "Eman Elshafei"
+    gender: female
     fellow: "Esra'a Al Shafei"
     homepage:
     date: 2015-05-01
 -
     name: "Aparna Rao"
+    gender: female
     fellow: "Esra'a Al Shafei"
     homepage: http://www.porsandrao.com/works/
     date: 2014-11-01
 -
     name: "Ramzi Jaber"
+    gender: male
     fellow: "Esra'a Al Shafei"
     homepage: http://visualizingjustice.org/
     date: 2012-11-01
 -
     name: "Luping Xu"
+    gender: female
     fellow: "Francois Grey"
     homepage: http://wiser-u.net/
     date: 2011-11-01
 -
     name: "Margaret Gold"
+    gender: female
     fellow: "Francois Grey"
     homepage:
     date: 2012-05-01
 -
     name: "Yang Ishigaki"
+    gender: female
     fellow: "Francois Grey"
     homepage: http://www.radiation-watch.org/2012/11/shuttleworth-we-receive-support-from.html
     date: 2012-11-01
 -
     name: "Liz Barry"
+    gender: female
     fellow: "Francois Grey"
     homepage: http://publiclab.org/
     date: 2013-05-01
 -
     name: "Darlene Cavalier"
+    gender: female
     fellow: "Francois Grey"
     homepage: http://www.scistarter.com/
     date: 2013-11-01
 -
     name: "Nagarjuna Gadiraju"
+    gender: female
     fellow: "Francois Grey"
     homepage: http://www.hbcse.tifr.res.in/people/academic/nagarjuna-g/nagarjuna-g
     date: 2014-05-01
 -
     name: "Sean Auriti"
+    gender: male
     fellow: "Francois Grey"
     homepage: http://www.emrals.com/
     date: 2015-05-01
 -
     name: "Anna Lewis"
+    gender: female
     fellow: "Gavin Weale"
     homepage: http://completelynovel.com
     date: 2011-11-01
 -
     name: "Tau Tavengwa"
+    gender: male
     fellow: "Gavin Weale"
     homepage:
     date: 2012-05-01
 -
     name: "Lily Lappenna"
+    gender: female
     fellow: "Gavin Weale"
     homepage: http://www.mybnk.org
     date: 2012-11-01
 -
     name: "Michael Ettershank"
+    gender: male
     fellow: "Gavin Weale"
     homepage: http://www.robotscience.co.za/about/michael.htm
     date: 2013-11-01
 -
     name: "Julian Rademeyer"
+    gender: male
     fellow: Gavin Weale
     homepage: http://africacheck.org/
     date: 2014-11-01
 -
     name: "Zakheni Ngubo"
+    gender: female
     fellow: Gavin Weale
     homepage: http://syafunda.co.za/
     date: 2015-05-01
 -
     name: "Shawn Ahmed"
+    gender: male
     fellow: Jaisen Mathai
     homepage: http://uncultured.com/about/
     date: 2012-11-01
 -
     name: "Angela Bullock"
+    gender: female
     fellow: "Jaisen Mathai"
     homepage: http://www.100cameras.org/the-team/
     date: 2013-05-01
 -
     name: "Grace Garey"
+    gender: female
     fellow: "Jaisen Mathai"
     homepage: http://blog.watsi.org/post/21043263585/meet-grace
     date: 2013-11-01
 
 -
     name: "Astra Taylor"
+    gender: female
     fellow: "Jesse von Doom"
     homepage: https://debtcollective.org/
     date: 2014-11-01
 -
     name: "Deray Mckesson"
+    gender: male
     fellow: "Jesse von Doom"
     homepage: http://www.wetheprotesters.org/#/policeaccountabilitytool/
     date: 2015-05-01
 -
     name: "Simon Redfern"
+    gender: male
     fellow: "Johnny West"
     homepage: https://openbankproject.com/en/
     date: 2014-05-01
 -
     name: "Nisha Thompson"
+    gender: female
     fellow: Johnny West
     homepage: http://datameet.org/
     date: 2014-11-01
 -
     name: "Tom Longley"
+    gender: male
     fellow: "Johnny West"
     homepage: http://rudiment.info/flash-grant/
     date: 2015-05-01
 -
     name: "Konstantin Dmitriev"
+    gender: male
     fellow: "Jonas Öberg"
     homepage: http://synfig.org/
     date: 2013-05-01
 -
     name: "Valentina Pellizzer"
+    gender: female
     fellow: "Jonas Öberg"
     homepage: http://oneworldsee.org/
     date: 2013-11-01
 -
     name: "Martin Samuelsson"
+    gender: male
     fellow: "Jonas Öberg"
     homepage: http://columbiegg.com/outstanding/
     date: 2014-05-01
 -
     name: "Stefano Zacchiroli"
+    gender: male
     fellow: "Jonas Öberg"
     homepage: http://upsilon.cc/~zack/
     date: 2014-11-01
 -
     name: "Luis Falcón"
+    gender: male
     fellow: "Jonas Öberg"
     homepage: http://health.gnu.org/
     date: 2015-05-01
 -
     name: "Arun Pai"
+    gender: male
     fellow: "Kabir Bavikatte"
     homepage: http://www.uglyindian.com
     date: 2011-11-01
 -
     name: "Deepta Sateesh"
+    gender: female
     fellow: "Kabir Bavikatte"
     homepage:
     date: 2012-11-01
 -
     name: "Abhishek Choudhury"
+    gender: male
     fellow: "Kabir Bavikatte"
     homepage: http://www.behance.net/abhishekchoudhury
     date: 2013-05-01
 -
     name: "Negar Tayyar"
+    gender: male
     fellow: "Kabir Bavikatte"
     homepage:
     date: 2013-11-01
 -
     name: "Lesle Jansen"
+    gender: male
     fellow: "Kabir Bavikatte"
     homepage:
     date: 2014-05-01
 -
     name: "Petra Lentz-Snow"
+    gender: female
     fellow: "Kabir Bavikatte"
     homepage: http://journeysintohealing.wordpress.com/
     date: 2014-11-01
 -
     name: "Lata Mani"
+    gender: female
     fellow: "Kabir Bavikatte"
     homepage: https://www.youtube.com/watch?v=wKuj2mFx7XQ
     date: 2015-05-01
 -
     name: "Carl Scheffler"
+    gender: male
     fellow: "Kathi Fletcher"
     homepage: http://carlscheffler.blogspot.co.za/
     date: 2011-11-01
 -
     name: "Caitlin Holman"
+    gender: female
     fellow: "Kathi Fletcher"
     homepage: http://www.caitholman.com/
     date: 2012-05-01
 -
     name: "Emil Ivov"
+    gender: female
     fellow: "Kathi Fletcher"
     homepage: http://jitsi.org/
     date: 2012-11-01
 -
     name: "Rob Beezer"
+    gender: male
     fellow: "Kathi Fletcher"
     homepage: http://www.beezers.org/
     date: 2013-05-01
 -
     name: "Bart Snapp"
+    gender: male
     fellow: "Kathi Fletcher"
     homepage: https://people.math.osu.edu/snapp.14/
     date: 2014-05-01
 -
     name: "Taja Topolovec"
+    gender: male
     fellow: "Luka Mustafa"
     homepage: http://podcrto.si/about/
     date: 2015-05-01
 -
     name: "Joe Justice"
+    gender: male
     fellow: "Marcin Jakubowski"
     homepage: http://wikispeed.org/joe-justice/
     date: 2012-05-01
 -
     name: "Catarina Mota"
+    gender: female
     fellow: "Marcin Jakubowski"
     homepage: http://openmaterials.org/about/
     date: 2012-11-01
 -
     name: "Yann Lischetti"
+    gender: male
     fellow: "Marcin Jakubowski"
     homepage: http://velocar.fr/index-en.html
     date: 2013-11-01
 -
     name: "Philip Rutter"
+    gender: male
     fellow: "Marcin Jakubowski"
     homepage: http://badgersett.com/
     date: 2015-05-01
 -
     name: "Heidi Wiesspeiner"
+    gender: female
     fellow: "Mark Horner"
     homepage:
     date: 2011-11-01
 -
     name: "William Mapham"
+    gender: male
     fellow: "Mark Horner"
     homepage: http://www.vulamobile.com
     date: 2012-11-01
 -
     name: "Michael Aufreiter"
+    gender: male
     fellow: Mark Horner
     homepage: http://substance.io
     date: 2013-05-01
 -
     name: "Kate Ray"
+    gender: female
     fellow: "Mark Horner"
     homepage: https://github.com/kateray
     date: 2013-11-01
 -
     name: "Kelsey Wiens"
+    gender: female
     fellow: "Mark Horner"
     homepage: https://www.openaccessbutton.org/
     date: 2014-05-01
 -
     name: "Mike Markovina"
+    gender: male
     fellow: "Mark Horner"
     homepage: http://movingsushi.com/about
     date: 2015-05-01
 -
     name: "Emma Mulqueeny"
+    gender: female
     fellow: "Mark Surman"
     homepage: http://www.emmamulqueeny.com/
     date: 2011-11-01
 -
     name: "Forrest Oliphant"
+    gender: male
     fellow: "Mark Surman"
     homepage: http://meemoo.org/iframework/
     date: 2012-05-01
 -
     name: "Nick Liow"
+    gender: male
     fellow: "Mark Surman"
     homepage: http://www.craftyy.com/
     date: 2012-11-01
 -
     name: "Jesse Von Doom"
+    gender: male
     fellow: "Mark Surman"
     homepage: http://cashmusic.org
     date: 2013-05-01
 -
     name: "Matt Thompson"
+    gender: male
     fellow: "Mark Surman"
     homepage: http://workopen.org/flashgrant
     date: 2014-05-01
 -
     name: "Beebdan Kidron"
+    gender: female
     fellow: "Mark Surman"
     homepage: http://www.theguardian.com/commentisfree/2013/sep/13/abandoned-children-internet-addicted-virtual-damage
     date: 2014-11-01
 -
     name: "Sarah Shourd"
+    gender: female
     fellow: "Moxie Marlinspike"
     homepage: http://www.sarahshourd.com/
     date: 2013-11-01
 -
     name: "Shane Bauer"
+    gender: male
     fellow: "Moxie Marlinspike"
     homepage: http://www.beaconreader.com/projects/the-prison-problem
     date: 2014-05-01
 -
     name: "Mark Pesce"
+    gender: male
     fellow: "Paul Gardner-Stephen"
     homepage: http://markpesce.com/
     date: 2011-11-01
 -
     name: "Mitar Milutinovic"
+    gender: male
     fellow: "Paul Gardner-Stephen"
     homepage: http://dev.wlan-si.net/
     date: 2012-05-01
 -
     name: "Thomas Sprinkmeier"
+    gender: male
     fellow: "Paul Gardner-Stephen"
     homepage: http://ogpc.com.au/wiki/One_Geek_Per_Classroom
     date: 2012-11-01
 -
     name: "Martin Leadbeater"
+    gender: male
     fellow: "Paul Gardner-Stephen"
     homepage: https://github.com/latproc/latproc
     date: 2013-05-01
 -
     name: "Luka Mustafa"
+    gender: male
     fellow: "Paul Gardner-Stephen"
     homepage: http://koruza.net/
     date: 2013-11-01
 -
     name: "Jernej Kos"
+    gender: male
     fellow: "Paul Gardner-Stephen"
     homepage: https://github.com/kostko
     date: 2014-05-01
 -
     name: "Bodo Hoenen"
+    gender: male
     fellow: "Paul Gardner-Stephen"
     homepage: http://www.dev4x.com/
     date: 2014-11-01
 -
     name: "Santiago Garcia Gago"
+    gender: male
     fellow: "Peter Bloom"
     homepage: http://radioslibres.net/
     date: 2014-11-01
 -
     name: "Guido Iribarren"
+    gender: male
     fellow: "Peter Bloom"
     homepage: http://www.altermundi.net
     date: 2015-05-01
 -
     name: "Sophie Kay-Kershaw"
+    gender: female
     fellow: "Peter Murray-Rust"
     homepage: http://sophiekershaw.wordpress.com/
     date: 2014-11-01
 -
     name: "Erin McKiernan"
+    gender: female
     fellow: "Peter Murray-Rust"
     homepage: https://emckiernan.wordpress.com/2015/11/30/why-open-research/
     date: 2015-05-01
 -
     name: "David Albert"
+    gender: male
     fellow: "Philipp Schmidt"
     homepage: http://dave.is/
     date: 2011-11-01
 -
     name: "Ari Bader Natal"
+    gender: male
     fellow: "Philipp Schmidt"
     homepage: http://aribadernatal.com/
     date: 2012-05-01
 -
     name: "Karen Fasimpaur"
+    gender: female
     fellow: "Philipp Schmidt"
     homepage: http://k12opened.com/
     date: 2012-11-01
 -
     name: "Shaka Senghor"
+    gender: male
     fellow: "Philipp Schmidt"
     homepage: http://www.shakasenghor.com/
     date: 2013-05-01
 -
     name: "Jeff Sturges"
+    gender: male
     fellow: "Philipp Schmidt"
     homepage: http://www.mtelliottmakerspace.com/author/jsturges/
     date: 2013-11-01
 -
     name: "Grif Peterson"
+    gender: male
     fellow: "Philipp Schmidt"
     homepage: http://blackbearhat.tumblr.com/
     date: 2014-05-01
 -
     name: "Charlie De Tar"
+    gender: male
     fellow: "Philipp Schmidt"
     homepage: https://tirl.org/
     date: 2014-11-01
 -
     name: "Julie Legault"
+    gender: female
     fellow: "Philipp Schmidt"
     homepage: http://julielegault.com/amino
     date: 2015-05-01
 -
     name: "Alex Alekseyenko"
+    gender: male
     fellow: "Rory Aronson"
     homepage:
     date: 2014-05-01
 -
     name: "Tristan Smith"
+    gender: male
     fellow: "Rory Aronson"
     homepage: http://www.opensourcebeehives.net/
     date: 2014-11-01
 -
     name: "Philip Neustrom"
+    gender: male
     fellow: "Rory Aronson"
     homepage: https://localwiki.org/
     date: 2015-05-01
 -
     name: "Friedrich Lindenberg"
+    gender: male
     fellow: "Rufus Pollock"
     homepage: http://pudo.org/portfolio/
     date: 2011-11-01
 -
     name: "Pedro Markun"
+    gender: male
     fellow: "Rufus Pollock"
     homepage: http://br.okfn.org/
     date: 2012-05-01
 -
     name: "Adi Eyal"
+    gender: male
     fellow: "Rufus Pollock"
     homepage: http://www.burgercom.co.za/
     date: 2012-11-01
 -
     name: "Jenny Molloy"
+    gender: female
     fellow: "Rufus Pollock"
     homepage: http://science.okfn.org/author/jmolloy/
     date: 2013-05-01
 -
     name: "Prakash Neupane"
+    gender: male
     fellow: "Rufus Pollock"
     homepage: http://prakashneupane.com.np/
     date: 2013-11-01
 -
     name: "Rayna Stamboliyska"
+    gender: female
     fellow: "Rufus Pollock"
     homepage: http://me.hatewasabi.info/
     date: 2014-05-01
 -
     name: "Ahmed Maawy"
+    gender: male
     fellow: "Rufus Pollock"
     homepage: http://ahmedmaawy.com/
     date: 2014-11-01
 -
     name: "Everton Alvarenga"
+    gender: male
     fellow: "Rufus Pollock"
     homepage: http://br.okfn.org/
     date: 2015-05-01
@@ -627,86 +750,103 @@
     date: 2015-05-01
 -
     name: "Topher White"
+    gender: male
     fellow: "Sean Bonner"
     homepage: https://rfcx.org/
     date: 2014-11-01
 -
     name: "Wendy Hsu"
+    gender: female
     fellow: "Sean Bonner"
     homepage: http://beingwendyhsu.info/?page_id=1106
     date: 2015-05-01
 -
     name: "Carlos Rey Moreno"
+    gender: male
     fellow: "Steve Song"
     homepage: http://uwc.academia.edu/CarlosReyMoreno
     date: 2012-05-01
 -
     name: "Marco Zennaro"
+    gender: male
     fellow: "Steve Song"
     homepage: http://wireless.ictp.it/tvws/book/
     date: 2013-05-01
 -
     name: "Peter Bloom"
+    gender: male
     fellow: "Steve Song"
     homepage: http://rhizomatica.org/
     date: 2013-11-01
 -
     name: "Bunnie Huang"
+    gender: male
     fellow: "Steve Song"
     homepage: http://www.crowdsupply.com/kosagi/novena-open-laptop
     date: 2014-05-01
 -
     name: "Allison Burtch"
+    gender: female
     fellow: "Steve Song"
     homepage: http://www.allisonburtch.net/about/
     date: 2014-11-01
 -
     name: "Marco Rainone"
+    gender: male
     fellow: "Steve Song"
     homepage: https://github.com/marcorainone/RfTrack/blob/master/README.md
     date: 2015-05-01
 -
     name: "Dave Taht"
+    gender: male
     fellow: "Steve Song"
     homepage: http://www.bufferbloat.net/
     date: 2015-12-01
 -
     name: "Nicolas Grandi"
+    gender: male
     fellow: "Kabir Bavikatte"
     homepage: https://vimeo.com/user724515
     date: 2015-12-01
 -
     name: "Mirabel Ngong"
+    gender: female
     fellow: "Waldo Jaquith"
     homepage: https://www.linkedin.com/in/ngong-mirabel-20757590
     date: 2015-12-01
 -
     name: "Valent Turković"
+    gender: male
     fellow: "Luka Mustafa"
     homepage: http://www.otvorenamreza.org/
     date: 2015-12-01
 -
     name: "Claire Wardle"
+    gender: female
     fellow: "Esra'a Al Shafei"
     homepage: http://eyewitnessmediahub.com/
     date: 2015-12-01
 -
     name: "Daniel Mietchen"
+    gender: male
     fellow: "Peter Murray-Rust"
     homepage: https://plus.google.com/114065345396177138533/posts/fowxhLXwXyb
     date: 2015-12-01
 -
     name: "Luke Jordan"
+    gender: male
     fellow: "Andrew Rens"
     homepage: http://www.grassroot.org.za/
     date: 2015-12-01
 -
     name: "Brady Kriss"
+    gender: female
     fellow: "Sean Bonner"
     homepage: https://www.newschallenge.org/challenge/2014/submissions/model-terms-of-service
     date: 2015-12-01
 -
     name: "Tiffani Bell"
+    gender: female
     fellow: "Jesse von Doom"
     homepage: https://www.detroitwaterproject.org/
     date: 2015-12-01
@@ -718,91 +858,109 @@
     date: 2015-12-01
 -
     name: "Ilya Kreymer"
+    gender: female
     fellow: "Dan Whaley"
     homepage: https://webrecorder.io/
     date: 2015-12-01
 -
     name: "Joey Hess"
+    gender: male
     fellow: "Jonas Öberg"
     homepage: http://joeyh.name/
     date: 2015-12-01
 -
     name: "Javier Obregon"
+    gender: male
     fellow: "Peter Bloom"
     homepage: http://javierobregon.com.ar/
     date: 2015-12-01
 -
     name: "Christopher Adams"
+    gender: male
     fellow: "Philipp Schmidt"
     homepage: http://freebassel.org/
     date: 2015-12-01
 -
     name: "Claudio Agosti"
+    gender: male
     fellow: "Johnny West"
     homepage: https://globaleaks.org/
     date: 2015-12-01
 -
     name: "Ines Knaepper"
+    gender: female
     fellow: "Francois Grey"
     homepage: http://theport.ch/
     date: 2015-12-01
 -
     name: "Kelsey Kauffman"
+    gender: female
     fellow: "Astra Taylor"
     homepage:
     date: 2015-12-01
 -
     name: "Robert Steele"
+    gender: male
     fellow: "Marcin Jakubowski"
     homepage:
     date: 2015-12-01
 -
     name: "Regina Kgatle"
+    gender: female
     fellow: "Arthur Attwell"
     homepage: http://67games.org/
     date: 2015-12-01
 -
     name: "Ben Knight"
+    gender: male
     fellow: "ben@loomio.org"
     homepage: https://www.loomio.org/
     date: 2015-12-01
 -
     name: "Michael Caulfield"
+    gender: male
     fellow: "David Wiley"
     homepage: http://hapgood.us/
     date: 2015-12-01
 -
     name: "Babitha George"
+    gender: female
     fellow: "Mark Surman"
     homepage: http://unboxfestival.com/
     date: 2015-12-01
 -
     name: "Teresa Hackett"
+    gender: female
     fellow: "Catharina Maracke"
     homepage: http://www.eifl.net/
     date: 2015-12-01
 -
     name: "Sivam Krash"
+    gender: male
     fellow: "Paul Gardner-Stephen"
     homepage: http://www.phonelabs.net/
     date: 2015-12-01
 -
     name: "Yamila García"
+    gender: female
     fellow: "Rufus Pollock"
     homepage: https://about.me/yasgarcia
     date: 2015-12-01
 -
     name: "Paolo Bombelli"
+    gender: male
     fellow: "Alasdair Davies"
     homepage: http://www.cam.ac.uk/research/news/low-impact-hub-generates-electrical-current-from-pure-plant-power
     date: 2015-12-01
 -
     name: "Ben Brandzel"
+    gender: male
     fellow: "Tom Kruse"
     homepage: http://www.the-open.net/
     date: 2015-12-01
 -
     name: "Pumsuanhang Suantak"
+    gender: male
     fellow: "Sunil Abraham"
     homepage:
     date: 2015-12-01
