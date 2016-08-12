@@ -44,10 +44,15 @@ module Fellows
     
     def generate(site)
       site.posts.docs.each do |post|
-        if post.data.key?('fellowship')
+        if post.data['layout'] == 'fellow'
           events = []
-          fellowship = post.data['fellowship']
           
+          if post.data.key?('fellowship')
+            fellowship = post.data['fellowship']
+          else
+            fellowship = {}
+          end
+
           # Add flash grants that the fellow received.
           site.data['flashgrants'].each do |grant|
             if grant['name'] == post.data['fullname']
@@ -55,31 +60,33 @@ module Fellows
             end
           end
 
-          # Add fellowship start date to events.
-          start = fellowship['start']
-          events.push({'date' => start, 'text' => 'Fellowship started'})
+          if fellowship.key?('start')
+            # Add fellowship start date to events.
+            start = fellowship['start']
+            events.push({'date' => start, 'text' => 'Fellowship started'})
 
-          if fellowship.key?('end')
-            # Add fellowship end date to events.
-            ends = fellowship['end']
-            events.push({'date' => ends, 'text' => 'Fellowship ended'})
+            if fellowship.key?('end')
+              # Add fellowship end date to events.
+              ends = fellowship['end']
+              events.push({'date' => ends, 'text' => 'Fellowship ended'})
 
-            # Add renewals until end date.
-            renew = start >> 12
-            today = Date.today()
+              # Add renewals until end date.
+              renew = start >> 12
+              today = Date.today()
 
-            while (renew < ends)
-              events.push({'date' => renew, 'text' => 'Fellowship renewed'})
-              renew = renew >> 12
-            end
-          else
-            # Add renewals until today
-            renew = start >> 12
-            today = Date.today()
-            
-            while (renew < today)
-              events.push({'date' => renew, 'text' => 'Fellowship renewed'})
-              renew = renew >> 12
+              while (renew < ends)
+                events.push({'date' => renew, 'text' => 'Fellowship renewed'})
+                renew = renew >> 12
+              end
+            else
+              # Add renewals until today
+              renew = start >> 12
+              today = Date.today()
+
+              while (renew < today)
+                events.push({'date' => renew, 'text' => 'Fellowship renewed'})
+                renew = renew >> 12
+              end
             end
           end
 

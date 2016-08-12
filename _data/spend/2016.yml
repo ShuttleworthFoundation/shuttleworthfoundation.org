@@ -5,21 +5,40 @@ Aaron Makaruk:
   people: 20001.33
   travel: 1748.32
 Adam Hyde: {}
+Arthur Attwell: {}
 Astra Taylor: {}
+Catharina Maracke: {}
 "Daniel Lombra\xF1a Gonz\xE1lez":
   marketing: 3049.2
   people: 11665.0
   software: 37221.06
   travel: 8693.03
+Daniel Whaley:
+  marketing: 67880.0
+  people: 120250.0
+  travel: 11870.0
+David Wiley: {}
+Esra's Al Shafei:
+  people: 2500.0
+Francois Grey: {}
+Gavin Weale: {}
+Jaisen Mathai: {}
 Jesse von Doom:
   office-space: 12000.0
   people: 89237.5
 Johnny West:
   people: 20499.0
+Jonas Oberg: {}
+Kabir Bavikatte: {}
+Katherine Fletcher:
+  software: 300.0
 Luka Mustafa:
   infrastructure: 2999.88
   marketing: 16250.0
   people: 51300.11
+Marcin Jakubowski: {}
+Mark Horner: {}
+Moxie Marlinspike: {}
 Peter Bloom:
   infrastructure: 4467.16
   legal: 4488.0
@@ -28,12 +47,17 @@ Peter Bloom:
   software: 35677.1
   travel: 9538.61
 Peter Cunliffe-Jones: {}
+Peter Murray-Rust: {}
+Philipp Schmidt: {}
+Rory Aronson: {}
+Rufus Pollock: {}
 Seamus Kraft:
   infrastructure: 23262.4
 Sean Bonner:
   infrastructure: 24000.0
   marketing: 12000.0
   travel: 9384.23
+Steve Song: {}
 Tiffiniy Cheng: {}
 Waldo Jaquith:
   software: 20000.0

@@ -1,7 +1,7 @@
 ---
-title: "Jonas Oberg"
+title: "Jonas Öberg"
 layout: fellow
-fullname:  "Jonas Oberg"
+fullname:  "Jonas Öberg"
 project: "License and attribution metadata"
 type: "License and attribution metadata"
 date: 2013-03-01
