@@ -6,13 +6,14 @@ Adam Hyde:
 Astra Taylor:
   infrastructure: 6705.8
   office-space: 13200.0
-  people: 105000.0
+  people: 120000.0
   software: 33150.0
 "Daniel Lombra\xF1a Gonz\xE1lez":
-  infrastructure: 18903.16
+  administration: 949.12
+  infrastructure: 25855.54
   legal: 813.29
   marketing: 3798.19
-  people: 18664.0
+  people: 20997.0
   software: 119808.21
   travel: 18623.06
 Jesse von Doom:
@@ -42,7 +43,7 @@ Peter Bloom:
 Peter Cunliffe-Jones: {}
 Seamus Kraft:
   marketing: 20174.06
-  people: 85000.0
+  people: 110000.0
   software: 44962.5
 Sean Bonner:
   infrastructure: 115000.0
@@ -53,5 +54,5 @@ Sean Bonner:
   travel: 74000.0
 Tiffiniy Cheng: {}
 Waldo Jaquith:
-  infrastructure: 595.27
-  office-space: 2415.82
+  infrastructure: 677.89
+  office-space: 2685.83
