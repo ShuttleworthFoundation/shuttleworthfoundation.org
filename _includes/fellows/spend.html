@@ -97,6 +97,22 @@
   (function() {
       var data = {{ include.spend | jsonify }};
       var segments_per_row = {% if include.spend.size > 3 %}8{% else %}10{% endif %};
+
+      /* Group all categories not defined into 'other'. */
+      var defined_categories = ['people', 'marketing', 'software', 'travel',
+				'infrastructure', 'training', 'office-space', 'legal'];
+      for (var year in data) {
+	  for (var category in data[year]) {
+	      if (defined_categories.indexOf(category) == -1) {
+		  if (data[year]['other'] == undefined) {
+		      data[year]['other'] = 0;
+		  }
+		  data[year]['other'] += data[year][category];
+		  delete data[year][category];
+	      }
+	  }
+      }
+      console.log(data);
       
       /* Calculate the overall totals. */
       var total = 0;
@@ -202,7 +218,6 @@
 		  '.spend-breakdown-infographic-'+year+
 		  ' .spend-breakdown-segment-'+category;
 	      d3.selectAll(cls).attr('title', function(d, i) {
-		  category
 		  return category.replace('-', ' ').capitalize()+'<br/>$'+amount.formatMoney();
 	      });
 	  };
