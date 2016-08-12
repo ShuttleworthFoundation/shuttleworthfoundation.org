@@ -133,7 +133,7 @@ title:  The Shuttleworth Foundation - Year in Review 2014
 	      }
 	      
 	      var lines = [
-	          {% for fellow in site.data.reports[2014].fellows %}
+	          {% for fellow in site.data.reports['2014'].fellows %}
                   {% if forloop.last %}
 	          {% for category in fellow.categories %}
 	          ["{{ fellow.id }}", "{{ category }}"]{% unless forloop.last %},{% endunless %}
@@ -464,7 +464,7 @@ title:  The Shuttleworth Foundation - Year in Review 2014
 	  <div class="container-fellow-spend">
 	    <div class="container-fellow-spend-inner">
 
-	      {% for fellow in site.data.reports[2014].fellows %}
+	      {% for fellow in site.data.reports['2014'].fellows %}
 	      <div class="fellow-spend-entry {% if forloop.first %}fellow-spend-entry-active{% else %}fellow-spend-entry-next{% endif %}" data-fellow="{{ fellow.id }}">
 		<div class="fellow-spend-entry-left">
 		  <h4>{{ fellow.name }}</h4>
@@ -518,7 +518,7 @@ title:  The Shuttleworth Foundation - Year in Review 2014
 	      <div class="fellow-spend-arrow-left"></div>
 	      <div class="fellow-spend-arrow-right"></div>
 	      <div class="fellow-spend-dots">
-		{% for fellow in site.data.reports[2014].fellows %}
+		{% for fellow in site.data.reports['2014'].fellows %}
 		<div class="fellow-spend-dot {% if forloop.first %}fellow-spend-dot-active{% endif %}" data-fellow="{{ fellow.id }}">
 		  <div class="fellow-spend-dot-tooltip">{{ fellow.name }}</div>
 		</div>
@@ -531,7 +531,7 @@ title:  The Shuttleworth Foundation - Year in Review 2014
       </div>
       <script>
 	fellow_spend = {
-          {% for fellow in site.data.reports[2014].fellows %}
+          {% for fellow in site.data.reports['2014'].fellows %}
   	  "{{ fellow.id }}": [
 	    {% for category in fellow.spend %}
             {
@@ -549,7 +549,7 @@ title:  The Shuttleworth Foundation - Year in Review 2014
       </script>
     </div>
     
-    {% if site.data.reports[2014].data.alumni %}
+    {% if site.data.reports['2014'].data.alumni %}
     <div class="container container-money">
       <div class="row">
 	<div class="col-md-8 col-md-offset-2">

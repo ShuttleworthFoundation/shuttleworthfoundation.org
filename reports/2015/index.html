@@ -151,7 +151,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	      }
 
 	      var lines = [
-	          {% for fellow in site.data.reports[2015].fellows %}
+		  {% for fellow in site.data.reports['2015'].fellows %}
                   {% if forloop.last %}
 	          {% for category in fellow.categories %}
 	          ["{{ fellow.id }}", "{{ category }}"]{% unless forloop.last %},{% endunless %}
@@ -447,7 +447,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	  <iframe id="bubbletree" src="bubbletree.html"></iframe>
 	  <div id="our-spend-worldmap"></div>
 	  <script>
-	    var mapdata = {{ site.data.reports[2015].regions|jsonify }};
+	    var mapdata = {{ site.data.reports['2015'].regions|jsonify }};
 	    {% include_relative js/worldmap.js %}
 	  </script>
 	</div>
@@ -486,7 +486,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	  <div class="container-fellow-spend">
 	    <div class="container-fellow-spend-inner">
 
-	      {% for fellow in site.data.reports[2015].fellows %}
+	      {% for fellow in site.data.reports['2015'].fellows %}
 	      <div class="fellow-spend-entry {% if forloop.first %}fellow-spend-entry-active{% else %}fellow-spend-entry-next{% endif %}" data-fellow="{{ fellow.id }}">
 		<div class="fellow-spend-entry-left">
 		  <h4>{{ fellow.name }}</h4>
@@ -541,7 +541,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	      <div class="fellow-spend-arrow-left"></div>
 	      <div class="fellow-spend-arrow-right"></div>
 	      <div class="fellow-spend-dots">
-		{% for fellow in site.data.reports[2015].fellows %}
+		{% for fellow in site.data.reports['2015'].fellows %}
 		<div class="fellow-spend-dot {% if forloop.first %}fellow-spend-dot-active{% endif %}" data-fellow="{{ fellow.id }}">
 		  <div class="fellow-spend-dot-tooltip">{{ fellow.name }}</div>
 		</div>
@@ -554,7 +554,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
       </div>
       <script>
 	fellow_spend = {
-          {% for fellow in site.data.reports[2015].fellows %}
+          {% for fellow in site.data.reports['2015'].fellows %}
   	  "{{ fellow.id }}": [
 	    {% for category in fellow.spend %}
             {
@@ -572,7 +572,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
       </script>
     </div>
 
-    {% if site.data.reports[2015].data.alumni %}
+    {% if site.data.reports['2015'].data.alumni %}
     <div class="container container-money">
       <div class="row">
 	<div class="col-md-8 col-md-offset-2">
