@@ -17,7 +17,12 @@ module Jekyll
           $total += amount
         end
       end
-      $total - contribution
+
+      if contribution
+        $total - contribution
+      end
+      
+      $total
       
     end
   end
