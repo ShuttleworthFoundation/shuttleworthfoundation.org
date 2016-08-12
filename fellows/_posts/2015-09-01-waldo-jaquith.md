@@ -6,6 +6,7 @@ project: "Unlocking open government data"
 type: "Unlocking open government data"
 date:   2015-09-01
 photo: "waldo-jaquith.jpg"
+video: https://player.vimeo.com/video/178617266
 links:
     - Blog: https://waldo.jaquith.org/
     - Github: https://github.com/waldoj
