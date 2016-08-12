@@ -17,7 +17,7 @@
       {% endif %}
       <div class="content">
 	{{ grant.name }}<br/>
-	<a href="{{ grant.homepage }}">{{ grant.homepage | remove:"http://" | remove:"https://" }}</a>
+	<a href="{{ grant.homepage }}">{{ grant.homepage | remove:"http://" | remove:"https://" | truncate:35,'...' }}</a>
       </div>
     </div>
     {% endfor %}
