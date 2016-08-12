@@ -1,3 +1,4 @@
+{% if include.spend.size != 0 %}
 <div class="container container-fellow">
   <div class="row">
     <div class="col-sm12 col-md-12 col-lg-12">
@@ -32,7 +33,6 @@
 	{% assign year = yeardata[0] %}
 	{% assign categories = yeardata[1] %}
 	{% assign contribution = include.contribution[year] %}
-	{% if categories.size != 0 %}
 	<div class="spend-breakdown-year {% if include.spend.size > 3 %}spend-breakdown-year-compact{% endif %}">
 	  <div class="spend-breakdown-infographic spend-breakdown-infographic-{{ year }}">
 	    
@@ -52,7 +52,6 @@
 	    Total funds: {% if include.spend.size > 3 %}<br/>{% endif %}<em>{{ include.spend | spend_year:year | spend_total | money }}</em>
 	  </div>
 	</div>
-	{% endif %}
         {% endfor %}
       </div>
       
@@ -229,3 +228,4 @@
   });
 						  
 </script>
+{% endif %}

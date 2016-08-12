@@ -93,8 +93,10 @@ module Fellows
 
           site.data['spend'].each do |year, data|
             data.each do |fellow, spend|
-              if post.data['fullname'] == fellow
-                post.data['spend'][year.to_i] = spend
+              if spend.size != 0
+                if post.data['fullname'] == fellow
+                  post.data['spend'][year.to_i] = spend
+                end
               end
             end
           end
