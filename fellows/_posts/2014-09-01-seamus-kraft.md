@@ -1,17 +1,32 @@
 ---
-title: "Seamus Kraft"
 layout: fellow 
+title: "Seamus Kraft"
 fullname:  "Seamus Kraft"
 project: "Open government"
 type: "Open government"
 date:   2014-09-01
 photo: "Seamus\ Kraft.jpg"
+video: https://player.vimeo.com/video/170794773
 links: 
     - Open Gov Foundation: http://www.opengovfoundation.org/about-us/
 projects:
     - My Madison: http://mymadison.io/
 twitter: seamus_kraft
 permalink: /:categories/seamus-kraft
+fellowship:
+  start: 2014-09-01
+contribution:
+  2014: 2636.36
+  2015: 12450.96
+  2016: 0.00
+spend:
+  2014:
+    people: 47755.50
+    software: 29000.00
+  2015:
+    people: 120511.00
+    software: 40500.00
+    marketing: 5000.00
 ---
 
 Seamus' focus is The Open Gov Foundation and its Madison Project, through which he will use the fellowship year to build tools and establish working models for open government, starting with participatory, collaborative policy making in the United States.

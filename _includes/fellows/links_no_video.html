@@ -1,0 +1,59 @@
+<div class="container container-fellow">
+  <div class="row row-links row-links-inline">
+    <div class="col-sm-12 col-md-3 col-lg-3">
+      <div class="fellow-photo">
+	<img src="../../images/fellows/{{ page.photo }}" alt="{{ page.fullname }}">
+      </div>
+    </div>
+    {% if include.links %}
+    <div class="col-sm-12 col-md-3 col-lg-3">
+      <div class="link-block link-block-large clearfix">
+	<img src="../../images/icon-links.svg" alt="Links" />
+	<div class="link-heading">
+          Links
+	</div>
+	<div class="link-links">
+	  {% for link in include.links %}
+	  {% for l in link %}
+	  <a href="{{l[1]}}">{{l[0]}}</a></br>
+	  {% endfor %}
+	  {% endfor %}
+	</div>
+      </div>
+    </div>
+    {% endif %}
+    
+    {% if include.projects %}
+    <div class="col-sm-12 col-md-3 col-lg-3">
+      <div class="link-block link-block-large clearfix">
+	<img src="../../images/icon-projects.svg" alt="Projects" />
+	<div class="link-heading">
+          Projects
+	</div>
+	<div class="link-links">
+	  {% for link in include.projects %}
+	  {% for l in link %}
+	  <a href="{{l[1]}}">{{l[0]}}</a></br>
+	  {% endfor %}
+	  {% endfor %}
+	</div>
+      </div>
+    </div>
+    {% endif %}
+    
+    {% if include.twitter %}
+    <div class="col-sm-12 col-md-3 col-lg-3">
+      <div class="link-block link-block-large clearfix">
+	<img src="../../images/icon-twitter.svg" alt="Tweets" />
+	<div class="link-heading">
+          Twitter
+	</div>
+	<div class="link-links">
+	  <a href="http://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
+	</div>
+      </div>
+    </div>
+    {% endif %}
+    
+  </div>
+</div>

@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" type="text/css" href="{{ '/css/fellow.css' | prepend: site.baseurl }}">
 
 <div class="page-wrapper" id="fellow">
 <!-- Everything after this should be Editable as content -->
@@ -12,75 +13,37 @@ layout: default
   </h1>
 </section>
 
-<section class="content-15 v-center">
-    <div>
+<div class="spacer"></div>
 
-        <div class="container">
-            <div class="row">
-            
-                <!-- 6 columns half width -->
-                <div class="col-sm-3">
-                    <div class="photo-wrapper">
-                        <div class="photo"><img src="../../images/fellows/{{page.photo}}" alt="{{page.fullname}}"></div>
-                    </div>
-                </div>
-                
-                <!-- 6 columns half width -->
-                <div class="col-sm-9">
-                    {{content}}
-                </div>
-                
-            </div>
-            
-            <div class="row fellows-links">
-                <!-- 12 columns full width -->
-                <div class="col-sm-3 col-sm-offset-3">
-                    <img src="../../images/fellows-links-icon.png" alt="Links" />
-                    <h4>
-                        Links
-                    </h4>
-                    {% for link in page.links %}
-                        {% for l in link %}
-                        <a href="{{l[1]}}">{{l[0]}}</a></br>
-                        {% endfor %}
-                    {% endfor %}
-                </div>
-                <div class="col-sm-3">
-                {% if page.projects %}
-                    <img src="../../images/fellows-projects-icon.png" alt="Projects" />
-                    <h4>
-                        Projects
-                    </h4>
-                    {% for link in page.projects %}
-                        {% for l in link %}
-                        <a href="{{l[1]}}">{{l[0]}}</a></br>
-                        {% endfor %}
-                    {% endfor %}
-                {% endif %}
-                </div>
-
-                <div class="col-sm-3">
-                {% if page.twitter %}
-                <img src="../../images/fellows-tweets-icon.png" alt="Tweets" />
-                    <h4>
-                        Twitter
-                    </h4>
-                    <a href="http://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
-                {% endif %}
-                </div>
-            </div><!-- end row -->
-
-	    <div class="row fellow-flashgrants-row">
-	      <div class="col-sm-9 col-sm-offset-3">
-		{% assign flashgrants = site.data.flashgrants | where: "fellow", page.fullname | sort: "date" | reverse %}
-		{% if flashgrants.size != 0 %}
-		{% include flashgrants_block.html heading="Flash Grant Nominations" items=flashgrants date_fmt="%B %Y" %}
-		{% endif %}
-	      </div>
-	    </div>
-            
-        </div><!-- end container -->
+{% if page.video %}
+{% include fellows/links.html links=page.links projects=page.projects twitter=page.twitter video=page.video%}
+{% else %}
+{% include fellows/links_no_video.html links=page.links projects=page.projects twitter=page.twitter %}
+{% endif %}
+  
+<div class="container container-fellow">
+  <div class="row row-summary">
+    <div class="col-sm12 col-md-12 col-lg-12">
+      <h2>So, what's the big idea?</h2>
+      {{ page }}
     </div>
-</section>
+  </div>
+</div>
 
-<!-- Everything before this is editable page content -->
+<!--
+{% if page.timeline %}
+{% include fellows/timeline.html labels=page.timeline.labels events=page.timeline.events %}
+{% endif %}
+-->
+   
+{% assign flashgrants = site.data.flashgrants | where: "fellow", page.fullname | sort: "date" | reverse %}
+{% if flashgrants.size != 0 %}
+{% include fellows/flashgrants.html grants=flashgrants %}
+{% endif %}
+
+{% if page.spend %}
+{% include fellows/spend.html spend=page.spend contribution=page.contribution %}
+{% endif %}
+
+<div class="spacer"></div>
+
