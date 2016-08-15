@@ -18,7 +18,7 @@ fellowship:
 contribution:
   2014: 15910.98
   2015: 16581.99
-  2016: 0.00
+  2016: 5962.00
 ---
 
 Johnny focuses his efforts on OpenOil, to establish public understanding of contractual relationships within the oil and mining industries. His work includes GaiaBase, an openly licensed geospatial database listing all natural resources on the planet and the pertaining physical, economic and legal data.
