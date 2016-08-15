@@ -6,6 +6,7 @@ project: "Fighting for Internet freedom"
 type: "Fighting for Internet freedom"
 date:   2015-09-01
 photo: tiffiniy-cheng.jpg
+video: https://player.vimeo.com/178896657
 links:
     - Blog: https://www.fightforthefuture.org/news/
 projects:
