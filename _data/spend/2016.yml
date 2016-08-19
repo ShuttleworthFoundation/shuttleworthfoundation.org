@@ -2,10 +2,13 @@ Aaron Makaruk:
   infrastructure: 4720.0
   marketing: 1702.23
   office-space: 6609.1
-  people: 44173.66
+  people: 64173.66
   travel: 1811.67
+Adam Hyde:
+  people: 17500.0
 Astra Taylor:
   other: 10000.0
+  people: 27500.0
 "Daniel Lombra\xF1a Gonz\xE1lez":
   marketing: 10000.0
   people: 29364.98
@@ -19,7 +22,7 @@ Esra'a Al Shafei:
   people: 30000.0
 Jesse von Doom:
   office-space: 24000.0
-  people: 178750.0
+  people: 228100.0
 Johnny West:
   people: 20499.0
 Katherine Fletcher:
@@ -27,26 +30,31 @@ Katherine Fletcher:
 Luka Mustafa:
   infrastructure: 7166.93
   marketing: 46153.85
-  people: 141679.23
+  people: 161252.23
 Peter Bloom:
   infrastructure: 7560.91
   legal: 22109.69
   office-space: 21234.24
-  people: 101004.01
+  people: 131259.51
   software: 60038.83
   travel: 14578.0
 Peter Cunliffe-Jones:
   other: 19372.84
+  people: 31182.0
 Seamus Kraft:
   infrastructure: 28880.0
   other: 1458.0
+  people: 47755.5
 Sean Bonner:
   infrastructure: 24000.0
   marketing: 12000.0
   other: 85458.0
+  people: 42755.5
   travel: 38700.0
 Tiffiniy Cheng:
   other: 100000.0
+  people: 50000.0
 Waldo Jaquith:
+  people: 62500.0
   software: 45000.0
   travel: 3258.0

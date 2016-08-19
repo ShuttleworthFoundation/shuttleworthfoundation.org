@@ -1,11 +1,11 @@
 Adam Hyde:
-  people: 20000.0
+  people: 37500.0
   software: 175000.0
   travel: 15000.0
 Astra Taylor:
   infrastructure: 8923.64
   office-space: 17565.71
-  people: 120000.0
+  people: 147500.0
   software: 91000.0
 Catharina Maracke:
   infrastructure: 13755.93
@@ -19,18 +19,20 @@ Catharina Maracke:
   legal: 1514.13
   marketing: 21289.82
   other: 800.0
-  people: 28000.0
+  people: 56602.28
   software: 75356.25
   travel: 5606.42
+Daniel Whaley:
+  people: 96000.0
 Esra'a Al Shafei:
-  people: 79600.0
+  people: 103355.68
   software: 116500.0
 Jesse von Doom:
   infrastructure: 6000.0
   legal: 6000.0
   marketing: 17000.0
   office-space: 23000.0
-  people: 157670.0
+  people: 194520.0
   software: 70330.0
 Johnny West:
   infrastructure: 11890.51
@@ -41,12 +43,12 @@ Johnny West:
 Luka Mustafa:
   infrastructure: 83416.01
   marketing: 7534.8
-  people: 79749.19
+  people: 120895.18
   travel: 13800.0
 Peter Bloom:
   infrastructure: 9457.86
   office-space: 14069.73
-  people: 63006.5
+  people: 123517.5
   software: 44191.75
   travel: 3180.0
 Peter Murray-Rust:
@@ -62,15 +64,17 @@ Rory Aronson:
   software: 20000.0
 Seamus Kraft:
   marketing: 15000.0
-  people: 110000.0
+  people: 205511.0
   software: 17850.0
 Sean Bonner:
   infrastructure: 90000.0
   legal: 5000.0
   office-space: 30000.0
+  people: 64133.25
   software: 12000.0
   training: 15000.0
   travel: 74000.0
 Waldo Jaquith:
   infrastructure: 6707.39
   office-space: 4420.61
+  people: 62500.0
