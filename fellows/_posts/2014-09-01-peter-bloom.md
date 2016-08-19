@@ -20,6 +20,7 @@ fellowship:
 contribution:
   2014: 10305.55
   2015: 9716.74
+  2016: 20489.00
 ---
 
 Peter's fellowship focus is Rhizomatica, establishing low-cost, low-power, open-source cellular infrastructure that can serve rural areas profitably using inexpensive handsets that many already own. His priorities include policy modelling and business model development.

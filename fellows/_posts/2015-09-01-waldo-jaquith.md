@@ -6,6 +6,7 @@ project: "Unlocking open government data"
 type: "Unlocking open government data"
 date:   2015-09-01
 photo: "waldo-jaquith.jpg"
+video: https://player.vimeo.com/video/178617266
 links:
     - Blog: https://waldo.jaquith.org/
     - Github: https://github.com/waldoj
@@ -18,7 +19,7 @@ fellowship:
   start: 2015-09-01
 contribution:
   2015: 1714.02
-  2016: 0.00
+  2016: 4203.00
 ---
 
 Waldo is the founder of [US Open Data](https://www.usopendata.org/). His goal is to support the US government, at all levels, to release useful, usable open data, and to help both the private and public sector realise the benefits of open data over time.

@@ -6,6 +6,7 @@ project: "Urban snap-fit garden kits"
 type: "Urban snap-fit garden kits"
 date:   2015-09-01
 photo: aaron-makaruk.jpg
+video: https://player.vimeo.com/178892102
 links:
     - Forum: http://community.aker.me/
 projects:
@@ -16,7 +17,7 @@ permalink: /:categories/aaron-makaruk
 fellowship:
   start: 2016-03-01
 contribution:
-  2016: 0.00
+  2016: 4446.00
 ---
 
 Aaron Makaruk is developing methodologies, tools and kits for integrating natural agricultural and ecological systems with urban environments in order to restore balance to food production and consumption cycles. These include [AKER's](http://docs.aker.me/) simple garden kits that snap together without tools in just minutes and can be adjusted to fit even the smallest balcony.

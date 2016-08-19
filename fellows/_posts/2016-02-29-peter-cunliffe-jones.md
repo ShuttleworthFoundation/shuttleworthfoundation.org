@@ -6,6 +6,7 @@ project: "Checking the facts"
 type: "Checking the facts"
 date:   2015-09-01
 photo: peter-cunliffe-jones.jpg
+video: https://player.vimeo.com/178894299
 links:
     - Blog: https://africacheck.org/blog/
 projects:
@@ -15,7 +16,7 @@ permalink: /:categories/peter-cunliffe-jones
 fellowship:
   start: 2016-03-01
 contribution:
-  2016: 0.00
+  2016: 1761.00
 ---
 Peter Cunliffe-Jones is heading up [AfricaCheck](https://africacheck.org), checking claims that public figures and institutions make against the best available public information to change the too-easy flow of disinformation, promote accuracy in public debate and kick-start a healthy skeptical reflex among the public and the media in Africa about claims that are made.
 
