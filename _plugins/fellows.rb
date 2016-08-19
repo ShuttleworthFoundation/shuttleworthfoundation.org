@@ -114,6 +114,19 @@ module Fellows
             post.data['spend'][year] = Hash[post.data['spend'][year].sort_by {|k, v| k}]
           end
 
+          # Add all contribution data from site.data.contribution.<year> to fellow.contribution
+          if not post.data.key?('contribution')
+            post.data['contribution'] = {}
+          end
+
+          site.data['contribution'].each do |year, data|
+            data.each do |fellow, contribution|
+              if post.data['fullname'] == fellow
+                post.data['contribution'][year.to_i] = contribution
+              end
+            end
+          end
+
         end
       end
     end
