@@ -1,51 +1,67 @@
-Catharina Maracke:
-  travel: 60224.71
-  infrastructure: 79739.18
-  software-development: 24000.00
-  people: 175484.56
-Dan Whaley:
-  software-development: 98000.00
-  people: 330726.50
-Esra'a Al Shafei:
-  travel: 3721.80
-  software-development: 150720.00
-  people: 81412.18
-Kathi Fletcher:
-  travel: 8200.00
-  software-development: 81601.29
-  people: 258175.83
-Rufus Pollock:
-  travel: 4307.90
-  infrastructure: 22792.72
-  people: 244112.86
-Daniel Lombraña González:
-  travel: 1572.06
-  infrastructure: 12999.45
-  people: 52334.40
-Moxie Marlinspike:
-  software-development: 33976.00
-  people: 77755.28
-Jonas Öberg:
-  travel: 30707.50
-  infrastructure: 26320.50
-  people: 271633.00
 Arthur Attwell:
-  marketing: 60962.94
-  training: 2137.42
-  software-development: 14658.40
-  people: 135092.00
-Jaisen Mathai:
-  marketing: 17500.00
-  travel: 3186.00
-  infrastructure: 22800.00
-  people: 387957.18
+  administration: 70000.01
+  infrastructure: 240000.04
+  legal: 20000.0
+  marketing: 70403.04
+  office-space: 120000.02
+  people: 908290.82
+  software: 90000.01
+  travel: 100000.01
+Catharina Maracke:
+  infrastructure: 17255.78
+  legal: 12924.38
+  office-space: 10319.83
+  people: 51367.6
+  software: 43047.35
+  travel: 110085.07
+"Daniel Lombra\xF1a Gonz\xE1lez":
+  infrastructure: 9381.6
+  people: 28102.28
+  travel: 1017.58
+Daniel Whaley:
+  people: 366888.45
 David Wiley:
-  people: 97511.00
-  software-development: 245000.00
+  infrastructure: 2602.67
+  office-space: 1903.75
+  people: 259074.64
+  software: 105900.84
+  travel: 28656.86
+Esra'a Al Shafei:
+  people: 53668.18
+  software: 49200.0
+  travel: 4518.76
 Gavin Weale:
-  marketing: 91948.93
-  people: 241152.84
-Marcin Jacubowski:
-  travel: 1417.79
-  infrastructure: 100000.00
-  people: 100511.00
+  administration: 977.23
+  infrastructure: 2931.79
+  legal: 977.23
+  marketing: 3909.11
+  people: 2155210.71
+  travel: 12704.56
+Jaisen Mathai:
+  people: 113570.85
+  software: 133875.0
+  travel: 5097.33
+Jonas Oberg:
+  administration: 3000.0
+  infrastructure: 13928.34
+  marketing: 4500.0
+  office-space: 2680.0
+  people: 244231.96
+  software: 39475.6
+  travel: 20845.11
+Kabir Bavikatte:
+  people: 2679.97
+Katherine Fletcher:
+  infrastructure: 945.56
+  people: 134175.84
+  software: 143452.9
+  travel: 80701.53
+Marcin Jakubowski:
+  people: 200511.0
+  travel: 1417.19
+Mark Horner:
+  travel: 3280.0
+Moxie Marlinspike:
+  people: 77755.68
+Rufus Pollock:
+  people: 32368.94
