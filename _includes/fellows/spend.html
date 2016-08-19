@@ -99,7 +99,7 @@
       var segments_per_row = {% if include.spend.size > 3 %}8{% else %}10{% endif %};
 
       /* Group all categories not defined into 'other'. */
-      var defined_categories = ['people', 'marketing', 'software', 'travel',
+      var defined_categories = ['people', 'marketing', 'software', 'travel', 'other',
 				'infrastructure', 'training', 'office-space', 'legal'];
       for (var year in data) {
 	  for (var category in data[year]) {

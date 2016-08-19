@@ -1,92 +1,76 @@
-Aaron Makaruk: {}
 Adam Hyde:
   people: 20000.0
-  software: 140000.0
-  travel: 15500.93
-Arthur Attwell: {}
+  software: 175000.0
+  travel: 15000.0
 Astra Taylor:
-  infrastructure: 6705.8
-  office-space: 13200.0
+  infrastructure: 8923.64
+  office-space: 17565.71
   people: 120000.0
-  software: 33150.0
+  software: 91000.0
 Catharina Maracke:
-  infrastructure: 4126.33
-  legal: 6730.55
-  office-space: 24421.7
-  software: 2493.17
-  travel: 28221.08
+  infrastructure: 13755.93
+  legal: 22437.6
+  office-space: 81414.51
+  software: 8311.47
+  travel: 94080.49
 "Daniel Lombra\xF1a Gonz\xE1lez":
-  administration: 1044.04
-  infrastructure: 28612.28
-  legal: 931.53
-  marketing: 4205.03
-  people: 23194.13
-  software: 85431.8
-  travel: 20945.01
-Daniel Whaley: {}
-David Wiley: {}
+  administration: 1697.0
+  infrastructure: 43788.87
+  legal: 1514.13
+  marketing: 21289.82
+  other: 800.0
+  people: 28000.0
+  software: 75356.25
+  travel: 5606.42
 Esra'a Al Shafei:
-  people: 79800.0
-  software: 81950.0
-Francois Grey: {}
-Gavin Weale: {}
-Jaisen Mathai: {}
+  people: 79600.0
+  software: 116500.0
 Jesse von Doom:
   infrastructure: 6000.0
-  legal: 5070.0
-  marketing: 12000.0
+  legal: 6000.0
+  marketing: 17000.0
   office-space: 23000.0
   people: 157670.0
-  software: 67530.0
+  software: 70330.0
 Johnny West:
-  infrastructure: 11908.37
-  marketing: 9192.97
-  office-space: 1307.2
-  people: 165680.19
-  travel: 19813.78
-Jonas Oberg: {}
-Kabir Bavikatte: {}
-Katherine Fletcher: {}
+  infrastructure: 11890.51
+  marketing: 9398.41
+  office-space: 1209.0
+  people: 165209.35
+  travel: 19932.73
 Luka Mustafa:
-  infrastructure: 74986.12
-  marketing: 7297.32
-  people: 106429.82
-  travel: 24411.44
-Marcin Jakubowski: {}
-Mark Horner: {}
-Moxie Marlinspike: {}
+  infrastructure: 83416.01
+  marketing: 7534.8
+  people: 79749.19
+  travel: 13800.0
 Peter Bloom:
-  infrastructure: 15976.94
-  office-space: 9538.67
-  people: 53735.42
-  software: 22641.13
-  travel: 4945.84
-Peter Cunliffe-Jones: {}
+  infrastructure: 9457.86
+  office-space: 14069.73
+  people: 63006.5
+  software: 44191.75
+  travel: 3180.0
 Peter Murray-Rust:
-  legal: 2914.18
-  marketing: 8519.8
-  office-space: 173.54
-  people: 71168.71
-  software: 111603.48
-  training: 197.89
-  travel: 18634.87
-Philipp Schmidt: {}
+  legal: 6190.75
+  marketing: 2223.53
+  office-space: 668.01
+  other: 2880.45
+  people: 77167.23
+  software: 127127.51
+  training: 165.95
+  travel: 24148.7
 Rory Aronson:
   software: 20000.0
-Rufus Pollock: {}
 Seamus Kraft:
-  marketing: 20174.06
+  marketing: 15000.0
   people: 110000.0
-  software: 44962.5
+  software: 17850.0
 Sean Bonner:
-  infrastructure: 115000.0
+  infrastructure: 90000.0
   legal: 5000.0
-  office-space: 24000.0
-  software: 24000.0
-  training: 30000.0
+  office-space: 30000.0
+  software: 12000.0
+  training: 15000.0
   travel: 74000.0
-Steve Song: {}
-Tiffiniy Cheng: {}
 Waldo Jaquith:
-  infrastructure: 677.89
-  office-space: 2685.83
+  infrastructure: 6707.39
+  office-space: 4420.61
