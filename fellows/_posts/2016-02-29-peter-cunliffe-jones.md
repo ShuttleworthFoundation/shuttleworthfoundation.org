@@ -6,7 +6,7 @@ project: "Checking the facts"
 type: "Checking the facts"
 date:   2015-09-01
 photo: peter-cunliffe-jones.jpg
-video: https://player.vimeo.com/178894299
+video: https://player.vimeo.com/video/178894299
 links:
     - Blog: https://africacheck.org/blog/
 projects:

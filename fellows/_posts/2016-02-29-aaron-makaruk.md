@@ -6,7 +6,7 @@ project: "Urban snap-fit garden kits"
 type: "Urban snap-fit garden kits"
 date:   2015-09-01
 photo: aaron-makaruk.jpg
-video: https://player.vimeo.com/178892102
+video: https://player.vimeo.com/video/178892102
 links:
     - Forum: http://community.aker.me/
 projects:
