@@ -6,7 +6,7 @@ project: "Developing openly accessible cell cultures"
 type: "Cellular Agriculture"
 date:   2016-08-30
 photo: "isha-datar.jpg"
-video:
+video: https://player.vimeo.com/video/187809639
 links:
     - Facebook: https://www.facebook.com/groups/newharvestorg
 projects:

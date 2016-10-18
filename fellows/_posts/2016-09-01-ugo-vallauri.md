@@ -6,7 +6,7 @@ project: "Fixing our relationship with electronics"
 type: "The post-warranty repair economy"
 date:   2016-08-30
 photo: "ugo-vallauri.jpg"
-video:
+video: https://player.vimeo.com/video/187809640
 links:
     - Blog: https://therestartproject.org/blog/
     - Facebook: https://www.facebook.com/RestartProject

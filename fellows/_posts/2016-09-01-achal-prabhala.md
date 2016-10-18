@@ -6,7 +6,7 @@ project: "Advancing innovation and access to medicines"
 type: "Innovation and access to medicines"
 date:   2016-08-30
 photo: "achal-prabhala.jpg"
-video:
+video: https://player.vimeo.com/video/187809642
 links:
 projects:
 twitter:
