@@ -32,7 +32,7 @@ title: Flash Grants
 
 	{% for for_year in by_year %}
 	{% assign items = for_year.items | sort_two: "date", "name" %}
-	{% include flashgrants_block.html heading=for_year.year items=items date_fmt="%B" %}
+	{# include flashgrants_block.html heading=for_year.year items=items date_fmt="%B" #}
 	{% endfor %}
       </div>
     </div>
