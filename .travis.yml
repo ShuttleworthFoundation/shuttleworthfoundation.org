@@ -2,6 +2,11 @@ language: ruby
 rvm:
 - 2.2.5
 
+# Modify submodules to use HTTPS.
+before_install:
+    - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+    - git submodule update --init --recursive
+
 script: ./script/cibuild
 
 branches:
