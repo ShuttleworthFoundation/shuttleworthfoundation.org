@@ -25,6 +25,9 @@ exclude: [Makefile, README.md]
 ##
 # COLLECTIONS
 ##
-#collections:
-#  fellows:
-#    output: true
+collections:
+  fellows:
+    output: true
+  team:
+    output: true
+

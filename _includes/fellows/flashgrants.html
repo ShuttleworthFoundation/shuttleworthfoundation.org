@@ -1,19 +1,19 @@
-<div class="container container-fellow">
-  <div class="row row-flashgrants">
-    <div class="col-md-12">
-      <h2>{% if page.fullname %}{{ page.fullname }}'s flash grant nominations{% else %}Flash grant nominations{% endif %}</h2>
-      <p>
-	Twice a year we award a number of small grants to a collection
-	of social change agents, no strings attached, in support of
-	their work. We call these Flash Grants and recipients are
-	selected based on nominations from our Fellows. Each award is
-	worth $5,000.
-      </p>
-    </div>
+<div class="container-wrapper grey">
+  <div class="container">
+    
+    <h2>{% if page.name %}{{ page.name }}'s flash grant nominations{% else %}Flash grant nominations{% endif %}</h2>
+    <p>
+      Twice a year we award a number of small grants to a collection
+      of social change agents, no strings attached, in support of
+      their work. We call these Flash Grants and recipients are
+      selected based on nominations from our Fellows. Each award is
+      worth $5,000.
+    </p>
+    
     {% for grant in include.grants %}
-    <div class="col-sm-12 col-md-6 col-lg-4 col-flashgrant col-flashgrant-{{ grant.gender }}">
+    <div class="four columns col-flashgrant col-flashgrant-{{ grant.gender }}">
       {% if grant.gender %}
-      <img src="../../images/icon-gender-{{ grant.gender }}.svg" alt="{{ grant.gender | capitalize }}"/>
+      <img src="/images/icons/{{ grant.gender }}.svg" alt="{{ grant.gender | capitalize }}"/>
       {% endif %}
       <div class="content">
 	{{ grant.name }}<br/>
@@ -21,5 +21,6 @@
       </div>
     </div>
     {% endfor %}
+    
   </div>
 </div>

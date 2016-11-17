@@ -1,0 +1,10 @@
+/* Links */
+
+a {
+    color: $green;
+    text-decoration: none;
+}
+a:hover {
+    color: darken($green, 10%);
+    text-decoration: underline;
+}

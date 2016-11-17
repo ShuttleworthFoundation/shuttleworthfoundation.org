@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
-    <body id="single">
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
-
+  <body>
+    {% include navbar.html %}
+    {{ content }}
     {% include footer.html %}
+
     {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}
-    </body>
+  </body>
 </html>

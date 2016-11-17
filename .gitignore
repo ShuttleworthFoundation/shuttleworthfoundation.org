@@ -1,6 +1,8 @@
+# Jekyll temp files.
 _site
+.sass-cache
 
-#emacs temp files
+# Emacs temp files
 *~
 \#*#
 .#*
@@ -9,3 +11,6 @@ _site
 Vagrantfile
 .vagrant
 *.swp
+
+# Temp files during site refresh.
+old/*
