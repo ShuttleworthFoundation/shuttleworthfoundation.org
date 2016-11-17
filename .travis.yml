@@ -10,7 +10,7 @@ git:
 #    - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
 #    - git submodule update --init --recursive
 
-script: ./script/cibuild
+script: ./scripts/cibuild
 
 branches:
   only:
