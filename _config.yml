@@ -9,6 +9,7 @@ url: "http://shuttleworthfoundation.org"
 twitter_username: ShuttleworthFdn
 github_username: jasonhudson
 
+exclude: [Makefile, README.md, vendor, Gemfile]
 
 ##
 # BUILD SETTINGS
@@ -16,11 +17,22 @@ github_username: jasonhudson
 markdown: kramdown
 permalink: pretty
 breadcrumb_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-#gems:
-#  - jekyll-redirect-from
 
-exclude: [Makefile, README.md, vendor]
+gems:
+  - jekyll-archives
 
+##
+# JEKYLL-ARCHIVES
+##
+
+jekyll-archives:
+  enabled: ['year', 'categories', 'tags']
+  permalinks:
+    year: '/thinking/:year/'
+    month: '/thinking/:year/:month/'
+    day: '/thinking/:year/:month/:day/'
+    tag: '/thinking/tag/:name/'
+    category: '/thinking/category/:name/'
 
 ##
 # COLLECTIONS

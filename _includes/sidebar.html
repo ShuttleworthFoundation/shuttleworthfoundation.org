@@ -1,0 +1,26 @@
+<h4>Recent posts</h4>
+<ul>
+  {% for post in site.posts limit:10 %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<h4>Categories</h4>
+<ul>
+  {% for tag in site.tags limit:10 %}
+  <li>
+    <a href="/thinking/tag/{{ tag[0] }}/">{{ tag[0] | capitalize }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<h4>Archives</h4>
+<ul>
+  {% for post in site.posts limit:10 %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

@@ -2,6 +2,36 @@
 layout: default
 title: Shuttleworth Foundation- Our Thinking
 ---
+
+<div class="container-wrapper">
+  <div class="container">
+    <h2>Our Thinking</h2>
+    <p class="u-text-center">The more we share the thinking, working and practices of ourselves and our fellows, the better</p>
+    <hr/>
+  </div>
+
+  <div class="container">
+    {% assign post = site.posts.first %}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="six columns">
+      {{ post.content }}
+    </div>
+    <div class="six columns">
+      <div class="img-credit">
+	<img src="{{ post.image }}" alt="Post Featured Image"/>
+	<div class="credit">
+	  Created by {{ post.image_credit }}
+	  {% if post.image_source %}
+	  <br/>
+	  <a href="{{ post.image_source }}">
+	    {{ post.image_source }}
+	  </a>
+	  {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="page-wrapper">
   <!-- Everything after this should be Editable as content -->
   <section class="content-12 marg">

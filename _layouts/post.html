@@ -1,91 +1,44 @@
----
-layout: default
----
-<div class="page-wrapper">
-  
-  {% if page.banner %}
-  <!-- Featured Thinking Banner -->    
-  <section class="header-10-sub v-center">
-    <!-- insert featured image here -->
-    <div class="background" style="background-image: url({{ page.banner }});"></div>
-    <div>
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+
+    <div class="container-wrapper blog-wrapper">
       <div class="container">
-      </div>
-      <a class="control-btn fui-arrow-down" data-scroll href="#articlestart"> </a>
-    </div>
-  </section>
-  {% endif %}
-  
-<!-- Everything after this should be Editable as content -->
-<section class="blog-1" id="blog-thinking">
-  {% include breadcrumbs.html %}
-  <div class="title" id="articlestart">
-    <div class="container">
-      <h3>{{ page.title }}</h3>
-      <div class="submitted">{{ page.author }}, {{ page.date | date:"%-d %B %Y" }}</div>
-    </div>
-  </div>
-  <div class="container">
-    
-    <!-- thought piece intro -->
-    {% if page.description %}
-    <div class="textcontainer">
-      <div class="textbox col-sm-8 col-sm-offset-2">
-        <p class="lead">{{ page.description }}</p>
-      </div>
-    </div>
-    {% endif %}
-    
-    <div class="boxes">
-      <div class="box-1">
-        <!-- insert featured image here -->
-        <img src="{{ page.image }}" alt="Featured image">
-        <p class="credit">
-          Created by {{ page.image_credit }}<br />
-          Source: <a href="{{ page.image_source }}">{{ page.image_source }}</a>
-        </p>
-      </div>
-    </div>
-    <!-- thought piece main content -->
-        
-    <div class="textcontainer">
-      <div class="textbox col-sm-8 col-sm-offset-2">
-	{{ content }}
-	{% for video in page.videos %}
-	<p>
-	  <style>
-	    .embed-container {
-		position: relative;
-		padding-bottom: 56.25%;
-		height: 0;
-		overflow: hidden;
-		max-width: 100%;
-		height: auto;
-	    }
-	    .embed-container iframe, .embed-container object, .embed-container embed {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	    }
-	  </style>
-	  <div class="embed-container">
-	    <iframe src="{{ video }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	<div class="nine columns blog-contents">
+	  <h1>{{ page.title }}</h1>
+	  <p class="subtext">by {{ page.author }}, {{ page.date|date:"%-d %B %Y" }}</p>
+
+	  <img src="{{ page.image }}" alt="Featured Image"/>
+
+	  {% if page.description %}
+	  <p class="bigger">
+	    {{ page.description }}
+	  </p>
+	  {% endif %}
+	  
+	  {{ content }}
+      
+	  <div class="tags">
+	    Posted in
+	    {% for tag in page.tags %}
+            <a href="/thinking/tag/{{ tag }}/">{{ tag }}</a>
+            {% unless forloop.last %},{% endunless %}
+	    {% endfor %}
 	  </div>
-	</p>
-	{% endfor %}
+	</div>
+	<div class="three columns blog-sidebar">
+	  {% include sidebar.html %}
+	</div>
       </div>
+      
     </div>
     
-    <!-- to be enabled later -->
-    <div class="tags title">
-      Posted in
-      {% for tag in page.tags %}
-        <a href="{{ site.baseurl }}/thinking/{{ tag }}">{{ tag }}</a>
-	{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
-<!-- Everything before this is editable page content -->
+    {% include footer.html %}
+
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+  </body>
+</html>

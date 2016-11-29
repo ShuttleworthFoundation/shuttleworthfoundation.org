@@ -31,6 +31,7 @@ $nav_padding: 5px;
 @import 'utilities';
 @import 'misc';
 @import 'clearing';
+@import 'blog';
 
 
 /* Homepage */
@@ -184,4 +185,14 @@ i.icon-notification {
 
 img {
     width: 100%;
+}
+
+.img-credit {
+    font-size: 0.65em;
+    text-align: right;
+
+    .credit {
+	background: $black;
+	color: $white;
+    }
 }
