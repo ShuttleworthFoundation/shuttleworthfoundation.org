@@ -1,24 +1,37 @@
 ---
 layout: default
-title: Shuttleworth Foundation- Our Thinking
+title: Shuttleworth Foundation - Our Thinking
 ---
 
-<div class="container-wrapper">
+<div class="feature wrapper">
   <div class="container">
     <h2>Our Thinking</h2>
     <p class="u-text-center">The more we share the thinking, working and practices of ourselves and our fellows, the better</p>
     <hr/>
   </div>
 
-  <div class="container">
+  <div class="feature container">
     {% assign post = site.posts.first %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <div class="six columns">
+    <h2>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    <div class="six feature columns">
       {{ post.content }}
+      <div class="tags">
+	Posted in
+	{% for tag in post.tags %}
+	<a class="tag" href="/thinking/tags/{{tag}}/">
+	  {{ tag }}
+	</a>
+        {% unless forloop.last %},{% endunless %}
+	{% endfor %}
+      </div>
     </div>
     <div class="six columns">
       <div class="img-credit">
-	<img src="{{ post.image }}" alt="Post Featured Image"/>
+	<a href="{{ post.url }}">
+	  <img src="{{ post.image }}" alt="Featured Image"/>
+	</a>
 	<div class="credit">
 	  Created by {{ post.image_credit }}
 	  {% if post.image_source %}
@@ -32,107 +45,37 @@ title: Shuttleworth Foundation- Our Thinking
   </div>
 </div>
 
-<div class="page-wrapper">
-  <!-- Everything after this should be Editable as content -->
-  <section class="content-12 marg">
-    <h1>
-      <span class="wide btn-wide btn-wide2" style="background:transparent url(../images/open-page-header.jpg) center top no-repeat;">Our Thinking</span>
-    </h1>
-  </section>
-
-  <section class="projects-1 thinking">
-<!--    <div class="container">
-      <h2 class="page-subtitle">The three pillars of our theory of change are innovation,<br class="full-screen-break"> openness and living out loud</h2>
-      <div class="textcontainer">
-	<div class="textbox col-sm-8 col-sm-offset-2">
-          <p>
-            We focus on innovation. We believe the implementation of proven ideas is important, but there is a great deal of support for these kinds of initiatives already. We want to give the person with the fresh idea a chance to try it and see if it brings about the positive change they believe it will. Conventional thinking takes a great deal of time and effort to shift and often radical alternatives are needed to bring about change.
-          </p>
-          <p>
-            Openly licensing allows others to replicate, reuse, adapt, improve, adopt, bring to scale, write about, talk about, remix, translate, digitise,   redistribute and build upon what we have done.
-          </p>
-          <p>
-            Once others are free to engage with our work in this way, we believe   opportunities present themselves from unexpected, and previously  unknown  places. Our work may find applications we could not imagine and  may  spark fires where we could not foresee them.
-          </p>
-	</div>
+<div class="grey wrapper">
+  <div class="container">
+    {% for post in site.posts offset:1 %}
+    {% assign loopindex = forloop.index | modulo: 4 %}
+    {% if loopindex == 1 %}
+  </div>
+  <div class="container">
+    {% endif %}
+    <div class="three white compact columns post-preview">
+      <a href="{{ post.url }}">
+	<img src="{{ post.image }}" alt="Featured Image"/>
+      </a>
+      <p>
+	<a href="{{ post.url }}">{{ post.title }}</a>
+      </p>
+      <p>
+	<small>by {{ post.author }}, {{ post.date | date:"%-d %B %Y" }}</small>
+      </p>
+      <p>
+	{{ post.content | strip_html | truncatewords:75 }}
+      </p>
+      <div class="tags">
+	Posted in
+	{% for tag in post.tags %}
+	<a class="tag" href="/thinking/tags/{{tag}}/">
+	  {{ tag }}
+	</a>
+        {% unless forloop.last %},{% endunless %}
+	{% endfor %}
       </div>
--->
-
-<div class="title">
-	<a href="{{ "/thinking/announcements" | prepend: site.baseurl }}">Announcements</a>
-	<a href="{{ "/thinking/open" | prepend: site.baseurl }}">Open</a>
-	<a href="{{ "/thinking/privacy" | prepend: site.baseurl }}">Privacy</a>
-      </div>
-
-<div class="container">
-  <h2 class="page-subtitle">Featured post</h2>
-  <div class="textcontainer">
-<div class="textbox col-sm-8 col-sm-offset-2">
-</div>
-</div>
-
-      <!-- Featured Thought Piece -->
-	<div id="blog" class="head-box" style="background-image: url(../images/blog/protection.jpg) !important;">
-        	<div class="featured-image-title">
-
-                <p><a href="{{ "/thinking/2016/07/07/thinking-open-lock/" | prepend: site.baseurl }}">
-                    	Contributors to your open project invest their time and energy because they trust you with their gift to the world. So the challenge is this: How can you keep their trust?
-                    </a>
-                </p>
-            </div>
-            <p class="credit">
-                Created by Perspecsys Photos (CC BY-SA 2.0)<br />
-                Source: <a href="https://www.flickr.com/photos/111692634@N04/11406964255/">Perspecsys Photos</a>
-            </p>
-        </div>
-        <div class="info">
-            <h3 class="blog-title name">
-                <a href="{{ "/thinking/2016/07/07/thinking-open-lock/" | prepend: site.baseurl }}">
-                    Open Locks: Legal commitments that lock in trust
-                </a>
-            </h3>
-            <p class="blog-author-date">by <a href="{{ "/team" | prepend: site.baseurl }}">Andrew Rens, Arthur Attwell and SF Team</a>, 7 July 2016</p>
-            <p class="blog-excerpt">If you're a social entrepreneur building open knowledge resources – open software, open textbooks, open science – you need people to share their knowledge, code and data with you. Your success depends on it....<br>
-                        <span class="blog-meta">posted in <a href="{{ "/thinking/open" | prepend: site.baseurl }}">Open</a></span>
-                        </p>
-		</div>
-
-      <!-- Other Thought Pieces -->
-      {% for post in site.categories.thinking %}
-      {% assign rowindex = forloop.index0 | modulo: 3 %}
-      {% if rowindex == 0 or forloop.first %}
-        <div class="projects row">
-      {% endif %}
-          <div class="project-wrapper">
-            <div class="project">
-              <div class="photo-wrapper">
-		<div class="photo">
-		  <img src="{{ post.image }}" alt="{{ post.title }}"/>
-		</div>
-		<a href="{{ post.url | prepend: site.baseurl }}">
-		  <div class="overlay"><span class="fui-eye"></span></div>
-		</a>
-              </div>
-              <div class="info">
-		<h4 class="name">
-		  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		</h4>
-		<p class="blog-author-date">by {{ post.author }}, {{ post.post_date }}</p>
-		<p class="blog-excerpt">{{ post.description | strip_html | truncatewords: 15 }}<br/>
-		  <span class="blog-meta">posted in
-		    {% for tag in post.tags %}
-		      <a href="{{ site.baseurl }}/thinking/{{ tag }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
-		    {% endfor %}
-		  </span>
-		</p>
-              </div>
-            </div>
-	  </div>
-	{% if rowindex == 2 or forloop.last %}
-	</div> <!-- projects row -->
-	<div class="clearfix"></div>
-	{% endif %}
-      {% endfor %}
     </div>
-  </section>
+    {% endfor %}
+  </div>
 </div>
