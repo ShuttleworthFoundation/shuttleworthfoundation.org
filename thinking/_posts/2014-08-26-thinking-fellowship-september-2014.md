@@ -18,17 +18,16 @@ We were drawn to initiatives that are at the early stages of development and not
 
 On 1 September we welcome:
 		
-- <a href="{{ "/thinking/thinking-peter-bloom" | prepend: site.baseurl }}">Peter Bloom</a> - Rhizomatica (Telecommunications)
+- [Peter Bloom]({% post_url 2014-08-26-thinking-peter-bloom %}) - Rhizomatica (Telecommunications)
 
-- <a href="{{ "/thinking/thinking-seamus-kraft" | prepend: site.baseurl }}">Seamus Kraft</a> - The Open Gov Foundation (Open Government)
+- [Seamus Kraft]({% post_url 2014-08-26-thinking-seamus-kraft %}) - The Open Gov Foundation (Open Government)
 
-- <a href="{{ "/thinking/thinking-sean-bonner" | prepend: site.baseurl }}">Sean Bonner</a> - Safecast (Citizen Science)
+- [Sean Bonner]({% post_url 2014-08-26-thinking-sean-bonner %}) - Safecast (Citizen Science)
 
 to the Fellowship program.
 
 Their work builds on some of the investments we have made in the past and compliment current investments working towards the future.
 
-We are also pleased to have offered current Fellows <a href="{{ "/fellows/daniel-lombrana" | prepend: site.baseurl }}">Daniel Lombraña González</a> (Citizen Science) and <a href="{{ "/alumni/esraa-alshafei" | prepend: site.baseurl }}">Esra'a Al Shafei</a> (Access to Information) another year of fellowship. Their work on Crowdcrafting and CrowdVoice respectively have involved citizens in actively participating in science and tracking voices of dissent. We believe they will inspire even greater understanding and engagement over the next year.
+We are also pleased to have offered current Fellows [Daniel Lombraña González](/fellows/daniel-lombrana/) (Citizen Science) and [Esra'a Al Shafei](/fellows/esraa-alshafei/) (Access to Information) another year of fellowship. Their work on Crowdcrafting and CrowdVoice respectively have involved citizens in actively participating in science and tracking voices of dissent. We believe they will inspire even greater understanding and engagement over the next year.
 
 We look forward to working and learning with each of them.
-
