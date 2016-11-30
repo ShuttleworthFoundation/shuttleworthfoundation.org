@@ -17,10 +17,15 @@
 </ul>
 
 <h4>Archives</h4>
+{{ site.years }}
 <ul>
-  {% for post in site.posts limit:10 %}
+  {% for post in site.posts %}
+  {% assign year = post.date | date: "%Y" %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    {% if year != prev_year %}
+    <a href="/thinking/{{ year }}/">Posts from {{ year }}</a>
+    {% endif %}
   </li>
+  {% assign prev_year = year %}
   {% endfor %}
 </ul>

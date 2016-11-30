@@ -10,7 +10,20 @@
 	  <h1>{{ page.title }}</h1>
 	  <p class="subtext">by {{ page.author }}, {{ page.date | date:"%-d %B %Y" }}</p>
 
-	  <img src="{{ page.image }}" alt="Featured Image"/>
+	  <div class="img-credit">
+	    <img src="{{ page.image }}" alt="Featured Image"/>
+	    <div class="credit">
+	      {% if page.image_credit %}
+	      Created by {{ page.image_credit }}
+	      {% endif %}
+	      {% if page.image_source %}
+	      <br/>
+	      <a href="{{ post.image_source }}">
+		{{ page.image_source }}
+	      </a>
+	      {% endif %}
+	    </div>
+	  </div>
 
 	  {% if page.description %}
 	  <p class="bigger">

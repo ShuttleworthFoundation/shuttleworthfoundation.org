@@ -1,0 +1,13 @@
+---
+layout: default
+title: Shuttleworth Foundation - Our Thinking
+---
+
+<div class="feature wrapper">
+  <div class="container">
+    <h2>Our Thinking - Posts from {{ page.date | date: "%Y" }}</h2>
+    <hr/>
+  </div>
+</div>
+
+{% include posts.html posts=page.posts offset=1 %}

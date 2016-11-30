@@ -190,4 +190,8 @@ img {
 .img-credit {
     font-size: 0.65em;
     text-align: right;
+
+    img {
+	margin-bottom: 0;
+    }
 }

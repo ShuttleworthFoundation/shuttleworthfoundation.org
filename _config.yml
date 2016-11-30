@@ -33,6 +33,9 @@ jekyll-archives:
     day: '/thinking/:year/:month/:day/'
     tag: '/thinking/tag/:name/'
     category: '/thinking/category/:name/'
+  layouts:
+    year: archive/year
+    tag: archive/tag
 
 ##
 # COLLECTIONS
