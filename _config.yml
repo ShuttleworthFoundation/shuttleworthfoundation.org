@@ -9,6 +9,12 @@ url: "http://shuttleworthfoundation.org"
 twitter_username: ShuttleworthFdn
 github_username: jasonhudson
 
+intake:
+  open: true
+  reopen: January 2017
+  current: March 2017
+  next: September 2017
+
 exclude: [Makefile, README.md, vendor, Gemfile]
 
 ##
@@ -26,7 +32,7 @@ gems:
 ##
 
 jekyll-archives:
-  enabled: ['year', 'categories', 'tags']
+  enabled: ['year', 'tags']
   permalinks:
     year: '/thinking/:year/'
     month: '/thinking/:year/:month/'

@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" type="text/css" href="{{ '/css/fellow.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" type="text/css" href="/css/fellow.css">
 
-<div class="container-wrapper">
-
+<div class="wrapper">
   <div class="container">
     <h1>{{ page.name }}</h1>
     <h2>{{ page.project }}</h2>
@@ -12,21 +11,18 @@ layout: default
   <hr/>
 </div>
 
-<div class="page-wrapper" id="fellow">
-
-{% include breadcrumbs.html %}
-<div class="spacer"></div>
-
 {% if page.video %}
 {% include fellows/links.html links=page.links projects=page.projects twitter=page.twitter video=page.video%}
 {% else %}
 {% include fellows/links_no_video.html links=page.links projects=page.projects twitter=page.twitter %}
 {% endif %}
 
-<div class="container container-fellow">
-  <div class="twelve columns">
-    <h2>So, what's the big idea?</h2>
-    {{ page }}
+<div class="light-green alternating wrapper">
+  <div class="container">
+    <div class="twelve columns">
+      <h2>So, what's the big idea?</h2>
+      {{ page }}
+    </div>
   </div>
 </div>
 

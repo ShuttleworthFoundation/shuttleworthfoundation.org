@@ -1,33 +1,30 @@
 {% if include.spend.size != 0 %}
-<div class="container container-fellow">
-  <div class="row">
-    <div class="col-sm12 col-md-12 col-lg-12">
-      <div class="spend-breakdown-introduction">
-	<h2>Spend breakdown</h2>
-	<p>
-	  At the heart of our co-investment fellowship model is the
-	  principle that Fellows continue to invest in their own
-	  ideas. The Foundation amplifies the Fellow’s investment by
-	  matching it at least tenfold, along with covering the cost
-	  of their time for the year.
-	</p>
-	<p>
-	  The figures you see here do not reflect each Fellow’s
-	  fellowship year funding, but rather the funds unlocked
-	  within our financial year, as the fellowship years start
-	  either March or September and Fellows are not required to
-	  spend the available funds proportionately throughout the
-	  year.
-	</p>
-      </div>
+<div class="light-green alternating wrapper">
+  <div class="container">
+    <div class="twelve columns">
+      <h2>Spend breakdown</h2>
+      <p>
+	At the heart of our co-investment fellowship model is the
+	principle that Fellows continue to invest in their own
+	ideas. The Foundation amplifies the Fellow’s investment by
+	matching it at least tenfold, along with covering the cost of
+	their time for the year.
+      </p>
+      <p>
+	The figures you see here do not reflect each Fellow’s
+	fellowship year funding, but rather the funds unlocked within
+	our financial year, as the fellowship years start either March
+	or September and Fellows are not required to spend the
+	available funds proportionately throughout the year.
+      </p>
     </div>
   </div>
 </div>
 
-<div class="container container-fellow">
-  <div class="row">
-    <div class="col-sm-12 col-md-12 col-lg-12">
-	
+<div class="light-green alternating wrapper">
+  <div class="container">
+    <div class="twelve columns">
+      
       <div class="spend-breakdown">
 	{% for yeardata in include.spend %}
 	{% assign year = yeardata[0] %}
@@ -87,11 +84,13 @@
 </div>
 
 
-<div class="container container-fellow container-total-spend">
-  Total funding to date:
-  <div class="total">{{ include.spend | spend_total | money }}</div>
+<div class="dark-grey total-spend wrapper">
+  <div class="container container-fellow container-total-spend">
+    Total funding to date:
+    <div class="total">{{ include.spend | spend_total | money }}</div>
+  </div>
 </div>
-  
+
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
   (function() {

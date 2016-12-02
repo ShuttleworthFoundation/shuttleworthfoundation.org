@@ -7,7 +7,7 @@
 	padding: 0 $padding;
     }
 
-    .blog-sidebar {
+    .blog-sidebar, .sidebar {
 	h4 {
 	    font-size: 1em;
 	    text-transform: uppercase;
@@ -87,7 +87,7 @@
 
     .tags {
 	position: absolute;
-	padding: 1em 0.5em 0 0.5em;
+	padding: 1.5em 0.5em 0 0.5em;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -98,7 +98,7 @@
 
 .post-preview {
     position: relative;
-    height: 1.6em*15;
+    height: 1.6em*15+0.5;
     overflow: hidden;
 
     img {
@@ -112,12 +112,43 @@
 
     .tags {
 	position: absolute;
-	padding: 1em 0.5em 0 0.5em;
+	padding: 1.5em 0.5em 0 0.5em;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	background: $white;
 	background: linear-gradient(to bottom, transparentize($white, 1), $white 40%);
+    }
+}
+
+
+.sidebar {
+    h1, h2, h3, h4, h5, h6 {	
+	text-align: left;
+	margin-left: 0;
+	margin-right: 0;
+    }
+
+    h4 {
+	font-size: 1em;
+	text-transform: uppercase;
+	margin: 1em 0;
+	border-bottom: 2px solid $green;
+    }
+    
+    li {
+	line-height: 1;
+	list-style: none;
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+    }
+    
+    a {
+	color: $black;
+	
+	&:hover {
+	    color: darken($black, 10%);
+	}
     }
 }
 

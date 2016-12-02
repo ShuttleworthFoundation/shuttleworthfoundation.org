@@ -3,41 +3,46 @@ layout: default
 title: Application Form
 ---
 
-<!-- This page requires jQuery earlier on for FormStack. -->
-<script src="{{ "/javascript/jquery-1.10.2.min.js" | prepend: site.baseurl }}"  ""></script>
+
+<div class="container">
+  <div class="twelve columns">
+    <h1>Apply Now!</h1>
+    <hr/>
+  </div>
+</div>
+
+{% if site.intake.open %}
+
 <link rel="stylesheet" type="text/css" href="/css/formstack.css">
 
-<div class="page-wrapper" id="application">
-  <!-- Everything after this should be Editable as content -->
-  <section class="content-12">
-    <h1>
-      <span class="wide btn-wide" style="background:url(../images/open-page-header.jpg) center top no-repeat">Apply Now!</span>
-    </h1>
-  </section>
+<div class="container">
+  <div class="twelve columns">
+    <h2> A full application comprises of</h2>
+    <ul>
+      <li>this online application form</li>
+      <li>your application video - not longer than 5 minutes</li>
+      <li>your resume</li>
+      <li>Please use no more that 1500 characters per essay question</li>
+    </ul>
+  </div>
+</div>
 
-  <section class="content-15" id="pointers">
-    <div class="container">
-      <div class="textcontainer">
-        <div class="textbox col-sm-8 col-sm-offset-2">
-          <h2 class="page-subtitle" id="form"> Applications will reopen in January 2017 for a September 2017 intake.</h2>
-          <!--<h2 class="page-subtitle" id="form"> A full application comprises of </h2>
-	  <ul>
-            <li>this online application form</li>
-            <li>your application video - not longer than 5 minutes</li>
-            <li>your resume</li>
-	    <li>Please use no more that 1500 characters per essay question</li>
-          </ul>
-	</div>
+<div class="container">
+  <div class="twelve columns">
+    <script type="text/javascript" src="https://shuttleworthfoundation.formstack.com/forms/js.php/fellowship_application_v2?nojquery=1&no_style_strict=1"></script>
+    <noscript>
+      <a href="https://shuttleworthfoundation.formstack.com/forms/fellowship_application_v2" title="Online Form">Online Form - Fellowship Applications V2 - July 2015</a>
+    </noscript>
+    <script type='text/javascript'>if (typeof $ == 'undefined' && jQuery){ $ = jQuery}</script>
+  </div>
 </div>
-      <div class="row">
-	<div class="col-sm-8 col-sm-offset-2">
-	  <script type="text/javascript" src="https://shuttleworthfoundation.formstack.com/forms/js.php/fellowship_application_v2?nojquery=1&no_style_strict=1"></script>
-	  <noscript>
-	    <a href="https://shuttleworthfoundation.formstack.com/forms/fellowship_application_v2" title="Online Form">Online Form - Fellowship Applications V2 - July 2015</a>
-	  </noscript>
-	  <script type='text/javascript'>if (typeof $ == 'undefined' && jQuery){ $ = jQuery}</script>
-	</div>-->
-      </div>
-    </div>
-  </section>
+	
+{% else %}
+	
+<div class="container">
+  <div class="twelve columns">
+    <h2> Applications will reopen in {{ site.intake.reopen }} for a {{ site.intake.next }} intake.</h2>
+  </div>
 </div>
+
+{% endif %}

@@ -2,7 +2,7 @@
   <div class="container">
     {% for post in include.posts offset:include.offset limit:include.limit %}
     {% assign loopindex = forloop.index | modulo: 4 %}
-    {% if loopindex == 1 %}
+    {% if loopindex == 1 and forloop.index0 %}
   </div>
   <div class="container">
     {% endif %}

@@ -4,9 +4,11 @@
 
 $white: #ffffff;
 $grey: #e5e5e5;
+$darkgrey: #4e5867;
 $black: #4d4d4d;
 $green: #80bd26;
 $green2: #3ba933;
+$lightgreen: #d0e6c7;
 
 $padding: 1.2em;
 $rounding: 1.2em;
@@ -110,12 +112,23 @@ $nav_padding: 5px;
     .button {
 	border: 1px solid $green2;
 	background-color: $green2;
+	color: $white;
 	
 	&:hover {
 	    border: 1px solid darken($green2, 5%);
 	    background-color: darken($green2, 5%);
+	    color: $white;
 	}
     }
+}
+
+body {
+    min-height: 100vh;
+    margin-top: 0;
+    padding-top: $nav_height;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .footer {
@@ -123,6 +136,9 @@ $nav_padding: 5px;
     color: $white;
     text-align: center;
     line-height: 2.5em;
+    position: absolute;
+    bottom: 0;
+    height: 150px;
     
     a {
 	color: $white;
@@ -164,26 +180,29 @@ i.icon-notification {
 }
 
 .vimeo {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
+    /*position: relative;*/
+    /*padding-bottom: 56.25%;*/
+    /*height: 0;*/
+    /*overflow: hidden;*/
     max-width: 100%;
     height: auto;
 
     iframe,
     object,
     embed {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*left: 0;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
 	border: 0;
+	width: 520px;
+	height: 300px;
     }
 }
 
-img {
+.column img,
+.columns img {
     width: 100%;
 }
 

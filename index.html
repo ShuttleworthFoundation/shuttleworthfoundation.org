@@ -35,16 +35,22 @@ title: The Shuttleworth Foundation Home
   <div class="container-wrapper notification landing-notification">
     <div class="landing-container">
       <i class="icon-notification"></i>
-      <!--
+      {% if site.intake.open %}
+      
       <p>
-	Applications for the March 2017 fellowship intake are now
-	open.
+	Applications for the {{ site.intake.current }} fellowship
+	intake are open.
       </p>
-      <a class="button button-primary" href="/apply/">Apply now</a>
-      -->
+      <a class="button button-primary" href="/apply/">Apply now!</a>
+      
+      {% else %}
+      
       <p>
-	Applications for the March 2017 fellowship intake are now
+	Applications for the {{ site.intake.current }} fellowship intake are now
 	closed. Thank you for your submissions, we will be in touch.
+      </p>
+      
+      {% endif %}
       </p>
     </div>
   </div>
@@ -214,7 +220,7 @@ title: The Shuttleworth Foundation Home
   $('a[href*=\\#]').click(function(event){
     var href = $.attr(this, 'href');
     root.animate({
-        scrollTop: $(href).offset().top
+        scrollTop: $(href).offset().top - 60
     }, 500, function () {
         window.location.hash = href;
     });
