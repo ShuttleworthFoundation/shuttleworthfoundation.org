@@ -24,3 +24,5 @@ deploy:
   bucket: shuttleworthfoundation-staging
   local-dir: _site
   acl: public_read
+  on:
+    branch: refresh
