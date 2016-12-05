@@ -206,6 +206,11 @@ i.icon-notification {
     width: 100%;
 }
 
+.column .fsEmbed img,
+.columns .fsEmbed img {
+    width: auto;
+}
+
 .img-credit {
     font-size: 0.65em;
     text-align: right;
