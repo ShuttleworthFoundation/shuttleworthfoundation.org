@@ -4,7 +4,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 ---
 
 <link href="style.css" rel="stylesheet" type="text/css">
-<div id="report2013">
+<div id="report2015">
   <div class="container-fluid" id="container-banner">
     <div id="banner-text">
       <h1>2015</h1>
@@ -23,7 +23,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 
   <div class="container container-padded">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2">
+      <div class="eight columns offset-by-two">
 	<p>
 	  People, not projects, champions, not project plans, make a
 	  real difference in the world.  This is one of the key
@@ -73,34 +73,36 @@ title:  The Shuttleworth Foundation - Year in Review 2015
   <div id="thinking">
     <div class="container container-thinking">
       <div class="row">
-	<div class="col-md-8 col-md-offset-2">
+	<div class="eight columns offset-by-two">
 	  <h2>Year in <strong>THINKING</strong></h2>
 	</div>
-
-        {% for post in site.categories.thinking %}
-        {% if post.on_report %}
-	{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-	{% if year == "2015" %}
-	<div class="col-md-6 col-thinking-left">
+      </div>
+      
+      {% for post in site.categories.thinking %}
+      {% if post.on_report %}
+      {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+      {% if year == "2015" %}
+      <div class="container container-thinking">
+	<div class="four columns offset-by-two col-thinking-left">
 	  <p>{{ post.title }}</p>
-	  <a href="{{ post.url }}" class="btn btn-success">Read more</a>
+	  <a href="{{ post.url }}" class="button button-primary">Read more</a>
 	</div>
-	<div class="col-md-4 col-thinking-right">
+	<div class="four columns col-thinking-right">
 	  <p>
 	    {{ post.content | strip_html | truncatewords: 50 }}... <a href="{{ post.url }}">&gt;&gt;</a>
 	  </p>
 	</div>
-	{% endif %}
-	{% endif %}
-	{% endfor %}
-
       </div>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+      
     </div>
   </div>
 
   <div class="container container-people">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2">
+      <div class="eight columns offset-by-two">
 	<h2>Year in <strong>PEOPLE</strong></h2>
 	<p>
 	  We focus our energy by supporting openness in intellectual
@@ -110,7 +112,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 	</p>
       </div>
     </div>
-    <div class="col-md-12">
+    <div class="twelve columns">
       <div class="container-infographic">
 	<div class="container-infographic-inner">
 	  <div class="energy-links"></div>
@@ -424,7 +426,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
   <div id="money">
     <div class="container container-money">
       <div class="row">
-	<div class="col-md-8 col-md-offset-2">
+	<div class="eight columns offset-by-two">
 	  <h2>Year in <strong>MONEY</strong></h2>
 	  <p>
 	    We maintain a small core team to continue to develop and
@@ -437,13 +439,13 @@ title:  The Shuttleworth Foundation - Year in Review 2015
       </div>
 
       <div class="row">
-	<div class="col-md-8 col-md-offset-2">
+	<div class="eight columns offset-by-two">
 	  <h3>How we spent our money</h3>
 	</div>
       </div>
 
       <div class="row">
-	<div class="col-md-12">
+	<div class="twelve columns">
 	  <iframe id="bubbletree" src="bubbletree.html"></iframe>
 	  <div id="our-spend-worldmap"></div>
 	  <script>
@@ -458,7 +460,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
   <div id="fellows">
     <div class="container container-money">
       <div class="row">
-	<div class="col-md-8 col-md-offset-2">
+	<div class="eight columns offset-by-two">
 	  <h3>How our fellows spent their money</h3>
 	  <p>
 	    At the heart of our co-investment fellowship model is the
@@ -481,7 +483,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
 
     <div class="container-fluid container-money">
       <div class="row">
-	<div class="col-md-12">
+	<div class="twelve columns">
 
 	  <div class="container-fellow-spend">
 	    <div class="container-fellow-spend-inner">
@@ -575,7 +577,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
     {% if site.data.reports['2015'].data.alumni %}
     <div class="container container-money">
       <div class="row">
-	<div class="col-md-8 col-md-offset-2">
+	<div class="eight columns offset-by-two">
 	  <h3>Alumni</h3>
 	  <p>
 	    As driving social change does not adhere to financial or
@@ -591,7 +593,7 @@ title:  The Shuttleworth Foundation - Year in Review 2015
       </div>
 
       <div class="row">
-	<div class="col-md-12">
+	<div class="twelve columns">
 	  <p>Alumni Spend Pie Thingy</p>
 	</div>
       </div>
@@ -614,4 +616,12 @@ title:  The Shuttleworth Foundation - Year in Review 2015
       j = (j = i.length) > 3 ? j % 3 : 0;
       return s + '$' + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
   };
+</script>
+<script>
+  /* Execute all JS functions queued for execution after JQuery load. */
+  if (_jqq) {
+      $(_jqq).each(function() {
+          this();
+      });
+  }
 </script>
