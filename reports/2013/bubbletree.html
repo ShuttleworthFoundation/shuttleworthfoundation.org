@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Total Spend BubbleTree</title>
+	<script type="text/javascript" src="js/lib/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.history.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.tooltip.min.js"></script>
+	<script type="text/javascript" src="js/lib/raphael.js"></script>
+	<script type="text/javascript" src="js/lib/vis4.js"></script>
+	<script type="text/javascript" src="js/lib/Tween.js"></script>
+	<script type="text/javascript" src="js/bubbletree.js"></script>	
+	<link rel="stylesheet" type="text/css" href="css/bubbletree.css" />
+	<link rel="stylesheet" type="text/css" href="css/btree.css" />
+	<script type="text/javascript" src="js/lib/cofog.js"></script>
+	<script>
+          Number.prototype.formatMoney = function(c, d, t){
+              var n = this, 
+              c = isNaN(c = Math.abs(c)) ? 2 : c, 
+              d = d == undefined ? "." : d, 
+              t = t == undefined ? "," : t, 
+              s = n < 0 ? "-" : "", 
+              i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+              j = (j = i.length) > 3 ? j % 3 : 0;
+              return s + '$' + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+	  };
+	</script>
+	
+	
+	<script type="text/javascript">
+          $(function() {
+	      var bubble = $('.bubbletree');
+	      
+	      bubble.click(function() {
+		  var tooltips = bubble.find('.tooltip');
+		  tooltips.css('opacity', 0);
+		  setTimeout(function() { tooltips.remove(); }, 500);
+	      });
+	      
+	      var showTooltip = function(e) {
+		  this.tooltip = $('<div/>', { class: 'tooltip' });
+		  this.tooltip.append($('<div/>', { class: 'tooltip-label', text: this.label }));
+		  this.tooltip.append($('<div/>', { class: 'tooltip-amount', text: this.amount.formatMoney(2) }));
+		  this.tooltip.css('top', this.rNode.attr('cy') + this.rNode.attr('r'));
+		  this.tooltip.css('left', this.rNode.attr('cx'));
+		  this.tooltip.css('background', this.color);
+		  this.tooltip.css('opacity', 0);
+		  bubble.append(this.tooltip);
+		  this.tooltip.css('opacity', 1);
+	      }
+
+	      var hideTooltip = function(e) {
+		  this.tooltip.css('opacity', 0);
+		  if (this.tooltip) {
+		      var tooltip = this.tooltip;
+		      setTimeout(function() { tooltip.remove(); }, 500);
+		  }
+		  this.tooltip = null;
+	      }
+	      
+              var initTooltip = function(node, domNode, rNode) {
+		  if (rNode) {
+		      rNode.hover(showTooltip, hideTooltip, node, node);
+		      node.rNode = rNode;
+		  }
+              };
+	      
+	      var data = {"taxonomy": "fb", "amount": 4852587.0, "label": "Total Spend", "children": [{"taxonomy": "fb", "amount": 4031114.0, "label": "Fellowship Program", "children": [{"taxonomy": "fb", "amount": 1108847.0, "label": "Grants", "children": [{"taxonomy": "fb", "amount": 11141.0, "label": "Administration", "children": [], "name": "Administration"}, {"taxonomy": "fb", "amount": 97884.0, "label": "Travel", "children": [], "name": "Travel"}, {"taxonomy": "fb", "amount": 1776563.0, "label": "People", "children": [], "name": "People"}, {"taxonomy": "fb", "amount": 717402.0, "label": "Software", "children": [], "name": "Software"}, {"taxonomy": "fb", "amount": 12367.0, "label": "Marketing", "children": [], "name": "Marketing"}, {"taxonomy": "fb", "amount": 20906.0, "label": "Infrastructure", "children": [], "name": "Infrastructure"}, {"taxonomy": "fb", "amount": 1562.0, "label": "Training", "children": [], "name": "Training"}, {"taxonomy": "fb", "amount": 119146.0, "label": "Legal", "children": [], "name": "Legal"}, {"taxonomy": "fb", "amount": 100000.0, "label": "Hardware", "children": [], "name": "Hardware"}, {"taxonomy": "fb", "amount": 65297.0, "label": "Office space", "children": [], "name": "Office space"}], "name": "Grants"}, {"taxonomy": "fb", "amount": 175000.0, "label": "Flash Grants", "children": [], "name": "Flash Grants"}], "name": "Fellowship Program"}, {"taxonomy": "fb", "amount": 821473.0, "label": "Overheads", "children": [{"taxonomy": "fb", "amount": 310801.13, "label": "Operational Costs", "children": [{"taxonomy": "fb", "amount": 127256.0, "label": "Events (Gathering)", "children": [], "name": "Events (Gathering)"}, {"taxonomy": "fb", "amount": 27837.0, "label": "Travel", "children": [], "name": "Travel"}, {"taxonomy": "fb", "amount": 11283.0, "label": "People", "children": [], "name": "People"}, {"taxonomy": "fb", "amount": 21225.0, "label": "Audit fees", "children": [], "name": "Audit fees"}, {"taxonomy": "fb", "amount": 22074.0, "label": "Office space", "children": [], "name": "Office space"}, {"taxonomy": "fb", "amount": 22035.0, "label": "Infrastructure", "children": [], "name": "Infrastructure"}, {"taxonomy": "fb", "amount": 19171.0, "label": "Finance costs", "children": [], "name": "Finance costs"}, {"taxonomy": "fb", "amount": 33379.0, "label": "Marketing", "children": [], "name": "Marketing"}, {"taxonomy": "fb", "amount": 18529.0, "label": "Legal fees", "children": [], "name": "Legal fees"}, {"taxonomy": "fb", "amount": 8013.0, "label": "Bank fees", "children": [], "name": "Bank fees"}], "name": "Operational Costs"}, {"taxonomy": "fb", "amount": 510672.0, "label": "Salaries", "children": [], "name": "Salaries"}], "name": "Overheads"}], "name": "Total Spend"};
+	      var style = {"id": {"root": {"color": "#B4B2AA"}}, "fb": {"Total Spend": {"color": "#61AC46", "icon": "images/bubbletree/total_spend.svg"}, "Grants": {"color": "#785033"}, "Flash Grants": {"color": "#B4B2AA"}, "Overheads": {"color": "#FBB916", "icon": "images/bubbletree/overheads.svg"}, "Fellowship Program": {"color": "#BA7AD1", "icon": "images/bubbletree/fellows.svg"}, "Legal": {"color": "#F06E25", "icon": "images/bubbletree/legal.svg"}, "Events": {"color": "#B4B2AA", "icon": "images/bubbletree/events.svg"}, "Distribution": {"color": "#B4B2AA", "icon": "images/bubbletree/distribution.svg"}, "Marketing": {"color": "#4D6FBE", "icon": "images/bubbletree/marketing.svg"}, "Office space": {"color": "#B4B2AA", "icon": "images/bubbletree/office.svg"}, "People": {"color": "#0D979F", "icon": "images/bubbletree/people.svg"}, "Printing": {"color": "#B4B2AA", "icon": "images/bubbletree/printing.svg"}, "Software": {"color": "#61AC46", "icon": "images/bubbletree/software.svg"}, "Stipends": {"color": "#B4B2AA", "icon": "images/bubbletree/stipends.svg"}, "Travel": {"color": "#FBB916", "icon": "images/bubbletree/travel.svg"}, "Infrastructure": {"color": "#E23026", "icon": "images/bubbletree/office.svg"}, "Salaries": {"color": "#0D979F"}, "Operational Costs": {"color": "#BA7AD1"}, "Events (Gathering)": {"color": "#0D979F"}}};
+	      new BubbleTree({
+		  data: data,
+		  container: '.bubbletree',
+		  bubbleType: 'icon',
+		  initTooltip: initTooltip,
+		  bubbleStyles: style
+	      }); 
+	  });                              
+	</script>
+</head>
+<body>
+	<div class="bubbletree-wrapper">
+		<div class="bubbletree"></div>
+	</div>
+</body>
+</html>

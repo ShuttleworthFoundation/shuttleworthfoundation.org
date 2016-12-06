@@ -1,0 +1,52 @@
+section#header {
+    color: $white;
+    text-align: center;
+    
+    background: url(../images/banner.jpg);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position-y: 50%;
+    
+    max-width: 100%;
+    height: 650px;
+    padding-top: 60px;
+    
+    .header-main {
+	h1 {
+	    color: $white;
+	    font-weight: lighter;
+	    letter-spacing: 0;
+	    font-size: 53px;
+	    margin-left: 0;
+	    margin-right: 0;
+	    margin-bottom: 0;
+	}
+    }
+    
+    .header-underline {
+	margin-top: -12px;
+	
+	.header-underline-line {
+	    display: inline-block;
+	    height: 2px;
+	    border-top: 2px solid $white;
+	    
+	    &:nth-child(1) {
+		margin-left: 8.4em;
+		width: 15em;
+	    }
+	    &:nth-child(2) {
+		margin-left: 1.5em;
+		width: 5.3em;
+	    }
+	    
+	}
+    }
+    
+    .header-tagline {
+	margin-top: 30px;
+	font-size: 18px;
+    }
+    
+}
