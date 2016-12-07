@@ -1,60 +1,86 @@
 Aaron Makaruk:
-  infrastructure: 4720.0
-  marketing: 1702.23
-  office-space: 6609.1
-  people: 64173.66
-  travel: 1811.67
+  accounting: 3581.10
+  infrastructure: 37470.20
+  legal: 499.50
+  marketing: 11202.23
+  office-space: 10599.70
+  people: 190955.40
+  travel: 2623.11
+Achal Prabhala:
+  people: 17149.91
+  office-space: 899.91
+  infrastructure: 450.09
+  marketing: 299.97
+  accounting: 150.12
 Adam Hyde:
-  people: 17500.0
+  people: 67500.0
+  travel: 3492.72
 Astra Taylor:
-  other: 10000.0
-  people: 27500.0
-"Daniel Lombra\xF1a Gonz\xE1lez":
+  office space: 6600.0
+  people: 84225.0
   marketing: 10000.0
-  people: 29364.98
-  software: 76200.0
-  travel: 9635.02
-Daniel Whaley:
+"Daniel Lombra\xF1a Gonz\xE1lez":
+  marketing: 11115.40
+  people: 73361.64
+  software: 89145.51
+  travel: 10003.86
+Dan Whaley:
   marketing: 93335.0
   people: 165343.75
   travel: 16321.25
 Esra'a Al Shafei:
-  people: 30000.0
+  people: 86700.0
 Jesse von Doom:
   office-space: 24000.0
-  people: 228100.0
+  people: 277450.0
+  software: 44430.0
 Johnny West:
-  people: 20499.0
-Katherine Fletcher:
-  software: 19900.0
+  infrastructure: 10838.22
+  marketing: 29653.28
+  office-space: 12786.87
+  people: 230696.76
+  software: 2502.72
+  subcontractors: 12781.04
+  training: 6390.44
+  travel: 30672.67
+Kathi Fletcher:
+  software: 19000.0
 Luka Mustafa:
-  infrastructure: 7166.93
-  marketing: 46153.85
-  people: 161252.23
+  accounting: 3334.62
+  infrastructure: 106707.84
+  marketing: 1667.31
+  office-space: 5557.70
+  people: 213173.36
+  software: 11115.40
+  travel: 4890.78
 Peter Bloom:
-  infrastructure: 7560.91
-  legal: 22109.69
-  office-space: 21234.24
-  people: 131259.51
-  software: 60038.83
+  infrastructure: 64399.0
+  people: 285748.67
+  software: 1780.0
   travel: 14578.0
 Peter Cunliffe-Jones:
-  other: 19372.84
-  people: 31182.0
+  infrastructure: 12380
+  people: 291804.80
+  marketing: 10000.0
+  travel: 6992.84
+Peter Murray-Rust:
+  marketing: 8190.36
 Seamus Kraft:
   infrastructure: 28880.0
-  other: 1458.0
-  people: 47755.5
+  marketing: 1458.0
+  people: 318475.0
 Sean Bonner:
-  infrastructure: 24000.0
-  marketing: 12000.0
-  other: 85458.0
-  people: 42755.5
+  infrastructure: 112000.0
+  legal: 6700.0
+  markering: 15149.40
+  office-space: 36000.0
+  people: 125900.0
+  software: 54000.0
   travel: 38700.0
 Tiffiniy Cheng:
-  other: 100000.0
-  people: 50000.0
+  people: 125000.0
+  software: 100000.0
 Waldo Jaquith:
-  people: 62500.0
+  people: 75000.0
   software: 45000.0
-  travel: 3258.0
+  travel: 4178.0
