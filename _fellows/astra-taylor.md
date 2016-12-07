@@ -17,7 +17,7 @@ fellowship:
   start: 2015-09-01
 contribution:
   2015: 22353.58
-  2016: 0.00
+  2016: 19763.64
 ---
 
 Astra is driven to help individuals take back control of their own debt data and financial futures. Predatory lending and exploitative debt practices cripple borrowers. While it is easy to blame individual lenders for bad behaviour, the problem is much more systemic than that. Through the [Debt Collective](https://debtcollective.org/) Astra is challenging established predatory practices and core beliefs around indebtedness with lenders and borrowers.

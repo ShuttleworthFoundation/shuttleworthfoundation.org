@@ -13,10 +13,13 @@ links:
 projects:
     - Crowdvoice: http://crowdvoice.org/
 twitter: ealshafei
+fellowship:
+  start: 2012-09-01
 contribution:
-  2013: 14835.64
-  2014: 13458.16
-  2015: 13325.00
+  2013: 13258.64
+  2014: 15199.82
+  2015: 13927.27
+  2016: 3912.50
 ---
 
 Esra'a is driving CrowdVoice, a primary source of synthesized and contextualized information on social dissent, that meets the information needs of various audiences in the most digestible way possible, enhanced by MyCrowdVoice, a reusable platform that enables others to do the same.

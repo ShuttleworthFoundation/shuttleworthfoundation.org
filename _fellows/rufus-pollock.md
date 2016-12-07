@@ -13,6 +13,8 @@ links:
 projects:
     - Open Knowledge : https://okfn.org/
 twitter: rufuspollock
+fellowship:
+  start: 2010-09-01
 contribution:
   2013: 19332.16
 ---

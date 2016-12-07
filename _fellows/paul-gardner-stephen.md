@@ -13,6 +13,8 @@ links:
 projects:
     - Serval : http://www.servalproject.org/
 twitter: servalpaul
+fellowship:
+  start: 2011-09-01
 ---
 Paul is making the open-source Serval Project the premier mesh telephony platform, thus empowering individuals and communities to meet their own telecommunications needs, and to maintain telecommunications capacity when infrastructure is unavailable or unaffordable.
 

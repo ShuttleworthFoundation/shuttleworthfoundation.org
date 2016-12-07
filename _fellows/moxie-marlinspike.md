@@ -14,6 +14,8 @@ projects:
     - Open Whisper Systems : https://whispersystems.org/
     - GitHub : https://github.com/WhisperSystems
 twitter: moxie
+fellowship:
+  start: 2013-09-01
 contribution:
   2013: 3088.73
   2014: 9090.91

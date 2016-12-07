@@ -13,6 +13,8 @@ links:
 projects:
     - Village Telco : http://villagetelco.org/
 twitter: stevesong
+fellowship:
+  start: 2010-03-01
 ---
 Steve provides thought leadership on, and practical implementations of, access to communications infrastructure and its impact on social and economic innovation and growth.
 

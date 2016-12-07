@@ -13,8 +13,12 @@ links:
 projects:
     - Hypothes.is : http://hypothes.is/
 twitter: dwhly
+fellowship:
+  start: 2013-03-01
 contribution:
+  2013: 19488.64
   2014: 19488.64
+  2015: 25000.0
 ---
 
 Dan is building Hypothes.is, enabling wide spread annotation on the internet. The approach consists of an overlay for the web that enables conversation, collaboration and critique on any online content, anchored in place and context, regardless of the medium.

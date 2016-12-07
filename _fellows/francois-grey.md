@@ -13,6 +13,8 @@ links:
 projects:
     - Citizen Cyberscience Centre: http://www.citizencyberscience.net/
 twitter: FrancoisGrey
+fellowship:
+  start: 2010-09-01
 ---
 
 Francois is passionate about advancing Open Science, specifically Citizen Cyberscience. Citizen cyberscience is a collective term for a diverse, grass-roots movement that is enabling ordinary citizens to participate in real scientific research thanks to the Web.

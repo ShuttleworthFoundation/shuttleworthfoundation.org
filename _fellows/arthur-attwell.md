@@ -13,6 +13,8 @@ links:
 projects:
     - Paperight: http://www.paperight.com/
 twitter: arthurattwell
+fellowship:
+  start: 2011-09-01
 contribution:
   2013: 14804.28
   2014: 4543.66

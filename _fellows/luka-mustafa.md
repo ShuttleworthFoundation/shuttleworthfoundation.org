@@ -18,7 +18,7 @@ fellowship:
   start: 2015-03-01
 contribution:
   2015: 18163.26
-  2016: 19779.00
+  2016: 25104.26
 ---
 
 Luka is developing Koruza, a 3D printable wireless optical system for connecting buildings up to 100m apart with internet access, as a viable low-cost alternative to fiber in urban environments. The objective is to empower individuals to take last-mile connectivity in their own hands and mitigate network bottlenecks through organic growth of wireless optical networks.

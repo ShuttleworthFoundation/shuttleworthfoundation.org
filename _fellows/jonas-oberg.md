@@ -15,6 +15,8 @@ projects:
  - Commons Machinery : http://commonsmachinery.se/
  - Elog.io : http://elog.io/
 twitter: jonaso
+fellowship:
+  start: 2013-03-01
 contribution:
   2013: 18623.01
   2014: 20354.26

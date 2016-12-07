@@ -13,5 +13,9 @@ links:
 projects:
     - P2PU : https://www.p2pu.org/en/
 twitter: schmidtphi
+fellowship:
+  start: 2010-05-01
+contribution:
+  2013: 10835.23
 ---
 Philipp is an open education geek who is interested in the future of higher education. He is a co-founder of Peer 2 Peer University, a project that uses open educational resources to create high quality learning communities for self learners.

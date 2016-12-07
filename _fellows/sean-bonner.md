@@ -18,8 +18,8 @@ fellowship:
   start: 2014-09-01
 contribution:
   2014: 9590.91
-  2015: 16701.70
-  2016: 9951.00
+  2015: 17974.43
+  2016: 25243.13
 ---
 
 Sean is working on Safecast, building open hardware, open source software and open systems to empower people with data about their environment, and the tools to both collect and independently verify that data. The initial focus is radiation levels, with the intent to expand into air quality over time.

@@ -14,6 +14,8 @@ links:
 projects:
     - Lumen learning: http://lumenlearning.com/
 twitter: opencontent
+fellowship:
+  start: 2013-03-01
 contribution:
   2013: 19488.64
   2014: 19488.64

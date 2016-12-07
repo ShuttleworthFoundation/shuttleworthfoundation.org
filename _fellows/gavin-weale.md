@@ -13,8 +13,8 @@ links:
 projects:
     - LiveMag : http://livemag.co.za
 twitter: gavinweale
-contribution:
-  2013: 18285.30
+fellowship:
+  start: 2011-03-01
 ---
 Gavin founded LiveSA, a media agency that amplifies the voices of the South African youth, completely created by South African youth. It started life as a print magazine in the beginning of his fellowship in 2011, but has since grown to a suite of media offerings that not only let young people make their voices heard, but prepares them for the world of work in the media industry.
 

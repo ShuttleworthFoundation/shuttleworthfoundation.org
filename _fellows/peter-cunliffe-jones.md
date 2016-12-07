@@ -16,7 +16,7 @@ twitter: africacheck
 fellowship:
   start: 2016-03-01
 contribution:
-  2016: 1761.00
+  2016: 19270.26
 ---
 Peter Cunliffe-Jones is heading up [AfricaCheck](https://africacheck.org), checking claims that public figures and institutions make against the best available public information to change the too-easy flow of disinformation, promote accuracy in public debate and kick-start a healthy skeptical reflex among the public and the media in Africa about claims that are made.
 

@@ -13,8 +13,10 @@ links:
 projects:
     - Open Source Ecology : http://opensourceecology.org/
 twitter: OSEcology
+fellowship:
+  start: 2012-03-01
 contribution:
-  2013: 9219.80
+  2013: 9219.8
   2014: 10268.82
 ---
 Marcin is passionate about creating the open source economy. He is currently working on the Global Village Construction Set (GVCS), a modular, open source platform that allows for the easy fabrication of the 50 industrial machines that it takes to build a small civilization with modern comforts.

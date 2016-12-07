@@ -18,8 +18,7 @@ twitter: waldojaquith
 fellowship:
   start: 2015-09-01
 contribution:
-  2015: 1714.02
-  2016: 4203.00
+  2016: 6184.74
 ---
 
 Waldo is the founder of [US Open Data](https://www.usopendata.org/). His goal is to support the US government, at all levels, to release useful, usable open data, and to help both the private and public sector realise the benefits of open data over time.

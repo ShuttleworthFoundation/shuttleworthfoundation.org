@@ -10,6 +10,8 @@ photo: /images/fellows/kabir-bavikatte.jpg
 links:
  - Blog : http://natural-justice.blogspot.co.za/
 twitter:
+fellowship:
+  start: 2011-03-01
 ---
 Kabir is an environmental lawyer supporting communities to secure their rights to their territories and cultures. He is one of the founders and the co-director of Natural Justice, an organization of environmental law practitioners working in Africa, Asia and Latin America to ensure that community concerns are effectively represented in the development and implementation of domestic and international law and policy.
 

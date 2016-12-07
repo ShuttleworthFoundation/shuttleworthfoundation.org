@@ -14,6 +14,8 @@ links:
 projects:
     - Cape Town Declaration : http://www.capetowndeclaration.org/
 twitter: msurman
+fellowship:
+  start: 2007-05-01
 ---
 Mark provided support and thought leadership on how community, networks and all things ‘open’ can increase the impact of the social innovations supported by the Shuttleworth Foundation.
 

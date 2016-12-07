@@ -11,11 +11,12 @@ links:
     - LinkedIn: http://www.linkedin.com/pub/catharina-maracke/3/6a8/a59
 projects:
     - Contributor Agreements: http://contributoragreements.org/
-contribution:
-  2013: 16496.92
-  2014: 1950.00
+fellowship:
+  start: 2012-05-01
+contributions:
+  2013: 17851.47
+  2014: 2278.74
   2015: 19488.64
-  2016: 0.00
 ---
 
 
