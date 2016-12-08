@@ -28,3 +28,6 @@ deploy:
   acl: public_read
   on:
     branch: master
+
+notifications:
+  slack: shuttleworth-gang:sQhUplrgC8R4pHqcMFaXZgtC
