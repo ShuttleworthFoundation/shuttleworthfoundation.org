@@ -27,4 +27,4 @@ deploy:
   local-dir: _site
   acl: public_read
   on:
-    branch: refresh
+    branch: master
