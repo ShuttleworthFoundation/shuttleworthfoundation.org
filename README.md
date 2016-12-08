@@ -1,5 +1,5 @@
 <a href="https://shuttleworthfoundation.org/">
-    <img src="https://shuttleworthfoundation.org/images/icon.png" alt="Promises/A+ logo"
+    <img src="https://shuttleworthfoundation.org/images/icon.png" alt="Shuttleworth Foundation"
          title="Shuttleworth Foundation" align="right" />
 </a>
 
