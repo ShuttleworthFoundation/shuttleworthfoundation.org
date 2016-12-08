@@ -15,7 +15,7 @@ This repository contains all of the source code for our [website](https://shuttl
 
 ### Install
 
-Clone or download the repository to your computer. You'll need to have a local Jekyll [installation](https://jekyllrb.com/docs/installation/) and also install [Bundler](https://jekyllrb.com/docs/installation/). Just run `bundle install` from within the directory that contains the repository.
+Clone or download the repository to your computer. You'll need to have a local Jekyll [installation](https://jekyllrb.com/docs/installation/) and [Bundler](https://jekyllrb.com/docs/installation/). Just run `bundle install` from within the directory that contains the repository. This will install all the dependencies you need to run the site locally. Once finished, just run `jekyll serve` on the command line within the local copy of the repository.
 
 
 ## License
