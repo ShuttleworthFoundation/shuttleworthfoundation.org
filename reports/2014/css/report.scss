@@ -18,6 +18,10 @@ $green: #3BA933;
 }
 
 #report2013 {
+
+    h1, h2, h3, h4, h5, h6 {
+	text-align: inherit;
+    }
     
     .container {
 	max-width: 800px;

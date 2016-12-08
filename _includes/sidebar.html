@@ -1,0 +1,39 @@
+<h4>Recent posts</h4>
+<ul>
+  {% if site.related_posts %}
+  {% for post in site.related_posts limit:10 %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+  {% else %}
+  {% for post in site.posts limit:10 %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+  {% endif %}
+</ul>
+
+<h4>Categories</h4>
+<ul>
+  {% for tag in site.tags limit:10 %}
+  <li>
+    <a href="/thinking/tag/{{ tag[0] }}/">{{ tag[0] | capitalize }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<h4>Archives</h4>
+{{ site.years }}
+<ul>
+  {% for post in site.posts %}
+  {% assign year = post.date | date: "%Y" %}
+  {% if year != prev_year %}
+  <li>
+    <a href="/thinking/{{ year }}/">Posts from {{ year }}</a>
+  </li>
+  {% endif %}
+  {% assign prev_year = year %}
+  {% endfor %}
+</ul>

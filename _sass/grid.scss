@@ -1,0 +1,168 @@
+/* Grid */
+
+$margins: 2%;
+
+.wrapper,
+.container-wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 1em 0;
+    box-sizing: border-box;
+
+    &.green {
+	color: $white;
+	background-color: $green;
+    }
+
+    &.light-green {
+	background-color: $lightgreen;
+    }
+
+    &.light-green.alternating {
+	&:nth-child(odd) {
+	    background-color: $lightgreen;
+	}
+
+	&:nth-child(even) {
+	    background-color: $white;
+	}
+    }
+
+    &.grey {
+	background-color: $grey;
+    }
+
+    &.dark-grey {
+	background-color: $darkgrey;
+    }
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    &.wide {
+	width: 100%;
+    }
+}
+
+.column,
+.columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+
+    &.white {
+	background: $white;
+    }
+
+    &.padded {
+	padding: $padding;
+    }
+
+    &.marginless {
+	margin: 0;
+    }
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+    .container {
+	width: 85%;
+	padding: 0;
+    }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+    .container {
+	width: 80%;
+    }
+    .column,
+    .columns {
+	margin: $margins/2;
+    }
+    
+    .one.column,
+    .one.columns                    { width: ( 100% * (1/12) ) - $margins; }
+    .two.columns                    { width: ( 100% * (2/12) ) - $margins; }
+    .three.columns                  { width: ( 100% * (3/12) ) - $margins; }
+    .four.columns                   { width: ( 100% * (4/12) ) - $margins; }
+    .five.columns                   { width: ( 100% * (5/12) ) - $margins; }
+    .six.columns                    { width: ( 100% * (6/12) ) - $margins; }
+    .seven.columns                  { width: ( 100% * (7/12) ) - $margins; }
+    .eight.columns                  { width: ( 100% * (8/12) ) - $margins; }
+    .nine.columns                   { width: ( 100% * (9/12) ) - $margins; }
+    .ten.columns                    { width: ( 100% * (10/12) ) - $margins; }
+    .eleven.columns                 { width: ( 100% * (11/12) ) - $margins; }
+    .twelve.columns                 { width: 100% - $margins; }
+    
+    .one-third.column               { width: ( 100% * (1/3) ) - $margins; }
+    .two-thirds.column              { width: ( 100% * (2/3) ) - $margins; }
+    
+    .one-half.column                { width: ( 100% * (1/2) ) - $margins; }
+    
+    .one.marginless.column,
+    .one.marginless.columns         { width: ( 100% * (1/12) ); }
+    .two.marginless.columns         { width: ( 100% * (2/12) ); }
+    .three.marginless.columns       { width: ( 100% * (3/12) ); }
+    .four.marginless.columns        { width: ( 100% * (4/12) ); }
+    .five.marginless.columns        { width: ( 100% * (5/12) ); }
+    .six.marginless.columns         { width: ( 100% * (6/12) ); }
+    .seven.marginless.columns       { width: ( 100% * (7/12) ); }
+    .eight.marginless.columns       { width: ( 100% * (8/12) ); }
+    .nine.marginless.columns        { width: ( 100% * (9/12) ); }
+    .ten.marginless.columns         { width: ( 100% * (10/12) ); }
+    .eleven.marginless.columns      { width: ( 100% * (11/12) ); }
+    .twelve.marginless.columns      { width: 100%; }
+    
+    .one-third.marginless.column    { width: ( 100% * (1/3) ); }
+    .two-thirds.marginless.column   { width: ( 100% * (2/3) ); }
+    
+    .one-half.marginless.column     { width: ( 100% * (1/2) ); }
+    
+    /* Offsets */
+    .offset-by-one.column,
+    .offset-by-one.columns          { margin-left: ( 100% * (1/12) ) + $margins/2; }
+    .offset-by-two.column,
+    .offset-by-two.columns          { margin-left: ( 100% * (2/12) ) + $margins/2; }
+    .offset-by-three.column,
+    .offset-by-three.columns        { margin-left: ( 100% * (3/12) ) + $margins/2;            }
+    .offset-by-four.column,
+    .offset-by-four.columns         { margin-left: ( 100% * (4/12) ) + $margins/2; }
+    .offset-by-five.column,
+    .offset-by-five.columns         { margin-left: ( 100% * (5/12) ) + $margins/2; }
+    .offset-by-six.column,
+    .offset-by-six.columns          { margin-left: ( 100% * (6/12) ) + $margins/2;            }
+    .offset-by-seven.column,
+    .offset-by-seven.columns        { margin-left: ( 100% * (7/12) ) + $margins/2; }
+    .offset-by-eight.column,
+    .offset-by-eight.columns        { margin-left: ( 100% * (8/12) ) + $margins/2; }
+    .offset-by-nine.column,
+    .offset-by-nine.columns         { margin-left: ( 100% * (9/12) ) + $margins/2;          }
+    .offset-by-ten.column,
+    .offset-by-ten.columns          { margin-left: ( 100% * (10/12) ) + $margins/2; }
+    .offset-by-eleven.column,
+    .offset-by-eleven.columns       { margin-left: ( 100% * (11/12) ) + $margins/2; }
+    
+    .offset-by-one-third.column,
+    .offset-by-one-third.columns    { margin-left: ( 100% * (1/3) ) + $margins/2; }
+    .offset-by-two-thirds.column,
+    .offset-by-two-thirds.columns   { margin-left: ( 100% * (2/3) ) + $margins/2; }
+    
+    .offset-by-one-half.column,
+    .offset-by-one-half.columns     { margin-left: ( 100% * (1/2) ) + $margins/2; }
+
+}
+
+
+/* For devices larger than 1050px */
+@media (min-width: 1050px) {
+    .container {
+	max-width: 1360px;
+    }
+}

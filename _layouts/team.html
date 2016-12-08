@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include navbar.html %}
+
+    <div class="container">
+      <div class="twelve columns">
+	<h1>{{ page.name }} - {{ page.position }}</h1>
+	<hr/>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="nine columns">
+	{{ page.content }}
+      </div>
+
+      <div class="three columns">
+	<img src="{{ page.image }}" alt="{{ page.name }}"/>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+  </body>
+</html>

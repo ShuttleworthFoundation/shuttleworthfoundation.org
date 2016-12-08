@@ -1,0 +1,48 @@
+---
+layout: default
+title: Application Form
+---
+
+
+<div class="container">
+  <div class="twelve columns">
+    <h1>Apply Now!</h1>
+    <hr/>
+  </div>
+</div>
+
+{% if site.intake.open %}
+
+<link rel="stylesheet" type="text/css" href="/css/formstack.css">
+
+<div class="container">
+  <div class="twelve columns">
+    <h2> A full application comprises of</h2>
+    <ul>
+      <li>this online application form</li>
+      <li>your application video - not longer than 5 minutes</li>
+      <li>your resume</li>
+      <li>Please use no more that 1500 characters per essay question</li>
+    </ul>
+  </div>
+</div>
+
+<div class="container">
+  <div class="twelve columns">
+    <script type="text/javascript" src="https://shuttleworthfoundation.formstack.com/forms/js.php/fellowship_application_v2?nojquery=1&no_style_strict=1"></script>
+    <noscript>
+      <a href="https://shuttleworthfoundation.formstack.com/forms/fellowship_application_v2" title="Online Form">Online Form - Fellowship Applications V2 - July 2015</a>
+    </noscript>
+    <script type='text/javascript'>if (typeof $ == 'undefined' && jQuery){ $ = jQuery}</script>
+  </div>
+</div>
+	
+{% else %}
+	
+<div class="container">
+  <div class="twelve columns">
+    <h2> Applications will reopen in {{ site.intake.reopen }} for a {{ site.intake.next }} intake.</h2>
+  </div>
+</div>
+
+{% endif %}

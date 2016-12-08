@@ -14,7 +14,7 @@
 	    position: relative;
 
 	    .fellow-spend-entry {
-		height: 480px;
+		height: 660px;
 		width: 100%;
 		margin: 25px 0;
 		display: inline-block;
@@ -46,6 +46,10 @@
 		    display: inline-block;
 		    width: 500px;
 		    vertical-align: top;
+
+		    h4, h5 {
+			text-align: inherit;
+		    }
 		}
 
 		.fellow-spend-entry-left {
@@ -67,6 +71,7 @@
 		.fellow-spend-entry-right {
 		    text-align: right;
 		    padding-right: 5px;
+		    width: 495px;
 
 		    .fellow-spend-contributions {
 			font-size: 16px;
@@ -75,8 +80,8 @@
 		    }
 
 		    .fellow-spend-item {
-			width: (125px+70px);
-			margin-left: (500px-125px-70px-30px);
+			width: (125px+80px);
+			margin-left: (500px-125px-80px-30px);
 			margin-top: 10px;
 			margin-bottom: 10px;
 			text-align: left;
@@ -288,7 +293,7 @@
 	    height: $chartsize;
 	    margin-left: (-$chartsize / 2);
 	    left: 50%;
-	    top: 50px;
+	    top: 100px;
 
 	    .fellow-spend-chart-photo {
 		background-color: white;

@@ -1,0 +1,221 @@
+---
+---
+/* Variables */
+
+$white: #ffffff;
+$grey: #e5e5e5;
+$darkgrey: #4e5867;
+$black: #4d4d4d;
+$green: #80bd26;
+$green2: #3ba933;
+$lightgreen: #d0e6c7;
+
+$padding: 1.2em;
+$rounding: 1.2em;
+
+$nav_height: 60px;
+$nav_padding: 5px;
+
+
+/* Styles (originally from Skeleton) */
+
+@import 'grid';
+@import 'navbar';
+@import 'base';
+@import 'typography';
+@import 'links';
+@import 'buttons';
+@import 'forms';
+@import 'lists';
+@import 'code';
+@import 'tables';
+@import 'spacing';
+@import 'utilities';
+@import 'misc';
+@import 'clearing';
+@import 'blog';
+
+
+/* Homepage */
+
+.landing-wrapper {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    margin: -$nav_height 0 0 0;
+    padding: $nav_height 0 0 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    
+    .landing-container {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+    }
+
+    .landing-main, .landing-notification {
+	display: table-row;
+    }
+
+    .landing-main {
+	background-image: url('/images/landing.jpg');
+	background-size: cover;
+	background-position: center center;
+    }
+
+    .landing-notification {
+	height: 100px;
+
+	landing-container {
+	    height: 100px;
+	}
+    }
+
+    #landing-rotate {
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 4em;
+	font-size: 1em;
+	
+	div {
+	    display: table-cell;
+	    text-align: center;
+	    vertical-align: middle;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    transition: opacity 0.5s;
+
+	    &.hidden {
+		opacity: 0;
+	    }
+	}
+    }
+
+    .landing-buttons {
+	font-size: 1.4rem;
+
+	.button {
+	    margin: $padding/2 $padding;
+	}
+    }
+}
+
+.container-wrapper.notification {
+    color: $white;
+    background-color: $green;
+    text-align: center;
+    
+    .button {
+	border: 1px solid $green2;
+	background-color: $green2;
+	color: $white;
+	
+	&:hover {
+	    border: 1px solid darken($green2, 5%);
+	    background-color: darken($green2, 5%);
+	    color: $white;
+	}
+    }
+}
+
+body {
+    min-height: 100vh;
+    margin-top: 0;
+    padding-top: $nav_height;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.footer {
+    background-color: $green;
+    color: $white;
+    text-align: center;
+    line-height: 2.5em;
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    
+    a {
+	color: $white;
+
+	&:hover {
+	    color: $white;
+	}
+    }
+
+    img {
+	width: auto;
+	height: 40px;
+	margin: 0 3px 0 4px;
+    }
+
+    .links a {
+	margin: 0 1em 0 1em;
+    }
+
+    .icons {
+	font-size: 0;
+	line-height: 0;
+    }
+}
+
+i.icon-notification {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    margin-top: 1em;
+    background-image: url('/images/icons/notification.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.icon {
+    width: 4em;
+    height: 4em;    
+}
+
+.vimeo {
+    /*position: relative;*/
+    /*padding-bottom: 56.25%;*/
+    /*height: 0;*/
+    /*overflow: hidden;*/
+    max-width: 100%;
+    height: auto;
+
+    iframe,
+    object,
+    embed {
+	/*position: absolute;*/
+	/*top: 0;*/
+	/*left: 0;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	border: 0;
+	width: 520px;
+	height: 300px;
+    }
+}
+
+.column img,
+.columns img {
+    width: 100%;
+}
+
+.column .fsEmbed img,
+.columns .fsEmbed img {
+    width: auto;
+}
+
+.img-credit {
+    font-size: 0.65em;
+    text-align: right;
+
+    img {
+	margin-bottom: 0;
+    }
+}

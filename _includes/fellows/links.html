@@ -1,15 +1,16 @@
-<div class="container container-fellow">
-  <div class="row row-links">
-    <div class="col-sm-12 col-md-8 col-lg-8">
-      <div class="video-container tooltipster" title="Click to play / pause video">
-	<iframe src="{{ include.video }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<div class="light-green alternating wrapper">
+  <div class="container">
+    <div class="eight columns">
+      <div class="vimeo tooltipster" title="Click to play / pause video">
+	<iframe src="{{ include.video }}" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
     </div>
-    <div class="col-sm-12 col-md-4 col-lg-4">
+    
+    <div class="four columns links">
       
       {% if include.links %}
       <div class="link-block clearfix">
-	<img src="../../images/icon-links.svg" alt="Links" />
+	<img class="icon" src="/images/icons/links.svg" alt="Links" />
 	<div class="link-heading">
           Links
 	</div>
@@ -23,7 +24,7 @@
       
       {% if include.projects %}
       <div class="link-block clearfix">
-	<img src="../../images/icon-projects.svg" alt="Projects" />
+	<img class="icon" src="/images/icons/projects.svg" alt="Projects" />
 	<div class="link-heading">
           Projects
 	</div>
@@ -37,7 +38,7 @@
       
       {% if include.twitter %}
       <div class="link-block clearfix">
-	<img src="../../images/icon-twitter.svg" alt="Tweets" />
+	<img class="icon" src="/images/icons/twitter.svg" alt="Tweets" />
 	<div class="link-heading">
           Twitter
 	</div>

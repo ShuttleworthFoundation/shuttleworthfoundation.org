@@ -1,26 +1,24 @@
-<!-- footer include -->
-<footer class="footer-11">
-<div class="additional-links">
-    <div class="container">
-
-        <a href="{{ "/team" | prepend: site.baseurl }}">Team</a>
-        <a href="{{ "/thinking" | prepend: site.baseurl }}">Thinking</a>
-        <a href="{{ "/terms" | prepend: site.baseurl }}">Terms</a>
-        <a href="{{ "/privacy" | prepend: site.baseurl }}">Privacy</a>
-        <a href="{{ "/contact" | prepend: site.baseurl }}">Contact</a>
-
-        <p class="creative-commons-logo">
-            <img src="{{ "/images/creative-commons.png" | prepend: site.baseurl }}" alt="Creative Commons Attribution ShareAlike 3.0 License" width="100">
-       
-        <p class="lead">This work is licensed under a<br> Creative Commons Attribution -ShareAlike 3.0 License</p>
-        <div class="social-btns git pull-right">
-            <a href="https://github.com/ShuttleworthFoundation/shuttleworthfoundation.org" target="_blank">
-                <div class="fui-git"></div>
-                <div class="fui-git-on"></div>
-            </a>
-        </div>
+<div class="container-wrapper footer">
+  <div class="container">
+    <div class="links">
+      <a href="/team/">TEAM</a>
+      <a href="/thinking/">THINKING</a>
+      <a href="/about/terms/">TERMS</a>
+      <a href="/about/privacy/">PRIVACY</a>
+      <a href="/contact/">CONTACT</a>
     </div>
-</div>
-</footer>
 
-{% include scripts.html %}
+    <div class="icons">
+      <a href="https://github.com/ShuttleworthFoundation/shuttleworthfoundation.org">
+	<img src="/images/icons/github.png" alt="Github"/>
+      </a>
+      <a href="https://github.com/ShuttleworthFoundation/shuttleworthfoundation.org/LICENSE">
+	<img src="/images/icons/creativecommons.png" alt="Creative Commons"/>
+      </a>
+    </div>
+    
+    <div>
+      This work is licensed under a Creative Commons Attribution -ShareAlike 3.0 License
+    </div>
+  </div>
+</div>

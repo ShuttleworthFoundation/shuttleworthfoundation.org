@@ -1,0 +1,55 @@
+---
+layout: default
+title: Flash Grants
+---
+
+<div class="container">
+  <div class="twelve columns">
+    <h1>{{ page.title }}</h1>
+    <hr/>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="twelve columns">
+    <p>
+      Twice a year we award a number of small grants to a collection
+      of social change agents, no strings attached, in support of
+      their work.  We call these Flash Grants and recipients are
+      selected based on nominations from our Fellows. Each award is
+      worth $5,000.
+    </p>
+  </div>
+</div>
+
+{% assign by_year = site.data.flashgrants | group_by_year: "date" | sort: "year" | reverse %}
+{% for for_year in by_year %}
+<div class="cotainer">
+  <div class="twelve columns">
+    <h3>{{ for_year.year }}</h3>
+  </div>
+</div>
+
+<div class="container">
+  {% assign grants = for_year.items | sort_two: "date", "name" %}
+  {% for grant in grants %}
+  {% assign loopindex = forloop.index | modulo: 4 %}
+  {% if loopindex == 1 %}
+</div>
+<div class="container">
+  {% endif %}
+  <div class="three columns">
+    {% if grant.homepage %}
+    <a href="{{ grant.homepage }}">{{ grant.name }}</a>
+    {% else %}
+    {{ grant.name }}
+    {% endif %}
+    <br/>
+    {{ grant.date | date: "%B" }}
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+
+<p></p>

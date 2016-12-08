@@ -43,7 +43,7 @@ module Fellows
     end
     
     def generate(site)
-      site.posts.docs.each do |post|
+      site.collections['fellows'].docs.each do |post|
         if post.data['layout'] == 'fellow'
           events = []
           
@@ -101,7 +101,7 @@ module Fellows
           site.data['spend'].each do |year, data|
             data.each do |fellow, spend|
               if spend.size != 0
-                if post.data['fullname'] == fellow
+                if post.data['name'] == fellow
                   post.data['spend'][year.to_i] = spend
                 end
               end

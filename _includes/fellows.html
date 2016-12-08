@@ -1,0 +1,50 @@
+{% if include contains "current" %}
+{% assign fellows = site.fellows | where: "current", include.current | sort: 'name' %}
+{% else %}
+{% assign fellows = site.fellows | sort: 'name' %}
+{% endif %}
+
+<div class="container">
+  <h3>
+    {% if include.current == true %}
+    Current fellows
+    {% else if include.current == false %}
+    Past fellows
+    {% else %}
+    Fellows
+    {% endif %}
+  </h3>
+  {% for fellow in fellows %}
+  {% assign loopindex = forloop.index | modulo: 4 %}
+  {% if loopindex == 1 %}
+</div>
+<div class="container">
+  {% endif %}
+  <div class="three columns">
+    <a href="{{ fellow.url }}">
+      <img src="{{ fellow.photo }}" alt="{{ fellow.name }}"/>
+    </a>
+    <p class="u-text-center">
+      <a href="{{ fellow.url }}">{{ fellow.name }}</a><br/>
+      {{ fellow.project }}
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="container">
+  <p class="u-text-center">
+    {% if include.current == true %}
+
+    For more information about all those previously part of the
+    fellowship program please view our <a href="/fellows/alumni/">alumni</a>.
+
+    {% else %}
+
+    For more information about all those currently part of the
+    fellowship program please view our <a href="/fellows/">current
+    fellows</a>.
+    
+    {% endif %}
+  </p>
+</div>

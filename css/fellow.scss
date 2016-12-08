@@ -1,7 +1,15 @@
 ---
 ---
 
-#single .container-fellow {
+.flashgrant.columns {
+    text-align: center;
+    
+    img {
+	height: 7em;
+    }
+}
+
+.container-fellow {
     h2 {
 	text-align: left;
 	font-size: 1.75em;
@@ -39,7 +47,7 @@
     }
 }
 
-.row-links {
+.links {
     .link-block {
 	height: 100px;
 	max-width: 300px;
@@ -48,7 +56,7 @@
 	img {
 	    height: 70px;
 	    width: 80px;
-	    margin: 15px 10px 5px 0;
+	    margin: 5px 10px 5px 0;
 	    float: left;
 	}
 	
@@ -154,8 +162,14 @@
 }
 
 /* Hide vimeo controls. */
+.vimeo iframe{
+    height: 123%;
+    margin-top: -53px;
+    margin-bottom: 0;
+}
+.vimeo,
 .video-container {
-    width: 600px;
+    width: 100%;
     height: 338px;
     overflow: hidden;
     
@@ -163,6 +177,7 @@
 	width: 600px;
 	height: 460px;
 	margin-top: -61px;
+	float: right;
     }
 }
 
@@ -209,6 +224,7 @@
     .spend-breakdown-year {
 	width: 240px;
 	margin: 20px;
+	white-space: nowrap;
     }
 
     .spend-breakdown-year.spend-breakdown-year-compact {
@@ -270,18 +286,17 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    margin: 2px;
+    border: 2px solid white;
     position: relative;
 
     &:hover, &.highlighted {
-	width: 24px;
-	height: 24px;
-	margin: 0;
 	border: 2px solid lightgrey;
     }
 
-    &.spend-breakdown-segment-none:hover, &.spend-breakdown-segment-none.highlighted {
-	border: none;
+    &.spend-breakdown-segment-none,
+    &.spend-breakdown-segment-none:hover,
+    &.spend-breakdown-segment-none.highlighted {
+	border: 2px solid transparent;
     }
 
     &.spend-breakdown-segment-people {

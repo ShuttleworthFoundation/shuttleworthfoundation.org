@@ -1,0 +1,17 @@
+Adding fellows:
+---------------
+
+Current fellows should have 'current' set to 'true' in the fellow
+front matter.
+
+ - Fellow photos should be placed in /images/fellows/first-last.jpg
+ - Fellow photos should be black and white
+ - Fellow photos should be 300x300 pixels dimension
+
+Alumni:
+-------
+
+All fellows (current and previous) have an entry in this folder. This
+will ensure that fellow page URL's do not change when a fellow becomes
+alumni and thus not break external links to these pages. For alumni
+set 'current' to 'false' in the fellow front matter.

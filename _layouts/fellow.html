@@ -1,19 +1,15 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" type="text/css" href="{{ '/css/fellow.css' | prepend: site.baseurl }}">
+<link rel="stylesheet" type="text/css" href="/css/fellow.css">
 
-<div class="page-wrapper" id="fellow">
-<!-- Everything after this should be Editable as content -->
-<section class="content-12">
-  <h1>
-    <span class="wide btn-wide" style="background:url(../../images/fellows-page-header.png) center top no-repeat">{{page.fullname}}<br />
-      {{page.type}}
-    </span>
-  </h1>
-</section>
-{% include fellow_breadcrumbs.html %}
-<div class="spacer"></div>
+<div class="wrapper">
+  <div class="container">
+    <h1>{{ page.name }}</h1>
+    <h2>{{ page.project }}</h2>
+  </div>
+  <hr/>
+</div>
 
 {% if page.video %}
 {% include fellows/links.html links=page.links projects=page.projects twitter=page.twitter video=page.video%}
@@ -21,9 +17,9 @@ layout: default
 {% include fellows/links_no_video.html links=page.links projects=page.projects twitter=page.twitter %}
 {% endif %}
 
-<div class="container container-fellow">
-  <div class="row row-summary">
-    <div class="col-sm12 col-md-12 col-lg-12">
+<div class="light-green alternating wrapper">
+  <div class="container">
+    <div class="twelve columns">
       <h2>So, what's the big idea?</h2>
       {{ page }}
     </div>
@@ -36,7 +32,7 @@ layout: default
 {% endif %}
 -->
 
-{% assign flashgrants = site.data.flashgrants | where: "fellow", page.fullname | sort: "date" | reverse %}
+{% assign flashgrants = site.data.flashgrants | where: "fellow", page.name | sort: "date" | reverse %}
 {% if flashgrants.size != 0 %}
 {% include fellows/flashgrants.html grants=flashgrants %}
 {% endif %}

@@ -1,0 +1,161 @@
+.blog.wrapper {
+    background: $grey;
+    padding-bottom: 4em;
+    
+    .blog-contents {
+	background: $white;
+	padding: 0 $padding;
+    }
+
+    .blog-sidebar, .sidebar {
+	h4 {
+	    font-size: 1em;
+	    text-transform: uppercase;
+	    margin: 1em 0;
+	    border-bottom: 2px solid $green;
+	}
+
+	li {
+	    line-height: 1;
+	    list-style: none;
+	    margin-left: 1em;
+	    margin-bottom: 0.5em;
+	}
+
+	a {
+	    color: $black;
+
+	    &:hover {
+		color: darken($black, 10%);
+	    }
+	}
+    }
+
+    h1, h2, h3, h4, h5, h6 {	
+	text-align: left;
+	margin-left: 0;
+	margin-right: 0;
+    }
+
+    h1 {
+	color: $green;
+	font-size: 3.6rem;
+	line-height: 1.25;
+	letter-spacing: -.1rem;
+	margin-top: 2rem;
+    }
+
+    h1 ~ p.subtext {
+	margin-top: -2rem;
+	margin-bottom: 2rem;
+	font-size: 0.85em;
+    }
+
+    .img-credit {
+	margin: 2em 0;
+    }
+
+    p.bigger {
+	font-size: 1.25em;
+    }
+
+    div.tags {
+	float: right;
+	position: relative;
+	top: 3.6em;
+
+	a {
+	    text-transform: uppercase;
+	}
+    }
+}
+
+@media (min-width: 550px) {
+    .blog.wrapper {
+	h1 { font-size: 2.0em; }
+    }
+}
+
+.feature.wrapper {
+
+    .feature.columns {
+	height: 1.6em*15;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 1.6em;
+    }
+
+    .tags {
+	position: absolute;
+	padding: 1.5em 0.5em 0 0.5em;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: $white;
+	background: linear-gradient(to bottom, transparentize($white, 1), $white 40%);
+    }
+}
+
+.post-preview {
+    position: relative;
+    height: 1.6em*15+0.5;
+    overflow: hidden;
+
+    img {
+	width: 100%;
+	height: 10em;
+    }
+
+    p {
+	padding: 0 0.5em;
+    }
+
+    .tags {
+	position: absolute;
+	padding: 1.5em 0.5em 0 0.5em;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: $white;
+	background: linear-gradient(to bottom, transparentize($white, 1), $white 40%);
+    }
+}
+
+
+.sidebar {
+    h1, h2, h3, h4, h5, h6 {	
+	text-align: left;
+	margin-left: 0;
+	margin-right: 0;
+    }
+
+    h4 {
+	font-size: 1em;
+	text-transform: uppercase;
+	margin: 1em 0;
+	border-bottom: 2px solid $green;
+    }
+    
+    li {
+	line-height: 1;
+	list-style: none;
+	margin-left: 1em;
+	margin-bottom: 0.5em;
+    }
+    
+    a {
+	color: $black;
+	
+	&:hover {
+	    color: darken($black, 10%);
+	}
+    }
+}
+
+.tags {
+    text-align: right;
+    
+    a.tag {
+	text-transform: uppercase;
+    }
+}

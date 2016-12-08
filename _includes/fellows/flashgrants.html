@@ -1,7 +1,7 @@
-<div class="container container-fellow">
-  <div class="row row-flashgrants">
-    <div class="col-md-12">
-      <h2>{% if page.fullname %}{{ page.fullname }}'s flash grant nominations{% else %}Flash grant nominations{% endif %}</h2>
+<div class="light-green alternating wrapper">
+  <div class="container">
+    <div class="twelve columns">
+      <h2>{% if page.name %}{{ page.name }}'s flash grant nominations{% else %}Flash grant nominations{% endif %}</h2>
       <p>
 	Twice a year we award a number of small grants to a collection
 	of social change agents, no strings attached, in support of
@@ -10,16 +10,25 @@
 	worth $5,000.
       </p>
     </div>
+  </div>
+  
+  <div class="container">
     {% for grant in include.grants %}
-    <div class="col-sm-12 col-md-6 col-lg-4 col-flashgrant col-flashgrant-{{ grant.gender }}">
+    {% assign loopindex = forloop.index | modulo: 4 %}
+    {% if loopindex == 1 %}
+  </div>
+  <div class="container">
+    {% endif %}
+    <div class="three flashgrant columns">
       {% if grant.gender %}
-      <img src="../../images/icon-gender-{{ grant.gender }}.svg" alt="{{ grant.gender | capitalize }}"/>
+      <img src="/images/icons/{{ grant.gender }}.svg" alt="{{ grant.gender | capitalize }}"/>
       {% endif %}
       <div class="content">
 	{{ grant.name }}<br/>
-	<a href="{{ grant.homepage }}">{{ grant.homepage | remove:"http://" | remove:"https://" | truncate:28,'...' }}</a>
+	<a href="{{ grant.homepage }}">{{ grant.homepage | remove:"http://" | remove:"https://" | truncate:28,"..." }}</a>
       </div>
     </div>
     {% endfor %}
   </div>
+    
 </div>
