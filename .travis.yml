@@ -6,7 +6,7 @@ git:
   submodules: false
 branches:
   only:
-  - refresh
+  - master
 
 sudo: false
 
