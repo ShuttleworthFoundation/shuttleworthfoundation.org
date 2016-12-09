@@ -92,3 +92,64 @@
     }	
 
 }
+
+
+/* For devices narrower than 1024px */
+@media (max-width: 1024px) {
+    .navbar {
+	.container {
+
+	    & > ul {
+		position: absolute;
+		right: 0;
+		height: $nav_height;
+		overflow: hidden;
+		background: $white;
+		box-sizing: border-box;
+		
+		& > li {
+		    display: block;
+		    border-left: 1px solid $grey;
+		    border-right: 1px solid $grey;
+
+		    &:last-of-type {
+			border-bottom: 1px solid $grey;
+		    }
+		}
+		
+		&:before {
+		    content: "\f0c9";
+		    font-family: FontAwesome;
+		    line-height: $nav_height;
+		    padding: $nav_padding*2;
+		}
+		
+		&:hover {
+		    height: auto;
+		}
+	    }
+
+	    ul.dropdown {
+		display: block;
+		visibility: visible;
+		opacity: 1;
+		position: static;
+		border: none;
+		
+		& > li {
+		    display: block;
+		    margin-left: 1em;
+		}
+	    }
+
+	    li.dropdown-toggle:after {
+		content: none;
+	    }
+
+	    ul > li,
+	    ul > li a {
+		line-height: 1.4em;
+	    }
+	}
+    }
+}
