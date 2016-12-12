@@ -170,7 +170,7 @@ year: "2016"
 
 	      var position = { 'category': {}, 'fellow': {} };
 	      /* Initialize the categories here to ensure the order is
-	       * as provided. Any cetegories omitted here will be
+	       * as provided. Any categories omitted here will be
 	       * added at the end of the array. */
 	      var categories = ['Government', 'Hardware', 'Web', 'Science',
 				'Telecoms', 'Education', 'Environment',
@@ -250,9 +250,9 @@ year: "2016"
 		  if (line == 0) {
 		      vertical = 450;
 		  } else if (line % 2 == 0) {
-		      vertical = 450 + line * 4;
+		      vertical = 450 + line * 3;
 		  } else {
-		      vertical = 450 - line * 4;
+		      vertical = 450 - line * 3;
 		  }
 
 		  if (position['fellow'][fellow]['count'] == 0) {
@@ -514,9 +514,9 @@ year: "2016"
 		<div class="fellow-spend-entry-right">
       <h5>Committed funds</h5>
 		  <div class="fellow-spend-contributions">
-		    Fellow contribution: ${{ fellow.fellow_contribution }}<br/>
-		    Our contribution: ${{ fellow.foundation_contribution }}<br/>
-		  <!--  Total funds: <span class="red">${{ fellow.total }}</span>-->
+		    Fellow contribution: {{ fellow.fellow_contribution | money }}<br/>
+		    Our contribution: {{ fellow.foundation_contribution | money }}<br/>
+		  <!--  Total funds: <span class="red">{{ fellow.total | money }}</span>-->
 		  </div>
 		  <h5>Spend breakdown</h5>
 		  {% for category in fellow.spend %}
@@ -526,12 +526,12 @@ year: "2016"
 		      {{ category.category }}
 		    </div>
 		    <div class="fellow-spend-item-amount">
-		      ${{ category.amount }}
+		      {{ category.amount | money }}
 		    </div>
 		  </div>
 		  {% endfor %}
 		  <div class="fellow-spend-total">
-		    Total <span class="fellow-spend-total-amount red">${{ fellow.total }}</span>
+		    Total <span class="fellow-spend-total-amount red">{{ fellow.total | money }}</span>
 		  </div>
 		</div>
 		<div class="fellow-spend-chart chart-deferred" data-fellow="{{ fellow.id }}">
