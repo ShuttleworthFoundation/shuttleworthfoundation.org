@@ -1,0 +1,275 @@
+section#applications {
+    h6 {
+	font-size: 18px;
+	font-weight: 600;
+    }
+    
+    h6.pull-left {
+	display: inline-block;
+	width: 50%;
+    }
+    
+    h6.pull-right {
+	dispaly: inline-block;
+	width: 50%;
+	text-align: right;
+    }
+    
+    .container-infographic {
+	margin-top: 30px;
+	
+	&:after {
+	    content: '';
+	    display: block;
+	    height: 0;
+	    clear:both;
+	}
+	
+	.applications-gender {
+	    background-image: url(../images/gender-bg.svg);
+	    background-size: 100% 100%;
+	    width: 300px;
+	    height: 350px;
+	    padding: 30px;
+	    float: right;
+	    margin-top: 60px;
+
+	    h6 {
+		text-align: center;
+	    }
+	    
+	    svg {
+		margin: 10%;
+		width: 80%;
+	    }
+	}
+	
+	.applications-selection {
+	    width: 50%;
+	    position: relative;
+	    
+	    svg {
+		margin-left: -15px;
+		
+		g {
+		    &.animated {
+			transition: all 0.5s;
+		    }
+		    
+		    &.hidden {
+			opacity: 0;
+		    }
+		}
+	    }
+	    
+	    .applications-selection-legend {
+		position: absolute;
+		right: -50px;
+		bottom: 50px;
+		font-size: 16px;
+		font-weight: 600;
+		color: #2C3E50;
+		
+		.applications-selection-legend-item {
+		    margin: 5px 0;
+		    
+		    .selection-legend-icon {
+			display: inline-block;
+			width: 4px;
+			height: 20px;
+			vertical-align: middle;
+			margin-top: -10px;
+			
+			svg {
+			    width: 20px;
+			    height: 20px;
+			}
+		    }
+		    
+		    .selection-legend-label {
+			display: inline-block;
+			width: 110px;
+		    }
+		    
+		    .selection-legend-value {
+			display: inline-block;
+			width: 30px;
+		    }
+		    
+		    &.item-enquiries .selection-legend-icon svg path{
+			fill: rgb(97,172,70);
+			
+		    }
+		    
+		    &.item-applications .selection-legend-icon svg path{
+			fill: rgb(13,151,159);
+			
+		    }
+		    
+		    &.item-declined .selection-legend-icon svg path{
+			fill: rgb(226,38,48);
+			
+		    }
+		    
+		    &.item-short .selection-legend-icon svg path{
+			fill: rgb(120,80,51);
+			
+		    }
+		    
+		    &.item-selected .selection-legend-icon svg path{
+			fill: rgb(240,110,37);
+			
+		    }
+		    
+		    &.item-withdrawn .selection-legend-icon svg path{
+			fill: rgb(251,185,22);
+			
+		    }
+		}
+	    }
+	}
+    }
+}
+
+
+$color1: rgb(186,122,209);
+$color2: rgb(13,151,159);
+
+#applications-ranking {
+    width: 120%;
+    margin-left: -10%;
+    margin-right: -10%;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    max-height: 1000px;
+    
+    path {
+	stroke: #DDDDCD;
+	stroke-width: 0.5;
+    }
+    
+    text {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 3pt;
+	fill: #FFF;
+    }
+    
+    text.label {
+	text-transform: uppercase;
+    }
+    
+    g.slice-country {
+	path {
+	    fill: $color2;
+	}
+	text.label {
+	    text-transform: uppercase;
+	    fill: $color2;
+	}
+    }
+    
+    g.slice-category {
+	path {
+	    fill: $color1;
+	}
+	text.label {
+	    text-transform: uppercase;
+	    fill: $color1;
+	}
+    }
+
+    text.aggregate {
+	font-family: 'Georgia', 'Merriweather', serif;
+	font-weight: 100;
+	font-size: 5.5pt;
+	fill: $color1;
+    }
+    text.aggregate-color2 {
+	font-family: 'Georgia', 'Merriweather', serif;
+	font-weight: 100;
+	font-size: 5.5pt;
+	fill: $color2;
+    }
+    text.aggregate tspan.number,
+    text.aggregate-color2 tspan.number {
+	font-weight: 200;
+	font-size: 12pt;
+    }
+}
+
+$color1: rgb(97,172,70);
+$color2: rgb(240,110,37);
+
+#applications-gender {
+    
+    text {
+	font-family: 'Georgia', 'Merriweather', serif;
+	font-weight: normal;
+	font-size: 15pt;
+    }
+    text.aggregate {
+	font-family: 'Georgia', 'Merriweather', serif;
+	font-weight: 100;
+	font-size: 25pt;
+	fill: #b5624d;
+    }
+    .male {
+	path {
+	    stroke: $color1;
+	    stroke-width: 10;
+	    fill: none;
+	}
+	path.segment {
+	    stroke: #DDDDCD;
+	    stroke-width: 2;
+	    fill: $color1;
+	}
+	text {
+	    fill: $color1;
+	}
+    }
+    
+    .female {
+	path {
+	    stroke: $color2;
+	    stroke-width: 10;
+	    fill: none;
+	}
+	path.segment {
+	    stroke: #DDDDCD;
+	    stroke-width: 2;
+	    fill: $color2;
+	}
+	text {
+	    fill: $color2;
+	}
+    }
+}
+
+#applications-selection {
+    .enquiries > use {
+	fill: rgb(97,172,70);
+    }
+    
+    .applications > use {
+	fill: rgb(13,151,159);
+    }
+    
+    .declined > use {
+	fill: rgb(226,38,48);
+    }
+    
+    .shortlisted > use {
+	fill: rgb(120,80,51);
+    }
+    
+    .selected > use {
+	fill: rgb(240,110,37);
+    }
+    
+    .withdrawn > use {
+	fill: rgb(251,185,22);
+    }
+    
+}

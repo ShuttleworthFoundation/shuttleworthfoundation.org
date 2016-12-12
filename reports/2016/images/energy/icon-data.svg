@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg6320" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="32.987" width="32.986" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs6322">
+  <clipPath id="SVGID_130_">
+   <use id="use5635" xlink:href="#SVGID_129_" height="1052.3622" width="744.09448" y="0" x="0"/>
+  </clipPath>
+ </defs>
+ <metadata id="metadata6325">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(2.20728,-313.01154)">
+  <g id="g5629" fill="#FFF" transform="translate(-843.94728,-256.31446)">
+   <defs id="defs5631">
+    <rect id="SVGID_129_" y="569.33" x="841.74" height="32.988" width="32.986"/>
+   </defs>
+   <clipPath id="clipPath6314">
+    <use id="use6316" xlink:href="#SVGID_129_" height="1052.3622" width="744.09448" y="0" x="0"/>
+   </clipPath>
+   <path id="path5637" d="m856.32,572.99c-8.062,0.042-14.584,6.588-14.584,14.659,0,8.097,6.562,14.661,14.661,14.661,8.093,0.001,14.654-6.557,14.661-14.649h-14.738v-14.671z" clip-path="url(#SVGID_130_)" class="st23" fill="#FFF"/>
+   <path id="path5639" d="m860.07,569.33c-0.026,0-0.05,0.002-0.077,0.002v14.67h14.738v-0.011c0.001-8.095-6.563-14.661-14.661-14.661" clip-path="url(#SVGID_130_)" class="st23" fill="#FFF"/>
+  </g>
+ </g>
+</svg>

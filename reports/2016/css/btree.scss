@@ -1,0 +1,70 @@
+---
+---
+
+$white: darken(white, 10%);
+
+.bubbletree {
+    position: relative; 
+    height: 100%; 
+    overflow: hidden;
+    
+    .label { 
+	position: absolute; 
+	color: #fff; 
+	text-align: center; 
+	cursor: default;
+	pointer-events: none;
+    } 
+    
+    .amount { 
+	font-family: Graublau, Georgia, sans-serif; 
+	font-size: 16px; 
+    }
+    
+    .desc { 
+	font-family: sans-serif; 
+	font-size: 11px;	
+    }
+    
+    .label2 { 
+	position: absolute; 
+	color: $white;
+	background-color: #000;
+	text-align: center; 
+	cursor: default; 
+	font-size: 11px;
+	font-family: sans-serif;
+	margin-top:5px;
+	pointer-events: none;
+	
+	span {}
+    }
+    
+    .tooltip {
+	position: absolute;
+	text-align: center;
+	font-family: Georgia, serif;
+	background: #000;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px;
+	width: 120px;
+	margin-left: -65px;
+	-moz-transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+	
+	
+	.tooltip-label {
+	    font-weight: bold;
+	    font-size: 14px;
+	}
+	
+	.tooltip-amount {
+	    font-size: 16px;
+	}
+	
+	
+    }
+}

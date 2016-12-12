@@ -1,0 +1,629 @@
+---
+layout: default
+title:  The Shuttleworth Foundation - Year in Review 2016
+year: "2016"
+---
+
+<link href="/assets/yui-normalize-3.18.1/cssnormalize-context-min.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<div id="report" class="yui3-normalized">
+  <div class="container-fluid" id="container-banner">
+    <div id="banner-text">
+      <h1>{{ page.year }}</h1>
+      <h2>Year in Review</h2>
+      <p>
+	<span class="nudge-left">
+	  We are dedicated to building a community of Fellows that not only <strong>shape</strong> and <strong>influence</strong>
+	</span><br/>
+	<span class="nudge-right">
+	  each other, but <strong>trust</strong> and <strong>respect</strong> each other, <strong>even when opinions differ...</strong>
+	</span>
+      </p>
+    </div>
+    <img src="banner.png" alt="{{ page.year }}, Year in review - We believe that people, not projects, change the world."/>
+  </div>
+
+  <div class="container container-padded">
+    <div class="row">
+      <div class="eight columns offset-by-two">
+	<p>
+	  People, not projects, champions, not project plans, make a
+	  real difference in the world.  This is one of the key
+	  pillars of our theory of change and it was reinforced by
+	  much of what we learnt in 2014. In 2015, we dove deep into
+	  what an enabling environment for change makers looks
+	  like. The network effect of the fellowship proved to be
+	  invaluable.
+	</p>
+	<p>
+	  Crafting solutions to social challenges does not come with a
+	  step-by-step guide or an expert with the magic formula. What
+	  you need is support to keep on experimenting, testing,
+	  failing and fighting back. It can only be solved by doing
+	  and learning, and the best way to do that is together (with
+	  others, in the trenches). We fund individuals in the first
+	  instance, but we specifically fund individuals together, on
+	  parallel, and often intersecting, roads.
+	</p>
+	<p>
+	  We are dedicated to building a small community of Fellows
+	  that not only shape and influence each other, but trust and
+	  respect each other, even when opinions differ. This close
+	  mesh network forms a strong support structure of peer
+	  references - experiential, intellectual, social - it is a
+	  network of peers with a comparable frame of reference,
+	  learning and evolving, amplifying useful truths and
+	  cautionary tales, accelerating the positive social change.
+	</p>
+	<p>
+	  2015 has been a tumultuous year globally. New social
+	  challenges appeared, old ones neared breaking point and
+	  questions of belonging was at the heart of much of the
+	  turmoil.  Openness and technology have a key role to play in
+	  enabling each of us to reclaim the power to change the world
+	  for the better, build our own solutions and share with
+	  others.  We’ve started by creating a space where this seems
+	  not only possible, but inevitable.
+	</p>
+	<p>Please note that the figures below will be finalised once
+	our audit has been concluded.
+	</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="thinking">
+    <div class="container container-thinking">
+      <div class="row">
+	<div class="eight columns offset-by-two">
+	  <h2>Year in <strong>THINKING</strong></h2>
+	</div>
+      </div>
+      
+      {% for post in site.categories.thinking %}
+      {% if post.on_report %}
+      {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+      {% if year == page.year %}
+      <div class="container container-thinking">
+	<div class="four columns offset-by-two col-thinking-left">
+	  <p>{{ post.title }}</p>
+	  <a href="{{ post.url }}" class="button button-primary">Read more</a>
+	</div>
+	<div class="four columns col-thinking-right">
+	  <p>
+	    {{ post.content | strip_html | truncatewords: 50 }}... <a href="{{ post.url }}">&gt;&gt;</a>
+	  </p>
+	</div>
+      </div>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+      
+    </div>
+  </div>
+
+  <div class="container container-people">
+    <div class="row">
+      <div class="eight columns offset-by-two">
+	<h2>Year in <strong>PEOPLE</strong></h2>
+	<p>
+	  We focus our energy by supporting openness in intellectual
+	  property, data, privacy, hardware, education, publishing,
+	  government, science, telecoms, environment, music,
+	  transparancy and the Web.
+	</p>
+      </div>
+    </div>
+    <div class="twelve columns">
+      <div class="container-infographic">
+	<div class="container-infographic-inner">
+	  <div class="energy-links"></div>
+	  <div class="energy-fellows"></div>
+	  <div class="energy-categories"></div>
+	  <div style="clear: both;"></div>
+	</div>
+        <script>
+          _jqq.push(function() {
+
+	      function slugify(text)
+	      {
+		  return text.toString().toLowerCase()
+		      .replace(/\s+/g, '-')           // Replace spaces with -
+		      .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+		      .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+		      .replace(/^-+/, '')             // Trim - from start of text
+		      .replace(/-+$/, '');            // Trim - from end of text
+	      }
+
+	      function shuffle(array) {
+		  var currentIndex = array.length, temporaryValue, randomIndex;
+
+		  // While there remain elements to shuffle...
+		  while (0 !== currentIndex) {
+
+		      // Pick a remaining element...
+		      randomIndex = Math.floor(Math.random() * currentIndex);
+		      currentIndex -= 1;
+
+		      // And swap it with the current element.
+		      temporaryValue = array[currentIndex];
+		      array[currentIndex] = array[randomIndex];
+		      array[randomIndex] = temporaryValue;
+		  }
+
+		  return array;
+	      }
+
+	      var lines = [
+		  {% for fellow in site.data.reports[page.year].fellows %}
+                  {% if forloop.last %}
+	          {% for category in fellow.categories %}
+	          ["{{ fellow.id }}", "{{ category }}"]{% unless forloop.last %},{% endunless %}
+                  {% endfor %}
+	          {% else %}
+	          {% for category in fellow.categories %}
+	          ["{{ fellow.id }}", "{{ category }}"],
+                  {% endfor %}
+	          {% endif %}
+	          {% endfor %}
+	      ];
+
+	      var position = { 'category': {}, 'fellow': {} };
+	      /* Initialize the categories here to ensure the order is
+	       * as provided. Any cetegories omitted here will be
+	       * added at the end of the array. */
+	      var categories = ['Government', 'Hardware', 'Web', 'Science',
+				'Telecoms', 'Education', 'Environment',
+				'Privacy', 'Data', 'Music', 'Publishing',
+				'Transparency', 'Intellectual Property'];
+	      var fellows = [];
+	      for (line=0; line<lines.length; line++) {
+		  var fellow = lines[line][0];
+		  var category = lines[line][1];
+
+		  if (fellows.indexOf(fellow) == -1) {
+		      fellows.push(fellow);
+		  }
+
+		  if (categories.indexOf(category) == -1) {
+		      categories.push(category);
+		  }
+	      }
+
+	      var full_height = (fellows.length*50+30);
+	      var line_height = (full_height - (categories.length * 20) - ((categories.length - 1) * 10)) / lines.length;
+
+	      var fellows_container = $('.energy-fellows');
+	      var top = 0;
+	      for (fellow_id=0; fellow_id<fellows.length; fellow_id++) {
+		  var fellow_slug = fellows[fellow_id];
+		  fellows_container.append('<div class="energy-fellow '+fellow_slug+'" data-fellow="'+fellow_slug+'" style="background-image: url(images/fellows/'+fellow_slug+'.jpg);"></div>');
+		  var left;
+		  if (fellow_id % 2 == 0) {
+		      left = 130;
+		  } else {
+		      left = 195;
+		  }
+		  position['fellow'][fellow_slug] = {'middle': top+40, 'left': left, 'offset': 0, 'count': 0};
+		  top += 50;
+	      }
+
+	      var categories_container = $('.energy-categories');
+	      var top = 0;
+	      for (category_id=0; category_id<categories.length; category_id++) {
+		  var height = 0;
+		  var category = categories[category_id];
+		  var category_slug = slugify(category);
+		  for (line=0; line<lines.length; line++) {
+		      if (lines[line][1] == category) {
+			  height += line_height;
+		      }
+		  }
+		  categories_container.append('<div class="energy-category '+category_slug+'" data-category="'+category_slug+'" style="line-height: '+height+'px; top: '+top+'px;">'+category+'</div>');
+		  position['category'][category_slug] = {'middle': top+(height/2)+10, 'left': 700, 'offset': 0, 'count': 0};
+		  top += height;
+		  top += 30;
+	      }
+	      for (line=0; line<lines.length; line++) {
+		  var fellow = slugify(lines[line][0]);
+		  var category = slugify(lines[line][1]);
+
+		  $('.energy-categories .energy-category.'+category).addClass(fellow);
+		  $('.energy-fellows .energy-fellow.'+fellow).addClass(category);
+	      }
+
+	      $('.container-infographic-inner').css('height', full_height+'px');
+
+	      shuffle(lines);
+	      var svg = d3.select('.energy-links')
+		  .append('svg')
+		  .attr('id', 'energy-svg')
+		  .attr('height', full_height)
+		  .attr('width', 940);
+	      var inactivelines = svg.append('g').attr('class', 'links inactive');
+	      var activelines = svg.append('g').attr('class', 'links active');
+	      for (line=0; line<lines.length; line++) {
+		  var fellow = slugify(lines[line][0]);
+		  var category = slugify(lines[line][1]);
+
+		  var vertical;
+		  if (line == 0) {
+		      vertical = 450;
+		  } else if (line % 2 == 0) {
+		      vertical = 450 + line * 4;
+		  } else {
+		      vertical = 450 - line * 4;
+		  }
+
+		  if (position['fellow'][fellow]['count'] == 0) {
+		      position['fellow'][fellow]['offset'] = 0;
+		  } else if (position['fellow'][fellow]['count'] % 2 == 0) {
+		      position['fellow'][fellow]['offset'] = -position['fellow'][fellow]['offset'];
+		  } else {
+		      position['fellow'][fellow]['offset'] = Math.abs(position['fellow'][fellow]['offset']) + 5;
+		  }
+		  position['fellow'][fellow]['count'] += 1
+
+		  if (position['category'][category]['count'] == 0) {
+		      position['category'][category]['offset'] = 0;
+		  } else if (position['category'][category]['count'] % 2 == 0) {
+		      position['category'][category]['offset'] = -position['category'][category]['offset'];
+		  } else {
+		      position['category'][category]['offset'] = Math.abs(position['category'][category]['offset']) + 8;
+		  }
+		  position['category'][category]['count'] += 1
+
+		  var y1 = position['fellow'][fellow]['middle'] + position['fellow'][fellow]['offset'];
+		  var y2 = position['category'][category]['middle'] + position['category'][category]['offset'];
+		  var x1 = position['fellow'][fellow]['left'];
+		  var x2 = position['category'][category]['left'];
+		  var path = 'M'+x1+','+y1+' H'+vertical+' V'+y2+' H'+x2;
+
+		  activelines.append('svg:path')
+		      .attr('d', path)
+		      .attr('stroke-width', 10)
+		      .classed(fellow, true)
+		      .classed(category, true);
+		  activelines.append('svg:circle')
+		      .attr('cx', x1)
+		      .attr('cy', y1)
+		      .attr('r', 2)
+		      .classed(fellow, true)
+		      .classed(category, true);
+		  inactivelines.append('svg:path')
+		      .attr('d', path)
+		      .attr('stroke-width', 10)
+		      .classed(fellow, true)
+		      .classed(category, true);
+		  inactivelines.append('svg:circle')
+		      .attr('cx', x1)
+		      .attr('cy', y1)
+		      .attr('r', 2)
+		      .classed(fellow, true)
+		      .classed(category, true);
+	      }
+
+
+
+	      (function() {
+		  var element = {};
+		  element.node = $('#energy-svg');
+		  element.top = element.node.offset().top;
+		  element.height = element.node.height()
+
+		  var screen = {}
+		  screen.height = $(window).height();
+		  screen.document = $(document);
+		  screen.trigger = element.top + (element.height / 2);
+
+		  var interval = setInterval(function() {
+		      screen.top = screen.document.scrollTop();
+		      screen.bottom = screen.top + screen.height;
+		      if ((screen.top < screen.trigger) && (screen.bottom > screen.trigger)) {
+			  var links = d3.select('#energy-svg').selectAll('g.links path');
+			  links.transition()
+			      .duration(1000)
+			      .ease("linear")
+			      .attr("stroke-dashoffset", 0);
+		      }
+		  }, 500);
+	      })();
+	      var links = d3.select('#energy-svg').selectAll('g.links path');
+	      links.attr("stroke-dasharray", function(d, i) {
+		  var length = this.getTotalLength();
+		  return length + " " + length;
+	      }).attr("stroke-dashoffset", function(d, i) {
+		  return this.getTotalLength();
+	      });
+
+	      $('.energy-fellow').on('mouseenter', function() {
+		  var fellow = $(this).data('fellow');
+		  var svg = $('#energy-svg');
+		  var categories = $('.energy-categories');
+		  svg.find('.active path').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+fellow+' ') != -1) {
+			  elem.css('opacity', 1);
+		      } else {
+			  elem.css('opacity', 0);
+		      }
+		  });
+		  svg.find('.active circle').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+fellow+' ') != -1) {
+			  elem.css('opacity', 1);
+		      } else {
+			  elem.css('opacity', 0);
+		      }
+		  });
+		  categories.find('.energy-category').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+fellow+' ') != -1) {
+			  elem.removeClass('inactive');
+		      } else {
+			  elem.addClass('inactive');
+		      }
+		  });
+	      });
+	      $('.energy-fellow').on('mouseleave', function() {
+		  var svg = $('#energy-svg');
+		  var categories = $('.energy-categories');
+		  var fellows = $('.energy-fellows');
+		  svg.find('.active path').css('opacity', 1);
+		  svg.find('.active circle').css('opacity', 1);
+		  categories.find('.energy-category.inactive').removeClass('inactive');
+		  fellows.find('.energy-fellow.inactive').removeClass('inactive');
+	      });
+
+	      $('.energy-category').on('mouseenter', function() {
+		  var category = $(this).data('category');
+		  var svg = $('#energy-svg');
+		  var fellows = $('.energy-fellows');
+		  svg.find('.active path').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+category+' ') != -1) {
+			  elem.css('opacity', 1);
+		      } else {
+			  elem.css('opacity', 0);
+		      }
+		  });
+		  svg.find('.active circle').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+category+' ') != -1) {
+			  elem.css('opacity', 1);
+		      } else {
+			  elem.css('opacity', 0);
+		      }
+		  });
+		  fellows.find('.energy-fellow').each(function() {
+		      var elem = $(this);
+		      var str = ' '+elem.attr('class')+' ';
+		      if (str.indexOf(' '+category+' ') != -1) {
+			  elem.removeClass('inactive');
+		      } else {
+			  elem.addClass('inactive');
+		      }
+		  });
+	      });
+	      $('.energy-category').on('mouseleave', function() {
+		  var svg = $('#energy-svg');
+		  var categories = $('.energy-categories');
+		  var fellows = $('.energy-fellows');
+		  svg.find('.active path').css('opacity', 1);
+		  svg.find('.active circle').css('opacity', 1);
+		  categories.find('.energy-category.inactive').removeClass('inactive');
+		  fellows.find('.energy-fellow.inactive').removeClass('inactive');
+	      });
+	  });
+	</script>
+      </div>
+    </div>
+    </div>
+
+  <div id="money">
+    <div class="container container-money">
+      <div class="row">
+	<div class="eight columns offset-by-two">
+	  <h2>Year in <strong>MONEY</strong></h2>
+	  <p>
+	    We maintain a small core team to continue to develop and
+	    support our fellowship programme with the strategic
+	    insight and flexibility we offer Fellows. The vast
+	    majority of our funding is spent either directly or
+	    indirectly on Fellows and their projects.
+	  </p>
+	</div>
+      </div>
+
+      <div class="row">
+	<div class="eight columns offset-by-two">
+	  <h3>How we spent our money</h3>
+	</div>
+      </div>
+
+      <div class="row">
+	<div class="twelve columns">
+	  <iframe id="bubbletree" src="bubbletree.html"></iframe>
+	  <div id="our-spend-worldmap"></div>
+	  <script>
+	    var mapdata = {{ site.data.reports[page.year].regions|jsonify }};
+	    {% include_relative js/worldmap.js %}
+	  </script>
+	</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="fellows">
+    <div class="container container-money">
+      <div class="row">
+	<div class="eight columns offset-by-two">
+	  <h3>How our fellows spent their money</h3>
+	  <p>
+	    At the heart of our co-investment fellowship model is the
+	    principle that Fellows continue to invest in their own
+	    ideas. The Foundation amplifies the Fellow’s investment by
+	    matching it at least tenfold, along with covering the cost
+	    of their time for the year.
+	  </p>
+	  <p>
+	    The figures you see here do not reflect each Fellow’s
+	    fellowship year funding, but rather the funds unlocked
+	    within our financial year, as the fellowship years start
+	    either March or September and Fellows are not required to
+	    spend the available funds proportionately throughout the
+	    year.
+	  </p>
+	</div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-money">
+      <div class="row">
+	<div class="twelve columns">
+
+	  <div class="container-fellow-spend">
+	    <div class="container-fellow-spend-inner">
+
+	      {% for fellow in site.data.reports[page.year].fellows %}
+	      <div class="fellow-spend-entry {% if forloop.first %}fellow-spend-entry-active{% else %}fellow-spend-entry-next{% endif %}" data-fellow="{{ fellow.id }}">
+		<div class="fellow-spend-entry-left">
+		  <h4>{{ fellow.name }}</h4>
+		  <div class="fellow-spend-duration">
+		    <strong>Fellowship duration:</strong> {{ fellow.fellowship_start }} - {{ fellow.fellowship_end }}<br/>
+		    {{ fellow.fellowship_duration }} months of fellowship in {{ page.year }}
+		  </div>
+
+		  <div class="fellow-spend-links">
+		    {% if fellow.blog %}
+		    <a href="http://{{ fellow.blog }}"><span class="icon-link icon-blog"></span> {{ fellow.blog }}</a><br/>
+		    {% endif %}
+		    {% if fellow.twitter %}
+		    <a href="https://twitter.com/{{ fellow.twitter }}"><span class="icon-link icon-twitter"></span> @{{ fellow.twitter }}</a><br/>
+		    {% endif %}
+		    {% if fellow.web %}
+		    <a href="http://{{ fellow.web }}"><span class="icon-link icon-web"></span> {{ fellow.web }}</a>
+		    {% endif %}
+		  </div>
+		</div>
+		<div class="fellow-spend-entry-right">
+      <h5>Committed funds</h5>
+		  <div class="fellow-spend-contributions">
+		    Fellow contribution: ${{ fellow.fellow_contribution }}<br/>
+		    Our contribution: ${{ fellow.foundation_contribution }}<br/>
+		  <!--  Total funds: <span class="red">${{ fellow.total }}</span>-->
+		  </div>
+		  <h5>Spend breakdown</h5>
+		  {% for category in fellow.spend %}
+		  <div class="fellow-spend-item">
+		    <div class="icon icon-{{ category.category | slugify }}"></div>
+		    <div class="fellow-spend-item-label">
+		      {{ category.category }}
+		    </div>
+		    <div class="fellow-spend-item-amount">
+		      ${{ category.amount }}
+		    </div>
+		  </div>
+		  {% endfor %}
+		  <div class="fellow-spend-total">
+		    Total <span class="fellow-spend-total-amount red">${{ fellow.total }}</span>
+		  </div>
+		</div>
+		<div class="fellow-spend-chart chart-deferred" data-fellow="{{ fellow.id }}">
+		  <svg width="100%" height="100%" viewBox="-50 -50 100 100"></svg>
+		  <div class="fellow-spend-chart-photo" style="background-image: url(images/fellows/{{ fellow.id }}.jpg);"></div>
+		</div>
+	      </div>
+	      {% endfor %}
+
+
+	      <div class="fellow-spend-arrow-left"></div>
+	      <div class="fellow-spend-arrow-right"></div>
+	      <div class="fellow-spend-dots">
+		{% for fellow in site.data.reports[page.year].fellows %}
+		<div class="fellow-spend-dot {% if forloop.first %}fellow-spend-dot-active{% endif %}" data-fellow="{{ fellow.id }}">
+		  <div class="fellow-spend-dot-tooltip">{{ fellow.name }}</div>
+		</div>
+		{% endfor %}
+	      </div>
+	    </div>
+	  </div>
+
+	</div>
+      </div>
+      <script>
+	fellow_spend = {
+          {% for fellow in site.data.reports[page.year].fellows %}
+  	  "{{ fellow.id }}": [
+	    {% for category in fellow.spend %}
+            {
+              "amount": {{ category.amount | replace:',','' }},
+              "label": "{{ category.category }}"
+            }{% unless forloop.last %},{% endunless %}
+	    {% endfor %}
+	  ]{% unless forloop.last %},{% endunless %}
+	{% endfor %}
+	};
+
+	_jqq.push(function() {
+            {% include_relative js/fellow-spend.js %}
+	});
+      </script>
+    </div>
+
+    {% if site.data.reports[page.year].data.alumni %}
+    <div class="container container-money">
+      <div class="row">
+	<div class="eight columns offset-by-two">
+	  <h3>Alumni</h3>
+	  <p>
+	    As driving social change does not adhere to financial or
+	    fellowship years, Fellows are allowed to spend unlocked
+	    project funds beyond the end of a fellowship year. In
+	    addition to Alumni continuing to participate in our
+	    bi-annual fellows’ gatherings, mentoring new Fellows and
+	    engaging in the Fellowship group as support network, we
+	    remain invested in their entities and continue to work
+	    with them on project implementation.
+	  </p>
+	</div>
+      </div>
+
+      <div class="row">
+	<div class="twelve columns">
+	  <p>Alumni Spend Pie Thingy</p>
+	</div>
+      </div>
+    </div>
+    {% endif %}
+
+ </div>
+
+</div>
+
+<script src="js/d3.v3.min.js"></script>
+<script>
+  Number.prototype.formatMoney = function(c, d, t){
+      var n = this,
+      c = isNaN(c = Math.abs(c)) ? 2 : c,
+      d = d == undefined ? "." : d,
+      t = t == undefined ? "," : t,
+      s = n < 0 ? "-" : "",
+      i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "",
+      j = (j = i.length) > 3 ? j % 3 : 0;
+      return s + '$' + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+  };
+</script>
+<script>
+  /* Execute all JS functions queued for execution after JQuery load. */
+  if (_jqq) {
+      $(_jqq).each(function() {
+          this();
+      });
+  }
+</script>
