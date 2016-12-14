@@ -1,208 +1,208 @@
 {
+  "taxonomy": "fb",
+  "name": "Total Spend",
+  "label": "Total Spend",
+  "amount": 4202488.66,
   "children": [
     {
+      "taxonomy": "fb",
+      "amount": 938450.44,
+      "name": "Overheads",
+      "label": "Overheads",
       "children": [
         {
+          "taxonomy": "fb",
+          "amount": 531655.45,
+          "name": "Operational Costs",
+          "label": "Operational Costs",
           "children": [
             {
-              "children": [],
-              "amount": 1644237.99,
-              "label": "People",
-              "name": "People",
-              "taxonomy": "fb"
+              "taxonomy": "fb",
+              "amount": 1909.41,
+              "name": "Other",
+              "label": "Other",
+              "children": []
             },
             {
-              "children": [],
-              "amount": 75429.23,
-              "label": "Office Space",
-              "name": "Office Space",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 291030.4,
-              "label": "Travel",
-              "name": "Travel",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 28327.25,
-              "label": "Marketing",
+              "taxonomy": "fb",
+              "amount": 9073.49,
               "name": "Marketing",
-              "taxonomy": "fb"
+              "label": "Marketing",
+              "children": []
             },
             {
-              "children": [],
-              "amount": 601315.14,
-              "label": "Software",
-              "name": "Software",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 54000.77,
-              "label": "Legal",
-              "name": "Legal",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 259125.53,
-              "label": "Infrastructure",
+              "taxonomy": "fb",
+              "amount": 33490.42,
               "name": "Infrastructure",
-              "taxonomy": "fb"
+              "label": "Infrastructure",
+              "children": []
             },
             {
-              "children": [],
-              "amount": 0.0,
-              "label": "Hardware",
-              "name": "Hardware",
-              "taxonomy": "fb"
+              "taxonomy": "fb",
+              "amount": 4.03,
+              "name": "Finance Costs",
+              "label": "Finance Costs",
+              "children": []
             },
             {
-              "children": [],
-              "amount": 30000.0,
-              "label": "Training",
-              "name": "Training",
-              "taxonomy": "fb"
+              "taxonomy": "fb",
+              "amount": 8896.74,
+              "name": "Bank Fees",
+              "label": "Bank Fees",
+              "children": []
             },
             {
-              "children": [],
-              "amount": 5488.7,
-              "label": "Administration",
-              "name": "Administration",
-              "taxonomy": "fb"
+              "taxonomy": "fb",
+              "amount": 47775.9,
+              "name": "Travel",
+              "label": "Travel",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 20081.43,
+              "name": "People",
+              "label": "People",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 23481.49,
+              "name": "Audit Fees",
+              "label": "Audit Fees",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 13721.07,
+              "name": "Infrastructure (Fixed Assets)",
+              "label": "Infrastructure (Fixed Assets)",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 27198.32,
+              "name": "Office Space",
+              "label": "Office Space",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 151248.96,
+              "name": "Legal Fees",
+              "label": "Legal Fees",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 194774.19,
+              "name": "Events (Gathering)",
+              "label": "Events (Gathering)",
+              "children": []
             }
-          ],
-          "amount": 2988955.02,
-          "label": "Grants",
-          "name": "Grants",
-          "taxonomy": "fb"
+          ]
         },
         {
-          "children": [],
-          "amount": 275083.2,
-          "label": "Flash Grants",
-          "name": "Flash Grants",
-          "taxonomy": "fb"
+          "taxonomy": "fb",
+          "amount": 406794.99,
+          "name": "Salaries",
+          "label": "Salaries",
+          "children": []
         }
-      ],
-      "amount": 3264038.22,
-      "label": "Fellowship Program",
-      "name": "Fellowship Program",
-      "taxonomy": "fb"
+      ]
     },
     {
+      "taxonomy": "fb",
+      "amount": 3264038.22,
+      "name": "Fellowship Program",
+      "label": "Fellowship Program",
       "children": [
         {
-          "children": [],
-          "amount": 406794.99,
-          "label": "Salaries",
-          "name": "Salaries",
-          "taxonomy": "fb"
+          "taxonomy": "fb",
+          "amount": 275083.2,
+          "name": "Flash Grants",
+          "label": "Flash Grants",
+          "children": []
         },
         {
+          "taxonomy": "fb",
+          "amount": 2988955.02,
+          "name": "Grants",
+          "label": "Grants",
           "children": [
             {
-              "children": [],
-              "amount": 194774.19,
-              "label": "Events (Gathering)",
-              "name": "Events (Gathering)",
-              "taxonomy": "fb"
+              "taxonomy": "fb",
+              "amount": 30000.0,
+              "name": "Training",
+              "label": "Training",
+              "children": []
             },
             {
-              "children": [],
-              "amount": 23481.49,
-              "label": "Audit Fees",
-              "name": "Audit Fees",
-              "taxonomy": "fb"
+              "taxonomy": "fb",
+              "amount": 54000.77,
+              "name": "Legal",
+              "label": "Legal",
+              "children": []
             },
             {
-              "children": [],
-              "amount": 33490.42,
-              "label": "Infrastructure",
-              "name": "Infrastructure",
-              "taxonomy": "fb"
+              "taxonomy": "fb",
+              "amount": 5488.7,
+              "name": "Administration",
+              "label": "Administration",
+              "children": []
             },
             {
-              "children": [],
-              "amount": 9073.49,
-              "label": "Marketing",
-              "name": "Marketing",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 13721.07,
-              "label": "Infrastructure (Fixed Assets)",
-              "name": "Infrastructure (Fixed Assets)",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 27198.32,
-              "label": "Office Space",
-              "name": "Office Space",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 20081.43,
-              "label": "People",
-              "name": "People",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 151248.96,
-              "label": "Legal Fees",
-              "name": "Legal Fees",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 1909.41,
-              "label": "Other",
-              "name": "Other",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 8896.74,
-              "label": "Bank Fees",
-              "name": "Bank Fees",
-              "taxonomy": "fb"
-            },
-            {
-              "children": [],
-              "amount": 47775.9,
-              "label": "Travel",
+              "taxonomy": "fb",
+              "amount": 291030.4,
               "name": "Travel",
-              "taxonomy": "fb"
+              "label": "Travel",
+              "children": []
             },
             {
-              "children": [],
-              "amount": 4.03,
-              "label": "Finance Costs",
-              "name": "Finance Costs",
-              "taxonomy": "fb"
+              "taxonomy": "fb",
+              "amount": 0.0,
+              "name": "Hardware",
+              "label": "Hardware",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 601315.14,
+              "name": "Software",
+              "label": "Software",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 75429.23,
+              "name": "Office Space",
+              "label": "Office Space",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 259125.53,
+              "name": "Infrastructure",
+              "label": "Infrastructure",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 28327.25,
+              "name": "Marketing",
+              "label": "Marketing",
+              "children": []
+            },
+            {
+              "taxonomy": "fb",
+              "amount": 1644237.99,
+              "name": "People",
+              "label": "People",
+              "children": []
             }
-          ],
-          "amount": 531655.45,
-          "label": "Operational Costs",
-          "name": "Operational Costs",
-          "taxonomy": "fb"
+          ]
         }
-      ],
-      "amount": 938450.44,
-      "label": "Overheads",
-      "name": "Overheads",
-      "taxonomy": "fb"
+      ]
     }
-  ],
-  "amount": 4202488.66,
-  "label": "Total Spend",
-  "name": "Total Spend",
-  "taxonomy": "fb"
+  ]
 }
