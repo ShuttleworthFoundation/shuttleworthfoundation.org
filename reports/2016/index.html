@@ -22,7 +22,7 @@ year: "2016"
 
 <div class="container container-padded">
 	<div class="row">
-		<div class="eight columns offset-by-two">
+		<div class="twelve columns">
 			<p>In cultivating our fellowship programme, we started by applying the values and processes of the free and open source software world to philanthropy. Once we saw the fellowship develop and grow, we wanted to understand why it worked so well. The concepts of freedom, equality, community, collaboration and trust helped articulate the change we wanted, and resonated with the activists we supported.</p>
 			<p>Shuttleworth Fellows realise their vision for social change by committing themselves fully to leaving the world a better, more equitable place than they found it. That is as true for their substantive work as it is for their interactions with others. It is only by them making these values their own, that change happens. It all comes down to the individual.</p>
 			<p>Inspired by the fellowship itself - both in embracing the power of the person and continuously including fresh thinking - we, for the first time, asked an individual from outside of the Shuttleworth group to select the new fellows we would support. We thank Joi Ito (link) for being the first to step into this role. He helped us not only choose exceptional fellows, but also refine and develop the process going forward. We are tremendously excited for the second iteration, which we currently working on with Cory Doctorow (link). </p>
@@ -35,7 +35,7 @@ year: "2016"
   <div id="thinking">
     <div class="container container-thinking">
       <div class="row">
-	<div class="eight columns offset-by-two">
+	<div class="twelve columns">
 	  <h2>Year in <strong>THINKING</strong></h2>
 	</div>
       </div>
@@ -45,11 +45,11 @@ year: "2016"
       {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
       {% if year == page.year %}
       <div class="container container-thinking">
-	<div class="four columns offset-by-two col-thinking-left">
+	<div class="four columns col-thinking-left">
 	  <p>{{ post.title }}</p>
 	  <a href="{{ post.url }}" class="button button-primary">Read more</a>
 	</div>
-	<div class="four columns col-thinking-right">
+	<div class="eight columns col-thinking-right">
 	  <p>
 	    {{ post.content | strip_html | truncatewords: 50 }}... <a href="{{ post.url }}">&gt;&gt;</a>
 	  </p>
