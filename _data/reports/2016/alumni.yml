@@ -1,0 +1,28 @@
+- categories: [Data, Government, Privacy, Web]
+  fellow_contribution: 0.0
+  fellowship_duration: 0
+  fellowship_end: September 2015
+  fellowship_start: September 2012
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: esraa-al-shafei
+  name: Esra'a Al Shafei
+  spend:
+  - {amount: 5000.0, category: People}
+  total: 5000.0
+  twitter: ealshafei
+  web: http://crowdvoice.org/
+- categories: [Education, Web, Publishing]
+  fellow_contribution: 0.0
+  fellowship_duration: 0
+  fellowship_end: March 2014
+  fellowship_start: March 2011
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: kathi-fletcher
+  name: Kathi Fletcher
+  spend:
+  - {amount: 5000.0, category: People}
+  total: 5000.0
+  twitter: ealshafei
+  web: http://crowdvoice.org/
