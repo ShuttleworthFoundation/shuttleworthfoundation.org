@@ -32,7 +32,7 @@
 .bubbletree .label2 { 
 	position: absolute; 
 	color: #e6e6e6;
-	background-color: #000;
+	background-color: #fff;
 	text-align: center; 
 	cursor: default; 
 	font-size: 11px;
@@ -54,7 +54,7 @@
 
 
 html, body { 
-    background: #000; 
+    background: #fff; 
 	margin: 0; 
 	height: 100%; 
 	width: 100%; 

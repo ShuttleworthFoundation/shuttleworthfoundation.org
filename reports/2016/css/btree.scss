@@ -2,6 +2,7 @@
 ---
 
 $white: darken(white, 10%);
+$black: #6C797A;
 
 .bubbletree {
     position: relative; 
@@ -28,8 +29,8 @@ $white: darken(white, 10%);
     
     .label2 { 
 	position: absolute; 
-	color: $white;
-	background-color: #000;
+	color: $black;
+	background-color: #fff;
 	text-align: center; 
 	cursor: default; 
 	font-size: 11px;
