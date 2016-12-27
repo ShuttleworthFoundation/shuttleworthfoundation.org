@@ -6,13 +6,13 @@
   "children": [
     {
       "taxonomy": "fb",
-      "amount": 938450.44,
+      "amount": 743676.25,
       "name": "Overheads",
       "label": "Overheads",
       "children": [
         {
           "taxonomy": "fb",
-          "amount": 531655.45,
+          "amount": 336881.26,
           "name": "Operational Costs",
           "label": "Operational Costs",
           "children": [
@@ -92,13 +92,6 @@
               "name": "Legal Fees",
               "label": "Legal Fees",
               "children": []
-            },
-            {
-              "taxonomy": "fb",
-              "amount": 194774.19,
-              "name": "Events (Gathering)",
-              "label": "Events (Gathering)",
-              "children": []
             }
           ]
         },
@@ -113,7 +106,7 @@
     },
     {
       "taxonomy": "fb",
-      "amount": 3264038.22,
+      "amount": 3458812.41,
       "name": "Fellowship Program",
       "label": "Fellowship Program",
       "children": [
@@ -124,6 +117,13 @@
           "label": "Flash Grants",
           "children": []
         },
+        {
+          "taxonomy": "fb",
+          "amount": 194774.19,
+          "name": "Events (Gathering)",
+          "label": "Events (Gathering)",
+          "children": []
+            },
         {
           "taxonomy": "fb",
           "amount": 2988955.02,
