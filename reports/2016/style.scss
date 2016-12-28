@@ -31,13 +31,21 @@ $green: #3BA933;
 	}
     }
     
-    
     #container-banner {
 	padding-left: 0;
 	padding-right: 0;
 	text-align: center;
-	background-color: #000;
+	background-color: #fff;
 	color: $white;
+	background: url(banner.png);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position-y: 50%;
+    
+    max-width: 100%;
+    height: 650px;
+    padding-top: 10px;
 	
 	#banner-text {
 	    h1 {
@@ -45,7 +53,7 @@ $green: #3BA933;
 		font-weight: 800;
 		margin-top: 30px;
 		margin-bottom: 2px;
-		color: $white;
+		color: $black;
 	    }
 	    
 	    h2 {
@@ -54,7 +62,7 @@ $green: #3BA933;
 		font-weight: 300;
 		margin-top: -25px;
 		margin-bottom: 30px;
-		color: $white;	    
+		color: $black;	    
 	    }
 	    
 	    p {
@@ -160,4 +168,5 @@ $green: #3BA933;
     {% include_relative css/_fellow-spend.scss %}
     {% include_relative css/_energy.scss %}
     {% include_relative css/_worldmap.scss %}
+    {% include_relative css/_header.scss %}
 }
