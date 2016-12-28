@@ -7,14 +7,16 @@ Aaron Makaruk:
   people: 190955.40
   travel: 2623.11
 Achal Prabhala:
-  people: 17149.91
-  office-space: 899.91
-  infrastructure: 450.09
-  marketing: 299.97
-  accounting: 150.12
+  accounting: 600.48
+  infrastructure: 4156.36
+  marketing: 1199.88
+  office-space: 3599.64
+  people: 193159.64
+  travel: 60000.0
 Adam Hyde:
+  marketing: 34180.0
   people: 67500.0
-  travel: 3492.72
+  travel: 13492.72
 Astra Taylor:
   office space: 6600.0
   people: 84225.0
@@ -30,17 +32,18 @@ Dan Whaley:
   travel: 16321.25
 Esra'a Al Shafei:
   people: 86700.0
+Isha Datar:
+  people: 93146.85
 Jesse von Doom:
   office-space: 24000.0
-  people: 277450.0
+  people: 307450.0
   software: 44430.0
 Johnny West:
   infrastructure: 10838.22
   marketing: 29653.28
   office-space: 12786.87
-  people: 230696.76
+  people: 243477.8
   software: 2502.72
-  subcontractors: 12781.04
   training: 6390.44
   travel: 30672.67
 Kathi Fletcher:
@@ -67,7 +70,7 @@ Peter Murray-Rust:
   marketing: 8190.36
 Seamus Kraft:
   infrastructure: 28880.0
-  marketing: 1458.0
+  marketing: 81458.0
   people: 318475.0
 Sean Bonner:
   infrastructure: 112000.0

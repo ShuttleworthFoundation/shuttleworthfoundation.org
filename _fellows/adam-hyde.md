@@ -18,7 +18,7 @@ fellowship:
   start: 2015-09-01
 contribution:
   2015: 17272.73
-  2016: 317.52
+  2016: 4333.88
 ---
 
 Adam would like to see scientific research results benefit a far wider audience through current, accessible and replicable dissemination. He is building some of the necessary platforms, methodologies and communities to support open source collaborative knowledge production and publication as part of the academic process.
