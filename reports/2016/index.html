@@ -8,24 +8,23 @@ year: "2016"
 <link href="style.css" rel="stylesheet" type="text/css">
 <div id="report" class="yui3-normalized">
   <div class="container-fluid" id="container-banner">
-    <div id="banner-text">
-      <h1>{{ page.year }}</h1>
-      <h2>Year in Review</h2>
-      <p>
-	<span class="nudge-left">
-	  Inspired by the fellowship itself, we, for the first time, invited others in to select the new fellows we would support.
-	</span>
-      </p>
-    </div>
-    <!--<img src="banner.png" alt="{{ page.year }}, Year in review - We believe that people, not projects, change the world."/>-->
+    
   </div>
-
+  <div id="intro">
+      <p>
+	  Inspired by the fellowship itself, we, for the first time, invited others in to select the new fellows we would support.
+      </p>
+</div>
 <div class="container container-padded">
 	<div class="row">
-		<div class="twelve columns">
+	<div class="twelve colums">
+	<h1>{{ page.year }}</h1>
+      <h4><strong>YEAR IN REVIEW</strong></h4>
+      </div>
+		<div class="ten columns offset-by-one">
 			<p>In cultivating our fellowship programme, we started by applying the values and processes of the free and open source software world to philanthropy. Once we saw the fellowship develop and grow, we wanted to understand why it worked so well. The concepts of freedom, equality, community, collaboration and trust helped articulate the change we wanted, and resonated with the activists we supported.</p>
 			<p>Shuttleworth Fellows realise their vision for social change by committing themselves fully to leaving the world a better, more equitable place than they found it. That is as true for their substantive work as it is for their interactions with others. It is only by them making these values their own, that change happens. It all comes down to the individual.</p>
-			<p>Inspired by the fellowship itself - both in embracing the power of the person and continuously including fresh thinking - we, for the first time, asked an individual from outside of the Shuttleworth group to select the new fellows we would support. We thank Joi Ito (link) for being the first to step into this role. He helped us not only choose exceptional fellows, but also refine and develop the process going forward. We are tremendously excited for the second iteration, which we currently working on with Cory Doctorow (link). </p>
+			<p>Inspired by the fellowship itself - both in embracing the power of the person and continuously including fresh thinking - we, for the first time, asked an individual from outside of the Shuttleworth group to select the new fellows we would support. We thank <a href="{{ "/thinking/2016/03/17/thinking-Steward-Joi-Ito/" | prepend: site.baseurl }}">Joi Ito</a> for being the first to step into this role. He helped us not only choose exceptional fellows, but also refine and develop the process going forward. We are tremendously excited for the second iteration, which we currently working on with <a href="{{ "/thinking/2016/10/05/thinking-Steward-Cory-Doctorow/" | prepend: site.baseurl }}">Cory Doctorow</a>.</p>
 			<p>Inviting support from individuals, as we support the Fellows, has been both challenging, in the best possible way, and fulfilling. It has brought diversity of thinking and helped us avoid getting stuck in a rut of inherent bias. It has also forced us to examine and articulate our vision and core values more strongly,  to really pinpoint the non-negotiables and be so much more open to the rest. It is taking us to places we have not been before, which is the best way to learn and grow.</p>
 			<p>We measure our own success in terms of the success of others. In order to be effective in picking the right person at the right time, and enabling them to make a real contribution to positive change, we must constantly check we are not just professionally delivering philanthropy, but offering real value.</p>
 		</div>
@@ -36,8 +35,10 @@ year: "2016"
     <div class="container container-thinking">
       <div class="row">
 	<div class="twelve columns">
-	  <h2>Year in <strong>THINKING</strong></h2>
+	  <h3>Year in</h3>
+	  <h4><strong>THINKING</strong></h4>
 	</div>
+	<div class="ten columns offset-by-one">
       </div>
       
       {% for post in site.categories.thinking %}
@@ -46,10 +47,14 @@ year: "2016"
       {% if year == page.year %}
       <div class="container container-thinking">
 	<div class="four columns col-thinking-left">
-	  <p>{{ post.title }}</p>
-	  <a href="{{ post.url }}" class="button button-primary">Read more</a>
+	  
+	<a href="{{ post.url }}">
+	  <img src="{{ post.image }}" alt="Featured Image"/>
+	</a>
+
 	</div>
 	<div class="eight columns col-thinking-right">
+	<p><strong>{{ post.title }}</strong></p>
 	  <p>
 	    {{ post.content | strip_html | truncatewords: 50 }}... <a href="{{ post.url }}">&gt;&gt;</a>
 	  </p>
@@ -64,8 +69,11 @@ year: "2016"
 
   <div class="container container-people">
     <div class="row">
-      <div class="eight columns offset-by-two">
-	<h2>Year in <strong>PEOPLE</strong></h2>
+      <div class="twelve colums">
+	<h3>Year in </h3>
+	<h4><strong>PEOPLE</strong></h4>
+	</div>
+	<div class="ten columns offset-by-one">
 	<p>
 	  We focus our energy by supporting openness in intellectual
 	  property, data, privacy, hardware, education, publishing,
@@ -388,8 +396,11 @@ year: "2016"
   <div id="money">
     <div class="container container-money">
       <div class="row">
-	<div class="eight columns offset-by-two">
-	  <h2>Year in <strong>MONEY</strong></h2>
+	<div class="twelve columns">
+	  <h3>Year in </h3>
+	  <h4><strong>MONEY</strong></h4>
+	  </div>
+	  <div class="ten columns offset-by-one">
 	  <p>
 	    We maintain a small core team to continue to develop and
 	    support our fellowship programme with the strategic
@@ -401,8 +412,8 @@ year: "2016"
       </div>
 
       <div class="row">
-	<div class="eight columns offset-by-two">
-	  <h3>How we spent our money</h3>
+	<div class="ten columns offset-by-one">
+	  <h5>How we spent our money</h5>
 	</div>
       </div>
 
@@ -422,8 +433,10 @@ year: "2016"
   <div id="fellows">
     <div class="container container-money">
       <div class="row">
-	<div class="twelve columns">
-	  <h3>How our fellows spent their money</h3>
+	<div class="twelve columns>">
+	  <h5>How our fellows spent their money</h5>
+	</div>
+	<div class="ten columns offset-by-one">  
 	  <p>
 	    At the heart of our co-investment fellowship model is the
 	    principle that Fellows continue to invest in their own
@@ -439,6 +452,7 @@ year: "2016"
 	    spend the available funds proportionately throughout the
 	    year.
 	  </p>
+	  <p>
 	  	As driving social change does not adhere to financial or
 	    fellowship years, Fellows are allowed to spend unlocked
 	    project funds beyond the end of a fellowship year. In
@@ -447,13 +461,14 @@ year: "2016"
 	    engaging in the Fellowship group as support network, we
 	    remain invested in their entities and continue to work
 	    with them on project implementation.
+	    </p>
 	</div>
       </div>
     </div>
 
     <div class="container-fluid container-money">
       <div class="row">
-	<div class="twelve columns">
+	<div class="ten columns offset-by-one">
 
 	  <div class="container-fellow-spend">
 	    <div class="container-fellow-spend-inner">
@@ -461,7 +476,7 @@ year: "2016"
 	      {% for fellow in site.data.reports[page.year].fellows %}
 	      <div class="fellow-spend-entry {% if forloop.first %}fellow-spend-entry-active{% else %}fellow-spend-entry-next{% endif %}" data-fellow="{{ fellow.id }}">
 		<div class="fellow-spend-entry-left">
-		  <h4>{{ fellow.name }}</h4>
+		  <h6>{{ fellow.name }}</h6>
 		  <div class="fellow-spend-duration">
 		    <strong>Fellowship duration:</strong> {{ fellow.fellowship_start }} - {{ fellow.fellowship_end }}<br/>
 		    {{ fellow.fellowship_duration }} months of fellowship in {{ page.year }}
@@ -480,13 +495,13 @@ year: "2016"
 		  </div>
 		</div>
 		<div class="fellow-spend-entry-right">
-      <h5>Committed funds</h5>
+      <h6>Committed funds</h6>
 		  <div class="fellow-spend-contributions">
 		    Fellow contribution: {{ fellow.fellow_contribution | money }}<br/>
 		    Our contribution: {{ fellow.foundation_contribution | money }}<br/>
 		  <!--  Total funds: <span class="red">{{ fellow.total | money }}</span>-->
 		  </div>
-		  <h5>Spend breakdown</h5>
+		  <h6>Spend breakdown</h6>
 		  {% for category in fellow.spend %}
 		  <div class="fellow-spend-item">
 		    <div class="icon icon-{{ category.category | slugify }}"></div>

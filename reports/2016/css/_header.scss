@@ -2,14 +2,14 @@ section#header {
     color: $white;
     text-align: center;
     
-    background: url(../banner.png);
+    background: url(../banner.svg);
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
     background-position-y: 50%;
     
     max-width: 100%;
-    height: 650px;
+    height: 550px;
     padding-top: 60px;
     
     .header-main {
