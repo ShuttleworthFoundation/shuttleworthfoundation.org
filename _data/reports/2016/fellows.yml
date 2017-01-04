@@ -1,0 +1,331 @@
+- categories: [Environment, Hardware]
+  fellow_contribution: 17729.83
+  fellowship_duration: 9
+  fellowship_end: present
+  fellowship_start: March 2016
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: aaron-makaruk
+  name: Aaron Makaruk
+  spend:
+  - {amount: 194536.5, category: People}
+  - {amount: 48069.9, category: Infrastructure}
+  - {amount: 11202.23, category: Marketing}
+  - {amount: 499.50, category: Legal}
+  - {amount: 2623.11, category: Travel}
+  total: 256931.24
+  twitter: Aaron_Makaruk
+  web: https://akerkits.com/
+- blog: http://www.adamhyde.net/
+  categories: [Education, Publishing, Science, Web]
+  fellow_contribution: 4333.88
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: September 2015
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: adam-hyde
+  name: Adam Hyde
+  spend: 
+  - {amount: 67500.0, category: People}
+  - {amount: 34180.0, category: Marketing}
+  - {amount: 13492.72, category: Travel}
+  total: 80992.72
+  twitter: cokofoundation
+  web: http://coko.foundation/
+- blog: http://www.hiddendriver.com/
+  categories: [Data, Government, Transparency]
+  fellow_contribution: 19763.36
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: September 2015
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: astra-taylor
+  name: Astra Taylor
+  spend: 
+  - {amount: 84225.0, category: People}
+  - {amount: 10000.0, category: Marketing}
+  - {amount: 6600.0, category: Office Space}
+  total: 100825.0
+  twitter: astradisastra
+  web: https://debtcollective.org/
+- blog: http://daniellombrana.es/
+  categories: [Data, Education, Science, Web]
+  fellow_contribution: 12758.71
+  fellowship_duration: 9
+  fellowship_end: September 2016
+  fellowship_start: September 2013
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: daniel-lombrana-gonzalez
+  name: "Daniel Lombra\xF1a Gonz\xE1lez"
+  spend:
+  - {amount: 89145.51, category: Software}
+  - {amount: 73361.64, category: People}
+  - {amount: 10003.86, category: Travel}
+  - {amount: 11115.4, category: Marketing}
+  total: 183626.41
+  twitter: teleyinex
+  web: http://pybossa.com
+- categories: [Education, Science, Web]
+  fellow_contribution: 0.0
+  fellowship_duration: 3
+  fellowship_end: March 2016
+  fellowship_start: March 2013
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: daniel-whaley
+  name: Daniel Whaley
+  spend:
+  - {amount: 165343.75, category: People}
+  - {amount: 93335.0, category: Marketing}
+  - {amount: 16321.25, category: Travel}
+  total: 275000.0
+  twitter: dwhly
+  web: http://hypothes.is/
+- blog: http://blog.whatistodaysvegetable.com/
+  categories: [Intellectual Property, Music]
+  fellow_contribution: 25198.18
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: March 2014
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: jesse-von-doom
+  name: Jesse von Doom
+  spend:
+  - {amount: 307450.0, category: People}
+  - {amount: 44430.0, category: Software}
+  - {amount: 24000.0, category: Office Space}
+  total: 375880.0
+  twitter: jessevondoom
+- blog: http://openoil.net/author/johnny-west/
+  categories: [Data, Environment, Government, Transparency]
+  fellow_contribution: 23200.34
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: March 2014
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: johnny-west
+  name: Johnny West
+  spend:
+  - {amount: 249868.24, category: People}
+  - {amount: 29653.28, category: Marketing}
+  - {amount: 30672.67, category: Travel}
+  - {amount: 2502.72, category: Software}
+  - {amount: 23625.09, category: Infrastructure}
+  total: 336321.99
+  twitter: Open_Oil
+  web: http://openoil.net/
+- blog: http://irnas.eu/blog.html
+  categories: [Hardware, Telecoms]
+  fellow_contribution: 25104.26
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: March 2015
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: luka-mustafa
+  name: Luka Mustafa
+  spend:
+  - {amount: 188719.48, category: People}
+  - {amount: 1667.31, category: Marketing}
+  - {amount: 112265.54, category: Infrastructure}
+  - {amount: 11115.4, category: Software}
+  - {amount: 4890.78, category: Travel}
+  total: 346447.01
+  twitter: institute_irnas
+  web: http://koruza.net/
+- blog: http://rhizomatica.org/
+  categories: [Government, Hardware, Telecoms]
+  fellow_contribution: 25009.16
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: September 2014
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: peter-bloom
+  name: Peter Bloom
+  spend:
+  - {amount: 285748.67, category: People}
+  - {amount: 1780.0, category: Software}
+  - {amount: 64399.0, category: Infrastructure}
+  - {amount: 14578.0, category: Travel}
+  total: 366955.67
+  twitter: rhizomatica
+  web: http://rhizomatica.org/
+- blog: https://africacheck.org/blog/
+  categories: [Government, Publishing, Transparency]
+  fellow_contribution: 21179.35
+  fellowship_duration: 9
+  fellowship_end: present
+  fellowship_start: March 2016
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: peter-cunliffe-jones
+  name: Peter Cunliffe-Jones
+  spend: 
+  - {amount: 12380.0, category: Infrastructure}
+  - {amount: 291804.8, category: People}
+  - {amount: 10000.0, category: Marketing}
+  - {amount: 6992.84, category: Travel}
+  total: 291804.8
+  twitter: africacheck
+  web: https://africacheck.org
+- blog: http://blogs.ch.cam.ac.uk/pmr/
+  categories: [Data, Intellectual Property, Publishing, Science]
+  fellow_contribution: 0.0
+  fellowship_duration: 3
+  fellowship_end: March 2016
+  fellowship_start: March 2014
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: peter-murray-rust
+  name: Peter Murray-Rust
+  spend: 
+  - {amount: 8190.36, category: Marketing}
+  total: 8190.36
+  twitter: petermurrayrust
+  web: http://contentmine.org/
+- categories: [Government, Transparency]
+  fellow_contribution: 25087.03
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: September 2014
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: seamus-kraft
+  name: Seamus Kraft
+  spend:
+  - {amount: 318475.0, category: People}
+  - {amount: 28880.0, category: Infrastructure}
+  - {amount: 81458.0, category: Marketing}
+  total: 428813.0
+  twitter: seamus_kraft
+  web: http://mymadison.io/
+- categories: [Data, Environment, Hardware, Science]
+  fellow_contribution: 25243.13
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: September 2014
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: sean-bonner
+  name: Sean Bonner
+  spend:
+  - {amount: 148000.0, category: Infrastructure}
+  - {amount: 15149.4, category: Marketing}
+  - {amount: 38700.0, category: Travel}
+  - {amount: 132600.0, category: People}
+  - {amount: 54000.0, category: Software}
+  total: 388449.4
+  twitter: seanbonner
+  web: http://blog.safecast.org/
+- blog: https://www.fightforthefuture.org/news/
+  categories: [Education, Government, Privacy, Transparency, Web]
+  fellow_contribution: 9090.91
+  fellowship_duration: 9
+  fellowship_end: present
+  fellowship_start: March 2016
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: tiffiniy-cheng
+  name: Tiffiniy Cheng
+  spend: 
+  - {amount: 125000.0, category: People}
+  - {amount: 100000.0, category: Software}
+  total: 225000.0
+  twitter: fightfortheftr
+  web: https://www.fightforthefuture.org/
+- blog: https://waldo.jaquith.org/
+  categories: [Data, Government, Transparency]
+  fellow_contribution: 6184.74
+  fellowship_duration: 9
+  fellowship_end: September 2016
+  fellowship_start: September 2015
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: waldo-jaquith
+  name: Waldo Jaquith
+  spend:
+  - {amount: 75000.0, category: People} 
+  - {amount: 45000.0, category: Software}
+  - {amount: 4178.0, category: Travel}
+  total: 124178.0
+  twitter: waldojaquith
+  web: https://www.usopendata.org/
+- categories: [Science, Environment]
+  fellow_contribution: 2558.8
+  fellowship_duration: 3
+  fellowship_end: present
+  fellowship_start: September 2016
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: isha-datar
+  name: Isha Datar
+  spend:
+  - {amount: 93146.85, category: People}
+  total: 93146.85
+  twitter: IshaDatar
+  web: http://www.new-harvest.org/
+- categories: [Intellectual Property, Government, Transparency]
+  fellow_contribution: 19792.36
+  fellowship_duration: 3
+  fellowship_end: present
+  fellowship_start: September 2016
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: achal-prabhala
+  name: Achal Prabhala
+  spend:
+  - {amount: 7756.0, category: Infrastructure}
+  - {amount: 1199.88, category: Marketing}
+  - {amount: 193760.12, category: People}
+  - {amount: 60000.0, category: Travel}
+  total: 262716.0
+- categories: [Hardware, Data, Transparency]
+  fellow_contribution: 6615.45
+  fellowship_duration: 3
+  fellowship_end: present
+  fellowship_start: September 2016
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: ugo-vallauri
+  name: Ugo Vallauri
+  spend:
+  - {amount: 33332.04, category: People}
+  - {amount: 73713.24, category: Software}
+  - {amount: 5460.24, category: Travel}
+  total: 112505.52
+  twitter: ugomatic
+  web: https://therestartproject.org
+- categories: [Data, Government, Privacy, Web]
+  fellow_contribution: 3912.50
+  fellowship_duration: 0
+  fellowship_end: September 2015
+  fellowship_start: September 2012
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: esraa-al-shafei
+  name: Esra'a Al Shafei
+  spend:
+  - {amount: 86700.0, category: People}
+  total: 86700.0
+  twitter: ealshafei
+  web: http://crowdvoice.org/
+- categories: [Education, Web, Publishing]
+  fellow_contribution: 1243.75
+  fellowship_duration: 0
+  fellowship_end: March 2014
+  fellowship_start: March 2011
+  foundation_contribution: 0.0
+  grant: 0.0
+  id: kathi-fletcher
+  name: Kathi Fletcher
+  spend:
+  - {amount: 19000.0, category: Software}
+  total: 19000.0
+  twitter: kefletcher
+  web: https://github.com/kathi-fletcher

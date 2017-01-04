@@ -1,0 +1,180 @@
+---
+---
+
+$white: darken(white, 10%);
+$black: #6C797A;
+$red: rgb(226,34,48);
+$grey: #ECF0F1;
+$green: #3BA933;
+
+#report {
+    font-size: 16px;
+    font-family: Open Sans, sans-seriff;
+
+    h1, h2, h3, h4, h5, h6 {
+	font-family: Open Sans, sans-seriff;
+    }
+    
+    h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 30pt;
+	margin-top:40px;
+	margin-bottom: -10px;
+    }
+    
+    .btn-success {
+	background-color: $green;
+	
+	&:hover {
+	    background-color: lighten($green, 10%);
+	}
+    }
+    
+
+    #container-banner {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+	background-color: #80bd26;
+	color: $white;
+	background: url(banner.png);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    
+    
+    max-width: 100%;
+    height: 815px;
+    padding-top: 10px;
+
+	#banner-text {
+	    h1 {
+		font-size: 6em;
+		font-weight: 100;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		color: $white;
+	    }
+	    
+	    h2 {
+		font-family: 'Open Sans', sans-serif !important;
+		font-size: 2.6em;
+		background-color: #fff;
+		font-weight: 800;
+		text-transform: uppercase;
+		margin-top: 25px;
+		margin-bottom: 30px;
+		color: $white;	    
+	    }
+	    
+	    p {
+		color: $black !important;
+		font-size: 1.4em;
+		margin-bottom: 5px;
+		
+		.nudge-left {
+		    display: inline-block;
+		    margin-right: 100px;
+		}
+		.nudge-right {
+		    display: inline-block;
+		    margin-left: 100px;
+		    margin-top: -18px;
+		}
+		
+		em {
+		    font-size: 1.6em;
+		    font-style: normal;
+		    position: relative;
+		    top: 0.175em;
+		}
+	    }
+	}
+    }
+    
+    .container-padded {
+	padding-top: 40px;
+	padding-bottom: 40px;
+    }
+    
+    #thinking {
+	background-color: #fff;
+	padding-bottom: 10px;
+	
+	h1, h2, h3, h4, h5, h6, p {
+	    color: $black !important;
+	}
+	
+	.container-thinking {
+	    .col-thinking-left {
+		text-align: right;
+		margin-bottom: 30px;
+		
+		p {
+		    font-weight: bold;
+		    margin-bottom: 10px;
+		}
+	    }
+	    
+	    .col-thinking-right {
+		border-left: 1px solid #2c3e50;
+		margin-bottom: 30px;
+		padding-left: 20px;
+		
+		p {
+		    margin-bottom: 0;
+		}
+	    }
+	}
+    }
+    
+    #money {
+	background-color: #fff;
+	padding-bottom: 10px;
+	
+	
+	h1, h2, h3, h4, h5, h6, p {
+	    color: $black !important;
+	}
+	
+	#bubbletree {
+	    width: 100%;
+	    height: 700px;
+	    border: none;
+	}
+    }
+
+    
+    
+    .icon-link {
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-top: -3px;
+	
+	&.icon-blog {
+	    background-image: url(images/icons/blog.svg);
+	}
+	&.icon-twitter {
+	    background-image: url(images/icons/twitter.svg);
+	}
+	&.icon-web {
+	    background-image: url(images/icons/web.svg);
+	}
+    }
+    
+    {% include_relative css/_icons.scss %}
+    {% include_relative css/_fellow-spend.scss %}
+    {% include_relative css/_energy.scss %}
+    {% include_relative css/_worldmap.scss %}
+    {% include_relative css/_header.scss %}
+    {% include_relative css/_headings.scss %}
+
+}

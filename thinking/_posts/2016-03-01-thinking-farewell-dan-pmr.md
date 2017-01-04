@@ -10,7 +10,7 @@ description: "Twice a year some Fellows graduate from our fellowship programme. 
 image: "/images/blog/applause.jpg"
 image_credit: "Chris Campbell (CC BY-NC 2.0)"
 image_source: "https://www.flickr.com/photos/cgc/20029265130/"
-on_report: true
+on_report: false
 ---
 __Dan Whaley__
 

@@ -18,7 +18,7 @@ fellowship:
 contribution:
   2014: 2096.59
   2015: 12087.02
-  2016: 17814.31
+  2016: 25087.03
 ---
 
 Seamus' focus is The Open Gov Foundation and its Madison Project, through which he will use the fellowship year to build tools and establish working models for open government, starting with participatory, collaborative policy making in the United States.

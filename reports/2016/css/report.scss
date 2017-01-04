@@ -1,0 +1,105 @@
+---
+---
+
+$white: white;
+$black: #6C797A;
+$red: rgb(226,34,48);
+$beige: rgb(228,228,215);
+$grey: #ECF0F1;
+$green: #3BA933;
+
+
+#single .page-content {
+    margin-bottom: -30px;
+}
+
+.navbar {
+    position: fixed;
+}
+
+#report2013 {
+    
+    .container {
+	max-width: 800px;
+	margin: auto;
+    }
+    
+    .container-infographic {
+	max-width: 1000px;
+	margin: 40px auto;
+    }
+    
+    span.red {
+	color: $red;
+    }
+    
+    section.even {
+	background-color: $beige;
+    }
+    
+    .icon-link {
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-top: -3px;
+	
+	&.icon-blog {
+	    background-image: url(../images/icons/blog.svg);
+	}
+	&.icon-twitter {
+	    background-image: url(../images/icons/twitter.svg);
+	}
+	&.icon-web {
+	    background-image: url(../images/icons/web.svg);
+	}
+    }
+    
+    .icon {
+	width: 55px;
+	height: 50px;
+	float: left;
+	vertical-align: middle;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-right: 15px;
+	
+	&.icon-infrastructure {
+	    background-image: url(../images/icons/infrastructure.svg);
+	}
+	&.icon-marketing {
+	    background-image: url(../images/icons/marketing.svg);
+	}
+	&.icon-people {
+	    background-image: url(../images/icons/people.svg);
+	}
+	&.icon-software {
+	    background-image: url(../images/icons/software.svg);
+	}
+	&.icon-training {
+	    background-image: url(../images/icons/training.svg);
+	}
+	&.icon-travel {
+	    background-image: url(../images/icons/travel.svg);
+	    width: 65px;
+	    margin-right: 5px;
+	}
+    }
+    
+    h6 {
+	font-weight: 600;
+    }
+    
+    {% include_relative _header.scss %}
+    {% include_relative _energy.scss %}
+    {% include_relative _our-spend.scss %}
+    {% include_relative _applications.scss %}
+    {% include_relative _fellow-spend.scss %}
+    {% include_relative _alumni.scss %}
+    {% include_relative _energy.scss %}
+    {% include_relative _headings.scss %}
+}

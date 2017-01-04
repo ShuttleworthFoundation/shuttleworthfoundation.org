@@ -10,7 +10,7 @@ description: "We are delighted to welcome 3 new Fellows into the Shuttleworth Fe
 image: "/images/blog/blog-new-fellows-032016.jpg"
 image_credit: "Wiredforlego (CC BY-NC 2.0)"
 image_source: "https://www.flickr.com/photos/wiredforsound23/10750177755/"
-on_report: true
+on_report: false
 ---
 __Aaron Makaruk__
 
