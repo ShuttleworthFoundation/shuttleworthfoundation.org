@@ -3,7 +3,7 @@
   fellowship_duration: 9
   fellowship_end: present
   fellowship_start: March 2016
-  foundation_contribution: 0.0
+  foundation_contribution: 177298.28
   grant: 0.0
   id: aaron-makaruk
   name: Aaron Makaruk
@@ -22,7 +22,7 @@
   fellowship_duration: 12
   fellowship_end: present
   fellowship_start: September 2015
-  foundation_contribution: 0.0
+  foundation_contribution: 43338.84
   grant: 0.0
   id: adam-hyde
   name: Adam Hyde
@@ -39,7 +39,7 @@
   fellowship_duration: 12
   fellowship_end: present
   fellowship_start: September 2015
-  foundation_contribution: 0.0
+  foundation_contribution: 205272.73
   grant: 0.0
   id: astra-taylor
   name: Astra Taylor
@@ -56,7 +56,7 @@
   fellowship_duration: 9
   fellowship_end: September 2016
   fellowship_start: September 2013
-  foundation_contribution: 0.0
+  foundation_contribution: 120773.16
   grant: 0.0
   id: daniel-lombrana-gonzalez
   name: "Daniel Lombra\xF1a Gonz\xE1lez"
@@ -69,11 +69,11 @@
   twitter: teleyinex
   web: http://pybossa.com
 - categories: [Education, Science, Web]
-  fellow_contribution: 0.0
+  fellow_contribution: 25000.0
   fellowship_duration: 3
   fellowship_end: March 2016
   fellowship_start: March 2013
-  foundation_contribution: 0.0
+  foundation_contribution: 250000.0
   grant: 0.0
   id: daniel-whaley
   name: Daniel Whaley
@@ -90,7 +90,7 @@
   fellowship_duration: 12
   fellowship_end: present
   fellowship_start: March 2014
-  foundation_contribution: 0.0
+  foundation_contribution: 249072.73
   grant: 0.0
   id: jesse-von-doom
   name: Jesse von Doom
@@ -106,7 +106,7 @@
   fellowship_duration: 12
   fellowship_end: present
   fellowship_start: March 2014
-  foundation_contribution: 0.0
+  foundation_contribution: 232003.43
   grant: 0.0
   id: johnny-west
   name: Johnny West
@@ -125,7 +125,7 @@
   fellowship_duration: 12
   fellowship_end: present
   fellowship_start: March 2015
-  foundation_contribution: 0.0
+  foundation_contribution: 251042.61
   grant: 0.0
   id: luka-mustafa
   name: Luka Mustafa
@@ -144,7 +144,7 @@
   fellowship_duration: 12
   fellowship_end: present
   fellowship_start: September 2014
-  foundation_contribution: 0.0
+  foundation_contribution: 250647.81
   grant: 0.0
   id: peter-bloom
   name: Peter Bloom
@@ -162,7 +162,7 @@
   fellowship_duration: 9
   fellowship_end: present
   fellowship_start: March 2016
-  foundation_contribution: 0.0
+  foundation_contribution: 211793.49
   grant: 0.0
   id: peter-cunliffe-jones
   name: Peter Cunliffe-Jones
@@ -210,7 +210,7 @@
   fellowship_duration: 12
   fellowship_end: present
   fellowship_start: September 2014
-  foundation_contribution: 0.0
+  foundation_contribution: 264805.51
   grant: 0.0
   id: sean-bonner
   name: Sean Bonner
@@ -229,7 +229,7 @@
   fellowship_duration: 9
   fellowship_end: present
   fellowship_start: March 2016
-  foundation_contribution: 0.0
+  foundation_contribution: 90909.09
   grant: 0.0
   id: tiffiniy-cheng
   name: Tiffiniy Cheng
@@ -245,7 +245,7 @@
   fellowship_duration: 9
   fellowship_end: September 2016
   fellowship_start: September 2015
-  foundation_contribution: 0.0
+  foundation_contribution: 44707.27
   grant: 0.0
   id: waldo-jaquith
   name: Waldo Jaquith
@@ -261,7 +261,7 @@
   fellowship_duration: 3
   fellowship_end: present
   fellowship_start: September 2016
-  foundation_contribution: 0.0
+  foundation_contribution: 25588.05
   grant: 0.0
   id: isha-datar
   name: Isha Datar
@@ -275,7 +275,7 @@
   fellowship_duration: 3
   fellowship_end: present
   fellowship_start: September 2016
-  foundation_contribution: 0.0
+  foundation_contribution: 197923.64
   grant: 0.0
   id: achal-prabhala
   name: Achal Prabhala
@@ -290,7 +290,7 @@
   fellowship_duration: 3
   fellowship_end: present
   fellowship_start: September 2016
-  foundation_contribution: 0.0
+  foundation_contribution: 66154.46
   grant: 0.0
   id: ugo-vallauri
   name: Ugo Vallauri
@@ -306,7 +306,7 @@
   fellowship_duration: 0
   fellowship_end: September 2015
   fellowship_start: September 2012
-  foundation_contribution: 0.0
+  foundation_contribution: 53687.50
   grant: 0.0
   id: esraa-al-shafei
   name: Esra'a Al Shafei
@@ -320,7 +320,7 @@
   fellowship_duration: 0
   fellowship_end: March 2014
   fellowship_start: March 2011
-  foundation_contribution: 0.0
+  foundation_contribution: 18656.25
   grant: 0.0
   id: kathi-fletcher
   name: Kathi Fletcher
