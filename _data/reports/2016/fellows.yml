@@ -132,7 +132,7 @@
   id: luka-mustafa
   name: Luka Mustafa
   spend:
-  - {amount: 188719.48, category: People}
+  - {amount: 216507.98, category: People}
   - {amount: 1667.31, category: Marketing}
   - {amount: 112265.54, category: Infrastructure}
   - {amount: 11115.4, category: Software}
@@ -247,7 +247,7 @@
   fellowship_duration: 9
   fellowship_end: September 2016
   fellowship_start: September 2015
-  foundation_contribution: 99486.50
+  foundation_contribution: 119707.27
   grant: 0.0
   id: waldo-jaquith
   name: Waldo Jaquith
