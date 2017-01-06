@@ -178,17 +178,21 @@
   web: https://africacheck.org
 - blog: http://blogs.ch.cam.ac.uk/pmr/
   categories: [Data, Intellectual Property, Publishing, Science]
-  fellow_contribution: 0.0
+  fellow_contribution: 13553.80
   fellowship_duration: 3
   fellowship_end: March 2016
   fellowship_start: March 2014
-  foundation_contribution: 0.0
+  foundation_contribution: 60159.44
   grant: 0.0
   id: peter-murray-rust
   name: Peter Murray-Rust
   spend: 
-  - {amount: 8190.36, category: Marketing}
-  total: 8190.36
+  - {amount: 5460.24, category: Marketing}
+  - {amount: 1365.06, category: Infrastructure}
+  - {amount: 36037.58, category: People}
+  - {amount: 26755.18, category: Software}
+  - {amount: 4095.18, category: Travel}
+  total: 73713.24
   twitter: petermurrayrust
   web: http://contentmine.org/
 - categories: [Government, Transparency]
