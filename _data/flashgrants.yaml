@@ -1,5 +1,5 @@
 -   name: "Kerry Anderson"
-    genger: female
+    gender: female
     fellow: "Andrew Rens"
     homepage: http://africanlii.org
     date: 2011-11-01
@@ -1126,3 +1126,213 @@
     fellow: "Adam Hyde"
     homepage: http://app.editdata.org/
     date: 2016-05-01
+-
+    name: "Zara Rahman"
+    gender: female
+    fellow: "Adam Hyde"
+    homepage: http://zararah.net/about
+    date: 2016-11-01
+--
+    name: "Jess Krieger"
+    gender: female
+    fellow: "Isha Datar"
+    homepage: http://www.new-harvest.org/nh2016_jess_krieger
+    date: 2016-11-01
+-
+    name: "Joe Mcarthur"
+    gender: male
+    fellow: "Peter Murray-Rust"
+    homepage: https://openaccessbutton.org/
+    date: 2016-11-01
+-
+    name: "Nighat Daad"
+    gender: female
+    fellow: "Esra'a Al Shafei"
+    homepage: http://digitalrightsfoundation.pk/
+    date: 2016-11-01
+-
+    name: "Pia Mancini"
+    gender: female
+    fellow: "Rory Aronson"
+    homepage: https://opencollective.com/about
+    date: 2016-11-01
+-
+    name: "Will Moy"
+    gender: male
+    fellow: "Peter Cunliffe-Jones"
+    homepage: http://www.fullfact.org/
+    date: 2016-11-01
+-
+    name: "Mike Tigas"
+    gender: male
+    fellow: "Jesse von Doom"
+    homepage: https://mike.tig.as
+    date: 2016-11-01
+-
+    name: "Gregoire Durrens"
+    gender: male
+    fellow: "Aaron Makaruk"
+    homepage: http://fabship.cc/
+    date: 2016-11-01
+-
+    name: "Robyn Farah"
+    gender: female
+    fellow: "Arthur Attwell"
+    homepage: http://robynfarah.com/
+    date: 2016-11-01
+-
+    name: "Greg Bloom"
+    gender: male
+    fellow: "Allen Gunn"
+    homepage: https://openreferral.org/
+    date: 2016-11-01
+-
+    name: "Leandro Ucciferri"
+    gender: male
+    fellow: "Steve Song"
+    homepage: https://lean.com.ar/
+    date: 2016-11-01
+-
+    name: "Margaret Nadramia"
+    gender: female
+    fellow: "Sean Bonner"
+    homepage: 
+    date: 2016-11-01
+-
+    name: "Kenza Lahlou"
+    gender: female
+    fellow: "Waldo Jaquith"
+    homepage: http://startupyourlife.org/
+    date: 2016-11-01
+-
+    name: "Nikesh Balami"
+    gender: male
+    fellow: "Rufus Pollock"
+    homepage: http://np.okfn.org/
+    date: 2016-11-01
+-
+    name: "Ramsey Nasser"
+    gender: male
+    fellow: "Astra Taylor"
+    homepage: http://nas.sr/
+    date: 2016-11-01
+-
+    name: "Saja Muzaini"
+    gender: female
+    fellow: "Philipp Schmidt"
+    homepage: https://about.me/saja.muzaini
+    date: 2016-11-01
+-
+    name: "Zinab Mohammed Salih"
+    gender: female
+    fellow: "Johnny West"
+    homepage: https://www.theguardian.com/profile/zeinab-mohammed-salih
+    date: 2016-11-01
+-
+    name: "Graciela Pérez Rodríguez"
+    gender: female
+    fellow: "Peter Bloom"
+    homepage: http://www.geografiadeldolor.com/espacio/san_luis_potosi/
+    date: 2016-11-01
+-
+    name: "Yasmine Abbas"
+    gender: female
+    fellow: "Ugo Vallauri"
+    homepage: https://qamp.net/
+    date: 2016-11-01
+-
+    name: "Ali Riza Keles"
+    gender: female
+    fellow: "Tiffiniy Cheng"
+    homepage: http://alternatifbilisim.org
+    date: 2016-11-01
+-
+    name: "Manon Ress"
+    gender: female
+    fellow: "Achal Prabhala"
+    homepage: http://keionline.org/blog/manon
+    date: 2016-11-01
+-
+    name: "Yasser Ansari"
+    gender: male
+    fellow: "Francois Grey"
+    homepage: http://www.projectnoah.org/
+    date: 2016-11-01
+-
+    name: "Chad Brown"
+    gender: male
+    fellow: "Kabir Bavikatte"
+    homepage: http://www.soulriverinc.org/
+    date: 2016-11-01
+-
+    name: "Rachel Congosto"
+    gender: female
+    fellow: "Daniel Lombraña González"
+    homepage: https://lagaleriademagdalena.wordpress.com/
+    date: 2016-11-01
+-
+    name: "Thomas Pointhuber"
+    gender: male
+    fellow: "Luka Mustafa"
+    homepage: https://github.com/pointhi
+    date: 2016-11-01
+-
+    name: "Fred Chasen"
+    gender: male
+    fellow: "Dan Whaley"
+    homepage: http://futurepress.org/
+    date: 2016-11-01
+-
+    name: "Sylvester Mobley"
+    gender: male
+    fellow: "Seamus Kraft"
+    homepage: http://www.codedbykids.com/
+    date: 2016-11-01
+-
+    name: "Penleakh (Pinkie) Chan"
+    gender: female
+    fellow: "Peter Murray-Rust"
+    homepage: https://opendevelopmentmekong.net/
+    date: 2016-11-01
+
+    name: "Farhan Janjua"
+    gender: male
+    fellow: "Esra'a Al Shafei"
+    homepage: 
+    date: 2016-11-01
+-
+    name: "Siya Masuku"
+    gender: male
+    fellow: "Arthur Attwell"
+    homepage: http://www.siyafundaonline.co.za/
+    date: 2016-11-01
+-
+    name: "Mariano Gomez Mendez"
+    gender: male
+    fellow: "Peter Bloom"
+    homepage: https://www.facebook.com/colectivoiktakop/
+    date: 2016-11-01
+-
+    name: "Carlyn Maw"
+    gender: female
+    fellow: "Sean Bonner"
+    homepage: https://blog.crashspace.org/author/carlyn/
+    date: 2016-11-01
+-
+    name: "Michael Rodriguez"
+    gender: male
+    fellow: "Kabir Bavikatte"
+    homepage: http://www.boundlessawareness.org/
+    date: 2016-11-01
+-
+    name: "Ari Ne'eman"
+    gender: male
+    fellow: "Jesse von Doom"
+    homepage: 
+    date: 2016-11-01
+-
+    name: "Rachel Herzing"
+    gender: female
+    fellow: "Astra Taylor"
+    homepage: http://criticalresistance.org/
+    date: 2016-11-01
