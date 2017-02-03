@@ -2,9 +2,9 @@
 title: "Francois Grey"
 layout: fellow
 name: "Francois Grey"
-project: "Citizen cyberscience"
+project: "Legitimising citizen cyberscience"
 current: false
-type: "Citizen cyberscience"
+type: "Legitimising citizen cyberscience"
 date: 2011-09-01
 photo: /images/fellows/francois-grey.jpg
 video: https://player.vimeo.com/video/49257702

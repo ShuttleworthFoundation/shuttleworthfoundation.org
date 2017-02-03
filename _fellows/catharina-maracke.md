@@ -2,9 +2,9 @@
 title: "Catharina Maracke"
 layout: fellow
 name: "Catharina Maracke"
-project: "Sustainable, standarised contributor agreements"
+project: "Institutionalising contributor agreements"
 current: false
-type: "Sustainable, standarised contributor agreements"
+type: "Institutionalising contributor agreements"
 date: 2012-03-01
 photo: /images/fellows/catharina-maracke.jpg
 links:

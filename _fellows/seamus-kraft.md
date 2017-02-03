@@ -2,9 +2,9 @@
 layout: fellow
 title: "Seamus Kraft"
 name: "Seamus Kraft"
-project: "Open government"
+project: "Bringing government into the digital age"
 current: true
-type: "Open government"
+type: "Bringing government into the digital age"
 date:   2014-09-01
 photo: /images/fellows/seamus-kraft.jpg
 video: https://player.vimeo.com/video/170794773

@@ -2,9 +2,9 @@
 title: "Aaron Makaruk"
 layout: fellow
 name: "Aaron Makaruk"
-project: "Urban snap-fit garden kits"
+project: "Seeding food gardens"
 current: true
-type: "Urban snap-fit garden kits"
+type: "Seeding food gardens"
 date:   2015-09-01
 photo: /images/fellows/aaron-makaruk.jpg
 video: https://player.vimeo.com/video/178892102

@@ -2,9 +2,9 @@
 title: "Kabir Bavikatte"
 layout: fellow
 name: "Kabir Bavikatte"
-project: "Property rights (intellectual and material)"
+project: "Defending traditional knowledge rights"
 current: false
-type: "Property rights (intellectual and material)"
+type: "Defending traditional knowledge rights"
 date: 2011-03-01
 photo: /images/fellows/kabir-bavikatte.jpg
 links:

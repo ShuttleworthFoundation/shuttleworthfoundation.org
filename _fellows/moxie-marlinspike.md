@@ -2,9 +2,9 @@
 title: "Moxie Marlinspike"
 layout: fellow
 name: "Moxie Marlinspike"
-project: "Privacy enhancing technology"
+project: "Ubiquitising frictionless privacy technology"
 current: false
-type: "Privacy enhancing technology"
+type: "Ubiquitising frictionless privacy technology"
 date:   2013-09-01
 photo: /images/fellows/moxie-marlinspike.jpg
 video: https://player.vimeo.com/video/81097913

@@ -4,7 +4,7 @@ layout: fellow
 name: "Daniel Lombraña González"
 project: "Creating a collaborative science framework for citizens and researchers."
 current: false
-type: "Open citizen science"
+type: "Creating a collaborative science framework for citizens and researchers."
 date:   2013-09-01
 description: "Algo"
 links: http://daniellombrana.es/

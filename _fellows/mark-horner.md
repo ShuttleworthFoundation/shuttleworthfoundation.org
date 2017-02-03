@@ -2,9 +2,9 @@
 title: "Mark Horner"
 layout: fellow
 name: "Mark Horner"
-project: "Open and collaborative resources"
+project: "Supporting learners through OER"
 current: false
-type: "Siyavula"
+type: "Supporting learners through OER"
 date:   2008-05-01
 photo: /images/fellows/mark-horner.jpg
 video: https://player.vimeo.com/video/74215200

@@ -2,9 +2,9 @@
 title: "Arthur Attwell"
 layout: fellow
 name: "Arthur Attwell"
-project: "Paperight - A web-based rights marketplace"
+project: "Broadening access to print reading materials"
 current: false
-type: "Paperight - A web-based rights marketplace"
+type: "Broadening access to print reading materials"
 date: 2011-09-01
 photo: /images/fellows/arthur-attwell.jpg
 video: https://player.vimeo.com/video/49257700

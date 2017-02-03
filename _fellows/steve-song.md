@@ -2,9 +2,9 @@
 title: "Steve Song"
 layout: fellow
 name: "Steve Song"
-project: "Telecommunications and connectedness"
+project: "Challenging telecommunications policy"
 current: false
-type: "Telecommunications and connectedness"
+type: "Challenging telecommunications policy"
 date:   2007-12-01
 photo: /images/fellows/steve-song.jpg
 video: https://player.vimeo.com/video/53852371

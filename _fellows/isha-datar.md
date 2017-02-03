@@ -4,7 +4,7 @@ layout: fellow
 name: "Isha Datar"
 project: "Developing openly accessible cell cultures"
 current: true
-type: "Cellular Agriculture"
+type: "Developing openly accessible cell cultures"
 date:   2016-08-30
 photo: /images/fellows/isha-datar.jpg
 video: https://player.vimeo.com/video/187809639

@@ -2,9 +2,9 @@
 title: "Waldo Jaquith"
 layout: fellow
 name: "Waldo Jaquith"
-project: "Unlocking open government data"
+project: "Unlocking government data"
 current: false
-type: "Unlocking open government data"
+type: "Unlocking government data"
 date:   2015-09-01
 photo: /images/fellows/waldo-jaquith.jpg
 video: https://player.vimeo.com/video/178617266

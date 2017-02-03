@@ -2,9 +2,9 @@
 title: "Jesse von Doom"
 layout: fellow
 name: "Jesse von Doom"
-project: "Sustainability for artists on the open web"
+project: "Advancing artist sustainability"
 current: true
-type: "Sustainability for artists on the open web"
+type: "Advancing artist sustainability"
 date:   2014-03-01
 photo: /images/fellows/jesse-von-doom.jpg
 video: https://player.vimeo.com/video/170786471

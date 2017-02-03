@@ -2,9 +2,9 @@
 title: "Rory Aronson"
 layout: fellow
 name: "Rory Aronson"
-project: "Automated precision farming"
+project: "Automating garden farming"
 current: false
-type: "Automated precision farming"
+type: "Automating garden farming"
 date:   2014-03-01
 photo: /images/fellows/rory-aronson.jpg
 video: https://player.vimeo.com/video/170786476

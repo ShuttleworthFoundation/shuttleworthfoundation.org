@@ -2,9 +2,9 @@
 title: "Paul Gardner-Stephen"
 layout: fellow
 name: "Paul Gardner-Stephen"
-project: "Ubiquitous mesh telephony"
+project: "Enhancing mobile mesh telephony"
 current: false
-type: "Ubiquitous mesh telephony"
+type: "Enhancing mobile mesh telephony"
 date:   2011-09-01
 photo: /images/fellows/paul-gardner-stephen.jpg
 video: https://player.vimeo.com/video/49239572

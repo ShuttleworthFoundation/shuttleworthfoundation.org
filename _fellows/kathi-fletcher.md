@@ -2,9 +2,9 @@
 title: "Kathi Fletcher"
 layout: fellow
 name: "Kathi Fletcher"
-project: "Open API for publishing platforms"
+project: "Building digital knowledge pathways"
 current: false
-type: "Open API for publishing platforms"
+type: "Building digital knowledge pathways"
 date:   2011-03-01
 photo: /images/fellows/kathi-fletcher.jpg
 video: https://player.vimeo.com/video/49239574

@@ -2,9 +2,9 @@
 title: "Jaisen Mathai"
 layout: fellow
 name: "Jaisen Mathai"
-project: "Preservation of digital archives"
+project: "Preserving digital memories on the web"
 current: false
-type: "Preservation of digital archives"
+type: "Preserving digital memories on the web"
 date:   2012-09-01
 photo: /images/fellows/jaisen-mathai.jpg
 video: https://player.vimeo.com/video/53920244

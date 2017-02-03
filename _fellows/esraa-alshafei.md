@@ -2,9 +2,9 @@
 title: "Esra'a Al Shafei"
 layout: fellow
 name: "Esra'a Al Shafei"
-project: "Crowdvoice.org - Tracking voices of protest from around the world"
+project: "Amplifying underrepresented voices"
 current: false
-type: "Crowdvoice.org - Tracking voices of protest from around the world"
+type: "Amplifying underrepresented voices"
 date: 2012-09-01
 photo: /images/fellows/esraa-al-shafei.jpg
 video: https://player.vimeo.com/video/53920246

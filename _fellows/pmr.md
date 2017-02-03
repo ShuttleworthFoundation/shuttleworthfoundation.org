@@ -2,9 +2,9 @@
 title: "Peter Murray-Rust"
 layout: fellow
 name: "Peter Murray-Rust"
-project: "Liberating scientific fact from journals"
+project: "Liberating scientific facts"
 current: false
-type: "Liberating scientific fact from journals"
+type: "Liberating scientific facts"
 date:   2014-03-01
 photo: /images/fellows/peter-murray-rust.jpg
 video: https://player.vimeo.com/video/170786475

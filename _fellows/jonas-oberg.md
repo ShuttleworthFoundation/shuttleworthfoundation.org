@@ -2,9 +2,9 @@
 title: "Jonas Öberg"
 layout: fellow
 name: "Jonas Öberg"
-project: "License and attribution metadata"
+project: "Baking in license and attribution metadata"
 current: false
-type: "License and attribution metadata"
+type: "Baking in license and attribution metadata"
 date: 2013-03-01
 photo: /images/fellows/jonas-oberg.jpg
 video: https://player.vimeo.com/video/74215152

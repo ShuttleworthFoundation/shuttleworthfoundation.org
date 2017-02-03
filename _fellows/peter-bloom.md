@@ -2,9 +2,9 @@
 title: "Peter Bloom"
 layout: fellow
 name: "Peter Bloom"
-project: "Telecommunications"
+project: "Connecting under-served communities"
 current: true
-type: "Telecommunications"
+type: "Connecting under-served communities"
 date:   2014-03-01
 photo: /images/fellows/peter-bloom.jpg
 video: https://player.vimeo.com/video/170794771

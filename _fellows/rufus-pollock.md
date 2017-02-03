@@ -2,9 +2,9 @@
 title: "Rufus Pollock"
 layout: fellow
 name: "Rufus Pollock"
-project: "Open data, open knowledge"
+project: "Empowering citizens through open data"
 current: false
-type: "Open data, open knowledge"
+type: "Empowering citizens through open data"
 date:   2010-09-01
 photo: /images/fellows/rufus-pollock.jpg
 video: https://player.vimeo.com/video/49291920

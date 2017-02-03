@@ -2,9 +2,9 @@
 title: "Steve Vosloo"
 layout: fellow
 name: "Steve Vosloo"
-project: "21st Century learning"
+project: "Exploring 21st Century learning"
 current: false
-type: "21st Century learning"
+type: "Exploring 21st Century learning"
 date:   2008-03-01
 photo: /images/fellows/steve-vosloo.jpg"
 links:

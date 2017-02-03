@@ -2,9 +2,9 @@
 title: "Luka Mustafa"
 layout: fellow
 name: "Luka Mustafa"
-project: "KORUZA - Optical Networking"
+project: "Delivering last mile access"
 current: true
-type: "KORUZA - Optical Networking"
+type: "Delivering last mile access"
 date:   2015-03-01
 photo: /images/fellows/luka-mustafa.jpg
 video: https://player.vimeo.com/video/178606567

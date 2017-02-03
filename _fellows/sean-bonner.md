@@ -2,9 +2,9 @@
 title: "Sean Bonner"
 layout: fellow
 name: "Sean Bonner"
-project: "Citizen Science"
+project: "Measuring environmental impact"
 current: true
-type: "Citizen Science"
+type: "Measuring environmental impact"
 date:   2014-09-01
 photo: /images/fellows/sean-bonner.jpg
 video: https://player.vimeo.com/video/170794774

@@ -2,9 +2,9 @@
 title: "Andrew Rens"
 layout: fellow
 name: "Andrew Rens"
-project: "Intellectual property rights"
+project: "Unblocking Intellectual property rights"
 current: false
-type: "Intellectual property rights"
+type: "Unblocking Intellectual property rights"
 date: 2007-04-01
 photo: /images/fellows/andrew-rens.jpg
 video: https://player.vimeo.com/video/53921939

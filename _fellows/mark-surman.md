@@ -2,9 +2,9 @@
 title: "Mark Surman"
 layout: fellow
 name: "Mark Surman"
-project: "Open philanthropy"
+project: "Experimenting with open philanthropy"
 current: false
-type: "Open philanthropy"
+type: "Experimenting with open philanthropy"
 date:   2007-05-01
 photo: /images/fellows/mark-surman.jpg
 video: https://player.vimeo.com/video/49257701

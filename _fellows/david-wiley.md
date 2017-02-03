@@ -2,9 +2,9 @@
 title: "David Wiley"
 layout: fellow
 name: "David Wiley"
-project: "Open Education Rersources (OER)"
+project: "Establishing OER business models"
 current: false
-type: "Open Education Rersources (OER)"
+type: "Establishing OER business models"
 date: 2013-03-01
 photo: /images/fellows/david-wiley.jpg
 video: https://player.vimeo.com/video/74215092

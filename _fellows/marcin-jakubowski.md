@@ -2,9 +2,9 @@
 title: "Marcin Jakubowski"
 layout: fellow
 name: "Marcin Jakubowski"
-project: "Global Village Construction Set"
+project: "Building 50 industrial machines"
 current: false
-type: "Global Village Construction Set"
+type: "Building 50 industrial machines"
 date:   2012-03-01
 photo: /images/fellows/marcin-jakubowski.jpg
 video: https://player.vimeo.com/video/49239573
