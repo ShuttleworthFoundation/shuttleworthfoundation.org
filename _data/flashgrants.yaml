@@ -746,7 +746,7 @@
     name: "Travis Moore"
     gender: male
     fellow: "Seamus Kraft"
-    homepage:
+    homepage: https://www.techcongress.io
     date: 2015-05-01
 -
     name: "Topher White"
