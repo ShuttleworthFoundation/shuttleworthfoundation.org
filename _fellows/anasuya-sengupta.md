@@ -1,7 +1,7 @@
 ---
-title: "Anasuya Sungupta"
+title: "Anasuya Sengupta"
 layout: fellow
-name: "Anasuya Sungupta"
+name: "Anasuya Sengupta"
 project: "Expanding human history online"
 current: true
 type: "Expanding human history online"
