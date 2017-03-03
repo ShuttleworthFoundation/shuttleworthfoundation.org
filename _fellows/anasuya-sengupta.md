@@ -2,7 +2,7 @@
 title: "Anasuya Sengupta"
 layout: fellow
 name: "Anasuya Sengupta"
-project: "Expanding human history online"
+project: "Expanding human knowledge online"
 current: true
 type: "Expanding human history online"
 date:   2017-02-03

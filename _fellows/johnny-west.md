@@ -3,7 +3,7 @@ title: "Johnny West"
 layout: fellow
 name: "Johnny West"
 project: "Opening data in extractive industries"
-current: true
+current: false
 type: "Opening data in extractive industries"
 date:   2014-03-01
 photo: /images/fellows/johnny-west.jpg
@@ -21,6 +21,4 @@ contribution:
   2016: 23200.34
 ---
 
-Johnny focuses his efforts on OpenOil, to establish public understanding of contractual relationships within the oil and mining industries. His work includes GaiaBase, an openly licensed geospatial database listing all natural resources on the planet and the pertaining physical, economic and legal data.
-
-We support Johnny because the inner workings of the extractive industries are incredibly hidden, yet have enormous impact on our lives. Shining a light can only help create a more equitable, sustainable world.
+Johnny West's fellowship focus was to bring openness to the extractives industries. His work establishing public understanding of relationships within the oil and mining industries included mapping corporate networks, making publicly available data searchable, building a network of financial modelers in the industry, and starting to map all of the concessions allocated or available across the world. 
