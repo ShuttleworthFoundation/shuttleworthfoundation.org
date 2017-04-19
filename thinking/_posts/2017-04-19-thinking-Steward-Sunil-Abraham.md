@@ -21,7 +21,7 @@ We are searching for individuals who have a clear idea of how they can contribut
 Sunil Abraham is the Executive Director of Bangalore based research organisation, the [Centre for Internet and Society](http://cis-india.org/). 
 
 
-*"I have admired the stewardship of the Shuttleworth  Foundation towards the access to knowledge and free culture movements ever since I interviewed Mark Shuttleworth at WSIS 2005. Many of my personal heroes and friends have become Fellows over the years and it is therefore my privilege to contribute a southern perspective to this fellowship round." -- Sunil Abraham*
+*"I have admired the stewardship of the Shuttleworth Foundation towards the access to knowledge and free culture movements ever since I interviewed Mark Shuttleworth at WSIS 2005. Many of my personal heroes have become Fellows over the years and it is therefore my privilege to contribute a southern perspective to this fellowship round." -- Sunil Abraham*
 
 
 [Applications close](https://www.shuttleworthfoundation.org/apply/) 15 May 2017 for a 1 September 2017 fellowship start date.
