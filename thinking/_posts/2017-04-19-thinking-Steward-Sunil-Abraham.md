@@ -18,7 +18,7 @@ Similarly we seek out individuals who are bold and brave in re-imagining the wor
 
 We are searching for individuals who have a clear idea of how they can contribute to positive change. Their approach should apply [fresh thinking](https://shuttleworthfoundation.org/thinking/2014/02/20/thinking-application-pointers/) to a social problem, beyond the known but still needed. Most importantly they should have [openness](https://shuttleworthfoundation.org/thinking/2014/01/15/thinking-openness/) at the core of what they do and how they do it. 
 
-Sunil Abraham is the Executive Director of Bangalore based research organisation, the [Centre for Internet and Society](http://cis-india.org/). 
+Sunil Abraham is the [Executive Director](http://cis-india.org/publications-automated/cis/sunil) of Bangalore based research organisation, the [Centre for Internet and Society](http://cis-india.org/). 
 
 
 *"I have admired the stewardship of the Shuttleworth Foundation towards the access to knowledge and free culture movements ever since I interviewed Mark Shuttleworth at WSIS 2005. Many of my personal heroes have become Fellows over the years and it is therefore my privilege to contribute a southern perspective to this fellowship round." -- Sunil Abraham*
