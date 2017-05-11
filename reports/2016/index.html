@@ -484,13 +484,13 @@ year: "2016"
 
 		  <div class="fellow-spend-links">
 		    {% if fellow.blog %}
-		    <a href="http://{{ fellow.blog }}"><span class="icon-link icon-blog"></span> {{ fellow.blog }}</a><br/>
+		    <a href="{{ fellow.blog }}"><span class="icon-link icon-blog"></span> {{ fellow.blog }}</a><br/>
 		    {% endif %}
 		    {% if fellow.twitter %}
 		    <a href="https://twitter.com/{{ fellow.twitter }}"><span class="icon-link icon-twitter"></span> @{{ fellow.twitter }}</a><br/>
 		    {% endif %}
 		    {% if fellow.web %}
-		    <a href="http://{{ fellow.web }}"><span class="icon-link icon-web"></span> {{ fellow.web }}</a>
+		    <a href="{{ fellow.web }}"><span class="icon-link icon-web"></span> {{ fellow.web }}</a>
 		    {% endif %}
 		  </div>
 		</div>
