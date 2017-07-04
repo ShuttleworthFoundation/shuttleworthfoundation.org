@@ -1,6 +1,6 @@
 ---
 layout: post
-post_date: 3 July 2017
+post_date: 4 July 2017
 tags:
   - announcements
 title: "No fellowships awarded for September 2017"
