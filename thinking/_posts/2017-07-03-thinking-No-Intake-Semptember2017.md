@@ -13,7 +13,7 @@ image_source: "https://www.flickr.com/photos/csessums/14642783994/"
 on_report: true
 ---
 
-While it was a difficult conclusion to come to, we have always been prepared to do it if we did not find any applications we felt truly met our criteria. In communicating the decision, we want to be honest, open and transparent in order to find future Fellows we do feel we can support and would benefit from our help.
+While it was a difficult conclusion to come to, we have always been prepared not to offer fellowships if we did not find any applications we felt truly met our criteria. In communicating the decision, we want to be honest, open and transparent in order to find future Fellows we do feel we can support and would benefit from our help.
  
 We would like to live in an open knowledge society with limitless possibilities for all. That means a social context in which everyone has the opportunity and ability to freely access the information, knowledge, communities and resources they need to make and enact the best decisions, for themselves and those around them. Our Fellowship programme is designed to support this, and we know it is most beneficial when we work with those who think differently, question conventional wisdom, and see a clear pathway through or around existing systems to apply this thinking.
  
