@@ -27,10 +27,10 @@ When we review applications, we ask ourselves:
 - What difference is our support likely to make?
 - Do we believe in them as the person to make it happen? 
  
-Even if all of these questions could be answered positively, the actual applications in this round did not truly demonstrate that to us. In no way do we see this as a failure on our part or the applicants’. It is an opportunity for us all to do better, think broader, be bolder. 
+Even if all of these questions could be answered positively, the applications in this round did not truly demonstrate that to us. In no way do we see this as a failure on our part or the applicants’. It is an opportunity for us all to do better, think broader, be bolder. 
 
 So what comes next? We have critically reviewed our theory of change, our criteria and our selection processes, and found that for now, they still hold. We are pushing ourselves to express our message more clearly, especially to people, spaces and ideas we are not yet connected with. We also encourage readers to spread the word to individuals and ideas they believe to be exceptional.
  
 We want to commend everyone who put themselves forward to apply. You have dedicated yourselves to making the world a better place and are doing inspiring work. Just because we could not find a good fit this time, it does not mean your work is not good or valuable in the world.
  
-As we prepare for the next intake and beyond, Sunil Abraham has agreed to stay on as honorary steward for the March 2018 fellowship round. We greatly value his support, input and commitment to this process.
+As we prepare for the next intake and beyond, [Sunil Abraham](https://shuttleworthfoundation.org/thinking/2017/04/19/thinking-Steward-Sunil-Abraham/) has agreed to stay on as honorary steward for the March 2018 fellowship round. We greatly value his support, input and commitment to this process.
