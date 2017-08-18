@@ -17,8 +17,8 @@ twitter: moxie
 fellowship:
   start: 2013-09-01
 contribution:
-  2013: 3088.73
-  2014: 9090.91
+  2014: 10127.22
+  2015: 1515.15
 ---
 Moxie's focus is Open Whisper Systems, developing frictionless applications for secure communication, aimed at end users and providing an overall experience that is better than the non-secure defaults. Available applications include TextSecure, RedPhone and Flock.
 

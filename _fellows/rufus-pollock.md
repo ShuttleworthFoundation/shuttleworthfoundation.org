@@ -16,7 +16,12 @@ twitter: rufuspollock
 fellowship:
   start: 2010-09-01
 contribution:
-  2013: 19332.16
+  2010: 1855.07
+  2011: 16206.67
+  2012: 16.97
+  2013: 37180.53
+  2014: 3650.81
+  2015: 1295.25
 ---
 Rufus is working to promote open knowledge around the world, including any kind of content or data from sonnets to statistics, genes to geodata, which is freely usable, sharable and reusable.
 

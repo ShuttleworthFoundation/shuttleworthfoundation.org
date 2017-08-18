@@ -15,6 +15,10 @@ projects:
 twitter: stevesong
 fellowship:
   start: 2010-03-01
+contribution:
+  2010: 5308.62
+  2011: 12474.31
+  2013: 539.40
 ---
 Steve provides thought leadership on, and practical implementations of, access to communications infrastructure and its impact on social and economic innovation and growth.
 

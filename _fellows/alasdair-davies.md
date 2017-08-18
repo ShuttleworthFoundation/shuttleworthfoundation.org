@@ -16,7 +16,7 @@ twitter: Al2kA
 fellowship:
   start: 2017-03-01
 contribution:
-  2017: 
+  2017: 2083.25
 ---
 An active conservationist and technologist all his working life, Alasdair Davies is combining these two passions with a third - openness - to bring affordable, customizable technology  to the field through the Arribada Initiative. He is designing, developing, and producing open hardware, in partnership with field interventions, employing open approaches and licences. His objective is to break down the barriers that inhibit access to such technologies, delivering better, cheaper, reliable solutions to help the global conservation community better monitor and protect our planet.
 

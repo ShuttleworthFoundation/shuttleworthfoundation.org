@@ -15,6 +15,11 @@ projects:
 twitter: FrancoisGrey
 fellowship:
   start: 2010-09-01
+contribution:
+  2010: 1892.65
+  2011: 10786.48
+  2012: 5433.62
+  2013: 518.06
 ---
 
 Francois is passionate about advancing Open Science, specifically Citizen Cyberscience. Citizen cyberscience is a collective term for a diverse, grass-roots movement that is enabling ordinary citizens to participate in real scientific research thanks to the Web.

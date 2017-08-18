@@ -18,6 +18,7 @@ twitter: Aaron_Makaruk
 fellowship:
   start: 2016-03-01
 contribution:
-  2016: 17729.83
+  2016: 8448.55
+  2017: 9227.13
 ---
 Aaron Makaruk's fellowship focus was to develop methodologies, tools and  kits for integrating natural agricultural and ecological systems with urban  environments. He wanted to restore balance to food production and consumption cycles. These include AKER’s simple garden [https://akerkits.com/](kits) that snap together without tools in just minutes and can be adjusted to fit even the smallest balcony; and Open Source Beehives, a global network of citizen scientists measuring and  reporting the health of bee populations around the world. 

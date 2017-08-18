@@ -12,6 +12,10 @@ links:
 twitter:
 fellowship:
   start: 2011-03-01
+contribution:
+  2011: 17720.36
+  2012: 1921.88
+  2013: 259.75
 ---
 Kabir is an environmental lawyer supporting communities to secure their rights to their territories and cultures. He is one of the founders and the co-director of Natural Justice, an organization of environmental law practitioners working in Africa, Asia and Latin America to ensure that community concerns are effectively represented in the development and implementation of domestic and international law and policy.
 

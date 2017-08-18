@@ -18,8 +18,9 @@ twitter: jonaso
 fellowship:
   start: 2013-03-01
 contribution:
-  2013: 18623.01
-  2014: 20354.26
+  2013: 16210.52
+  2014: 22141.77
+  2015: 625.00
 ---
 
 Jonas founded Commons Machinery, an exploration of the importance of proper attribution in providing recognition and context to openly licensed resources. He built the technology needed to make it easier to openly and persistently associate the provenance of a digital work with the work itself.

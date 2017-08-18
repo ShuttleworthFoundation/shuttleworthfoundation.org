@@ -16,6 +16,10 @@ projects:
 twitter: marknewlyn
 fellowship:
   start: 2009-03-01
+contribution:
+  2010: 7368.82
+  2011: 25863.12
+  2012: 5136.16
 ---
 Mark works in the area of open and collaborative resources. Mark manages the Siyavula project, where he co-ordinates the development of a comprehensive set of Open Educational Resources (OER) supporting the South African National Curriculum. This relies on the development of communities to create and support the OERs as well as the provision of platforms for development.
 

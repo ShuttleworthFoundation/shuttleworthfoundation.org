@@ -17,8 +17,10 @@ twitter: petermurrayrust
 fellowship:
   start: 2014-03-01
 contribution:
-  2014: 14222.44
-  2015: 24652.33
+  2014: 4387.96
+  2015: 13441.29
+  2016: 13821.80
+  2017: 2946.18
 ---
 
 Peter is a pioneer in text mining through The Content Mine, an advocacy and implementation project consisting of a community, framework and toolset which facilitate the freeing of scientific data and building of further tools for improved open Science, Technology and Medicine communication.

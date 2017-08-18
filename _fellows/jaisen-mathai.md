@@ -16,8 +16,10 @@ twitter: jmathai
 fellowship:
   start: 2012-09-01
 contribution:
-  2013: 27275.0
-  2014: 5737.31
+  2012: 2985.08
+  2013: 17828.98
+  2014: 13689.73
+  2015: 2301.37
 ---
 Jaisen recognises the importance of preserving media for posterity, be that personal or societal. His fellowship focus was Trovebox, a web service and open source software that facilitated the easy archiving and affordable storage of photos and videos without vendor lock in.
 

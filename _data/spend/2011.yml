@@ -1,0 +1,62 @@
+Arthur Attwell:
+  infrastructure: 58.98
+  legal: 23.57
+  marketing: 15.78
+  office-space: 94.48
+  people: 30333.60
+  software: 629.83
+Francois Grey:
+  people: 115649.63
+  software: 55156.34
+  travel: 47605.46
+Gavin Weale:
+  infrastructure: 24091.86
+  legal: 2525.86
+  marketing: 46505.69
+  office-space: 5679.66
+  people: 152610.67
+  software: 1199.18
+  travel: 10302.06
+Kabir Bavikatte:
+  infrastructure: 26918.12
+  marketing: 19999.40
+  people: 231775.48
+  travel: 66589.21
+Kathi Fletcher:
+  people: 227560.75
+  travel: 2591.96
+Mark Horner:
+  accounting: 2698.69
+  infrastructure: 2367.14
+  legal: 2788.93
+  marketing: 23453.09
+  office-space: 20686.46
+  people: 267372.99
+  software: 45452.73
+  travel: 36271.72
+  workshops: 28713.02
+Paul Gardner-Stephen:
+  infrastructure: 5129.45
+  legal: 44091.30
+  people: 106347.63
+Philipp Schmidt:
+  marketing: 3322.87
+  people: 284529.61
+  software: 103319.92
+  travel: 53895.77
+Rufus Pollock:
+  infrastructure: 2153.54
+  people: 146019.31
+  software: 141756.35
+  travel: 8093.11
+Steve Song:
+  accounting: 5436.54
+  marketing: 96217.21
+  people: 61571.12
+  software: 2494.73
+  travel: 1238.08
+Steve Vosloo:
+  marketing: 2583.15
+  people: 11197.86
+  software: 702.68
+  travel: 1673.89

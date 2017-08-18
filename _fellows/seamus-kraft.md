@@ -16,9 +16,9 @@ twitter: seamus_kraft
 fellowship:
   start: 2014-09-01
 contribution:
-  2014: 2096.59
-  2015: 12087.02
-  2016: 25087.03
+  2015: 5475.45
+  2016: 9811.03
+  2017: 33380.68
 ---
 
 Seamus' focus is The Open Gov Foundation and its Madison Project, through which he will use the fellowship year to build tools and establish working models for open government, starting with participatory, collaborative policy making in the United States.

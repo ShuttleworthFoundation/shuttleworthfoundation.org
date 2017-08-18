@@ -1,93 +1,114 @@
 Aaron Makaruk:
   accounting: 3581.10
-  infrastructure: 37470.20
-  legal: 499.50
-  marketing: 11202.23
-  office-space: 10599.70
-  people: 190955.40
-  travel: 2623.11
+  infrastructure: 37021.84
+  legal: 495.00
+  office-space: 11786.55
+  people: 103299.40
+  travel: 1748.32
 Achal Prabhala:
-  accounting: 600.48
-  infrastructure: 4156.36
-  marketing: 1199.88
-  office-space: 3599.64
-  people: 193159.64
-  travel: 60000.0
+  accounting: 300.24
+  infrastructure: 3158.98
+  marketing: 599.94
+  legal: 1000.00
+  office-space: 1799.82
+  people: 50876.82
+  travel: 6945.06
 Adam Hyde:
-  marketing: 34180.0
-  people: 67500.0
-  travel: 13492.72
+  software: 90000.00
+  people: 140000.00
+  travel: 8129.86
 Astra Taylor:
-  office space: 6600.0
-  people: 84225.0
-  marketing: 10000.0
+  marketing: 10000.00
+  office space: 6600.00
+  people: 204350.00
+  software: 83850.00
+Catharina Maracke:
+  infrastructure: 4258.35
+  legal: 6501.82
+  office-space: 37786.90
+  people: 1344.31
+  software: 4049.63
+  travel: 79936.23
 "Daniel Lombra\xF1a Gonz\xE1lez":
-  marketing: 11115.40
-  people: 73361.64
-  software: 89145.51
-  travel: 10003.86
+  infrastructure: 15517.89
+  markering: 15170.88
+  people: 107102.99
+  software: 82780.44
+  travel: 10344.54
 Dan Whaley:
-  marketing: 93335.0
+  marketing: 93335.00
   people: 165343.75
   travel: 16321.25
 Esra'a Al Shafei:
-  people: 86700.0
+  people: 55300.00
 Isha Datar:
-  people: 93146.85
+  people: 92796.12
 Jesse von Doom:
-  office-space: 24000.0
-  people: 307450.0
-  software: 44430.0
+  marketing: 17000.00
+  office-space: 24000.00
+  people: 277175.00
+  software: 54130.00
 Johnny West:
-  infrastructure: 10838.22
-  marketing: 29653.28
-  office-space: 12786.87
-  people: 243477.8
+  infrastructure: 44154.81
+  marketing: 29541.46
+  office-space: 12463.01
+  people: 181658.06
   software: 2502.72
   training: 6390.44
-  travel: 30672.67
+  travel: 30387.87
 Kathi Fletcher:
-  software: 19000.0
+  software: 2800.00
+  travel: 28375.57
 Luka Mustafa:
-  accounting: 3334.62
-  infrastructure: 106707.84
-  marketing: 1667.31
-  office-space: 5557.70
-  people: 213173.36
-  software: 11115.40
-  travel: 4890.78
+  accounting: 2311.06
+  infrastructure: 60137.85
+  marketing: 2389.26
+  office-space: 3883.47
+  people: 173805.59
+  software: 8670.01
+  subcontractors: 19169.51
+  travel: 4972.76
 Peter Bloom:
-  infrastructure: 64399.0
-  people: 285748.67
-  software: 1780.0
-  travel: 14578.0
+  infrastructure: 50535.10
+  legal: 19014.00
+  marketing: 1753.13
+  people: 187557.42
+  software: 17328.25
+  travel: 11210.75
 Peter Cunliffe-Jones:
-  infrastructure: 12380
-  people: 291804.80
-  marketing: 10000.0
-  travel: 6992.84
+  infrastructure: 10587.00
+  people: 213561.84
+  marketing: 20500.00
+  travel: 6797.00
 Peter Murray-Rust:
-  Infrastructure: 1365.06
-  marketing: 5460.24
-  people: 36037.58
-  software: 26755.18
-  travel: 4095.18
+  infrastructure: 1318.48
+  marketing: 16380.72
+  people: 49710.42
+  software: 76355.65
+  travel: 5982.53
+  legal: 2293.30
 Seamus Kraft:
-  infrastructure: 28880.0
-  marketing: 81458.0
-  people: 318475.0
+  infrastructure: 24053.41
+  legal: 121.28
+  marketing: 635.98
+  people: 200650.00
+  software: 6162.50
 Sean Bonner:
-  infrastructure: 112000.0
-  legal: 6700.0
-  markering: 15149.40
-  office-space: 36000.0
-  people: 125900.0
-  software: 54000.0
-  travel: 38700.0
+  infrastructure: 79070.89
+  legal: 6000.00
+  marketing: 13457.41
+  office-space: 30000.00
+  people: 105600.00
+  travel: 48886.69
 Tiffiniy Cheng:
-  people: 125000.0
-  software: 100000.0
+  people: 125000.00
+  software: 100000.00
+Ugo Vallauri:
+  people: 33332.04
+  software: 10147.86
+  travel: 850.34
 Waldo Jaquith:
-  people: 75000.0
-  software: 45000.0
-  travel: 4178.0
+  people: 75000.00
+  software: 40000.00
+  travel: 2735.89
+  office-space: 3235.47

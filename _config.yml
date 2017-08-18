@@ -10,10 +10,10 @@ twitter_username: ShuttleworthFdn
 github_username: jasonhudson
 
 intake:
-  open: false
+  open: true
   reopen: September 2017
-  current: September 2017
-  next: March 2018
+  current: March 2018
+  next: September 2018
 
 exclude: [Makefile, README.md, vendor, Gemfile]
 

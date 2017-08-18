@@ -19,10 +19,11 @@ twitter: teleyinex
 fellowship:
   start: 2013-09-01
 contribution:
-  2013: 2516.35
-  2014: 16579.97
-  2015: 15915.60
-  2016: 12758.71
+  2013: 123.30
+  2014: 8788.49
+  2015: 14789.61
+  2016: 15951.40
+  2017: 5971.95
 ---
 
 Daniel's primary interest is Crowdcrafting and its underlying software PyBossa, a citizen science framework that allows and supports citizens and researchers to create citizen science projects and gather collaborative communities around them, using volunteer sensing, computing and thinking.

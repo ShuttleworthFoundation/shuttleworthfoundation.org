@@ -14,5 +14,9 @@ projects:
 twitter: stevevosloo
 fellowship:
   start: 2010-03-01
+contribution:
+  2010: 4297.03
+  2011: 909.02
+  2012: 212.17
 ---
 Steve was 21st Century Learning Fellow at the Shuttleworth Foundation. The focus of his fellowship was the Yoza Project, originally known as m4Lit (mobile phones for literacy), set out to explore the viability of using mobile phones to support reading and writing by youth in South Africa (SA).

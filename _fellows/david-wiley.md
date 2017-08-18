@@ -17,10 +17,9 @@ twitter: opencontent
 fellowship:
   start: 2013-03-01
 contribution:
-  2013: 19488.64
-  2014: 19488.64
+  2013: 19466.83
+  2014: 19277.70
 ---
-
 
 David is working to lower the cost and improve the quality of education. During his fellowship David worked through [Lumen Learning](http://lumenlearning.com/) to help community colleges and universities in the US adopt open educational resources (OER) and move away from expensive textbooks, increasing access and reducing costs for students.
 

@@ -17,8 +17,8 @@ twitter: roryaronson
 fellowship:
   start: 2014-03-01
 contribution:
-  2014: 1481.48
-  2015: 1789.28
+  2014: 1789.28
+  2015: 1481.48
 ---
 Rory is spending his fellowship year developing FarmBot, a scalable, open source, automated precision farming machine with supporting software.
 

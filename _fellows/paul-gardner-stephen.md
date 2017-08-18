@@ -15,6 +15,9 @@ projects:
 twitter: servalpaul
 fellowship:
   start: 2011-09-01
+contribution:
+  2011: 5758.46
+  2012: 12688.45
 ---
 Paul is making the open-source Serval Project the premier mesh telephony platform, thus empowering individuals and communities to meet their own telecommunications needs, and to maintain telecommunications capacity when infrastructure is unavailable or unaffordable.
 
