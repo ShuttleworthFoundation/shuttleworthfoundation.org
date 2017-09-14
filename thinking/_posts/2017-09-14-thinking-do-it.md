@@ -12,7 +12,7 @@ image_source: "https://www.flickr.com/photos/racheltanugi/5890585497/"
 on_report: true
 ---
 
-This not an easy Fellowship to get, the process may be simple, but the competition is stiff.  Approximately 1% of applicants are offered a fellowship. 
+This is not an easy Fellowship to get, the process may be simple, but the competition is stiff.  Approximately 1% of applicants are offered a fellowship. 
 
 The personal investment you have to make in contemplating this fellowship is substantial - you have to really, honestly and purposefully think through what your contribution to positive social change will be and that is tough. However, it could be the first step towards realising your big vision. 
 
