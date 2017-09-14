@@ -3,7 +3,7 @@ layout: fellow
 title: "Seamus Kraft"
 name: "Seamus Kraft"
 project: "Bringing government into the digital age"
-current: true
+current: false
 type: "Bringing government into the digital age"
 date:   2014-09-01
 photo: /images/fellows/seamus-kraft.jpg

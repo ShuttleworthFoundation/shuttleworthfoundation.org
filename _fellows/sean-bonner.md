@@ -3,7 +3,7 @@ title: "Sean Bonner"
 layout: fellow
 name: "Sean Bonner"
 project: "Measuring environmental impact"
-current: true
+current: false
 type: "Measuring environmental impact"
 date:   2014-09-01
 photo: /images/fellows/sean-bonner.jpg

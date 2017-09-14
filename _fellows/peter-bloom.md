@@ -3,7 +3,7 @@ title: "Peter Bloom"
 layout: fellow
 name: "Peter Bloom"
 project: "Connecting under-served communities"
-current: true
+current: false
 type: "Connecting under-served communities"
 date:   2014-03-01
 photo: /images/fellows/peter-bloom.jpg
