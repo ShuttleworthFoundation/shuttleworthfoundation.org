@@ -3,6 +3,7 @@ layout: post
 post_date: 20 February 2014
 tags: 
   - announcements
+  - applications
 title: "Application pointers"
 author: SF Team
 description: "Over the years we have reviewed (and funded) many, many proposals and fellowship applications. In the current incarnation of the Foundation we support individuals to implement their idea for social change."

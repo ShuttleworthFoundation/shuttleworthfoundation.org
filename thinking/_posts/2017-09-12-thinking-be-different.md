@@ -3,6 +3,7 @@ layout: post
 post_date: 12 September 2017
 tags:
   - announcements
+  - applications
 title: "Thinking of applying? Be different"
 author: SF Team
 banner: "/images/blog/blog-different.jpg"

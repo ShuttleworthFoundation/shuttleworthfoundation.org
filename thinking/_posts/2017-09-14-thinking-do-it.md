@@ -3,6 +3,7 @@ layout: post
 post_date: 14 September 2017
 tags:
   - announcements
+  - applications
 title: "Thinking of applying? Do it"
 author: SF Team
 banner: "/images/blog/blog-jump.png"

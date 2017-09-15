@@ -3,6 +3,7 @@ layout: post
 post_date: 12 September 2017
 tags:
   - announcements
+  - applications
 title: "Thinking of applying? It could be you"
 author: SF Team
 banner: "/images/blog/blog-getstarted.jpg"

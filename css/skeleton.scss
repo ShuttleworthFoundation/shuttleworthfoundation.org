@@ -53,7 +53,7 @@ $nav_padding: 5px;
 	vertical-align: middle;
     }
 
-    .landing-main, .landing-notification {
+    .landing-main, .landing-notification, .landing-applications {
 	display: table-row;
     }
 
@@ -61,6 +61,14 @@ $nav_padding: 5px;
 	background-image: url('/images/landing.jpg');
 	background-size: cover;
 	background-position: center center;
+    }
+
+    .landing-applications {
+    background-image: url('/images/apply.jpg');
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    background-size: cover;
+    background-position: center center;
     }
 
     .landing-notification {

@@ -6,10 +6,57 @@ title: Shuttleworth Foundation - Applications
 <link rel="stylesheet" type="text/css" href="/assets/font-awesome-4.7.0/css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="/css/apply.css">
 
-<div class="container">
-  <div class="twelve columns">
-    <h1>Fellowship Applications</h1>
-    <hr/>
+<div class="landing-wrapper">
+  <div class="landing-applications">
+    <div class="landing-container">
+      <h1>
+  <span class="u-green">Fellowship Applications</span>
+      </h1>
+    <div class="container">
+      <h4>
+        The Shuttleworth Foundation offers fellowships to individuals
+        to implement their innovative idea for social change. We are
+        most interested in exceptional ideas at the intersection
+        between technology, knowledge and learning, with openness
+        being the key requirement.
+        </h4>
+      </div>
+      <h6>
+  <a class="button button-primary" href="#more">Learn more</a>
+  <a class="button button-primary" href="/apply/form/">Apply now</a>
+</h6>
+</div>
+</div>
+</div>
+
+<div class="grey wrapper">
+  <div id="more" class="container">
+    <h2>Learn More</h2>
+      <p class="u-text-center">A selection of articles to help you understand our process</p>
+    {% for post in site.tags.applications %}
+        {% assign rowindex = forloop.index0 | modulo: 4 %}
+        {% if rowindex == 0 or forloop.first %}
+  </div>
+  <div class="container">
+    {% endif %}
+    <div class="three white columns post-preview">
+      <a href="{{ post.url }}">
+  <img src="{{ post.image }}" alt="Featured Image"/>
+      </a>
+      <p>
+  <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+      </p>
+      <p>
+  {{ post.content | strip_html | truncatewords:25 }}
+      </p>
+      <div class="tags">
+      <a href="{{ post.url }}">Read more...</a>
+
+      </div>
+    </div>
+    {% else %}
+    <h3>No posts found.</h3>
+    {% endfor %}
   </div>
 </div>
 
@@ -23,26 +70,36 @@ title: Shuttleworth Foundation - Applications
   </div>
 </div>
 
-<div class="wrapper">
+<div class="wrapper" id="checklist">
   <div class="container">
     <div class="twelve columns">
-      <p>
-        The Shuttleworth Foundation offers fellowships to individuals
-        to implement their innovative idea for social change. We are
-        most interested in exceptional ideas at the intersection
-        between technology, knowledge and learning, with openness
-        being the key requirement.
-      </p>
-      <p>
-        The Foundation funds people from all over the world regardless
-        of gender, age, nationality or experience. We are looking for
-        a complete picture of you and your idea.
-      </p>
+      <h2>Application Checklist</h2>
+      <p class="u-text-center">The Do's and Don'ts of your Fellowship Application</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="six columns">
+      <h3><i class="fa fa-check"></i> Do</h3>
+      <p>A completed application comprises:</p>
+      <ul>
+        <li><i class="fa fa-check"></i> The (completed & submitted) application form.</li>
+        <li><i class="fa fa-check"></i> Your 5 minute application video (public or private).</li>
+        <li><i class="fa fa-check"></i> Your up to date resume.</li>
+      </ul>
+    </div>
+    <div class="six columns">
+      <h3><i class="fa fa-times"></i> Don't</h3>
+      <p>We do not accept any of the following:</p>
+      <ul>
+        <li><i class="fa fa-times"></i> Hard copy applications.</li>
+        <li><i class="fa fa-times"></i> Partial applications - you must answer all the questions and "submit" the form.</li>
+        <li><i class="fa fa-times"></i>Email applications.</li>
+      </ul>
     </div>
   </div>
 </div>
 
-<div class="wrapper" id="getstarted">
+<div class="grey wrapper" id="getstarted">
   <div class="container">
     <h2>Get Started</h2>
     <div class="six columns">
@@ -80,70 +137,18 @@ title: Shuttleworth Foundation - Applications
   </div>
 </div>
 
-<div class="wrapper" id="checklist">
-  <div class="container">
-    <div class="twelve columns">
-      <h2>Application Checklist</h2>
-      <p class="u-text-center">The Do's and Don'ts of your Fellowship Application</p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="six columns">
-      <h3><i class="fa fa-check"></i> Do</h3>
-      <p>A completed application comprises:</p>
-      <ul>
-        <li><i class="fa fa-check"></i> The (completed & submitted) application form.</li>
-        <li><i class="fa fa-check"></i> Your 5 minute application video (public or private).</li>
-        <li><i class="fa fa-check"></i> Your up to date resume.</li>
-      </ul>
-    </div>
-    <div class="six columns">
-      <h3><i class="fa fa-times"></i> Don't</h3>
-      <p>We do not accept any of the following:</p>
-      <ul>
-        <li><i class="fa fa-times"></i> Hard copy applications.</li>
-        <li><i class="fa fa-times"></i> Partial applications - you must answer all the questions and "submit" the form.</li>
-        <li><i class="fa fa-times"></i>Email applications.</li>
-      </ul>
-    </div>
-  </div>
-</div>
 
-
-<div class="wrapper" id="pointers">
-  <div class="container">
-    <div class="twelve columns">
-      <h2>Application Pointers</h2>
-      <p class="u-text-center">The only true way is not a project plan but a champion</p>
-    </div>
-  </div>
-  
-  <div class="container">
-    <div class="twelve columns">
-      <p>
-	Over the years we have reviewed (and funded) many, many
-        proposals and fellowship applications. In the current
-        incarnation of the Foundation we support individuals to
-        implement their idea for social change. Prospective applicants
-        often ask us to narrow down the parameters for applications
-        and be more specific about what we’re looking for. We are not
-        planning on doing that, as we want to be surprised and
-        intrigued by applicants, no matter how unconventional the idea
-        may be.
-      </p>
-      <p>
-	However, we can provide some thoughts on what to keep in mind
-	while developing your application for our fellowship. We hope
-	these are useful, for applying for the Fellowship, and for
-	distilling the essence of your idea.
-      </p>
-      <p>
-	Our number one ask is that openness be at the core of your
-	idea and/or its implementation. Openness is not an add on. It
-	is a&nbsp; fundamental approach to both participation and
-	intellectual property...
-      </p>
-      <a class="button button-primary" href="/apply/pointers/">Read the pointers</a>
-    </div>
-  </div>
-</div>
+<script type="text/javascript">
+  /* Smooth scroll anchor links.
+   */
+  var root = $('html, body');
+  $('a[href*=\\#]').click(function(event){
+    var href = $.attr(this, 'href');
+    root.animate({
+        scrollTop: $(href).offset().top - 60
+    }, 500, function () {
+        window.location.hash = href;
+    });
+    event.preventDefault();
+  });
+</script>
