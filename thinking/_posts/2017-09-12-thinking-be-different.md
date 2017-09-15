@@ -35,3 +35,5 @@ The environment - enabling citizens to take back control of monitoring their env
 If you are planning on applying and see your idea described here, pay special attention to articulating how your approach is innovative, adds value, what we might learn or discover. 
 
 There are also many areas - thematic and geographic - in which we are just getting our feet wet or have not yet found the right fit in investment. We look forward to being challenged and surprised. 
+
+<a href="{{ "/apply/" | prepend: site.baseurl }}">Apply now</a>

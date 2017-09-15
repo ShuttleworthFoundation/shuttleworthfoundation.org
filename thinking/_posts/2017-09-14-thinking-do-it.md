@@ -25,3 +25,5 @@ Our hope is that this application process helps you organise and articulate your
 Although thoughtfulness is required, the actual investment of time and effort necessary to apply is tiny given the possibility of actually getting offered a fellowship. There is only a 1% chance you will get it if you apply, but a 100% chance you won't if you don't. The odds are in your favour, if you take the leap. 
 
 We would love to hear from you.
+
+<a href="{{ "/apply/" | prepend: site.baseurl }}">Apply now</a>

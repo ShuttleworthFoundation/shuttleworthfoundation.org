@@ -21,3 +21,5 @@ What you should have is a clear sense of how you can contribute to changing the 
 This Fellowship consists of anyone from college drop-outs to doctors (academic and clinical), students to professors, enthusiastic upstarts and seasoned veterans. They come from all over and work where they can make the most difference. The profile they share is one of openness, commitment and bravery. 
 
 We invest in individuals to change the world, now and in future. If you believe that is you, we could too.
+
+<a href="{{ "/apply/" | prepend: site.baseurl }}">Apply now</a>
