@@ -7,7 +7,6 @@ title: Application Form
 <div class="container">
   <div class="twelve columns">
     <h1>Apply Now!</h1>
-    <hr/>
   </div>
 </div>
 
@@ -16,8 +15,20 @@ title: Application Form
 <link rel="stylesheet" type="text/css" href="/css/formstack.css">
 
 <div class="container">
-  <div class="twelve columns">
-    <h2> A full application comprises of</h2>
+  <div id="timeline" class="row">
+  <div class="one-half column">
+    <h3> Application timelines</h3>
+    <ul>
+      <li><strong>Application opens:</strong> {{ site.intake.reopen }} </li>
+      <li><strong>Application closes:</strong> {{ site.intake.close }}</li>
+      <li><strong>Applicants notified:</strong> {{ site.intake.notify }} </li>
+      <li><strong>Fellowship start date:</strong> {{ site.intake.current }}</li>
+    </ul>
+  </div>
+
+
+  <div class="one-half column">
+    <h3> A full application comprises of</h3>
     <ul>
       <li>this online application form</li>
       <li>your application video - not longer than 5 minutes</li>
@@ -26,6 +37,8 @@ title: Application Form
     </ul>
   </div>
 </div>
+</div>
+<hr/>
 
 <div class="container">
   <div class="twelve columns">
