@@ -10,7 +10,7 @@ photo: /images/fellows/peter-bloom.jpg
 video: https://player.vimeo.com/video/170794771
 links:
     - Blog: http://rhizomatica.org/
-
+    - Company: http://www.tic-ac.org/
 projects:
     - Rhizomatica: http://rhizomatica.org/
     - Github: https://github.com/Rhizomatica
@@ -24,6 +24,6 @@ contribution:
   2017: 5952.07
 ---
 
-Peter's fellowship focus is Rhizomatica, establishing low-cost, low-power, open-source cellular infrastructure that can serve rural areas profitably using inexpensive handsets that many already own. His priorities include policy modelling and business model development.
+Peter is the founder of Rhizomatica, establishing low-cost, low-power, community owned open-source cellular infrastructure that can serve rural areas profitably using inexpensive handsets that many already own.
 
-We support Rhizomatica because affordable, immediate communication is one of the building blocks of progress. Peter is democratising access to telecommunication technology by localising control and decreasing cost.
+We support Peter because affordable, immediate communication is essential to participating in modern society. Peter is democratising access to telecommunication technology by localising control and decreasing cost, building replicable policy and business models in the process.
