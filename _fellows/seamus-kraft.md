@@ -10,6 +10,7 @@ photo: /images/fellows/seamus-kraft.jpg
 video: https://player.vimeo.com/video/170794773
 links:
     - Open Gov Foundation: http://www.opengovfoundation.org/about-us/
+    - GitHub: https://github.com/opengovfoundation
 projects:
     - My Madison: http://mymadison.io/
 twitter: seamus_kraft
@@ -21,6 +22,6 @@ contribution:
   2017: 33380.68
 ---
 
-Seamus' focus is The Open Gov Foundation and its Madison Project, through which he will use the fellowship year to build tools and establish working models for open government, starting with participatory, collaborative policy making in the United States.
+Seamus founded The OpenGov Foundation to bridge the gap between citizens and government. They build and implement tools that enable elected officials and staff to meaningfully engage, at scale, with those they represent, and citizens to see, shape and understand the critical decisions that affect their lives, their families and their businesses.
 
-We support Seamus because traditional governments are representing the best interests of all citizens less and less as societies become more complex and inequality grows. Finding ways of enabling and encouraging direct engagement by citizens in decision-making at government level allows for more informed decisions based on both the majority and minority voices.
+We support Seamus because open governance at every level is a key component of an open society. While important, it is also logistically and politically complex. His work in exploring how 21st century tools could be used to good effect is an important building block.
