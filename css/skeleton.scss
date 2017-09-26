@@ -249,3 +249,15 @@ i.icon-notification {
   margin-left: -1.3em; /* same as padding-left set on li */
   width: 1.3em; /* same as padding-left set on li */
 }
+
+#post_img_right {
+    float: right;
+    max-width: 40%;
+    margin: 10px;
+}
+
+#post_img_left {
+    float: left;
+    max-width: 40%;
+    margin: 10px;
+}
