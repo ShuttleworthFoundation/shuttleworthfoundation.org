@@ -10,8 +10,8 @@ twitter_username: ShuttleworthFdn
 github_username: jasonhudson
 
 intake:
-  open: true
-  reopen: 1 September 2017
+  open: false
+  reopen: 1 November 2017
   current: 1 March 2018
   next: September 2018
   close: 23 October 2017
