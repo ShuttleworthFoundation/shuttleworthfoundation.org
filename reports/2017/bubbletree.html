@@ -1,0 +1,169 @@
+---
+layout: raw
+year: "2017"
+permalink: "/reports/2017/bubbletree.html"
+---
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Total Spend BubbleTree</title>
+    <script type="text/javascript" src="js/lib/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.history.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.tooltip.min.js"></script>
+    <script type="text/javascript" src="js/lib/raphael.js"></script>
+    <script type="text/javascript" src="js/lib/vis4.js"></script>
+    <script type="text/javascript" src="js/lib/Tween.js"></script>
+    <script type="text/javascript" src="js/bubbletree.js"></script>	
+    <link rel="stylesheet" type="text/css" href="css/bubbletree.css" />
+    <link rel="stylesheet" type="text/css" href="css/btree.css" />
+    <script type="text/javascript" src="js/lib/cofog.js"></script>
+    <script>
+      Number.prototype.formatMoney = function(c, d, t){
+	  var n = this, 
+	      c = isNaN(c = Math.abs(c)) ? 2 : c, 
+	      d = d == undefined ? "." : d, 
+              t = t == undefined ? "," : t, 
+              s = n < 0 ? "-" : "", 
+              i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+              j = (j = i.length) > 3 ? j % 3 : 0;
+          return s + '$' + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+      };
+    </script>
+	
+	
+    <script type="text/javascript">
+      $(function() {
+	  var bubble = $('.bubbletree');
+	  
+	  bubble.click(function() {
+	      var tooltips = bubble.find('.tooltip');
+	      tooltips.css('opacity', 0);
+	      setTimeout(function() { tooltips.remove(); }, 500);
+	  });
+	  
+	  var showTooltip = function(e) {
+	      this.tooltip = $('<div/>', { class: 'tooltip' });
+	      this.tooltip.append($('<div/>', { class: 'tooltip-label', text: this.label }));
+	      this.tooltip.append($('<div/>', { class: 'tooltip-amount', text: this.amount.formatMoney(2) }));
+	      this.tooltip.css('top', this.rNode.attr('cy') + this.rNode.attr('r'));
+	      this.tooltip.css('left', this.rNode.attr('cx'));
+	      this.tooltip.css('background', this.color);
+	      this.tooltip.css('opacity', 0);
+	      bubble.append(this.tooltip);
+	      this.tooltip.css('opacity', 1);
+	  }
+	  
+	  var hideTooltip = function(e) {
+	      this.tooltip.css('opacity', 0);
+	      if (this.tooltip) {
+		  var tooltip = this.tooltip;
+		  setTimeout(function() { tooltip.remove(); }, 500);
+	      }
+	      this.tooltip = null;
+	  }
+	  
+          var initTooltip = function(node, domNode, rNode) {
+	      if (rNode) {
+		  rNode.hover(showTooltip, hideTooltip, node, node);
+		  node.rNode = rNode;
+	      }
+          };
+	  
+	  var data = {{ site.data.reports[page.year].bubble | jsonify }};
+	  var style = {
+	      "fb": {
+		  "Distribution": {
+		      "color": "#B4B2AA",
+		      "icon": "images/bubbletree/distribution.svg"
+		  },
+		  "Events": {
+		      "color": "#B4B2AA",
+		      "icon": "images/bubbletree/events.svg"
+		  },
+		  "Events (Gathering)": {
+		      "color": "#0D979F"
+		  },
+		  "Fellowship Program": {
+		      "color": "#BA7AD1",
+		      "icon": "images/bubbletree/fellows.svg"
+		  },
+		  "Flash Grants": {
+		      "color": "#B4B2AA"
+		  },
+		  "Grants": {
+		      "color": "#785033"
+		  },
+		  "Infrastructure": {
+		      "color": "#E23026",
+		      "icon": "images/bubbletree/office.svg"
+		  },
+		  "Legal": {
+		      "color": "#F06E25",
+		      "icon": "images/bubbletree/legal.svg"
+		  },
+		  "Marketing": {
+		      "color": "#4D6FBE",
+		      "icon": "images/bubbletree/marketing.svg"
+		  },
+		  "Office space": {
+		      "color": "#B4B2AA",
+		      "icon": "images/bubbletree/office.svg"
+		  },
+		  "Operational Costs": {
+		      "color": "#BA7AD1"
+		  },
+		  "Overheads": {
+		      "color": "#FBB916",
+		      "icon": "images/bubbletree/overheads.svg"
+		  },
+		  "People": {
+		      "color": "#0D979F",
+		      "icon": "images/bubbletree/people.svg"
+		  },
+		  "Printing": {
+		      "color": "#B4B2AA",
+		      "icon": "images/bubbletree/printing.svg"
+		  },
+		  "Salaries": {
+		      "color": "#0D979F"
+		  },
+		  "Software": {
+		      "color": "#61AC46",
+		      "icon": "images/bubbletree/software.svg"
+		  },
+		  "Stipends": {
+		      "color": "#B4B2AA",
+		      "icon": "images/bubbletree/stipends.svg"
+		  },
+		  "Total Spend": {
+		      "color": "#61AC46",
+		      "icon": "images/bubbletree/total_spend.svg"
+		  },
+		  "Travel": {
+		      "color": "#FBB916",
+		      "icon": "images/bubbletree/travel.svg"
+		  }
+	      },
+	      "id": {
+		  "root": {
+		      "color": "#B4B2AA"
+		  }
+	      }
+	  };
+	  new BubbleTree({
+	      data: data,
+	      container: '.bubbletree',
+	      bubbleType: 'icon',
+	      initTooltip: initTooltip,
+	      bubbleStyles: style
+	  }); 
+      });                              
+    </script>
+  </head>
+  <body>
+    <div class="bubbletree-wrapper">
+      <div class="bubbletree"></div>
+    </div>
+  </body>
+</html>
