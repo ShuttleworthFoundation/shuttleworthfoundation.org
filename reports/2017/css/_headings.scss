@@ -1,0 +1,77 @@
+/* Misc */
+$black: #6C797A;
+
+h1, h2, h3, h4, h5 {
+      color: $black !important;
+  }
+
+h1 {
+    font-size: 6em;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40pt;
+    margin-top:0px;
+    margin-bottom: 40px;
+}
+h4:before,
+h4:after {
+    background-color: $black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h4:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h4:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 25pt;
+  margin-top:40px;
+  margin-bottom: 40px;
+    }
+
+h6 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1em;
+    background-color: #fff;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: $black;      
+      }
+
+#intro p {
+  color: #fff;
+  background-color: #80bd26;
+  font-size: 1.3em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2.3em;
+  margin: 0.3em 0;
+
+}
+
+#fellows h6 {
+  text-align: inherit;
+  font-weight: 200;
+  font-size: 1.7em;
+  text-transform: none;
+}
