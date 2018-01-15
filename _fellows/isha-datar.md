@@ -17,7 +17,7 @@ fellowship:
   start: 2016-09-01
 contribution:
   2016: 2526.92
-  2017: 3325.37
+  2017: 7628.51
 ---
 
 Food insecurity is one of the greatest challenges of our time. If we are to feed the human population sustainably, affordably and nutritiously, we have to rethink the food supply chain. Isha Datar is doing just that, exploring [cellular agriculture](http://www.new-harvest.org/) as a new facet of farming animal products. Isha’s work with [New Harvest](http://www.new-harvest.org/) is at the intersection of ethical and practical issues, enabling broader cellular agriculture research with a menu of openly accessible cell cultures. These cell cultures are the research tools with which we can build foods of the future.

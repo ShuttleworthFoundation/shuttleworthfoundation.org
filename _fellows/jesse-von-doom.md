@@ -20,7 +20,7 @@ contribution:
   2014: 14318.89
   2015: 24527.92
   2016: 24645.90
-  2017: 5911.37
+  2017: 5995.91
 ---
 
 Jesse von Doom's fellowship focus was building free and open tools to help musicians promote and sell their work. His goal is to use open source to explore new models and allow musicians to find their own paths to sustainable careers on an open web. He did so through his non-profit organization [https://cashmusic.org/](CASH Music) and their education initiative [https://watt.cashmusic.org/](Watt).

@@ -21,6 +21,6 @@ contribution:
   2013: 26702.79
   2014: 4357.14
   2016: 2712.77
-  2017: 407.78
+  2017: 1597.42
 ---
 Kathi identified the need for greater technical interoperability between open educational resource (OER) platforms to build a bridge between the legal rights and practical use of the resources. Without it, OERs grant users legal access, but not technical access, effectively denying them the right to remix and reuse the resources outside of a specific platform.

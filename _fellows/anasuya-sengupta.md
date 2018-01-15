@@ -17,7 +17,7 @@ twitter: Anasuyashh
 fellowship:
   start: 2017-03-01
 contribution:
-  2017: 3409.09
+  2017: 9402.91
 ---
 Re-imagining the internet is Anasuya's way of re-imagining the world. She is deeply passionate about and committed to this cause. She is also well versed in both collaborative knowledge creation and community engagement. Having experienced both the best and worst of attempts at expanding online representation, she is undertaking [Whose Knowledge?](http://whoseknowledge.org) , an initiative to drive inclusiveness and diversity in public knowledge online. 
 

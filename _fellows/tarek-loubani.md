@@ -16,7 +16,7 @@ twitter: trklou
 fellowship:
   start: 2017-03-01
 contribution:
-  2017: 1772.15
+  2017: 8717.01
 ---
 The quality of any medical intervention is greatly affected by the availability of the tools of the trade - equipment and medicines. For both, the determinants of true access are quality, cost and relevance. For Tarek Loubani a conflict zone has forced the issue. He decided to apply his medical skills to develop high-quality, low-cost, open-source, universally accessible medical hardware to end the asymmetry of care. He started with a [$3 stethoscope](http://www.independent.co.uk/news/world/middle-east/gaza-doctor-tarek-loubani-creates-3d-printed-stethoscopes-to-alleviate-medical-supply-shortages-10495512.html) that meets the same standards as a $300 one. Through [Glia](https://github.com/gliax), he is now expanding the pool of designs and testing them in the filed.
 

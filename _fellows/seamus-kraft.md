@@ -19,7 +19,7 @@ fellowship:
 contribution:
   2015: 5475.45
   2016: 9811.03
-  2017: 33380.68
+  2017: 54202.14
 ---
 
 Seamus founded The OpenGov Foundation to bridge the gap between citizens and government. They build and implement tools that enable elected officials and staff to meaningfully engage, at scale, with those they represent, and citizens to see, shape and understand the critical decisions that affect their lives, their families and their businesses.

@@ -1,0 +1,52 @@
+- categories: [Intellectual Property, Web]
+  fellow_contribution: 8558.68
+  fellowship_duration: 0
+  fellowship_end: March 2015
+  fellowship_start: May 2012
+  foundation_contribution: 123179.17
+  grant: 0
+  id: catharina-maracke
+  name: Catharina Maracke
+  spend:
+    - {amount: 11459.14, category: Accounting}
+    - {amount: 8734.32, category: Infrastructure}
+    - {amount: 177.7, category: Marketing}
+    - {amount: 30003.25, category: Office-space}
+    - {amount: 2291.44, category: People}
+    - {amount: 70513.32, category: Travel}
+  total: 123179.17
+  web: contributoragreements.org
+- categories: [Data, Education, Science, Web]
+  fellow_contribution: 7997.59
+  fellowship_duration: 0
+  fellowship_end: September 2016
+  fellowship_start: September 2013
+  foundation_contribution: 93944.58
+  grant: 0.0
+  id: daniel-lombrana-gonzalez
+  name: "Daniel Lombra\xF1a Gonz\xE1lez"
+  spend:
+  - {amount: 28822.96, category: Infrastructure}
+  - {amount: 6421.2, category: Marketing}
+  - {amount: 45117.26, category: People}
+  - {amount: 13552.58, category: Software}
+  total: 93944.58
+  twitter: teleyinex
+  web: http://pybossa.com
+  blog: http://daniellombrana.es/
+- categories: [Government, Data, Web, Privacy]
+  fellow_contribution: 13,325.00
+  fellowship_duration: 0
+  fellowship_end: September 2015
+  fellowship_start: September 2012
+  foundation_contribution: 146,252.84
+  grant: 11,877.84
+  id: esraa-al-shafei
+  name: Esra'a Al Shafei
+  spend:
+  - {amount: '81,950.00', category: Software}
+  - {amount: '44,577.84', category: People}
+  total: 126,527.84
+  twitter: ealshafei
+  web: crowdvoice.org
+  blog: mideastyouth.com/author/esra/

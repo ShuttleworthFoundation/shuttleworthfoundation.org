@@ -12,7 +12,7 @@
 	    position: relative;
 
 	    .fellow-spend-entry {
-		height: 575px;
+		height: 710px;
 		width: 100%;
 		margin: 25px 0;
 		display: inline-block;
@@ -325,8 +325,8 @@
 		    &.slice-marketing > path {
 			fill: rgb(240,110,37);
 		    }
-		    &.slice-administration > path {
-			fill: rgb(240,110,37);
+		    &.slice-accounting > path {
+			fill: rgb(153, 204, 0);
 		    }
 		    &.slice-software > path {
 			fill: rgb(97,172,70);
@@ -340,10 +340,12 @@
 		    &.slice-travel, &.slice-other > path {
 			fill: rgb(251,185,22);
 		    }
-		    &.slice-legal, &.slice-office.space > path {
-			fill: #7f195e;
+		    &.slice-legal > path {
+			fill: rgb(127, 25, 94);
 		    }
-
+		    &.slice-office-space > path {
+			fill: rgb(204, 51, 255);
+		    }
 		    .label {
 			font-family: 'Georgia', 'Merriweather', sans-serif;
 			font-size: 6px;

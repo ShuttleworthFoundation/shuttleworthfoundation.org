@@ -11,7 +11,8 @@ $energy-colors: (
     music #633d27,
     publishing #f8b30c,
     transparency #707378,
-    intellectual-property #7f195e
+    intellectual-property #7f195e,
+    health #99cc00
 );
 
 .container-infographic {
@@ -101,7 +102,7 @@ $energy-colors: (
 		height: 80px;
 		transition: opacity 0.2s;
 
-		@for $i from 1 through 20 {
+		@for $i from 1 through 23 {
 	    	    &:nth-child(#{$i}) {
 		        top: (50px * ($i - 1));
 			@if $i % 2 == 0 {

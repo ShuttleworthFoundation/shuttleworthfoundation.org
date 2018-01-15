@@ -17,15 +17,22 @@
     &.icon-people {
 	background-image: url(images/icons/people.svg);
     }
-    &.icon-legal, &.icon-office-space {
+    &.icon-legal {
 	background-image: url(images/icons/legal.svg);
 	background-size: 90%;
+    }
+    &.icon-office-space {
+    background-image: url(images/icons/officespace.svg);
+    background-size: 90%;
     }
     &.icon-software {
 	background-image: url(images/icons/software.svg);
     }
     &.icon-training {
 	background-image: url(images/icons/training.svg);
+    }
+    &.icon-accounting {
+    background-image: url(images/icons/accounting.svg);
     }
     &.icon-travel {
 	background-image: url(images/icons/travel.svg);
