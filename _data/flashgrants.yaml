@@ -1336,3 +1336,399 @@
     fellow: "Astra Taylor"
     homepage: http://criticalresistance.org/
     date: 2016-11-01
+-
+    name: "Safia Abdalla"
+    gender: female
+    fellow: "Sean Bonner"
+    homepage: http://safia.rocks/
+    date: 2017-05-01
+-
+    name: "Heather Piwowar"
+    gender: female
+    fellow: "Peter Murray-Rust"
+    homepage: https://www.impactstory.org/
+    date: 2017-05-01
+-
+    name: "Nirmita Narasimhan"
+    gender: female
+    fellow: "Achal Prabhala"
+    homepage: http://cis-india.org/accessibility/resources/cis-accessibility-work-overview
+    date: 2017-05-01
+-
+    name: "Khoudia Gueye Sy"
+    gender: female
+    fellow: "Steve Song"
+    homepage: https://icannwiki.com/Khoudia_Gueye_Sy
+    date: 2017-05-01
+-
+    name: "Dirk Slater"
+    gender: male
+    fellow: "Allen Gunn"
+    homepage: https://www.fabriders.net/fabblog/
+    date: 2017-05-01
+-
+    name: "Porochista Khakpour"
+    gender: female
+    fellow: "Jesse von Doom"
+    homepage: http://porochistakhakpour.com/
+    date: 2017-05-01
+-
+    name: "Heba Amin"
+    gender: female
+    fellow: "Esra’a Al Shafei"
+    homepage: http://www.hebaamin.com/
+    date: 2017-05-01
+-
+    name: "Hang Do Thi Duc"
+    gender: female
+    fellow: "Philipp Schmidt"
+    homepage: http://dataselfie.it/
+    date: 2017-05-01
+-
+    name: "Eugenia Duodu"
+    gender: female
+    fellow: "Isha Datar"
+    homepage: http://www.vosnl.org/vosnl-people/
+    date: 2017-05-01
+-
+    name: "Sharath Srinivasan"
+    gender: male
+    fellow: "Gavin Weale"
+    homepage: http://www.africasvoices.org/
+    date: 2017-05-01
+-
+    name: "Quill West"
+    gender: female
+    fellow: "David Wiley"
+    homepage: http://www.openwa.org/pierce-college-oer/
+    date: 2017-05-01
+-
+    name: "Noelene Nabulivou"
+    gender: female
+    fellow: "Anasuya Sengupta"
+    homepage: http://www.divafiji.com/
+    date: 2017-05-01
+-
+    name: "Laura Zommer"
+    gender: female
+    fellow: "Peter Cunliffe-Jones"
+    homepage: http://chequeado.com/equipo/
+    date: 2017-05-01
+-
+    name: "Rami Raoof"
+    gender: male
+    fellow: "Johnny West"
+    homepage: https://citizenlab.org/nilephish
+    date: 2017-05-01
+-
+    name: "Molly Hemstreet"
+    gender: female
+    fellow: "Astra Taylor"
+    homepage: http://opportunitythreads.com/
+    date: 2017-05-01
+-
+    name: "Priscila Gonsales"
+    gender: female
+    fellow: "Andrew Rens"
+    homepage: http://www.educadigital.org.br/en/
+    date: 2017-05-01
+-
+    name: "Alexandra Erin"
+    gender: female
+    fellow: "Jaisen Mathai"
+    homepage: https://twitter.com/alexandraerin
+    date: 2017-05-01
+-
+    name: "Mixo Ngoveni"
+    gender: male
+    fellow: "Arthur Attwell"
+    homepage: http://www.geekulcha.com/
+    date: 2017-05-01
+-
+    name: "Marina Pla"
+    gender: female
+    fellow: "Ugo Vallauri"
+    homepage: https://twitter.com/clubreparadores
+    date: 2017-05-01
+-
+    name: "Jonathan Minchin"
+    gender: male
+    fellow: "Aaron Makaruk"
+    homepage: http://greenfablab.org/
+    date: 2017-05-01
+-
+    name: "Dana Lewis"
+    gender: female
+    fellow: "Madeleine Ball"
+    homepage: https://openaps.org/
+    date: 2017-05-01
+-
+    name: "Edwin Eefting"
+    gender: male
+    fellow: "Luka Mustafa"
+    homepage: http://www.datux.nl/
+    date: 2017-05-01
+-
+    name: "Annamaria Ollson"
+    gender: female
+    fellow: "Kabir Bavikatte"
+    homepage: https://www.facebook.com/GiveSomethingBackToBerlin/
+    date: 2017-05-01
+-
+    name: "Athena Kan"
+    gender: female
+    fellow: "Seamus Kraft"
+    homepage: http://codingitforward.com/
+    date: 2017-05-01
+-
+    name: "Gina Rembe"
+    gender: female
+    fellow: "Adam Hyde"
+    homepage: https://lifehackhq.co/
+    date: 2017-05-01
+-
+    name: "Gábor Lénárt"
+    gender: male
+    fellow: "Paul Gardner-Stephen"
+    homepage: https://github.com/lgblgblgb/xemu
+    date: 2017-05-01
+-
+    name: "Evan You"
+    gender: male
+    fellow: "Daniel Lombrana Gonzalez"
+    homepage: https://vuejs.org/
+    date: 2017-05-01
+-
+    name: "Jessica Cappadonna"
+    gender: female
+    fellow: "Alasdair Davies"
+    homepage: http://www.ecosounds.org/
+    date: 2017-05-01
+-
+    name: "Nnenna Nwakanma"
+    gender: female
+    fellow: "Waldo Jaquith"
+    homepage: http://www.fossfa.net/
+    date: 2017-05-01
+-
+    name: "Jorge Appiah"
+    gender: male
+    fellow: "Francois Grey"
+    homepage: http://www.creativitygroup.org/
+    date: 2017-05-01
+-
+    name: "Yorik Van Havre"
+    gender: male
+    fellow: "Marcin Jakubowski"
+    homepage: https://www.freecadweb.org/
+    date: 2017-05-01
+-
+    name: "Julielynn Wong"
+    gender: female
+    fellow: "Tarek Loubani"
+    homepage: https://medicalmakers.org/
+    date: 2017-05-01
+-
+    name: "Markus Beckedahl"
+    gender: male
+    fellow: "Catharina Maracke"
+    homepage: https://netzpolitik.org/
+    date: 2017-05-01
+-
+    name: "Samyuktha Varma"
+    gender: female
+    fellow: "Kathi Fletcher"
+    homepage: http://brokentoilets.org/
+    date: 2017-05-01
+-
+    name: "Santiago Siri"
+    gender: male
+    fellow: "Rory Aronson"
+    homepage: http://democracy.earth/
+    date: 2017-05-01
+-
+    name: "Oliver Froehling"
+    gender: male
+    fellow: "Peter Bloom"
+    homepage: https://surcooaxaca.org/
+    date: 2017-05-01
+-
+    name: "Rebecca (Bex) Hurwitz"
+    gender: female
+    fellow: "Mark Surman"
+    homepage: http://rad.cat/
+    date: 2017-05-01
+-
+    name: "Frank Bennett"
+    gender: male
+    fellow: "Andrew Rens"
+    homepage: https://juris-m.github.io/
+    date: 2017-11-01
+-
+    name: "Tinmas Akouaou"
+    gender: female
+    fellow: "Esra’a Al Shafei"
+    homepage: http://tsunamikuaaoo.com/
+    date: 2017-11-01
+-
+    name: "Corina Logan"
+    gender: female
+    fellow: "Peter Murray-Rust"
+    homepage: http://corinalogan.com/
+    date: 2017-11-01
+-
+    name: "Kimberley Hawtin"
+    gender: female
+    fellow: "Paul Gardner-Stephen"
+    homepage: https://identi.ca/adhoc
+    date: 2017-11-01
+-
+    name: "Robyn Kanner"
+    gender: female
+    fellow: "Sean Bonner"
+    homepage: http://robynkanner.com/
+    date: 2017-11-01
+-
+    name: "Pedro Oliveira"
+    gender: male
+    fellow: "Catharina Maracke"
+    homepage: https://patient-innovation.com/
+    date: 2017-11-01
+-
+    name: "The Cacophony Project"
+    gender: male
+    fellow: "Adam Hyde"
+    homepage: https://cacophony.org.nz/
+    date: 2017-11-01
+-
+    name: "Francesco Albano"
+    gender: male
+    fellow: "Kabir Bavikatte"
+    homepage: http://albanofrancesco.blogspot.com/
+    date: 2017-11-01
+-
+    name: "Jake Hartnell"
+    gender: male
+    fellow: "Isha Datar"
+    homepage: http://commongarden.org/
+    date: 2017-11-01
+-
+    name: "Emmanuel Vincent"
+    gender: male
+    fellow: "Peter Cunliffe-Jones"
+    homepage: https://climatefeedback.org/
+    date: 2017-11-01
+-
+    name: "Círculo Madrileño Ferroviario"
+    gender: male
+    fellow: "Daniel Lombrana Gonzalez"
+    homepage: http://www.cimaf.es/
+    date: 2017-11-01
+-
+    name: "Margo Drakos"
+    gender: female
+    fellow: "Seamus Kraft"
+    homepage: https://artistyear.org/
+    date: 2017-11-01
+-
+    name: "Guillaume Tess"
+    gender: male
+    fellow: "Aaron Makaruk"
+    homepage: https://github.com/aquapioneers
+    date: 2017-11-01
+-
+    name: "Sam Greenspan"
+    gender: male
+    fellow: "Jesse von Doom"
+    homepage: http://www.samgreenspan.org/
+    date: 2017-11-01
+-
+    name: "Billimarie Lubiano Robinson"
+    gender: female
+    fellow: "Tiffiniy Cheng"
+    homepage: https://github.com/billimarie
+    date: 2017-11-01
+-
+    name: "Joy Buolamwini"
+    gender: female
+    fellow: "Kathi Fletcher"
+    homepage: http://www.poetofcode.com/
+    date: 2017-11-01
+-
+    name: "Ali Idrissa"
+    gender: male
+    fellow: "Johnny West"
+    homepage: http://www.publishwhatyoupay.org/activists/ali-idrissa/
+    date: 2017-11-01
+-
+    name: "Teemu Ropponen"
+    gender: male
+    fellow: "Rufus Pollock"
+    homepage: https://fi.okfn.org/
+    date: 2017-11-01
+-
+    name: "Florence Okoye"
+    gender: female
+    fellow: "Ugo Vallauri"
+    homepage: https://www.afrotechfest.co.uk/
+    date: 2017-11-01
+-
+    name: "Ollie Vergo"
+    gender: male
+    fellow: "Philipp Schmidt"
+    homepage: https://www.linkedin.com/in/oliver-vergo-65912049
+    date: 2017-11-01
+-
+    name: "Emma Dicks"
+    gender: female
+    fellow: "Arthur Attwell"
+    homepage: http://code4ct.com/
+    date: 2017-11-01
+-
+    name: "Gioacchino Mazzurco"
+    gender: male
+    fellow: "Peter Bloom"
+    homepage: http://libremesh.org/
+    date: 2017-11-01
+-
+    name: "Egle Marija Ramanauskaite"
+    gender: female
+    fellow: "Madeleine Ball"
+    homepage: https://crowd2map.wordpress.com/about/#more-1
+    date: 2017-11-01
+-
+    name: "Deb Verhoeven"
+    gender: female
+    fellow: "Astra Taylor"
+    homepage: https://theconversation.com/women-arent-the-problem-in-the-film-industry-men-are-68740
+    date: 2017-11-01
+-
+    name: "Titus Ferguson"
+    gender: male
+    fellow: "Tarek Loubani"
+    homepage: http://www.unlondon.ca/
+    date: 2017-11-01
+-
+    name: "Amel Ghouila"
+    gender: female
+    fellow: "Waldo Jaquith"
+    homepage: https://www.techwomen.org/girls-education/fellows-support-technovation-teams-to-reach-final-pitch-event
+    date: 2017-11-01
+-
+    name: "Gayatri Buragohain"
+    gender: female
+    fellow: "Anasuya Sengupta"
+    homepage: http://www.fat-net.org/
+    date: 2017-11-01
+-
+    name: "Jennifer 8 Lee"
+    gender: female
+    fellow: "Mark Surman"
+    homepage: http://jennifer8lee.com/
+    date: 2017-11-01
+-
+    name: "Zackie Achmat"
+    gender: male
+    fellow: "Achal Prabhala"
+    homepage: https://en.wikipedia.org/wiki/Zackie_Achmat
+    date: 2017-11-01
