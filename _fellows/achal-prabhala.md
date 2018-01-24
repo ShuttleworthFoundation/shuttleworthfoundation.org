@@ -9,7 +9,8 @@ date:   2016-08-30
 photo: /images/fellows/achal-prabhala.jpg
 video: https://player.vimeo.com/video/187809642
 links:
-projects: http://accessibsa.org/
+projects: 
+    - Accessibsa : http://accessibsa.org/
 twitter:
 fellowship:
   start: 2016-09-01
