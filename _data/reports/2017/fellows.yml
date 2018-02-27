@@ -254,8 +254,8 @@
   fellowship_start: March 2017
   foundation_contribution: 168875.00
   funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
-  id: madeleine-ball
-  name: Madeleine Ball
+  id: mad-ball
+  name: Mad Ball
   spend:
   - {amount: 133875.0, category: People}
   - {amount: 35000.0, category: Software}
