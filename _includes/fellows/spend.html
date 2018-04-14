@@ -217,7 +217,7 @@
 		  '.spend-breakdown-infographic-'+year+
 		  ' .spend-breakdown-segment-'+category;
 	      d3.selectAll(cls).attr('title', function(d, i) {
-		  return category.replace('-', ' ').capitalize()+'<br/>$'+amount.formatMoney();
+		  return category.replace('-', ' ').capitalize()+': $'+amount.formatMoney();
 	      });
 	  };
       };
