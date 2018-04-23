@@ -263,20 +263,21 @@
   twitter: madprime
   web: https://www.openhumans.org/
 - categories: [Government, Hardware, Telecoms]
-  fellow_contribution: 13146.14
+  fellow_contribution: 49161.96
   fellowship_duration: 9
   fellowship_end: September 2017
   fellowship_start: September 2014
-  foundation_contribution: 172863.10
+  foundation_contribution: 748275.29
   id: peter-bloom
   name: Peter Bloom
   spend:
-  - {amount: 24718.82, category: Infrastructure}
-  - {amount: 35270.81, category: Legal}
-  - {amount: 86727.3, category: People}
-  - {amount: 17094.7, category: Software}
-  - {amount: 9051.47, category: Travel}
-  total: 172863.10
+  - {amount: 136417.61, category: Infrastructure}
+  - {amount: 54284.81, category: Legal}
+  - {amount: 481617.42, category: People}
+  - {amount: 46322.95, category: Software}
+  - {amount: 27879.37, category: Travel}
+  - {amount: 1753.13, category: Marketing}
+  total: 748275.29
   twitter: rhizomatica
   web: http://rhizomatica.org/
 - categories: [Government, Publishing, Transparency]
@@ -314,35 +315,41 @@
   blog: http://blogs.ch.cam.ac.uk/pmr/
   web: http://contentmine.org/
 - categories: [Government, Transparency]
-  fellow_contribution: 54202.14
+  fellow_contribution: 69488.62
   fellowship_duration: 9
   fellowship_end: September 2017
   fellowship_start: September 2014
-  foundation_contribution: 662884.36
+  foundation_contribution: 1077322.03
   id: seamus-kraft
   name: Seamus Kraft
   spend:
-  - {amount: 557884.36, category: People}
-  - {amount: 105000.0, category: Marketing}
-  total: 662884.36
+  - {amount: 3500.00, category: Accounting}
+  - {amount: 24053.41, category: Infrastructure}
+  - {amount: 121.28, category: Legal}
+  - {amount: 879556.36, category: People}
+  - {amount: 59455.00, category: Software}
+  - {amount: 110635.98, category: Marketing}
+  total: 1077322.03
   twitter: seamus_kraft
   web: http://mymadison.io/
 - categories: [Data, Environment, Hardware, Science]
-  fellow_contribution: 28893.23
+  fellow_contribution: 67652.57
   fellowship_duration: 9
   fellowship_end: September 2017
   fellowship_start: September 2014
-  foundation_contribution: 359050.47
+  foundation_contribution: 1026720.90
   id: sean-bonner
   name: Sean Bonner
   spend:
-  - {amount: 128000.0, category: Infrastructure}
-  - {amount: 869.97, category: Marketing}
-  - {amount: 39000.0, category: Office-space}
-  - {amount: 45600.0, category: People}
-  - {amount: 54000.0, category: Software}
-  - {amount: 91580.5, category: Travel}
-  total: 359050.47
+  - {amount: 335570.89, category: Infrastructure}
+  - {amount: 11000.00, category: Legal}
+  - {amount: 91000.00, category: Office-space}
+  - {amount: 269222.00, category: People}
+  - {amount: 66000.00, category: Software}
+  - {amount: 224600.63, category: Travel}
+  - {amount: 15000.00, category: Training}
+  - {amount: 14327.38, category: Marketing}
+  total: 1026720.90
   twitter: seanbonner
   web: http://blog.safecast.org/
 - categories: [Hardware, Health]
