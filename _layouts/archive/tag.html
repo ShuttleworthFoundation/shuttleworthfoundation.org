@@ -21,7 +21,7 @@ title: Shuttleworth Foundation - Our Thinking
 	{% endif %}
 	<div class="four white compact columns post-preview">
 	  <a href="{{ post.url }}">
-	    <img src="{{ post.image }}" alt="Featured Image"/>
+	    <img src="{{ post.image | replace: " ", "%20" }}" alt="Featured Image"/>
 	  </a>
 	  <p>
 	    <a href="{{ post.url }}">{{ post.title }}</a>

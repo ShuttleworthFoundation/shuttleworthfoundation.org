@@ -17,7 +17,7 @@
       </div>
 
       <div class="three columns">
-	<img src="{{ page.image }}" alt="{{ page.name }}"/>
+	<img src="{{ page.image | replace: " ", "%20" }}" alt="{{ page.name }}"/>
       </div>
     </div>
 
