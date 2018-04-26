@@ -29,4 +29,4 @@ As private philanthropists we have the unique privilege (unlike the public or pr
 
 It is people who make the difference, not paperwork or policies. Investing in individuals - who already carry a strong vision for how they can make a positive difference - creates the opportunity to amplify any efforts made, funding given and time spent on these programmes, to have impact well beyond the reach of any one programme. A willingness to approach success as a measure over time, to which we can but make a contribution, allows value to manifest in unexpected ways.
 
-So as we look towards 2018, we are encouraged by the fresh- and forward-thinking energy of the applications for the March 2018. Taking a collective deep breath has us ready for the next wave.
+So as we look towards 2018, we are encouraged by the fresh- and forward-thinking energy of the applications for the March 2018 intake. Taking a collective deep breath has us ready for the next wave.
