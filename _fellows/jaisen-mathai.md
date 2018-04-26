@@ -9,7 +9,7 @@ date:   2012-09-01
 photo: /images/fellows/jaisen-mathai.jpg
 video: https://player.vimeo.com/video/53920244
 links:
-    - Linkedin : http://www.linkedin.com/in/jaisenmathai
+    - LinkedIn : http://www.linkedin.com/in/jaisenmathai
 projects:
     - Trovebox : https://github.com/photo
 twitter: jmathai
