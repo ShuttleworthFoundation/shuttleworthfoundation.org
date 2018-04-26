@@ -20,7 +20,7 @@ This lead us to Aaron Makaruk and his work on easy to do, affordable urban farmi
 
 However, having access to kits has not sufficiently motivated people to engage in the medium term effort that goes into tending a food garden. It became clear that it will take much more than ease of use to bring about behavioral change around food production. We need to go back to the drawing board. 
 
-Based  on our shared learnings, Aaron is adjusting his focus slightly. While continuing his work on the [https://akerkits.com/](AKER kits) and [http://opensourcebeehives.net/ ](Open Source Beehives), he will be exploring the relationship between the food cycle and the environment, and the role openness can play in that more broadly. 
+Based  on our shared learnings, Aaron is adjusting his focus slightly. While continuing his work on the [AKER kits](https://akerkits.com/) and [Open Source Beehives](http://opensourcebeehives.net/), he will be exploring the relationship between the food cycle and the environment, and the role openness can play in that more broadly.
 
 Aaron fully embraces and actively seeks alignment between his personal and professional choices. Over the coming months he will be reassessing where he can make the biggest contribution to positive change for the benefit of man and nature. His thoughtful approach inspires others to be more considered in their everyday consumption as well as the  decisions they make as social change agents.
 
@@ -31,7 +31,7 @@ Jesse cares deeply about the part artists have to play in both shaping and expre
 
 The conversation artists have with us, with society, through their music, should be free to evolve, to come from left field, to honestly connect with what is inside or underlying, without the restriction of having to have mass appeal. Jesse's vision for how this  can be supported and enabled, is to help them connect much more directly with their audience, broadening their horizon for making a living as a working artist. 
 
-In [https://cashmusic.org/](CASH Music) he has built the infrastructure for this, from  the philosophy to the technology. Next is the know-how  of what it takes to be a working musician. He engages makers and listeners alike on the tools of the trade, and makes available the  resources for everyone to make more informed choices in music. An important part of this is inviting us all into the CASH Family. 
+In [CASH Music](https://cashmusic.org/) he has built the infrastructure for this, from  the philosophy to the technology. Next is the know-how  of what it takes to be a working musician. He engages makers and listeners alike on the tools of the trade, and makes available the  resources for everyone to make more informed choices in music. An important part of this is inviting us all into the CASH Family.
 
 Jesse believes everyone deserves to be able to pursue their dreams and live their best lives. Over the past 3 years we have seen this belief manifested in the way in which Jesse operates, specifically through CASH but also as a human being and a Fellow. He contributes a great deal to others within and beyond the fellowship by demonstrating the intrinsic values of openness and being part of an inclusive thriving community.
 
@@ -44,6 +44,6 @@ One such vision is to have openly available, universal information about the pla
 
 When we first heard Johnny speak about his idea, we were enthusiastic to work together on the challenge, but we  certainly had reservations about  the extent we thought it was possible. The field is seemingly dense  with competing vested interests and incumbents not keen on relinquishing their privileged positions. He has truly risen to the challenge and more.  
 
-Johnny's work through [http://openoil.net/](Open Oil) is an example of how openness creates opportunities across the board. This is not about an expose or catching anyone out. It is about helping everyone make informed, contextual decisions by redressing the balance knowledge and power. The more we know, the better decisions we can make about how we manage these resources and the impact they have on our environment, societies and economies. It has shown what is really possible using publicly available data. 
+Johnny's work through [Open Oil](http://openoil.net/) is an example of how openness creates opportunities across the board. This is not about an expose or catching anyone out. It is about helping everyone make informed, contextual decisions by redressing the balance knowledge and power. The more we know, the better decisions we can make about how we manage these resources and the impact they have on our environment, societies and economies. It has shown what is really possible using publicly available data.
 
 His spontaneous expressions of pure joy - jumping onto a swing or walking into the pouring rain - is so infectious, he really does make the impossible seem, and therefore become, possible.
