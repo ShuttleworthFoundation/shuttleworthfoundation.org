@@ -11,6 +11,8 @@ image: "/images/blog/this_mat.jpg"
 image_credit: "alborzshawn (CC BY 2.0)"
 image_source: "https://www.flickr.com/photos/7502393@N04/"
 on_report: false
+redirect_from:
+  - /thinking/thinking-welcome-achal-isha-ugo/
 ---
 This round saw the addition of an [Honorary Steward](https://shuttleworthfoundation.org/thinking/2016/03/17/thinking-Steward-Joi-Ito/), Joi Ito, making the final selection from the short-list. We are very excited to now announce the three new Fellows who will be joining the Shuttleworth Foundation fellowship programme in September: Achal Prabhala, Isha Datar and Ugo Vallauri.
 

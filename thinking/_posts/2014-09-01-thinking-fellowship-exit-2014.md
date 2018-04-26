@@ -10,6 +10,8 @@ banner: "/images/blog/blog-exit2.jpg"
 image: "/images/blog/blog-exit2.jpg"
 image_credit: "Brent Moore (CC BY-NC 2.0)"
 image_source: "https://secure.flickr.com/photos/brent_nashville/5157879240"
+redirect_from:
+  - /thinking/thinking-fellowship-exit-2014/
 ---
 
 During his three years as a Shuttleworth Fellow, **Arthur Attwell** worked on [Paperight](http://www.paperight.com/), a rights clearance house for literary and educational works to allow distributed, local, on-demand book printing. Access to reading materials is critical to learning in its broadest sense. Arthur's passion is to ensure universal access, with access including at least legal and physical dimensions. Digital is showing promise, but has not yet resulted in the scale needed, and never will if legal access issues are not resolved.

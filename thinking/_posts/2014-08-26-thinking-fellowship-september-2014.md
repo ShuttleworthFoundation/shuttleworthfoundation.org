@@ -10,6 +10,8 @@ banner: "/images/blog/blog-welcome1.jpg"
 image: "/images/blog/blog-welcome1.jpg"
 image_credit: "Ramesh NG (CC BY-SA 2.0)"
 image_source: "https://secure.flickr.com/photos/rameshng/5930493923/in/photostream/"
+redirect_from:
+  - /thinking/thinking-fellowship-september-2014/
 ---
 
 We had submissions from all over the world, exploring areas of science, education, culture, health, privacy and many many more. We spoke to people working on issues from personal safety to universal access to knowledge, from designing open hardware to alleviating poverty. All of the applications showed passion and personal commitment. We continue to be impressed.

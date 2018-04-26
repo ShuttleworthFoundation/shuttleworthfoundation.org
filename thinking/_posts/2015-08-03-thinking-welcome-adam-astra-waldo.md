@@ -10,6 +10,8 @@ description: "We are excited to welcome three new Shuttleworth Fellows on 1 Sept
 image: "/images/blog/blog-new-fellows.jpg"
 image_credit: "Jeff (CC BY-NC-ND 2.0)"
 image_source: "https://www.flickr.com/photos/theboyds/5798422024/"
+redirect_from:
+  - /thinking/thinking-welcome-adam-astra-waldo/
 ---
 Adam Hyde has a particular talent for helping experts codify processes into manuals for the benefit of a wider audience. His started with technologists through [Booksprints](http://www.booksprints.net/)  and has now turned his attention to academics. As someone familiar with, but not ingrained in, the way academic output is captured and shared, he is questioning the journal publishing process at both the conceptual and practical level. How can we increase the value of scientific output to benefit society as a whole? By getting more findings out faster, accompanied by the supporting data and tools, so others can replicate findings and build upon the advances made. However,
 this will require a significant change in the way academics, researchers, administrators, funders and publishers work together. At the policy level there are significant efforts under way. Adam's unique contribution is at the practical level, building the tools and community necessary to support the process of scholarly communication in its re-imagined form.

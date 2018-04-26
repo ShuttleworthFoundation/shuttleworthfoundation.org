@@ -12,6 +12,8 @@ image_credit: "Fumi Yamazaki (CC BY-NC-SA 2.0)"
 image_source: "https://secure.flickr.com/photos/fumi/8050493981"
 videos:
   - //www.youtube.com/embed/2a0eiTsDgI8
+redirect_from:
+  - /thinking/thinking-sean-bonner/
 ---
 
 We are excited about <a href="{{ "/fellows/sean-bonner" | prepend: site.baseurl }}">Sean's</a> work as he is literally putting the tools in the hands of the people who need them, localising the measure-report-decide cycle around environmental risk factors such as radiation and noise pollution.

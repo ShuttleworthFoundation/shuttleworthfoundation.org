@@ -11,6 +11,8 @@ image: "/images/blog/blog-new-fellows-032016.jpg"
 image_credit: "Wiredforlego (CC BY-NC 2.0)"
 image_source: "https://www.flickr.com/photos/wiredforsound23/10750177755/"
 on_report: false
+redirect_from:
+  - /thinking/thinking-welcome-aaron-peter-tiffiniy/
 ---
 __Aaron Makaruk__
 

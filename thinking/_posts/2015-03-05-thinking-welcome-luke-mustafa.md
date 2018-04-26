@@ -12,6 +12,8 @@ image_credit: "Si1very (CC BY-SA 2.0)"
 image_source: "https://www.flickr.com/photos/silvery/541254231"
 videos:
   - "//player.vimeo.com/video/120776492"
+redirect_from:
+  - /thinking/thinking-welcome-luke-mustafa/
 ---
 Luka's fellowship is centred around the development of Koruza, a 3D printable wireless optical system for connecting buildings up to 100m apart with internet access.
 

@@ -11,6 +11,8 @@ image: "/images/blog/curiosity.jpg"
 image_credit: "Massimo Variolo (CC BY-NC-ND 2.0)"
 image_source: "https://www.flickr.com/photos/samthesensydreamer/6830019312/"
 on_report: false
+redirect_from:
+  - /thinking/thinking-fellowship-exit-september2016/
 ---
 Daniel Lombraña González has had the maximum of 3 consecutive fellowship years and is ready to take on the world. Waldo Jaquith is moving on after 1 year, having achieved what he set out to do in this year, to take up an opportunity that will expand the reach of his work exponentially.
 

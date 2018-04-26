@@ -11,6 +11,8 @@ image: "/images/blog/blog-privacy 2.jpg"
 image_credit: "Jean-Pierre Dalbéra (CC BY 2.0)"
 image_source: "https://www.flickr.com/photos/dalbera/6401982701"
 on_report: true
+redirect_from:
+  - /thinking/thinking-privacy/
 ---
 
 We do this because who we are and how we behave has impact on others. We want to present the best, most relevant parts of ourselves in a given context. We choose to ignore the warts and wobbly bits in favour of the identity we’ve claimed as our own in that space. It’s part of being human, being in control of our own lives and choosing what we reveal about ourselves, under what circumstances and when. When privacy is violated, it removes that power and freedom of choice.

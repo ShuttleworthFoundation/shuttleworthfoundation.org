@@ -11,6 +11,8 @@ image: "/images/blog/rock.jpg"
 image_credit: "Christian Heilmann (CC BY 2.0)"
 image_source: "https://www.flickr.com/photos/codepo8/4741532223"
 on_report: true
+redirect_from:
+  - /thinking/thinking-open-for-business/
 ---
 Four years ago, we wouldn't have thought we'd fund a music venture. Like most people, we tend to think musicians are doing fine because there's so much music around. But that's like thinking journalists are fine because there's so much news on TV. When culture is centralised in big, closed silos, we lose diversity, and we lose touch with parts of ourselves that we once treasured. And soon we don't even notice what's gone missing. At best, the soundtracks to our lives become poorer. Far worse, it gets harder for musicians to inspire political and social change. It’s no accident that independent music is associated with more politically and socially outspoken music: big business plays it safe and [rewards those who play for the dominant monoculture](http://www.nytimes.com/2012/10/27/arts/music/billboards-chart-changes-draw-fire.html?_r=0).
 

@@ -12,6 +12,8 @@ image_credit: "(CC BY-SA 2.0)"
 image_source: "https://secure.flickr.com/photos/18600003544/11776318694"
 videos:
   - //player.vimeo.com/video/92422924
+redirect_from:
+  - /thinking/thinking-peter-bloom/
 ---
 
 Through Rhizomatica, Peter is setting up affordable local mobile phone networks in under-served areas in Mexico.

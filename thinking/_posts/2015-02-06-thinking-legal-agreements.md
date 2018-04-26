@@ -11,6 +11,8 @@ image: "/images/blog/blog-legal-agreements2.jpg"
 image_credit: "Alan Levine (CC BY-SA 2.0)"
 image_source: "https://www.flickr.com/photos/cogdog/8188824613"
 on_report: true
+redirect_from:
+  - /thinking/thinking-legal-agreements/
 ---
 
 Since 2007 we have required Fellows to apply open licences - first <a title="CC-BY-SA" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA</a> and then <a title="CC-BY" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY</a> - to all intellectual property created during the fellowship.

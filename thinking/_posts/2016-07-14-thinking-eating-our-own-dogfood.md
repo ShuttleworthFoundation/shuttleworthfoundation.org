@@ -11,6 +11,8 @@ image: "/images/blog/individual.jpg"
 image_credit: "David Nguyen (CC BY 2.0)"
 image_source: "https://www.flickr.com/photos/dabonguyen/"
 on_report: true
+redirect_from:
+  - /thinking/thinking-eating-our-own-dogfood/
 ---
 Individuals carry their learnings, experiences, passions and hopes for the future with them throughout their lives. Supporting them to work on what is broken in their world and share their approach openly, equips them to continue to affect change far beyond the life of a specific grant.
 
