@@ -18,9 +18,8 @@ env:
 
 deploy:
   provider: s3
-  access_key_id: AKIAICDQUQMCWON62TAQ
-  secret_access_key:
-    secure: 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
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
   region: us-east-1
   bucket: test.shuttleworthfoundation.org
   skip_cleanup: true
