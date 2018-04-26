@@ -38,10 +38,7 @@ jekyll-archives:
   enabled: ['year', 'tags']
   permalinks:
     year: '/thinking/:year/'
-    month: '/thinking/:year/:month/'
-    day: '/thinking/:year/:month/:day/'
     tag: '/thinking/tag/:name/'
-    category: '/thinking/category/:name/'
   layouts:
     year: archive/year
     tag: archive/tag
