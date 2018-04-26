@@ -15,7 +15,7 @@ redirect_from:
   - /thinking/thinking-how-of-open/
 ---
 
-This success has also made the term fashionable and sometimes leads to overenthusiastic uses of the open label or, more worryingly, <a title="Open Washing" href="http://blog.okfn.org/2014/03/10/open-washing-the-difference-between-opening-your-data-and-simply-making-them-available/" target="_blank">open-washing</a> . It can result in uncertainty and confusion for those who plan to open up knowledge resources for strategic purposes. The detail of how open is open, matters.
+This success has also made the term fashionable and sometimes leads to overenthusiastic uses of the open label or, more worryingly, <a title="Open Washing" href="http://blog.okfn.org/2014/03/10/open-washing-the-difference-between-opening-your-data-and-simply-making-them-available/" target="_blank">open-washing</a>. It can result in uncertainty and confusion for those who plan to open up knowledge resources for strategic purposes. The detail of how open is open, matters.
 
 Although governments and inter-governmental organisations are adopting the creation and use of open knowledge resources, there is a surprising lag by the majority of non-profit organisations, philanthropies and other social change makers in adopting policies and practises that make their own knowledge resources free. Perhaps one reason for this lag is an assumption that existing informal practises, such as making reports available and free to access on their websites, means that they are open. It does not.
 

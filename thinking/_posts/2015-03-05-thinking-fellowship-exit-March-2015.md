@@ -31,7 +31,7 @@ The key success for this Fellowship from our perspective is the demonstration th
 
 **Jonas Öberg** focused on the importance of attribution in relation to openly licensed digital works. Attribution is the one right all users of openly licensed resources retain, yet it is difficult and inconvenient to retain attribution as a digital work is used and reused online. 
 
-Through his work on <a href="http://commonsmachinery.se/">Commons Machinery</a> and <a href="http://elog.io/">Elog.io</a> , Jonas addressed the problem by exploring technical ways in which attribution can be retained by building the meta-data into the object itself and creating seamless attribution. He built the technology needed to convey provenance for any type of digital work and demonstrated how this could be used with plugins within a browser environment.
+Through his work on <a href="http://commonsmachinery.se/">Commons Machinery</a> and <a href="http://elog.io/">Elog.io</a>, Jonas addressed the problem by exploring technical ways in which attribution can be retained by building the meta-data into the object itself and creating seamless attribution. He built the technology needed to convey provenance for any type of digital work and demonstrated how this could be used with plugins within a browser environment.
 
 Jonas is an experienced leader in the open source movement and will continue his advocacy work around attribution while expanding his role within a number of open technology initiatives. He has recently taken on the role of Executive Director at the <a href="http://fsfe.org/about/oberg/">Free Software Foundation Europe</a>.
 
