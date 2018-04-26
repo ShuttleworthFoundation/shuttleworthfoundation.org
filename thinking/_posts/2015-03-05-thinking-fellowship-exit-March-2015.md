@@ -15,6 +15,8 @@ videos:
   - //player.vimeo.com/video/120778543
   - //player.vimeo.com/video/120776490
   - //player.vimeo.com/video/120776491
+redirect_from:
+  - /thinking/thinking-fellowship-exit-March-2015/
 ---
 
 **Catharina Maracke** took on the issue of contributor agreements for free and open source software (FOSS) projects through the Harmony project in March 2012. Where Fellows typically bring their own project into the Fellowship, Catharina was in the unusual position of taking on an existing project with various and varying role players. Hers was a very nuanced role, having to be sensitive to industry and community dynamics.

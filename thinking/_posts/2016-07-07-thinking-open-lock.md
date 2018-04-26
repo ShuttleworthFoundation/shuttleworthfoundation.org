@@ -11,6 +11,8 @@ image: "/images/blog/protection.jpg"
 image_credit: "Perspecsys Photos (CC BY-SA 2.0)"
 image_source: "https://www.flickr.com/photos/111692634@N04/11406964255/"
 on_report: true
+redirect_from:
+  - /thinking/thinking-open-lock/
 ---
 Contributors to your open project invest their time and energy because they trust you with their gift to the world. So the challenge is this: How can you keep their trust? Can you seal it in for the long term?
 

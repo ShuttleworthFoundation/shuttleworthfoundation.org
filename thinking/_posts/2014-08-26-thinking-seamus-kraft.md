@@ -12,6 +12,8 @@ image_credit: "Mike Hiatt (CC BY-NC-SA 2.0)"
 image_source: "https://secure.flickr.com/photos/mfhiatt/5513840452"
 videos:
   - //www.youtube.com/embed/pV96QUil7Ec
+redirect_from:
+  - /thinking/thinking-seamus-kraft/
 ---
 
 <a href="{{ "/fellows/seamus-kraft/" | prepend: site.baseurl }}">Seamus</a> applied to the Foundation to expand his work on the Madison Project which aims to open up government by increasing transparency and citizen participation in policy-making. We have seen a lot of open government applications in the past, and Seamus' is the most practical one by far. He is starting off by focusing on a small scope in a very specific context and is uniquely positioned to implement these first steps thanks to his experience in Washington.

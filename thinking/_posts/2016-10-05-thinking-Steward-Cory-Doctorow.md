@@ -11,6 +11,8 @@ image: "/images/blog/cory.jpg"
 image_credit: "Anna Olthoff (CC BY-SA 2.0)"
 image_source: "https://secure.flickr.com/photos/doctorow/8479773351/in/album-72157622138315932/"
 on_report: true
+redirect_from:
+  - /thinking/thinking-Steward-Cory-Doctorow/
 ---
 The September 2016 Fellowship round was the first for which we invited an Honorary Steward to make the final decision on new Fellows. We had a [brilliant experience](https://shuttleworthfoundation.org/thinking/2016/07/14/thinking-eating-our-own-dogfood/) with Joi Ito. He brought his individual experience and perspective. He also invested considerable time and energy in thoughtful review and reflection on the applications and their contextual environments. The result is [three new Fellows](https://shuttleworthfoundation.org/thinking/2016/07/13/thinking-welcome-achal-isha-ugo/) working in wildly different fields, challenging our thinking as much as the status quo, all with [openness](https://shuttleworthfoundation.org/thinking/2014/01/15/thinking-openness/) at heart.
 

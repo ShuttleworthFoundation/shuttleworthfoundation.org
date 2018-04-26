@@ -11,6 +11,8 @@ image: "/images/blog/joi.jpg"
 image_credit: "Joi Ito & Jonathan Moore (CC BY 2.0)"
 image_source: "https://www.flickr.com/photos/joi/459402444/"
 on_report: true
+redirect_from:
+  - /thinking/thinking-Steward-Joi-Ito/
 ---
 At the heart of the Shuttleworth Foundation Fellowship Programme are two key values - openness, and supporting individuals. Inspired by the programme itself, we are evolving how we award Fellowships. Not only will we be selecting  individuals to support, we have selected an individual to help us make that decision for the coming round. We are excited to announce that [Joi Ito](https://en.wikipedia.org/wiki/Joi_Ito) will be the honorary steward of the September 2016 fellowship intake.
 

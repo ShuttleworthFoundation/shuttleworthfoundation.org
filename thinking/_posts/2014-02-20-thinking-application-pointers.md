@@ -12,6 +12,8 @@ image: "/images/blog/blog-application-pointers 2.jpg"
 image_credit: "Flazingo Photos (CC BY-SA 2.0)"
 image_source: "https://www.flickr.com/photos/124247024@N07/14089983055"
 on_report: true
+redirect_from:
+  - /thinking/thinking-application-pointers/
 ---
 
 Prospective applicants often ask us to narrow down the parameters for applications and be more specific about what we’re looking for. We are not planning on doing that, as we want to be surprised and intrigued by applicants, no matter how unconventional the idea may be.
