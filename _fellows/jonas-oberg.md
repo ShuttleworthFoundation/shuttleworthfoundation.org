@@ -13,7 +13,6 @@ links:
  - FSFE : http://fsfe.org/about/oberg/oberg.en.html
 projects:
  - Commons Machinery : http://commonsmachinery.se/
- - Elog.io : http://elog.io/
 twitter: jonaso
 fellowship:
   start: 2013-03-01

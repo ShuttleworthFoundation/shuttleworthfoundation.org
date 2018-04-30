@@ -15,7 +15,7 @@ redirect_from:
   - /thinking/thinking-how-of-open/
 ---
 
-This success has also made the term fashionable and sometimes leads to overenthusiastic uses of the open label or, more worryingly, <a title="Open Washing" href="http://blog.okfn.org/2014/03/10/open-washing-the-difference-between-opening-your-data-and-simply-making-them-available/" target="_blank">open-washing</a> . It can result in uncertainty and confusion for those who plan to open up knowledge resources for strategic purposes. The detail of how open is open, matters.
+This success has also made the term fashionable and sometimes leads to overenthusiastic uses of the open label or, more worryingly, <a title="Open Washing" href="http://blog.okfn.org/2014/03/10/open-washing-the-difference-between-opening-your-data-and-simply-making-them-available/" target="_blank">open-washing</a>. It can result in uncertainty and confusion for those who plan to open up knowledge resources for strategic purposes. The detail of how open is open, matters.
 
 Although governments and inter-governmental organisations are adopting the creation and use of open knowledge resources, there is a surprising lag by the majority of non-profit organisations, philanthropies and other social change makers in adopting policies and practises that make their own knowledge resources free. Perhaps one reason for this lag is an assumption that existing informal practises, such as making reports available and free to access on their websites, means that they are open. It does not.
 
@@ -27,7 +27,7 @@ We have the privilege of working with creative, imaginative people who implement
 
 **Create a policy on openness:** There may be good reasons to keep particular resources closed. The best way to find out is to have a policy that all resources shall be open unless and until someone gives a compelling reason not to.
 
-**Change the default setting:** Traditional copyright protection defaults to closed. Change the default by actively applying an open licence. It is necessary to take active steps to open a resource by using either a public domain dedication or open copyright licence. To be open, a knowledge resource must meet the minimum criterion of being legally open for copying, remixing and redistribution. The commonly used dedications and licences are created specifically so that you do not need not be to a lawyer to use them effectively.
+**Change the default setting:** Traditional copyright protection defaults to closed. Change the default by actively applying an open licence. It is necessary to take active steps to open a resource by using either a public domain dedication or open copyright licence. To be open, a knowledge resource must meet the minimum criterion of being legally open for copying, remixing and redistribution. The commonly used dedications and licences are created specifically so that you do not need to be a lawyer to use them effectively.
 
 **Start today:** It may be hard to put all the resources which you’ve ever funded under an open licence. You don’t have to start at the beginning. Instead you can identify those resources which are easiest to open, for example ones you own the copyright to, and those with the likely highest pay-off. Focus on those first. Continue by using open licences or public domain dedications for resources which you fund or create from now on.
 

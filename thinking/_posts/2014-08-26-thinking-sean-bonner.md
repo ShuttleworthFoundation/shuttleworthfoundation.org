@@ -5,7 +5,7 @@ tags:
   - announcements
 title: "Welcome Sean Bonner"
 author: SF Team
-description: "Sean Bonner will be joining the Shuttleworth Foundaton Fellowship Programme on 1 September 2014 to expand his work on Safecast. His work focuses on designing and using open sensing tools to empower individuals to measure environmental factors locally and increase access to data about the world around us."
+description: "Sean Bonner will be joining the Shuttleworth Foundation Fellowship Programme on 1 September 2014 to expand his work on Safecast. His work focuses on designing and using open sensing tools to empower individuals to measure environmental factors locally and increase access to data about the world around us."
 banner: "/images/blog/blog-electronics1.jpg"
 image: "/images/blog/blog-electronics1.jpg"
 image_credit: "Fumi Yamazaki (CC BY-NC-SA 2.0)"

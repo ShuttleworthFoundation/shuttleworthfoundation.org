@@ -121,7 +121,7 @@
     - {amount: 2291.44, category: People}
     - {amount: 70513.32, category: Travel}
   total: 123179.17
-  web: contributoragreements.org
+  web: http://contributoragreements.org
 - categories: [Data, Education, Science, Web]
   fellow_contribution: 7997.59
   fellowship_duration: 0
@@ -154,8 +154,8 @@
   - {amount: 102817.2, category: People}
   total: 122817.20
   twitter: ealshafei
-  web: crowdvoice.org
-  blog: mideastyouth.com/author/esra/
+  web: https://crowdvoice.org
+  blog: https://mideastyouth.com/author/esra/
 - categories: [Environment, Science]
   fellow_contribution: 7628.51
   fellowship_duration: 12

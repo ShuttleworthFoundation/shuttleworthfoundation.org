@@ -26,7 +26,7 @@ __Other than that, there are no absolute rules, only strong suggestions.__
 
 - Address your application to us and customise it accordingly. Generic proposal material does not tell us why we should specifically support you.
 
-- We’ve invested in OERs, education platforms and re-imagining peer learning before. Although this remains important in the world, it no longer automatically meets our criteria. We will need considerable evidence of innovation.
+- We’ve invested in Open Educational Resources (OERs), education platforms and re-imagining peer learning before. Although this remains important in the world, it no longer automatically meets our criteria. We will need considerable evidence of innovation.
 
 - “I will build a platform that will…”: Platforms do not solve problems. They also do not magically bring people, or problems and solutions, together. If you build it, there is no guarantee they will come. Tell us HOW you will do this and what the real world processes will be.
 

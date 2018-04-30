@@ -48,7 +48,7 @@ title: Thinking articles tagged in announcements
       <p class="blog-excerpt">{{ post.description | strip_html | truncatewords: 15 }}<br/>
         <span class="blog-meta">posted in
           {% for tag in post.tags %}
-            <a href="{{ site.baseurl }}/thinking/{{ tag }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+            <a href="{{ site.baseurl }}/thinking/tag/{{ tag }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
           {% endfor %}
         </span>
       </p>

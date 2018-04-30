@@ -11,7 +11,7 @@
 	  <p class="subtext">by {{ page.author }}, {{ page.date | date:"%-d %B %Y" }}</p>
 
 	  <div class="img-credit">
-	    <img src="{{ page.image }}" alt="Featured Image"/>
+	    <img src="{{ page.image | replace: " ", "%20" }}" alt="Featured Image"/>
 	    <div class="credit">
 	      {% if page.image_credit %}
 	      Created by {{ page.image_credit }}
