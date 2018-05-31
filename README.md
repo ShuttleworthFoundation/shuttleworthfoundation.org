@@ -3,8 +3,6 @@
          title="Shuttleworth Foundation" align="right" />
 </a>
 
-[![Build Status](https://travis-ci.org/ShuttleworthFoundation/shuttleworthfoundation.org.svg?branch=master)](https://travis-ci.org/ShuttleworthFoundation/shuttleworthfoundation.org)
-
 # Background
 
 The Foundation subscribes to the ethos embodied in free and open source software - collaboration and the freedom to use, adapt and share resources. We apply the free and open source philosophy as the underlying principle to our work. We use open licences to allow learning and resources to be used, adapted and shared widely. We give preference to the use of free and open source software in our own initiatives and require partners to do the same.
