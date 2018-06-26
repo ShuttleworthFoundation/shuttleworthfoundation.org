@@ -3,7 +3,7 @@ title: "Tiffiniy Cheng"
 layout: fellow
 name: "Tiffiniy Cheng"
 project: "Fighting for Internet freedom"
-current: true
+current: false
 type: "Fighting for Internet freedom"
 date:   2015-09-01
 photo: /images/fellows/tiffiniy-cheng.jpg
