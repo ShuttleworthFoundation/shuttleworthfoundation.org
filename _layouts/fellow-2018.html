@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<link rel="stylesheet" type="text/css" href="/css/fellow-2018.css">
+
+<div class="dark-green wrapper">
+  <div class="container">
+    <h1>{{ page.name }}</h1>
+    <p class="u-text-center">{{ page.project.summary }}</p>
+  </div>
+</div>
+
+<hr/>
+
+{% if page.video %}
+{% include fellows-2018/links.html links=page.links projects=page.projects twitter=page.twitter video=page.video%}
+{% else %}
+{% include fellows-2018/links_no_video.html web=page.web linkedin=page.linkedin projects=page.projects twitter=page.twitter %}
+{% endif %}
+
+<div class="wrapper">
+  <div class="container">
+    <div class="twelve columns">
+      <div class="tweet">&ldquo;{{ page.twitter.tweet }}&rdquo;</div>
+      <div class="tweet-footer">
+	<img src="/images/icons/tweet-2018.svg" alt="Twitter"/>
+	{% if page.twitter.handle %}
+	<div class="tweet-handle">
+	  Follow {{ page.firstname }} on Twitter<br/>
+	  <a href="http://www.twitter.com/{{ page.twitter.handle }}">@{{ page.twitter.handle }}</a>
+	</div>
+	{% endif %}
+    </div>
+  </div>  
+</div>
+
+<div class="light-green wrapper">
+  <div class="container">
+    <div class="twelve columns">
+      <h2>The Big Idea</h2>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      <hr/>
+      {{ page.content }}
+    </div>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="container">
+    <div class="twelve columns">
+      <h2>Why We Funded</h2>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+      <hr/>
+      {% contentblock funding %}
+    </div>
+  </div>
+</div>
+
+<!--
+{% if page.timeline %}
+{% include fellows/timeline.html labels=page.timeline.labels events=page.timeline.events %}
+{% endif %}
+-->
+
+{% if page.spend %}
+{% include fellows-2018/spend.html spend=page.spend contribution=page.contribution %}
+{% endif %}
+
+{% assign flashgrants = site.data.flashgrants | where: "fellow", page.name | sort: "date" | reverse %}
+{% if flashgrants.size != 0 %}
+{% include fellows-2018/flashgrants.html grants=flashgrants %}
+{% endif %}
+
+<div class="spacer"></div>

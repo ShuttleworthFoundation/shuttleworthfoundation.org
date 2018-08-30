@@ -1,0 +1,26 @@
+<div class="wrapper">
+  <div class="container">
+    <div class="six columns">
+      <img src="{{ page.photo }}" alt="{{ page.name }}">
+    </div>
+
+    <div class="six columns">
+      <h1 class="u-text-left u-no-margin-lr">Project: {{ page.project.name }}</h1>
+      <p>{{ page.project.description }}</p>
+    </div>
+    {% if include.web %}
+      <div class="link-block clearfix">
+	<img class="icon" src="/images/icons/blog-2018.svg" alt="Website" />
+	<a href="{{ include.web.url }}">{{ include.web.text }}</a></br>
+      </div>
+    {% endif %}
+    {% if include.linkedin %}
+      <div class="link-block clearfix">
+	<img class="icon" src="/images/icons/linkedin-2018.svg" alt="Website" />
+	<a href="https://www.linkedin.com/in/{{ include.linkedin.handle }}/">{{ page.name }}</a></br>
+      </div>
+    {% endif %}
+      
+    </div>
+  </div>
+</div>

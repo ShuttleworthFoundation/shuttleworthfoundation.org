@@ -9,3 +9,53 @@ hr {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.tweet {
+    color: $white;
+    background-color: $darkgrey;
+    border-radius: $rounding;
+    padding: $padding $padding*2;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+
+    &:after {
+        content: "";
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 180px;
+	border-width: $padding*0.5 $padding*0.5;
+	border-style: solid;
+	border-color: $darkgrey;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+	margin-top: -$padding*0.25;
+	transform: scaleY(0.5);
+    }
+}
+
+.tweet-footer {
+    margin-top: $padding;
+    margin-bottom: $padding*2;
+
+    img {
+        width: $padding*4 !important;
+	height: $padding*4;
+	position: relative;
+	left: 100px;
+    }
+
+    .tweet-handle {
+	background-color: $grey;
+	padding: $padding*0.5 $padding;
+	border-radius: $rounding;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 600;
+	float: right;
+	margin-right: $padding*5;
+    }
+}

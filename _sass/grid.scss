@@ -18,6 +18,12 @@ $margins: 2%;
 	background-color: $lightgreen;
     }
 
+    &.dark-green {
+	color: $white;
+	background-color: $darkgreen;
+	padding: 2em 0 3em 0;
+    }
+
     &.light-green.alternating {
 	&:nth-child(odd) {
 	    background-color: $lightgreen;

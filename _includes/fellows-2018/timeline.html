@@ -1,0 +1,21 @@
+<div class="container container-fellow">
+  <div class="row row-timeline">
+    <div class="col-sm12 col-md-12 col-lg-12">
+      <h2>Fellowship timeline</h2>
+      <div class="timeline">
+	<div class="timeline-labels">
+	  {% for label in include.labels %}
+	  <div style="left: {{ label.position }}%;">{{ label.text }}</div>
+	  {% endfor %}
+	</div>
+	<div class="timeline-events">
+	  {% for event in include.events %}
+	  <div class="timeline-event" style="left: {{ event.position }}%;">
+	    {{ event.text }} - {{ event.date | date:'%B %Y' }}
+	  </div>
+	  {% endfor %}
+	</div>
+      </div>
+    </div>
+  </div>
+</div>

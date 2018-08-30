@@ -44,7 +44,7 @@ module Fellows
     
     def generate(site)
       site.collections['fellows'].docs.each do |post|
-        if post.data['layout'] == 'fellow'
+        if post.data['layout'] == 'fellow' || post.data['layout'] == 'fellow-2018'
           events = []
           
           if post.data.key?('fellowship')
