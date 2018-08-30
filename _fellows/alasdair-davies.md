@@ -18,7 +18,7 @@ linkedin:
   handle: alasdair-davies
 date:   2017-02-03
 photo: /images/fellows/alasdair-davies.jpg
-video: 
+video: https://player.vimeo.com/video/286305650
 fellowship:
   start: 2017-03-01
 contribution:

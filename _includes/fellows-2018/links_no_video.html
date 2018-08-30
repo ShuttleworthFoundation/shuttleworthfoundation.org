@@ -7,19 +7,21 @@
     <div class="six columns">
       <h1 class="u-text-left u-no-margin-lr">Project: {{ page.project.name }}</h1>
       <p>{{ page.project.description }}</p>
+      <div class="links block">
+	{% if include.web %}
+	<div class="link-block clearfix">
+	  <a href="{{ include.web.url }}"><img class="icon" src="/images/icons/blog-2018.svg" alt="Website" /></a>
+	  <a href="{{ include.web.url }}">{{ include.web.text }}</a></br>
+	</div>
+	{% endif %}
+	{% if include.linkedin %}
+	<div class="link-block clearfix">
+	  <a href="https://www.linkedin.com/in/{{ include.linkedin.handle }}/"><img class="icon" src="/images/icons/linkedin-2018.svg" alt="Website" /></a>
+	  <a href="https://www.linkedin.com/in/{{ include.linkedin.handle }}/">{{ page.name }}</a></br>
+	</div>
+	{% endif %}
+      </div>
     </div>
-    {% if include.web %}
-      <div class="link-block clearfix">
-	<img class="icon" src="/images/icons/blog-2018.svg" alt="Website" />
-	<a href="{{ include.web.url }}">{{ include.web.text }}</a></br>
-      </div>
-    {% endif %}
-    {% if include.linkedin %}
-      <div class="link-block clearfix">
-	<img class="icon" src="/images/icons/linkedin-2018.svg" alt="Website" />
-	<a href="https://www.linkedin.com/in/{{ include.linkedin.handle }}/">{{ page.name }}</a></br>
-      </div>
-    {% endif %}
       
     </div>
   </div>

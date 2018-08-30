@@ -17,11 +17,10 @@ $rounding: 1.2em;
 $nav_height: 60px;
 $nav_padding: 5px;
 
-/*
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
-
+/*
 h2 {
     font-size: 3.0em;
 }
@@ -85,7 +84,19 @@ h2 ~ h3 {
     }
 }
 
-.links {
+.links.container {
+    h1 {
+	margin-top: -10px;
+    }
+}
+
+.links.block {
+    display: flex;
+    text-align: center;
+    margin-top: $padding*2;
+}
+
+.links-disabled {
     .link-block {
 	height: 100px;
 	max-width: 300px;

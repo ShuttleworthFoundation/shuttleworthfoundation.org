@@ -1,51 +1,28 @@
-<div class="light-green alternating wrapper">
-  <div class="container">
-    <div class="eight columns">
+<div class="wrapper">
+  <div class="links container">
+    <div class="six columns">
       <div class="vimeo tooltipster" title="Click to play / pause video">
 	<iframe src="{{ include.video }}" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
     </div>
-    
-    <div class="four columns links">
-      
-      {% if include.links %}
-      <div class="link-block clearfix">
-	<img class="icon" src="/images/icons/links.svg" alt="Links" />
-	<div class="link-heading">
-          Links
+
+    <div class="six columns">
+      <h1 class="u-text-left u-no-margin-lr">Project: {{ page.project.name }}</h1>
+      <p>{{ page.project.description }}</p>
+      <div class="links block">
+	{% if include.web %}
+	<div class="link-block clearfix">
+	  <a href="{{ include.web.url }}"><img class="icon" src="/images/icons/blog-2018.svg" alt="Website" /></a>
+	  <a href="{{ include.web.url }}">{{ include.web.text }}</a></br>
 	</div>
-	{% for link in include.links %}
-	{% for l in link %}
-	<a href="{{l[1]}}">{{l[0]}}</a></br>
-	{% endfor %}
-	{% endfor %}
-      </div>
-      {% endif %}
-      
-      {% if include.projects %}
-      <div class="link-block clearfix">
-	<img class="icon" src="/images/icons/projects.svg" alt="Projects" />
-	<div class="link-heading">
-          Projects
+	{% endif %}
+	{% if include.linkedin %}
+	<div class="link-block clearfix">
+	  <a href="https://www.linkedin.com/in/{{ include.linkedin.handle }}/"><img class="icon" src="/images/icons/linkedin-2018.svg" alt="Website" /></a>
+	  <a href="https://www.linkedin.com/in/{{ include.linkedin.handle }}/">{{ page.name }}</a>
 	</div>
-	{% for link in include.projects %}
-	{% for l in link %}
-	<a href="{{l[1]}}">{{l[0]}}</a></br>
-	{% endfor %}
-	{% endfor %}
+	{% endif %}
       </div>
-      {% endif %}
-      
-      {% if include.twitter %}
-      <div class="link-block clearfix">
-	<img class="icon" src="/images/icons/twitter.svg" alt="Tweets" />
-	<div class="link-heading">
-          Twitter
-	</div>
-	<a href="http://www.twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
-      </div>
-      {% endif %}
-      
     </div>
   </div>
 </div>

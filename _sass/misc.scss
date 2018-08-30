@@ -25,20 +25,20 @@ hr {
         content: "";
 	display: block;
 	position: absolute;
-	top: 100%;
-	left: 180px;
-	border-width: $padding*0.5 $padding*0.5;
+	top: 99%;
+	left: 220px;
+	border-width: $padding*0.75 $padding*0.75;
 	border-style: solid;
 	border-color: $darkgrey;
 	border-bottom-color: transparent;
 	border-right-color: transparent;
-	margin-top: -$padding*0.25;
+	margin-top: -$padding*0.325;
 	transform: scaleY(0.5);
     }
 }
 
 .tweet-footer {
-    margin-top: $padding;
+    margin-top: $padding*0.5;
     margin-bottom: $padding*2;
 
     img {
