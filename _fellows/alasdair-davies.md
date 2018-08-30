@@ -19,15 +19,16 @@ linkedin:
 date:   2017-02-03
 photo: /images/fellows/alasdair-davies.jpg
 video: 
-links: 
-projects:
-    - GitHub: https://github.com/al2k
-    - NatureBytes: http://naturebytes.org
-#twitter: Al2kA
 fellowship:
   start: 2017-03-01
 contribution:
   2017: 16670.13
+## These properties seem to not be required anymore. They will
+## eventually be removed.
+#links: 
+#projects:
+#    - GitHub: https://github.com/al2k
+#    - NatureBytes: http://naturebytes.org
 ---
 An active conservationist and technologist all his working life, Alasdair Davies is combining these two passions with a third - openness - to bring affordable, customizable technology  to the field through the Arribada Initiative. He is designing, developing, and producing open hardware, in partnership with field interventions, employing open approaches and licences. His objective is to break down the barriers that inhibit access to such technologies, delivering better, cheaper, reliable solutions to help the global conservation community better monitor and protect our planet.
 
