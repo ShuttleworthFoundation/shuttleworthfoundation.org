@@ -37,6 +37,12 @@ h2 ~ h3 {
     display: flex;
 }
 
+@media screen and (max-width: 700px) {
+    .flashgrant.container {
+	flex-direction: column;
+    }
+}
+
 .flashgrant.columns {
     text-align: center;
     
@@ -87,6 +93,12 @@ h2 ~ h3 {
 .links.container {
     h1 {
 	margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .links.container h1 {
+	margin-top: 4rem;
     }
 }
 
@@ -153,6 +165,16 @@ h2 ~ h3 {
     .total {
 	font-size: 4em;
 	font-weight: 300;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container-fellow.container-total-spend {
+	font-size: 1.5em;
+
+	.total {
+	    font-size: 2em;
+	}
     }
 }
 

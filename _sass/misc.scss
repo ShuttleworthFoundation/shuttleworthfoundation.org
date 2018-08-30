@@ -59,3 +59,26 @@ hr {
 	margin-right: $padding*5;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .tweet {
+	font-size: 2.4rem;
+    }
+
+    .tweet-footer .tweet-handle {
+	margin-right: 0;
+	margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .tweet-footer .tweet-handle {
+	margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .tweet-footer .tweet-handle {
+	float: none;
+    }
+}
