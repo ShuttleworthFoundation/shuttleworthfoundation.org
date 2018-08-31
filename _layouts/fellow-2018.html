@@ -18,13 +18,14 @@ layout: default
 {% include fellows-2018/links_no_video.html links=page.links twitter=page.twitter %}
 {% endif %}
 
+{% if page.twitter.handle %}
 <div class="wrapper">
   <div class="container">
     <div class="twelve columns">
       <div class="tweet">&ldquo;{{ page.twitter.tweet }}&rdquo;</div>
       <div class="tweet-footer">
 	<img src="/images/icons/tweet-2018.svg" alt="Twitter"/>
-	{% if page.twitter.handle %}
+	
 	<div class="tweet-handle">
 	  Follow {{ page.firstname }} on Twitter<br/>
 	  <a href="http://www.twitter.com/{{ page.twitter.handle }}">@{{ page.twitter.handle }}</a>
