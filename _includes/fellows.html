@@ -26,7 +26,7 @@
     </a>
     <p class="u-text-center">
       <a href="{{ fellow.url }}">{{ fellow.name }}</a><br/>
-      {{ fellow.project }}
+      {% if fellow.project.summary %}{{ fellow.project.summary }}{% else %}{{ fellow.project }}{% endif %}
     </p>
   </div>
   {% endfor %}

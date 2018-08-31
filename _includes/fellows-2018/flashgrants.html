@@ -1,0 +1,30 @@
+<div class="wrapper">
+  <div class="container">
+    <div class="twelve columns">
+      <h2>Flash Grants</h2>
+      <!--<p class="u-text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+    </div>
+  </div>
+
+  <hr/>
+  
+  <div class="flashgrant container">
+    {% for grant in include.grants %}
+    {% assign loopindex = forloop.index | modulo: 4 %}
+    {% if loopindex == 1 and forloop.index != 1%}
+  </div>
+  <div class="flashgrant container">
+    {% endif %}
+    <div class="flashgrant columns">
+      {% if grant.gender %}
+      <img src="/images/icons/{{ grant.gender }}.svg" alt="{{ grant.gender | capitalize }}"/>
+      {% endif %}
+      <div class="content">
+	{{ grant.name }}<br/>
+	<a href="{{ grant.homepage }}">{{ grant.homepage | remove:"http://" | remove:"https://" | truncate:28,"..." }}</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+    
+</div>

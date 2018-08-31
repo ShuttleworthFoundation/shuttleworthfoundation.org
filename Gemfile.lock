@@ -46,6 +46,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-archives (2.1.1)
       jekyll (>= 2.4)
+    jekyll-contentblocks (1.2.0)
+      jekyll
     jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
@@ -92,6 +94,7 @@ DEPENDENCIES
   html-proofer
   jekyll
   jekyll-archives
+  jekyll-contentblocks
   jekyll-redirect-from
 
 BUNDLED WITH

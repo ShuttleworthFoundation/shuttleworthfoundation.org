@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <div class="container">
+    <div class="six columns">
+      <img src="{{ page.photo }}" alt="{{ page.name }}">
+    </div>
+
+    <div class="six columns">
+      <h1 class="u-text-left u-no-margin-lr">Project: {{ page.project.name }}</h1>
+      <p>{{ page.project.description }}</p>
+      <div class="links block">
+	{% for link in include.links limit:3 %}
+	<div class="link-block clearfix">
+	  <a href="{{ link.url }}"><img class="icon" src="/images/icons/{{ link.type }}-2018.svg" alt="{{ link.type }}" /></a>
+	  <a href="{{ link.url }}">{{ link.text }}</a></br>
+	</div>
+	{% endfor %}
+      </div>
+    </div>
+      
+    </div>
+  </div>
+</div>
