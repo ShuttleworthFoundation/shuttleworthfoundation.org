@@ -13,9 +13,9 @@ layout: default
 <hr/>
 
 {% if page.video %}
-{% include fellows-2018/links.html web=page.web linkedin=page.linkedin twitter=page.twitter video=page.video%}
+{% include fellows-2018/links.html links=page.links twitter=page.twitter video=page.video%}
 {% else %}
-{% include fellows-2018/links_no_video.html web=page.web linkedin=page.linkedin twitter=page.twitter %}
+{% include fellows-2018/links_no_video.html links=page.links twitter=page.twitter %}
 {% endif %}
 
 <div class="wrapper">

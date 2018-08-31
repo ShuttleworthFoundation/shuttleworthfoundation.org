@@ -8,14 +8,28 @@ project:
   name: "Arribada"
   summary: "Protecting the planet with affordable conservation technology"
   description: "The goal of this project is to design, develop and produce open hardware to be used in animal conservation."
-web:
-  url: http://naturebytes.org
-  text: naturebytes.org
+links:
+  - type: web
+    url: http://blog.arribada.org/
+    text: Arribada Initiative
+  - type: linkedin
+    url: https://linkedin.com/in/alasdair-davies
+    text: Alasdair Davies
+  - type: web
+    url: http://naturebytes.org
+    text: NatureBytes
+  - type: github
+    url: https://github.com/alasdair
+    text: github.com/alasdair
+  - type: facebook
+    url: https://facebook.com/alasdair
+    text: facebook.com/alasdair
+  - type: blog
+    url: https://blog.alasdair.com
+    text: Alasdair's Blog
 twitter:
   handle: alasdair
   tweet: "Incredibly proud to join @ShuttleworthFdn & inject openness into conservation technology. It’s time we all got access to the tools we need."
-linkedin:
-  handle: alasdair-davies
 date:   2017-02-03
 photo: /images/fellows/alasdair-davies.jpg
 video: https://player.vimeo.com/video/286305650
