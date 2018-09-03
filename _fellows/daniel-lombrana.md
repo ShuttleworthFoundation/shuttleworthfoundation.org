@@ -23,7 +23,7 @@ contribution:
   2014: 8788.49
   2015: 14789.61
   2016: 15951.40
-  2017: 7997.59
+  2017: 8387.43
 ---
 
 Daniel's primary interest is Crowdcrafting and its underlying software PyBossa, a citizen science framework that allows and supports citizens and researchers to create citizen science projects and gather collaborative communities around them, using volunteer sensing, computing and thinking.

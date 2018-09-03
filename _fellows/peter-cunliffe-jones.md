@@ -25,7 +25,7 @@ fellowship:
   start: 2016-03-01
 contribution:
   2016: 12931.00
-  2017: 15425.02
+  2017: 22245.23
 ---
 Peter Cunliffe-Jones is heading up [AfricaCheck](https://africacheck.org), checking claims that public figures and institutions make against the best available public information.
 

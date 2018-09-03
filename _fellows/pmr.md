@@ -20,7 +20,7 @@ contribution:
   2014: 4387.96
   2015: 13441.29
   2016: 13821.80
-  2017: 4374.59
+  2017: 3823.1
 ---
 
 Peter is a pioneer in text mining through The Content Mine, an advocacy and implementation project consisting of a community, framework and toolset which facilitate the freeing of scientific data and building of further tools for improved open Science, Technology and Medicine communication.

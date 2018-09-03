@@ -19,10 +19,8 @@ contributions:
   2014: 10995.51
   2015: 7720.19
   2016: 11686.63
-  2017: 8558.68
+  2017:  10897.15 
 ---
-
-
 Catharina is building a sustainable framework to manage legal risks in collaborative development initiatives, including developing the next generation of standardised contributor agreements. She is building on the work started by the Harmony Project.
 
 We support Catharina because without clear legal boundaries, great projects can falter due to technicalities.

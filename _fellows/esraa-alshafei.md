@@ -20,7 +20,7 @@ contribution:
   2014: 15714.69
   2015: 12500.91
   2016: 3925.00
-  2017: 7990.00
+  2017: 7853.64
 ---
 
 Esra'a is driving CrowdVoice, a primary source of synthesized and contextualized information on social dissent, that meets the information needs of various audiences in the most digestible way possible, enhanced by MyCrowdVoice, a reusable platform that enables others to do the same.

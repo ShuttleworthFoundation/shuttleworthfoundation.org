@@ -1732,3 +1732,165 @@
     fellow: "Achal Prabhala"
     homepage: https://en.wikipedia.org/wiki/Zackie_Achmat
     date: 2017-11-01
+-
+    name: "Leva Zand"
+    gender: female
+    fellow: "Kabir Bavikatte"
+    homepage: https://www.projectartogether.org/
+    date: 2018-05-01
+-
+    name: "Sébastien Chopin"
+    gender: male
+    fellow: "Daniel Lombrana Gonzalez"
+    homepage: https://nuxtjs.org/
+    date: 2018-05-01
+-
+    name: "Cecilia Olliveira"
+    gender: female
+    fellow: "Achal Prabhala"
+    homepage: http://fogocruzado.org.br/
+    date: 2018-05-01
+-
+    name: "Cris Chinaka"
+    gender: male
+    fellow: "Peter Cunliffe-Jones"
+    homepage: https://zimfact.org/
+    date: 2018-05-01
+-
+    name: "JP Meijers"
+    gender: male
+    fellow: "Luka Mustafa"
+    homepage: http://ttnmapper.org/
+    date: 2018-05-01
+-
+    name: "Sofía Unanue"
+    gender: female
+    fellow: "Astra Taylor"
+    homepage: https://www.lamarana.org/
+    date: 2018-05-01
+-
+    name: "Murendeni Mafumo"
+    gender: male
+    fellow: "Gavin Weale"
+    homepage: http://www.kusiniwater.co.za/
+    date: 2018-05-01
+-
+    name: "Émna Mizouni"
+    gender: female
+    fellow: "Esra’a Al Shafei"
+    homepage: https://about.me/emna.mizouni
+    date: 2018-05-01
+-
+    name: "Yuki Hanyu"
+    gender: female
+    fellow: "Isha Datar"
+    homepage: https://www.shojinmeat.com/home
+    date: 2018-05-01
+-
+    name: "Thomas Mboa Nkoudou"
+    gender: male
+    fellow: "Jenny Molloy"
+    homepage: https://www.projetsoha.org/
+    date: 2018-05-01
+-
+    name: "Jamie Craggs"
+    gender: male
+    fellow: "Alasdair Davies"
+    homepage: https://reef-pi.github.io/
+    date: 2018-05-01
+-
+    name: "Jon Tennant"
+    gender: male
+    fellow: "Peter Murray-Rust"
+    homepage: https://paleorxiv.org/
+    date: 2018-05-01
+-
+    name: "Emily White"
+    gender: female
+    fellow: "Jesse von Doom"
+    homepage: https://twitter.com/iVotedConcerts
+    date: 2018-05-01
+-
+    name: "Mike Clarke"
+    gender: male
+    fellow: "Philipp Schmidt"
+    homepage: https://hiclarke.com/
+    date: 2018-05-01
+-
+    name: "Kemly Camacho"
+    gender: female
+    fellow: "Karla Córdoba-Brenes"
+    homepage: http://hope.sulabatsu.com/
+    date: 2018-05-01
+-
+    name: "Derek Willis"
+    gender: male
+    fellow: "Waldo Jaquith"
+    homepage: http://www.openelections.net/
+    date: 2018-05-01
+-
+    name: "Maarja-Leena Saar"
+    gender: female
+    fellow: "Rufus Pollock"
+    homepage: https://uk.linkedin.com/in/maarjaleena
+    date: 2018-05-01
+-
+    name: "Kasey Hou"
+    gender: female
+    fellow: "Ugo Vallauri"
+    homepage: https://www.kaseyhou.com/
+    date: 2018-05-01
+-
+    name: "Jennifer Helsby"
+    gender: female
+    fellow: "Tiffiniy Cheng"
+    homepage: https://openoversight.com/
+    date: 2018-05-01
+-
+    name: "Dinorah Cantú-Pedraza"
+    gender: female
+    fellow: "Francois Grey"
+    homepage: http://dinorah-cantu-pedraza.tumblr.com/
+    date: 2018-05-01
+-
+    name: "Nasma Ahmed"
+    gender: female
+    fellow: "Mark Surman"
+    homepage: http://www.nasmaahmed.ca/
+    date: 2018-05-01
+-
+    name: "Marijn Haverbeke"
+    gender: male
+    fellow: "Adam Hyde"
+    homepage: http://prosemirror.net/
+    date: 2018-05-01
+-
+    name: "Jnanaranjan Sahu"
+    gender: male
+    fellow: "Anasuya Sengupta"
+    homepage: https://www.mediawiki.org/wiki/Project_Ol_chiki
+    date: 2018-05-01
+-
+    name: "Nathan Geffen"
+    gender: male
+    fellow: "Steve Song"
+    homepage: https://www.groundup.org.za/
+    date: 2018-05-01
+-
+    name: "Khwezi Gule"
+    gender: male
+    fellow: "Arthur Attwell"
+    homepage: http://www.947.co.za/articles/2018/02/19/meet-johannesburg-art-gallery-s-new-curator-khwezi-gule
+    date: 2018-05-01
+-
+    name: "Bishakha Datta"
+    gender: female
+    fellow: "Andrew Rens"
+    homepage: https://medium.com/skin-stories/about
+    date: 2018-05-01
+-
+    name: "Naomi Wu"
+    gender: female
+    fellow: "Sean Bonner"
+    homepage: https://en.wikipedia.org/wiki/Naomi_Wu
+    date: 2018-05-01

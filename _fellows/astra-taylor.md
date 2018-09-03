@@ -26,7 +26,7 @@ fellowship:
 contribution:
   2015: 3936.89
   2016: 20395.45
-  2017: 27356.15
+  2017: 28751.80
 ---
 Astra is driven to help individuals take back control of their own debt data and financial futures. Predatory lending and exploitative debt practices cripple borrowers, and have significant consequences. 
 
