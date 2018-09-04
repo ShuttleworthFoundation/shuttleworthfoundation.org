@@ -18,6 +18,7 @@ fellowship:
 contribution:
   2016: 9090.91
   2017: 9033.09
+  2018: 10800.53
 ---
 Tiffiniy Cheng is stepping up to call regular citizens to action around web freedom. Through [Fight for the Future](https://www.fightforthefuture.org/) she is developing innovative, scalable organising approaches that are centered around the creative use of technology, messaging and alliance-building. Their purpose is to defend online human rights and the open web using the very nature of the Internet - collaboration between distributed nodes.
 

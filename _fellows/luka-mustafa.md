@@ -30,6 +30,7 @@ contribution:
   2015: 14165.79
   2016: 18703.26
   2017: 18782.53
+  2018: 9689.15
 ---
 Luka is exploring a novel solution to this problem that affects countries in both the developed and developing worlds. He is developing Koruza, a 3D printable wireless optical system for connecting buildings up to 100m apart with internet access, as a viable, fast and low-cost alternative to fibre in urban environments. 
 

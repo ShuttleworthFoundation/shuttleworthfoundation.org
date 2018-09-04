@@ -22,6 +22,7 @@ contribution:
   2015: 9318.27
   2016: 18245.02
   2017: 13589.3
+  2018: 14304.69
 ---
 
 Peter is the founder of Rhizomatica, establishing low-cost, low-power, community owned open-source cellular infrastructure that can serve rural areas profitably using inexpensive handsets that many already own.

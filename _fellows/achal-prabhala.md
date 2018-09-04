@@ -20,6 +20,7 @@ fellowship:
 contribution:
   2016: 1789.17
   2017:  22266.02 
+  2018: 13918.66
 ---
 Medicines save lives. Unfortunately the right to profit often overrides the right to access. Fake innovation, manifested in bad patents, harms humanity: it blocks affordable versions of life-saving drugs and impedes real innovation. Too often, the cost of bad intellectual property is the price of life.
 

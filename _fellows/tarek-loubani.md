@@ -28,6 +28,7 @@ fellowship:
   start: 2017-03-01
 contribution:
   2017: 8717.00
+  2018: 10118.6
 ---
 The quality of any medical intervention is greatly affected by the availability of the tools of the trade - equipment and medicines. For both, the determinants of true access are quality, cost and relevance. 
 
