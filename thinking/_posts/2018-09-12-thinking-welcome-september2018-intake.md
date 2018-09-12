@@ -6,14 +6,12 @@ tags:
 title: "Welcome Andrew"
 author: SF Team
 banner: "/images/blog/blog-open-strategy 2.jpg"
-description:
+description: "Congratulations to Andrew Lamb, the new Shuttleworth Fellow for September 2018."
 image: "/images/blog/welcome_sept2018.jpg"
 image_credit: "duncan c (CC BY-NC 2.0)"
 image_source: "https://www.flickr.com/photos/duncan/2504910532/"
 on_report: true
 ---
-# Congratulations to Andrew Lamb, the new Shuttleworth Fellow for September 2018
-
 Shari Steele, the Honorary Steward for this round, has selected Andrew as an exceptional candidate with tremendous potential to improve people's lives - particularly those suffering greatly in disaster relief areas. 
 
 The Foundation team are delighted to offer Andrew a warm welcome to the Fellowship Programme. We look forward to learning from his contributions and experiences and supporting his journey as a Shuttleworth Fellow.
