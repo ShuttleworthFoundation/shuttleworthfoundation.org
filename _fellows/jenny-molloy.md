@@ -6,7 +6,7 @@ firstname: "Jenny"
 current: true
 project:
   name: "Jenny Molloy"
-  summary: "Building and open and sustainable bioeconomy"
+  summary: "Building an open and sustainable bioeconomy"
   description: "The goal of this project is to explore an open framework for an equitable bioeconomy."
 links:
   - type: web
