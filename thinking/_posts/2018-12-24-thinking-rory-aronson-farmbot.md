@@ -18,7 +18,7 @@ While Rory’s Fellowship lasted for one year, FarmBot is now showing signs of m
 
 ### Inspiration
 
-Rory Aronson studied mechanical engineering at school, where he decided to take up an opportunity to an organic agriculture class. He wanted to learn about food - primarily how it was produced and the process behind it. One day, the tiny shoots of a big idea began to sprout after a local farmer came in to discuss tractor technology. 
+Rory Aronson studied mechanical engineering at school and has always had a keen interest in learning about food production. These combined concerns led him to take an organic agriculture class, during which he remembers a particularly inspiring talk on tractor technology by a local farmer.  
 
 The farmer had installed a camera and computer vision system on his vehicle, enabling him to take photos of plants and swill. It could even detect the difference between lettuce and weeds, and once each plant’s identity was established, the farmer could till the land and twist the weeds under the soil, without damaging the plants. 
 
