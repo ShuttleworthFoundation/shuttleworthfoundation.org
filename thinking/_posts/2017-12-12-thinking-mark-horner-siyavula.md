@@ -3,6 +3,7 @@ layout: post
 post_date: 18 December 2017
 tags:
   - open
+  - oer
 title: "Mark Horner and Siyavula: Opening Access to Education"
 author: Chris McGivern and SF Team
 banner: "/images/blog/open_approach.jpg"
