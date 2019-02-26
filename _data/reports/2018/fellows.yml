@@ -1,0 +1,295 @@
+- categories: [Intellectual Property]
+  fellow_contribution:  20269.64
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: September 2016
+  foundation_contribution:  276696.47
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0,
+    total: 0}
+  id: achal-prabhala
+  name: Achal Prabhala
+  spend:
+  - {amount: 600.18, category: Accounting}
+  - {amount: 6269.82, category: Infrastructure}
+  - {amount: 36955.48, category: Legal}
+  - {amount: 400.00, category: Marketing}
+  - {amount: 4380.02, category: Office-space}
+  - {amount: 198838.78, category: People}
+  - {amount: 49521.83, category: Travel}
+  total: 296966.11
+- categories: [Education, Publishing, Science, Web]
+  fellow_contribution:  16680.69
+  fellowship_duration: 9
+  fellowship_end: September 2018
+  fellowship_start: September 2015
+  foundation_contribution:  232723.64
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0, total: 0}
+  id: adam-hyde
+  name: Adam Hyde
+  spend:
+  - {amount: 5155.95, category: Marketing}
+  - {amount: 3156.84, category: Infrastructure}
+  - {amount: 104139.58, category: People}
+  - {amount: 124566.87, category: Software}
+  - {amount: 12385.09, category: Travel}
+  total: 249404.33
+  twitter: cokofoundation
+  web: http://coko.foundation/
+  blog: http://www.adamhyde.net/
+- categories: [Environment, Hardware, Data]
+  fellow_contribution:  29044.02
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: March 2017
+  foundation_contribution:  356977.02
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0,
+    total: 0}
+  id: alasdair-davies
+  name: Alasdair Davies
+  spend:
+  - {amount: 6866.27, category: Marketing}
+  - {amount: 9038.20, category: Infrastructure}
+  - {amount: 248807.34, category: People}
+  - {amount: 84550.35, category: Software}
+  - {amount: 36758.88, category: Travel}
+  total:  386021.04
+  twitter: Al2kA
+  web: http://naturebytes.org
+- categories: [Web, Publishing, Education]
+  fellow_contribution:  36833.12
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: March 2017
+  foundation_contribution:  445531.18
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
+  id: anasuya-sengupta
+  name: Anasuya Sengupta
+  spend:
+  - {amount: 47046.78, category: Marketing}
+  - {amount: 325200.02, category: People}
+  - {amount: 110117.50, category: Travel}
+  total:  482364.30 
+  twitter: Anasuyashh
+  web: http://whoseknowledge.org
+  blog: http://sanmathi.org/anasuya
+- categories: [Hardware, Government, Transparency]
+  fellow_contribution:  1529.87
+  fellowship_duration: 4
+  fellowship_end: present
+  fellowship_start: September 2018
+  foundation_contribution:  45298.66
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
+  id: andrew-lamb
+  name: Andrew Lamb
+  spend:
+  - {amount: 256.94, category: Office-space}
+  - {amount: 32821.26, category: People}
+  - {amount: 13750.33, category: Travel}
+  total:  46828.53
+- categories: [Data, Government, Transparency]
+  fellow_contribution:  15292.05
+  fellowship_duration: 9
+  fellowship_end: September 2018
+  fellowship_start: September 2015
+  foundation_contribution:  181920.45
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
+  id: astra-taylor
+  name: Astra Taylor
+  spend:
+  - {amount: 183212.50, category: People}
+  - {amount: 14000.0, category: Software}
+  total:  197212.50
+  twitter: astradisastra
+  web: https://debtcollective.org/
+  blog: http://www.hiddendriver.com/
+- categories: [Environment, Science]
+  fellow_contribution:  40297.83
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: September 2016
+  foundation_contribution:  512678.25
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
+  id: isha-datar
+  name: Isha Datar
+  spend:
+  - {amount: 7190.90, category: Legal}
+  - {amount: 45829.40, category: Office-space}
+  - {amount: 333505.31, category: People}
+  - {amount: 166450.47, category: Travel}
+  total:  552976.08 
+  twitter: IshaDatar
+  web: http://www.new-harvest.org/
+- categories: [Science, Intellectual Property]
+  fellow_contribution:  16963.05
+  fellowship_duration: 10
+  fellowship_end: present
+  fellowship_start: March 2018
+  foundation_contribution:  232153.59
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
+  id: jenny-molloy
+  name: Jenny Molloy
+  spend:
+  - {amount: 6229.76, category: Marketing}
+  - {amount: 58054.17, category: Infrastructure}
+  - {amount: 10416.91, category: Office-space}
+  - {amount: 132016.90, category: People}
+  - {amount: 42398.90, category: Travel}
+  total:  249116.64 
+  twitter: jenny_molloy
+  web: https://biomake.space/home
+  blog: http://jennymolloy.co.uk/
+- categories: [Web, Education, Transparency]
+  fellow_contribution:  11975.31
+  fellowship_duration: 10
+  fellowship_end: present
+  fellowship_start: March 2018
+  foundation_contribution:  166753.09
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
+  id: karla-cordoba-brenes
+  name: Karla Cordoba-Brenes
+  spend:
+  - {amount: 90.85, category: Legal}
+  - {amount: 15589.86, category: Marketing}
+  - {amount: 4409.06, category: Infrastructure}
+  - {amount: 121071.61, category: People}
+  - {amount: 28700.00, category: Software}
+  - {amount: 8867.02, category: Travel}
+  total:  178728.40
+  twitter: muguika
+  web: https://bespiral.com/
+- categories: [Hardware, Telecoms]
+  fellow_contribution:  12233.09
+  fellowship_duration: 3
+  fellowship_end: March 2018
+  fellowship_start: March 2015
+  foundation_contribution:  122330.87
+  funds: {contribution: 0, currency: $, pitch_budget: 127792.0, pitch_budget_usd: 120549.00424000001}
+  id: luka-mustafa
+  name: Luka Mustafa
+  spend:
+  - {amount: 1596.51, category: Accounting}
+  - {amount: 14896.53, category: Infrastructure}
+  - {amount: 6386.08, category: Office Space}
+  - {amount: 110369.81, category: People}
+  - {amount: 1315.03, category: Travel}
+  total:  134563.96
+  twitter: institute_irnas
+  web: http://koruza.net/
+  blog: http://irnas.eu/blog.html
+- categories: [Health, Data, Science]
+  fellow_contribution:  17965.91
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: March 2017
+  foundation_contribution:  267159.09
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
+  id: mad-ball
+  name: Mad Ball
+  spend:
+  - {amount: 250125.0, category: People}
+  - {amount: 35000.0, category: Software}
+  total:  285125.00
+  twitter: madprime
+  web: https://www.openhumans.org/
+- categories: [Government, Publishing, Transparency]
+  fellow_contribution:  29601.95
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: March 2016
+  foundation_contribution:  384884.74
+  funds: {contribution: 0, currency: $, pitch_budget: 302037.0, pitch_budget_usd: 302037.0}
+  id: peter-cunliffe-jones
+  name: Peter Cunliffe-Jones
+  spend:
+  - {amount: 19550.0, category: Marketing}
+  - {amount: 371566.69, category: People}
+  - {amount: 23370.0, category: Travel}
+  total:  414486.69
+  twitter: africacheck
+  web: https://africacheck.org
+  blog: https://africacheck.org/blog/
+- categories: [Hardware, Health]
+  fellow_contribution:  16906.27
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: March 2017
+  foundation_contribution:  245662.72
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
+  id: tarek-loubani
+  name: Tarek Loubani
+  spend:
+  - {amount: 4275.0, category: Marketing}
+  - {amount: 25003.63, category: Infrastructure}
+  - {amount: 2338.16, category: Office-space}
+  - {amount: 147122.46, category: People}
+  - {amount: 83236.38, category: Software}
+  - {amount: 539.36, category: Travel}
+  total:  262568.99
+  twitter: trklou
+  web: https://github.com/gliax
+- categories: [Government, Privacy, Transparency, Web]
+  fellow_contribution:  31876.00
+  fellowship_duration: 3
+  fellowship_end: March 2018
+  fellowship_start: March 2016
+  foundation_contribution:  318760.01
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
+  id: tiffiniy-cheng
+  name: Tiffiniy Cheng
+  spend:
+  - {amount: 22800.0, category: Accounting}
+  - {amount: 22000.0, category: Infrastructure}
+  - {amount: 305836.01, category: People}
+  total:  350636.01
+  twitter: fightfortheftr
+  web: https://www.fightforthefuture.org/
+  blog: https://www.fightforthefuture.org/news/
+- categories: [Data, Hardware, Transparency]
+  fellow_contribution:  17968.95
+  fellowship_duration: 12
+  fellowship_end: present
+  fellowship_start: September 2016
+  foundation_contribution:  227726.37
+  funds: {contribution: 0, currency: $, pitch_budget: 0, pitch_budget_usd: 0}
+  id: ugo-vallauri
+  name: Ugo Vallauri
+  spend:
+  - {amount: 28516.04, category: Marketing}
+  - {amount: 29167.35, category: Infrastructure}
+  - {amount: 168699.83, category: People}
+  - {amount: 15468.76, category: Software}
+  - {amount: 3843.34, category: Travel}
+  total:  245695.32
+  twitter: ugomatic
+  web: https://therestartproject.org
+  blog: https://therestartproject.org/blog/
+- categories: [Government, Hardware, Telecoms]
+  fellow_contribution:  18664.69
+  fellowship_duration: 0
+  fellowship_end: September 2017
+  fellowship_start: September 2014
+  foundation_contribution:  186646.85
+  id: peter-bloom
+  name: Peter Bloom
+  spend:
+  - {amount: 4068.0, category: Legal}
+  - {amount: 4.93, category: Marketing}
+  - {amount: 18660.05, category: Infrastructure}
+  - {amount: 1530.56, category: Office-space}
+  - {amount: 181048.0, category: People}
+  total:  205311.54
+  twitter: rhizomatica
+  web: http://rhizomatica.org/
+- categories: [Data, Environment, Hardware, Science]
+  fellow_contribution:  897.08
+  fellowship_duration: 0
+  fellowship_end: September 2017
+  fellowship_start: September 2014
+  foundation_contribution:  8970.84
+  id: sean-bonner
+  name: Sean Bonner
+  spend:
+  - {amount: 9867.92, category: Travel}
+  total: 9867.92
+  twitter: seanbonner
+  web: http://blog.safecast.org/

@@ -22,6 +22,8 @@ contribution:
   2015: 20717.35
   2016: 16051.38
   2017: 28087.03
+  2018: 897.08 
+
 ---
 
 Sean is working on Safecast, an environmental sensing initiative making available open, freely available local environmental data, along with the tools with which to independently measure and verify the data.

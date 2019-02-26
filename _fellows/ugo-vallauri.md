@@ -29,7 +29,7 @@ fellowship:
 contribution:
   2016: 999.84
   2017: 15797.6
-  2018: 6882.36
+  2018: 17968.95 
 ---
 Ugo Vallauri wants to fix our relationship with electronics, putting people and the planet at the centre. More and more of the electronics we use are becoming software-enabled. This provides convenience, but also raises many questions about long-term support and ownership, with designs becoming more disposable and [less repairable](http://www.smithsonianmag.com/innovation/fight-right-repair-180959764/?no-ist). The current closed ecosystem of electronics design and manufacture leads to faster obsolescence than ever before. Do we ever really own the electronics in our house or office, or are we merely using it until manufacturers stop providing spare parts? Where do electronics [go to die](http://www.bbc.co.uk/news/business-35244018), and how much of it can the planet handle? These are just some of the questions that have driven Ugo to co-found the [Restart Project](https://therestartproject.org/). 
 

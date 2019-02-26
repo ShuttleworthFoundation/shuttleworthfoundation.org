@@ -26,7 +26,7 @@ fellowship:
 contribution:
   2016: 2526.92
   2017: 7628.51
-  2018: 11712.26
+  2018: 40297.83
 ---
 Food insecurity is one of the greatest challenges of our time. If we are to feed the human population sustainably, affordably and nutritiously, we have to rethink the food supply chain. Isha Datar is doing just that, exploring cellular agriculture as a new facet of farming animal products. 
 

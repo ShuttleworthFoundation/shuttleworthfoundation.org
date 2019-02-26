@@ -1,78 +1,87 @@
 Achal Prabhala:
-  accounting: 450.24
-  infrastructure: 4259.8
-  legal: 26920.42
-  marketing: 400.0
-  office-space: 3389.97
-  people: 116371.78
-  travel: 35313.07
+  Accounting: 600.18 
+  Legal: 36955.48 
+  Marketing: 400.00 
+  Infrastructure: 6269.82 
+  Office Space: 4380.02 
+  People: 198838.78 
+  Travel: 49521.83
 Adam Hyde:
-  marketing: 4568.87
-  infrastructure: 3156.84
-  people: 79416.69
-  software development: 79742.85
-  travel: 1146.61
+  Marketing:  5155.95 
+  Infrastructure: 3156.84 
+  People: 104139.58 
+  Software development: 124566.87 
+  Travel: 12385.09 
 Alasdair Davies:
-  marketing: 4160.96
-  infrastructure: 9016.45
-  people: 142658.95
-  travel: 33519.52
+  Marketing: 6866.27 
+  Infrastructure: 9038.20 
+  People: 248807.34 
+  Software development: 84550.35 
+  Travel: 36758.88 
 Anasuya Sengupta:
-  marketing: 33310.53
-  people: 195630.01
-  travel: 92299.7
+  Marketing: 47046.78 
+  People:  325200.02 
+  Travel: 110117.50
+Andrew Lamb:
+  Office Space: 256.94 
+  People: 32821.26 
+  Travel: 13750.33 
 Astra Taylor:
-  people: 148212.5
+  people: 183212.50
   software development: 14000.0
 Isha Datar:
-  legal: 3080.0
-  office-space: 17125.4
-  people: 77020.5
-  travel: 85608.92
+  Legal: 7190.90 
+  Office Space: 45829.40 
+  People: 333505.31 
+  Travel: 166450.47 
 Jenny Molloy:
-  marketing: 6252.04
-  infrastructure: 5764.75
-  office-space: 7201.63
-  people: 9582.5
-  travel: 7035.37
+  Marketing: 6229.76 
+  Infrastructure: 58054.17 
+  Office Space: 10416.91 
+  People: 132016.90 
+  Travel: 42398.90 
 Karla Córdoba-Brenes:
-  legal: 90.85
-  marketing: 3626.0
-  infrastructure: 1401.01
-  people: 71571.61
-  software development: 16000
-  travel: 8317.95
+  Legal:  90.85 
+  Marketing: 15589.86 
+  Infrastructure: 4409.06 
+  People: 121071.61 
+  Software development: 28700.00 
+  Travel: 8867.02 
 Luka Mustafa:
-  accounting: 1596.51
-  infrastructure: 14896.56
-  office-space: 6386.06
-  people: 82979.93
-  travel: 721.55
+  Accounting: 1596.51 
+  Infrastructure: 14896.53 
+  Office Space: 6386.08 
+  People: 110369.81 
+  Travel: 1315.03 
 Mad Ball:
-  people: 62625.0
+  people: 250125.0
   software development: 35000.0
 Peter Bloom:
-  marketing: 4.93
-  infrastructure: 18660.05
-  legal: 4068.0
-  people: 133088.01
-  office-space: 1530.56
+  Legal: 4068.00 
+  Marketing: 4.93 
+  Infrastructure: 18660.05 
+  Office Space: 1530.56 
+  People: 181048.00 
 Peter Cunliffe-Jones:
-  marketing: 19550.0
-  people: 160555.21
-  travel: 23097.27
+  Marketing: 19550.00 
+  People: 371566.69 
+  Travel: 23370.00 
+Sean Bonner:
+  Travel: 9867.92
 Tarek Loubani:
-  infrastructure: 13779.67
-  office-space: 1646.78
-  people: 73520.56
-  software development: 60419.21
-  travel: 238.39
+  Marketing: 4275.00 
+  Infrastructure: 25003.63 
+  Office Space: 2338.16 
+  People: 147122.46 
+  Software: 83236.38 
+  Travel: 593.36 
 Tiffiniy Cheng:
-  people: 96805.8
-  infrastructure: 22000.0
+  Accounting: 22800.00 
+  Infrastructure: 22000.00 
+  People: 305836.01
 Ugo Vallauri:
-  marketing: 6950.14
-  infrastructure: 23871.14
-  people: 54044.79
-  software development: 13293.3
-  travel: 1533.58
+  Marketing: 28516.04 
+  Infrastructure: 29167.35 
+  People: 168699.83 
+  Software development: 15468.76 
+  Travel: 3843.34 

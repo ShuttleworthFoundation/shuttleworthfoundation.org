@@ -1,0 +1,123 @@
+$energy-colors: (
+    government #3899a0,
+    hardware #8b4dac,
+    web #ce2326,
+    science #f05b1d,
+    telecoms #257a38,
+    education #4ebd38,
+    environment #5167bb,
+    privacy #9ba7a6,
+    data #ec44aa,
+    music #633d27,
+    publishing #f8b30c,
+    transparency #707378,
+    intellectual-property #7f195e,
+    health #99cc00
+);
+
+.container-infographic {
+    .container-infographic-inner {
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	max-width: 900px;
+	margin: 30px auto;
+	
+	svg#energy-svg {
+	    width: 100%;
+	    
+	    path {
+		stroke: black;
+		stroke-width: 1.5;
+		fill: none;
+		transition: opacity 0.2s;
+	    }
+	    
+	    circle {
+		transition: opacity 0.2s;
+	    }
+	    
+	    g.active {
+		@each $color in $energy-colors {
+		    path.#{nth($color, 1)} { stroke: nth($color, 2); }
+		    circle.#{nth($color, 1)} { stroke: nth($color, 2); fill: nth($color, 2); }
+		}
+	    }
+	    
+	    g.inactive {
+		path { stroke: rgb(210,210,210); }
+		circle { fill: rgb(210,210,210); }
+	    }
+	}
+	
+	.energy-categories {
+	    
+	    .energy-category {
+		color: #fff;
+		position: absolute;
+		font-size: 14px;
+		font-weight: 600;
+		width: 210px;
+		padding: 10px;
+		border-radius: 15px 0 15px 0;
+		background-color: lightgrey;
+		right: 0;
+		transition: background-color 0.2s;
+		
+		&:after {
+		    content: '';
+		    width: 65px;
+		    height: 24px;
+		    position: absolute;
+		    right: 0;
+		    top: 50%;
+		    margin-top: -12px;
+		    display: block;
+		    background-size: contain;
+		    background-repeat: no-repeat;
+		    background-position: 50% 50%;
+		}
+		
+		@each $color in $energy-colors {
+		    &.#{nth($color, 1)} {
+  		        background-color: nth($color, 2);
+			&:after {
+			    background-image: url(images/energy/icon-#{nth($color, 1)}.svg);
+			}
+			&.inactive {
+			    background-color: #d2d2d2;
+			}
+		    }
+		}
+	    }
+	}
+	
+	.energy-fellows {
+	    .energy-fellow {
+		background-size: cover;
+		position: absolute;
+		border: 2px solid white;
+		border-radius: 50%;
+		width: 80px;
+		height: 80px;
+		transition: opacity 0.2s;
+
+		@for $i from 1 through 23 {
+	    	    &:nth-child(#{$i}) {
+		        top: (50px * ($i - 1));
+			@if $i % 2 == 0 {
+			    left: 110px;
+			} @else {
+			    left: 45px;
+			}
+			
+		    }
+		}
+		
+		&.inactive {
+		    opacity: 0.2;
+		}
+	    }
+	}
+    }
+}

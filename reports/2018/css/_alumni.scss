@@ -1,0 +1,48 @@
+section#alumni {
+    
+    .container-alumni {
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 30px;
+	
+	.container-alumni-inner {
+	    display: inline-block;
+	}
+    }
+    
+    .alumni-entry {
+	width: 25%;
+	min-width: 250px;
+	display: inline-block;
+	padding: 30px;
+	text-align: right;
+	vertical-align: top;
+	
+	h4 {
+	    text-align: left;
+	}
+	
+	.alumni-spend {
+	    .alumni-spend-entry {
+		line-height: 24px;
+		height: 24px;
+		text-align: left;
+		
+		.alumni-spend-entry-amount {
+		    float: right;
+		    padding-right: 5px;
+		}
+	    }
+	}
+	
+	.alumni-spend-total {
+	    display: inline-block;
+	    border-top: 2px solid $black;
+	    border-bottom: 2px solid $black;
+	    font-size: 20px;
+	    padding: 5px;
+	    margin-top: 10px;
+	}
+    }
+}

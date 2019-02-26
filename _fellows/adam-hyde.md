@@ -30,7 +30,7 @@ contribution:
   2015: 7797.56
   2016: 9375.44
   2017: 2399.13 
-  2018: 9283.20
+  2018: 16680.69
 ---
 
 Adam Hyde would like to see scientific research results benefit a far wider audience through current, accessible and replicable dissemination. At present, it can take months - sometimes years - for publishers to create and process scientific research manuscripts, due to unwieldy toolsets and archaic, inflexible practices.

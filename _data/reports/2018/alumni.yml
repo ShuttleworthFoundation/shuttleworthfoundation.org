@@ -1,0 +1,30 @@
+- categories: [Government, Hardware, Telecoms]
+  fellow_contribution:  18664.69
+  fellowship_duration: 0
+  fellowship_end: September 2017
+  fellowship_start: September 2014
+  foundation_contribution:  186646.85
+  id: peter-bloom
+  name: Peter Bloom
+  spend:
+  - {amount: 4068.0, category: Legal}
+  - {amount: 4.93, category: Marketing}
+  - {amount: 18660.05, category: Infrastructure}
+  - {amount: 1530.56, category: Office-space}
+  - {amount: 181048.0, category: People}
+  total:  205311.54
+  twitter: rhizomatica
+  web: http://rhizomatica.org/
+- categories: [Data, Environment, Hardware, Science]
+  fellow_contribution:  897.08
+  fellowship_duration: 0
+  fellowship_end: September 2017
+  fellowship_start: September 2014
+  foundation_contribution:  8970.84
+  id: sean-bonner
+  name: Sean Bonner
+  spend:
+  - {amount: 9867.92, category: Travel}
+  total: 9867.92
+  twitter: seanbonner
+  web: http://blog.safecast.org/

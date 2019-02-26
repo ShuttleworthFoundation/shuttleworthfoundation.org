@@ -1,0 +1,42 @@
+.icon {
+    width: 55px;
+    height: 50px;
+    float: left;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-right: 15px;
+    
+    &.icon-infrastructure {
+	background-image: url(images/icons/infrastructure.svg);
+    }
+    &.icon-marketing, &.icon-marketing-admin, &.icon-administration {
+	background-image: url(images/icons/marketing.svg);
+    }
+    &.icon-people {
+	background-image: url(images/icons/people.svg);
+    }
+    &.icon-legal {
+	background-image: url(images/icons/legal.svg);
+	background-size: 90%;
+    }
+    &.icon-office-space {
+    background-image: url(images/icons/officespace.svg);
+    background-size: 90%;
+    }
+    &.icon-software {
+	background-image: url(images/icons/software.svg);
+    }
+    &.icon-training {
+	background-image: url(images/icons/training.svg);
+    }
+    &.icon-accounting {
+    background-image: url(images/icons/accounting.svg);
+    }
+    &.icon-travel {
+	background-image: url(images/icons/travel.svg);
+	width: 65px;
+	margin-right: 5px;
+    }
+}

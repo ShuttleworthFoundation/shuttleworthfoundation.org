@@ -28,7 +28,7 @@ fellowship:
   start: 2017-03-01
 contribution:
   2017: 7625.00
-  2018: 4897.73
+  2018:  17965.91
 redirect_from:
   - /fellows/madeleine-ball/
 ---
