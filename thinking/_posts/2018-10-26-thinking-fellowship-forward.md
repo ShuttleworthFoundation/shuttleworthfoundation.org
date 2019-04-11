@@ -3,6 +3,7 @@ layout: post
 post_date: 26 October 2018
 tags:
   - announcements
+  - applications
 title: "Fellowship forward"
 author: SF Team
 banner: "/images/blog/blog-open-strategy 2.jpg"

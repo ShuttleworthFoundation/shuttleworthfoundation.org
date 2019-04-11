@@ -2,7 +2,7 @@
   "taxonomy": "fb", 
   "name": "Total Spend",
   "label": "Total Spend",
-  "amount":  5926544.10,
+  "amount":   5935497.90 ,
   "children": [
     {
       "taxonomy": "fb", 
@@ -92,7 +92,7 @@
     }, 
     {
       "taxonomy": "fb", 
-      "amount":  837293.54, 
+      "amount":   846247.34, 
       "label": "Operational Costs", 
       "children": [
         {
@@ -104,7 +104,7 @@
         }, 
         {
           "taxonomy": "fb", 
-          "amount":  422532.68, 
+          "amount":   431486.48, 
           "label": "Overheads", 
           "children": [
             {
@@ -179,14 +179,14 @@
             },
             {
               "taxonomy": "fb", 
-              "amount":  72464.24, 
+              "amount":   79150.03, 
               "label": "Finance management costs & insurance", 
               "children": [], 
               "name": "Finance management costs & insurance"
             },
             {
               "taxonomy": "fb", 
-              "amount":  40919.56, 
+              "amount":   43187.57, 
               "label": "Office space & utilities", 
               "children": [], 
               "name": "Office space & utilities"
