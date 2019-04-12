@@ -100,4 +100,4 @@ We have been experimenting on the periphery of these themes for a while. On the 
 Over the next year we would like to go even further, asking what challenges the new normal has created, and which old ones needs a fresh perspective to shift thinking.  
 
 
-__The next round of applications open on 1 February 2019.__
+__The next round of applications opens on 1 February 2019.__
