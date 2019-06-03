@@ -97,7 +97,7 @@ Peter’s journey beyond his Fellowship has carried on with considerable success
 
 For the future, Peter recognises that despite considerable praise and recognition, there is still a long slog ahead, and there is no mention of resting on laurels. Keeping up with the new technology developments - such as 4G - takes up a big part of his time and thinking. 
 
-“We’re asking how we get our service to places that are really, really far out.” says Peter. “And we just got a nice donation from the Mexican government for satellite capacity. They donated 8 megaherz, which is worth $30K a month or something crazy. So that allows us to build wherever we want - we don't have to rely on anyone else.
+“We’re asking how we get our service to places that are really, really far out.” says Peter. “And we just got a nice donation from the Mexican government for satellite capacity. They donated 8 megahertz, which is worth $30K a month or something crazy. So that allows us to build wherever we want - we don't have to rely on anyone else.
 
 “But building and scaling out existing networks is priority number one. There are millions of people that could become users of these network. We've only touched a small number and, almost unfortunately, sometimes it can be a little overwhelming.”
 

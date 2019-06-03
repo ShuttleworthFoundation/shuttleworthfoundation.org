@@ -34,7 +34,7 @@ In the years leading up to the birth of Safecast, Sean ran a blog network and wo
 
 As news of the Tōhoku earthquake and tsunami filtered through, followed by the terrifying revelation it had taken out a nuclear power plant, most people around the world sat and watched in horror and helplessness. But not everyone froze.
 
-“Joi was still living in Japan, but was in the US at the time - I was in LA,” remembers Sean. “We immediately got talking on email to find out what was going on. You had these three separate disasters overlapping and the probl]ems were spiralling. 
+“Joi was still living in Japan, but was in the US at the time - I was in LA,” remembers Sean. “We immediately got talking on email to find out what was going on. You had these three separate disasters overlapping and the problems were spiralling.
 
 “We spoke to people in Japan - Joi connected us with his friend Pieter Franken, who had been living there for 35 years.” he continues. “We were told no one could get any information about this meltdown or the radiation levels. As a group of ‘Internet people,’ we knew the data had to be some place, so we decided to go find it.
 
