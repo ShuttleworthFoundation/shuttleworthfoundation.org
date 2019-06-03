@@ -15,7 +15,7 @@ How can real human beings - teachers, for example - author, remix and share mate
 
 In the early days of OER, anyone wanting to create and remix open textbooks needed reasonable knowledge of markup language, complicated models and coding. By making the process simple and natural to teachers and educators, OER could come closer to realising the wider benefits of open beyond sharing - collaboration and reuse.
 
-[OERPUB](https://oerpub.org/) was also a modular project, and while the Shuttleworth Foundation funds work that often ends up as successful, public-facing businesses, it isn't a prerequisite. It’s ideas that inspire us, and the brilliant people behind them that have a particular itch to scratch.
+[OERPUB](https://oerpub.org/) was also a modular project, and while the Shuttleworth Foundation funds work that often ends up as successful, public-facing initiatives, it isn't a prerequisite. It’s ideas that inspire us, and the brilliant people behind them that have a particular itch to scratch.
 
  “I had no plans to turn this into a business,” says Kathi. “I just needed to fix something. I wanted to contribute an idea to the world and leave it there for others to build on.”
 
