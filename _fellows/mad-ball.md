@@ -3,7 +3,7 @@ layout: fellow-2018
 title: "Mad Ball"
 name: "Mad Ball"
 firstname: "Mad"
-current: true
+current: false
 project:
   name: "Open Humans"
   summary: "Opening human health data"

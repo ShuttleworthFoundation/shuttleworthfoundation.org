@@ -3,7 +3,7 @@ layout: fellow-2018
 title: "Peter Cunliffe-Jones"
 name: "Peter Cunliffe-Jones"
 firstname: "Peter"
-current: true
+current: false
 project:
   name: "Africa Check"
   summary: "Checking the facts"
