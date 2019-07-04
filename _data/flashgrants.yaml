@@ -144,19 +144,19 @@
 -
     name: "Javier de la Cueva"
     gender: male
-    fellow: "Daniel Lombrana Gonzalez"
+    fellow: "Daniel Lombraña González"
     homepage: http://javierdelacueva.es/
     date: 2013-11-01
 -
     name: "Armin Ronacher"
     gender: male
-    fellow: "Daniel Lombrana Gonzalez"
+    fellow: "Daniel Lombraña González"
     homepage: http://lucumr.pocoo.org/about/
     date: 2014-05-01
 -
     name: "Salvatore Sanfilippo"
     gender: male
-    fellow: "Daniel Lombrana Gonzalez"
+    fellow: "Daniel Lombraña González"
     homepage: http://redis.io/
     date: 2015-05-01
 -
@@ -1495,7 +1495,7 @@
 -
     name: "Evan You"
     gender: male
-    fellow: "Daniel Lombrana Gonzalez"
+    fellow: "Daniel Lombraña González"
     homepage: https://vuejs.org/
     date: 2017-05-01
 -
@@ -1621,7 +1621,7 @@
 -
     name: "Círculo Madrileño Ferroviario"
     gender: male
-    fellow: "Daniel Lombrana Gonzalez"
+    fellow: "Daniel Lombraña González"
     homepage: http://www.cimaf.es/
     date: 2017-11-01
 -
@@ -1741,7 +1741,7 @@
 -
     name: "Sébastien Chopin"
     gender: male
-    fellow: "Daniel Lombrana Gonzalez"
+    fellow: "Daniel Lombraña González"
     homepage: https://nuxtjs.org/
     date: 2018-05-01
 -
@@ -1894,3 +1894,375 @@
     fellow: "Sean Bonner"
     homepage: https://en.wikipedia.org/wiki/Naomi_Wu
     date: 2018-05-01
+-
+    name: "Louise Bezuidenhout"
+    gender: female
+    fellow: "Jenny Molloy"
+    homepage: https://www.cs.ox.ac.uk/projects/EthiHack/index.html
+    date: 2018-11-01
+-
+    name: "Ellen Jorgensen"
+    gender: female
+    fellow: "Isha Datar"
+    homepage: https://www.biotechwithoutborders.org
+    date: 2018-11-01
+-
+    name: "David France"
+    gender: male
+    fellow: "Achal Prabhala"
+    homepage: https://www.davidfrance.com/
+    date: 2018-11-01
+-
+    name: "David Taylor"
+    gender: male
+    fellow: "Andrew Rens"
+    homepage: https://okapi.org.za/
+    date: 2018-11-01
+-
+    name: "Hera Hussein"
+    gender: female
+    fellow: "Waldo Jaquith"
+    homepage: https://chayn.co/
+    date: 2018-11-01
+-
+    name: "Paz Peña"
+    gender: female
+    fellow: "Peter Bloom"
+    homepage: https://pazpena.com/
+    date: 2018-11-01
+-
+    name: "Hala Burghaghis"
+    gender: female
+    fellow: "Esra'a Al Shafei"
+    homepage: http://jusoor.ly/
+    date: 2018-11-01
+-
+    name: "Ahmed El Arosi"
+    gender: male
+    fellow: "Johhny West"
+    homepage: https://ar.wikipedia.org/wiki/الصفحة_الرئيسية
+    date: 2018-11-01
+-
+    name: "Taeyoon Choi"
+    gender: male
+    fellow: "Astra Taylor"
+    homepage: http://taeyoonchoi.com/
+    date: 2018-11-01
+-
+    name: "Sharada Mohanty"
+    gender: male
+    fellow: "Francois Grey"
+    homepage: https://spmohanty.com/
+    date: 2018-11-01
+-
+    name: "Kim Hamilton"
+    gender: female
+    fellow: "Philipp Schmidt"
+    homepage: https://github.com/kimdhamilton
+    date: 2018-11-01
+-
+    name: "Romain Lesur"
+    gender: male
+    fellow: "Adam Hyde"
+    homepage: https://github.com/rstudio/pagedown
+    date: 2018-11-01
+-
+    name: "Nanjira Sambuli"
+    gender: female
+    fellow: "Mark Surman"
+    homepage: https://webfoundation.org/about/executive-team/nanjira-sambuli/
+    date: 2018-11-01
+-
+    name: "William Neal"
+    gender: male
+    fellow: "Marcin Jakubowski"
+    homepage: https://lia-edu.ca/academics/stem/#1487596796999-c4291c1c-d489
+    date: 2018-11-01
+-
+    name: "Anna Lowe"
+    gender: female
+    fellow: "Andrew Lamb"
+    homepage: https://www.linkedin.com/in/annalowe/
+    date: 2018-11-01
+-
+    name: "Xoliswa Sithole"
+    gender: female
+    fellow: "Sean Bonner"
+    homepage: https://en.m.wikipedia.org/wiki/Xoliswa_Sithole
+    date: 2018-11-01
+-
+    name: "Marius Kintel"
+    gender: male
+    fellow: "Tarek Loubani"
+    homepage: http://www.openscad.org/about.html
+    date: 2018-11-01
+-
+    name: "Tonny Okwonga"
+    gender: male
+    fellow: "Steve Song"
+    homepage: http://boscouganda.com
+    date: 2018-11-01
+-
+    name: "Sammy Mupfuni"
+    gender: male
+    fellow: "Peter Cunliffe-Jones"
+    homepage: http://www.congocheck.net/
+    date: 2018-11-01
+-
+    name: "Samuel Gabanyi"
+    gender: male
+    fellow: "Ugo Vallauri"
+    homepage: https://www.linkedin.com/in/samuel-gabanyi-b60b6b5/
+    date: 2018-11-01
+-
+    name: "Catherine Constantinides"
+    gender: female
+    fellow: "Mark Horner"
+    homepage: https://en.wikipedia.org/wiki/Catherine_Constantinides
+    date: 2018-11-01
+-
+    name: "Zeinab Takouti"
+    gender: female
+    fellow: "Anasuya Sengupta"
+    homepage: https://meta.wikimedia.org/wiki/User:Zeinebtakouti
+    date: 2018-11-01
+-
+    name: "Stefani Falconi"
+    gender: female
+    fellow: "Karla Córdoba-Brenes"
+    homepage: https://www.linkedin.com/in/stefanie-falconi/
+    date: 2018-11-01
+-
+    name: "Lorraine Chuen"
+    gender: female
+    fellow: "Peter Murray-Rust"
+    homepage: https://www.opencon2018.org/opencon_2017_organizing_committee
+    date: 2018-11-01
+-
+    name: "Sipho Ngwenya"
+    gender: male
+    fellow: "Gavin Weale"
+    homepage: http://www.nfactorial.co/
+    date: 2018-11-01
+-
+    name: "Bharath Haridas"
+    gender: male
+    fellow: "Kabir Bavikatte"
+    homepage: http://www.thepoeticsoffragility.com/site/index.html
+    date: 2018-11-01
+-
+    name: "Emma Kaye"
+    gender: female
+    fellow: "Arthur Attwell"
+    homepage: http://digitalfoundation.org.za/
+    date: 2018-11-01
+-
+    name: "Mixael Laufer"
+    gender: male
+    fellow: "Tiffiniy Cheng"
+    homepage: https://fourthievesvinegar.org/
+    date: 2018-11-01
+-
+    name: "Emmanuel Amoah"
+    gender: male
+    fellow: "Alasdair Davies"
+    homepage: https://www.rufford.org/projects/emmanuel_amoah
+    date: 2018-11-01
+-
+    name: "Christina Leos"
+    gender: female
+    fellow: "Seamus Kraft"
+    homepage: https://myhealthed.org/
+    date: 2018-11-01
+-
+    name: "Rashmi Devadasan"
+    gender: female
+    fellow: "Jesse von Doom"
+    homepage: http://www.blaft.com
+    date: 2018-11-01
+-
+    name: "Tim Head"
+    gender: male
+    fellow: "Mad Ball"
+    homepage: https://mybinder.org/
+    date: 2018-11-01
+-
+    name: "Goran Mahovlic"
+    gender: male
+    fellow: "Luka Mustafa"
+    homepage: https://radiona.org/
+    date: 2018-11-01
+-
+    name: "Erik Westra"
+    gender: male
+    fellow: "Jesse von Doom"
+    homepage: http://www.westraco.com/
+    date: 2019-05-01
+-
+    name: "Tara Brown"
+    gender: female
+    fellow: "Sean Bonner"
+    homepage: https://www.taratigerbrown.com/
+    date: 2019-05-01
+-
+    name: "Julia Reda"
+    gender: female
+    fellow: "Peter Murray-Rust"
+    homepage: https://juliareda.eu/en/
+    date: 2019-05-01
+-
+    name: "Setareh Malekzadeh"
+    gender: female
+    fellow: "Esra’a Al Shafei"
+    homepage: https://setarehmalekzadeh.com
+    date: 2019-05-01
+-
+    name: "Tusi Fokane"
+    gender: female
+    fellow: "Andrew Rens"
+    homepage: https://www.re-createza.org/supporters
+    date: 2019-05-01
+-
+    name: "Shabbir Banoobhai"
+    gender: male
+    fellow: "Kabir Bavikatte"
+    homepage: http://www.veilsoflight.com
+    date: 2019-05-01
+-
+    name: "Ashley Maynor"
+    gender: female
+    fellow: "Philipp Schmidt"
+    homepage: https://www.thelibrarycollective.org/
+    date: 2019-05-01
+-
+    name: "Fahima Ali"
+    gender: female
+    fellow: "Waldo Jaquith"
+    homepage: https://www.youtube.com/watch?v=zY11a-FQigw
+    date: 2019-05-01
+-
+    name: "Charles Barrete"
+    gender: male
+    fellow: "Andrew Lamb"
+    homepage: https://www.linkedin.com/in/cvbarrete/
+    date: 2019-05-01
+-
+    name: "Mike Dank"
+    gender: male
+    fellow: "Daniel Lombraña González"
+    homepage: https://n-o-d-e.net/zine/index.html
+    date: 2019-05-01
+-
+    name: "Joaquin Yescas"
+    gender: male
+    fellow: "Peter Bloom"
+    homepage: https://rising.globalvoices.org/lenguas/2015/08/26/joaquin-yescas-martinez-zapoteco-del-rincon-de-la-sierra/
+    date: 2019-05-01
+-
+    name: "Frankie Telarico"
+    gender: male
+    fellow: "Tarek Loubani"
+    homepage: https://www.e4rdesigns.ca/
+    date: 2019-05-01
+-
+    name: "Zeljka Bozic"
+    gender: female
+    fellow: "Luka Mustafa"
+    homepage: https://www.thethingsnetwork.org/community/banja-luka/#welcome
+    date: 2019-05-01
+-
+    name: "Nayla Fahed"
+    gender: female
+    fellow: "Gavin Weale"
+    homepage: http://drosbox.org/
+    date: 2019-05-01
+-
+    name: "Daniella Moosajie"
+    gender: female
+    fellow: "Arthur Attwell"
+    homepage: https://arisefamily.org/
+    date: 2019-05-01
+-
+    name: "Suraj Yengde"
+    gender: male
+    fellow: "Achal Prabhala"
+    homepage: https://scholar.harvard.edu/surajyengde/about
+    date: 2019-05-01
+-
+    name: "Craig Trester"
+    gender: male
+    fellow: "Isha Datar"
+    homepage: https://www.instagram.com/nyc.myc/
+    date: 2019-05-01
+-
+    name: "Mayeli Sánchez Martínez"
+    gender: female
+    fellow: "Steve Song"
+    homepage: https://geamatica.me/Antenas/Antenas.html
+    date: 2019-05-01
+-
+    name: "Branda Miller"
+    gender: female
+    fellow: "Astra Taylor"
+    homepage: https://www.mediasanctuary.org/initiatives/nature-lab/
+    date: 2019-05-01
+-
+    name: "Krasi Georgiev"
+    gender: male
+    fellow: "Alasdair Davies"
+    homepage: https://github.com/krasi-georgiev
+    date: 2019-05-01
+-
+    name: "Kevin Reed"
+    gender: male
+    fellow: "Francois Grey"
+    homepage: https://github.com/TheAspens
+    date: 2019-05-01
+-
+    name: "Wiebke Toussaint"
+    gender: female
+    fellow: "Paul Gardner-Stephen"
+    homepage: http://www.erc.uct.ac.za/staff/toussaint
+    date: 2019-05-01
+-
+    name: "Samantha Pilane"
+    gender: female
+    fellow: "Peter Cunliffe-Jones"
+    homepage: https://inkjournalism.org/
+    date: 2019-05-01
+-
+    name: "Brian O'Toole"
+    gender: male
+    fellow: "Marcin Jakubowski"
+    homepage: http://guyanachronicle.com/2019/02/17/nations-benefits-from-robotics-training-in-canada
+    date: 2019-05-01
+-
+    name: "Gameli Adzaho"
+    gender: male
+    fellow: "Jenny Molloy"
+    homepage: https://nef.org/blog/ambassadors/gameli-adzaho/
+    date: 2019-05-01
+-
+    name: "Sage Sharp"
+    gender: female
+    fellow: "Mad Ball"
+    homepage: https://otter.technology/
+    date: 2019-05-01
+-
+    name: "Sydette Harry"
+    gender: female
+    fellow: "Anasuya Sengupta"
+    homepage: 
+    date: 2019-05-01
+-
+    name: "Charlie Whitbread"
+    gender: male
+    fellow: "Ugo Vallauri"
+    homepage: https://www.mobilerefugeesupport.org/aid-we-provide
+    date: 2019-05-01
+-
+    name: "Bahram Nouraei"
+    gender: male
+    fellow: "Johhny West"
+    homepage: http://BahramNouraei.com
+    date: 2019-05-01
