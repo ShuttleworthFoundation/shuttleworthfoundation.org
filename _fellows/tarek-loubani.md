@@ -10,7 +10,7 @@ project:
   description: "The goal of this project is to create high-quality, free/open medical devices to increase availability to all."
 links:
   - type: web
-    url: https://github.com/gliax
+    url: https://glia.org/
     text: Glia
   - type: github
     url: https://github.com/GliaX
