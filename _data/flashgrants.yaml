@@ -671,6 +671,12 @@
     homepage: http://julielegault.com/amino
     date: 2015-05-01
 -
+    name: "Sean Jaccobs"
+    gender: male
+    fellow: "Achal Prabhala"
+    homepage: http://africasacountry.com/
+    date: 2015-05-01
+-
     name: "Alex Alekseyenko"
     gender: male
     fellow: "Rory Aronson"
@@ -2174,7 +2180,7 @@
     name: "Nayla Fahed"
     gender: female
     fellow: "Gavin Weale"
-    homepage: http://drosbox.org/
+    homepage: http://www.lal.ngo
     date: 2019-05-01
 -
     name: "Daniella Moosajie"
