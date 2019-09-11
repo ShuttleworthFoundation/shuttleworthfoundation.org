@@ -27,7 +27,9 @@ video:
 fellowship:
   start: 2018-03-01
 contribution:
-  2018:  16963.05 
+  2018: 16963.05 
+  2019: 15248.43 
+
 ---
 Jenny Molloy is a molecular biologist and champion of open science. Her work focuses on the creation of an open and sustainable bioeconomy for the public good, where research, tools and systems are accessible to all, rather than locked behind proprietary models and closed systems. 
 

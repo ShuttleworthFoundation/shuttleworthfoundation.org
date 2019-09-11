@@ -27,7 +27,9 @@ video:
 fellowship:
   start: 2018-03-01
 contribution:
-  2018:  11975.31 
+  2018: 11975.31
+  2019: 17600.40 
+ 
 ---
 Karla Córdoba-Brenes has a vision of the world in which communities with a shared purpose can create digital currencies based on self-determined values and rules. Using blockchain technology, Karla and the [BeSpiral](https://bespiral.com/) team will create an open platform allowing any group to introduce new currencies for achieving socio and environmental goals.
 

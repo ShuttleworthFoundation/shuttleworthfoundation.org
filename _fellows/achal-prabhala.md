@@ -3,7 +3,7 @@ layout: fellow-2018
 title: "Achal Prabhala"
 name: "Achal Prabhala"
 firstname: "Achal"
-current: true
+current: false
 project:
   name: "Accessibsa"
   summary: "Advancing innovation and access to medicines"
@@ -21,6 +21,8 @@ contribution:
   2016: 1789.17
   2017:  22266.02 
   2018: 20269.64
+  2019: 29227.23 
+
 ---
 Medicines save lives. Unfortunately the right to profit often overrides the right to access. Fake innovation, manifested in bad patents, harms humanity: it blocks affordable versions of life-saving drugs and impedes real innovation. Too often, the cost of bad intellectual property is the price of life.
 

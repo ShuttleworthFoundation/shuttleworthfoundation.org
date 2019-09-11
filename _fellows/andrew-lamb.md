@@ -19,6 +19,8 @@ fellowship:
   start: 2018-03-01
 contribution:
   2018: 1529.87
+  2019: 23470.13 
+
 ---
 In times of disaster, damaged communities and aid agencies rely on supply chains that fail them. Systemic problems in production and logistics mean emergency equipment is delivered late - or not at all - with high expense attached. Shipping costs devour aid agency budgets, relief workers lack the emergency equipment they need, and lives are lost as a result. 
 

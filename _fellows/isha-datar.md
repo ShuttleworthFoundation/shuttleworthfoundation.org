@@ -3,7 +3,7 @@ layout: fellow-2018
 title: "Isha Datar"
 name: "Isha Datar"
 firstname: "Isha"
-current: true
+current: false
 project:
   name: "New Harvest"
   summary: "Developing openly accessible cell cultures"
@@ -27,6 +27,8 @@ contribution:
   2016: 2526.92
   2017: 7628.51
   2018: 40297.83
+  2019: 24546.74 
+
 ---
 Food insecurity is one of the greatest challenges of our time. If we are to feed the human population sustainably, affordably and nutritiously, we have to rethink the food supply chain. Isha Datar is doing just that, exploring cellular agriculture as a new facet of farming animal products. 
 

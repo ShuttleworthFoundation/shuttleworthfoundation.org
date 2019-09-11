@@ -28,6 +28,8 @@ contribution:
   2016: 20395.45
   2017: 28751.80
   2018: 15292.05
+  2019: 6623.81 
+
 ---
 Astra is driven to help individuals take back control of their own debt data and financial futures. Predatory lending and exploitative debt practices cripple borrowers, and have significant consequences. 
 

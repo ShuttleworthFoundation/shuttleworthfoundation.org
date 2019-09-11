@@ -25,6 +25,8 @@ fellowship:
 contribution:
   2017: 9402.91
   2018: 36833.12
+  2019: 17813.76 
+
 ---
 Re-imagining the internet is Anasuya’s way of re-imagining the world. She is deeply passionate about and committed to this cause. She is also well versed in both collaborative knowledge creation and community engagement. 
 
