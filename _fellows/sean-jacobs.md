@@ -16,7 +16,7 @@ links:
     url: https://africasacountry.com/
     text: AIAC
 twitter:
-    handle: africaisacountry
+    handle: africasacountry
     tweet: "#Mugabe has passed. And the rush to secure his legacy—for better or for worse—has begun. Our archive on the man is a good place to start (Google: 'africasacountry' and 'mugabe')."
 date:   2019-02-10
 photo: /images/fellows/sean-jacobs.jpg

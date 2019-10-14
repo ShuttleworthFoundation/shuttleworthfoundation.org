@@ -28,7 +28,7 @@ links:
     url: https://blog.alasdair.com
     text: Alasdair's Blog
 twitter:
-  handle: alasdair
+  handle: al2ka
   tweet: "Incredibly proud to join @ShuttleworthFdn & inject openness into conservation technology. It’s time we all got access to the tools we need."
 date:   2017-02-03
 photo: /images/fellows/alasdair-davies.jpg
