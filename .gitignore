@@ -1,6 +1,7 @@
 # Jekyll temp files.
 _site
 .sass-cache
+.jekyll-cache
 
 # Emacs temp files
 *~
