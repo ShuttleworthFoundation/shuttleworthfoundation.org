@@ -1,7 +1,7 @@
 ---
 layout: post
 post_date: 29 August 2014
-tags: 
+tags:
   - announcements
 title: "September 2014 fellowship intake"
 author: SF Team
@@ -19,12 +19,12 @@ We had submissions from all over the world, exploring areas of science, educatio
 We were drawn to initiatives that are at the early stages of development and not yet widely funded, to help unlock innovation and bring new ideas to the  forefront. Out of all of these we chose three we believe have an interesting idea with a novel application, a realistic view of what they can achieve and the skills set to implement it.
 
 On 1 September we welcome:
-		
-- [Peter Bloom]({% post_url 2014-08-26-thinking-peter-bloom %}) - Rhizomatica (Telecommunications)
 
-- [Seamus Kraft]({% post_url 2014-08-26-thinking-seamus-kraft %}) - The Open Gov Foundation (Open Government)
+- [Peter Bloom]({% post_url /thinking/2014-08-26-thinking-peter-bloom %}) - Rhizomatica (Telecommunications)
 
-- [Sean Bonner]({% post_url 2014-08-26-thinking-sean-bonner %}) - Safecast (Citizen Science)
+- [Seamus Kraft]({% post_url /thinking/2014-08-26-thinking-seamus-kraft %}) - The Open Gov Foundation (Open Government)
+
+- [Sean Bonner]({% post_url /thinking/2014-08-26-thinking-sean-bonner %}) - Safecast (Citizen Science)
 
 to the Fellowship program.
 
