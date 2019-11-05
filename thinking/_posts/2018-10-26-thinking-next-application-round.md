@@ -3,7 +3,6 @@ layout: post
 post_date: 26 October 2018
 tags:
   - announcements
-  - applications
 title: "Next application round"
 author: SF Team
 banner: "/images/blog/apply.jpg"
