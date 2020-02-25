@@ -36,13 +36,18 @@ Astra is driven to help individuals take back control of their own debt data and
 While it is easy to blame individual lenders for bad behaviour, the problem is much more systemic. Through the [Debt Collective](https://debtcollective.org/) Astra is challenging established predatory practices and core beliefs around indebtedness with lenders and borrowers.
 
 {% contentfor funding %}
-Astra is equipped with exceptional investigative experience, and has the potential to put her skills to work in changing what we think and know about indebtedness. As a ‘practical activist,’ she has already forged success with the Rolling Jubilee campaign, and is now turning her focus towards unblocking pathways for individuals to resolve their debt and establish more equitable lending practices. 
+## Highlights and outcomes: 
 
-We are interested in finding out what openness looks like in the context of black box processes that affect our daily lives, but also deals with sensitive, private information. We support Astra’s work to work and learn with her.
+Astra focussed on enabling debtors to leverage the power and knowledge of a collective, and mobilize as a community to defend themselves against predatory lenders. By applying openness to the opaque, black box processes of the financial industry, The Debt Collective highlighted the gross inequalities in a predatory system that actively targets vulnerable and minority people.
 
-Astra’s work focuses on: 
+Her fellowship was a phenomenal success, both in terms of numbers and moving the conversation about debt into new territory. After creating a set of dispute tools, Astra and The Debt Collective helped US students wipe off over a billion dollars of debt and won policy change under the Obama administration. Despite that political win being rolled back under Republican interests, the community continues to grow and make significant progress. Members now fight against all kinds of debt issues, including wage garnishments, commercial loans and credit report errors. Next in line is mortgage, medical and criminal justice debt. 
 
-- Enabling debtors to leverage the power and knowledge of a collective
-- Mobilizing a community to defend against predatory lenders 
-- Challenging the systems and beliefs surrounding indebtedness
+Astra continues her important work with The Debt Collective, while exploring the broader theme of justice and how cultures and countries are built on rules often ignored by those that dictate them. She recently released a thought-provoking film - What is Democracy? - and wrote a companion book, [Democracy May Not Exist But We’ll Miss it When It’s Gone](https://www.versobooks.com/books/3099-democracy-may-not-exist-but-we-ll-miss-it-when-it-s-gone).
+
+## Astra on the fellowship model:
+
+“When an organisation says they want you to learn and we want you to be honest about your trials and tribulations, it's hard to know if they really mean that. 
+
+One of the most interesting things for me was, wow, the Foundation really means it. It has created a space where learning is valuable. It’s really rare and I can see how unique it is.” 
+
 {% endcontentfor %}
