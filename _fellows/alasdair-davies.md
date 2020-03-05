@@ -3,7 +3,7 @@ layout: fellow-2018
 title: "Alasdair Davies"
 name: "Alasdair Davies"
 firstname: "Alasdair"
-current: true
+current: false
 project:
   name: "Arribada"
   summary: "Protecting the planet with affordable conservation technology"

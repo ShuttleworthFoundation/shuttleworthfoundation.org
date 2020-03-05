@@ -3,7 +3,7 @@ layout: fellow-2018
 title: "Tarek Loubani"
 name: "Tarek Loubani"
 firstname: "Tarek"
-current: true
+current: false
 project:
   name: "Glia"
   summary: "Making open medical hardware"

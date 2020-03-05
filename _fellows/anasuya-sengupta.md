@@ -3,7 +3,7 @@ layout: fellow-2018
 title: "Anasuya Sengupta"
 name: "Anasuya Sengupta"
 firstname: "Anasuya"
-current: true
+current: false
 project:
   name: "Whose Knowledge?"
   summary: "Expanding human knowledge online"
