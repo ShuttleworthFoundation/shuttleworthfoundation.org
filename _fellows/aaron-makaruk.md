@@ -2,18 +2,23 @@
 title: "Aaron Makaruk"
 layout: fellow-2018
 name: "Aaron Makaruk"
-project: "Open designs for sustainable urban farming"
+project:
+    name: "Open designs for sustainable urban farming"
 current: false
 type: "Seeding food gardens"
 date:   2015-09-01
 photo: /images/fellows/aaron-makaruk.jpg
 video: https://player.vimeo.com/video/178892102
 links:
-    - Forum: http://community.aker.me/
-    - GitHub: https://github.com/AKERKits/
-projects:
-    - AKER : https://akerkits.com/
-    - Open Source Beehives : http://opensourcebeehives.net/
+    - type: github
+      url: https://github.com/AKERKits/
+      text: GitHub
+    - type: web
+      url: https://akerkits.com/
+      text: AKER
+    - type: web
+      url: http://opensourcebeehives.net/
+      text: Open Source Beehives
 twitter: Aaron_Makaruk
 fellowship:
   start: 2016-03-01
