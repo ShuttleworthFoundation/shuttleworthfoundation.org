@@ -6,7 +6,7 @@ project: "Exploring 21st Century learning"
 current: false
 type: "Exploring 21st Century learning"
 date:   2008-03-01
-photo: /images/fellows/steve-vosloo.jpg"
+photo: /images/fellows/steve-vosloo.jpg
 links:
     - Blog : http://stevevosloo.com/
 projects:

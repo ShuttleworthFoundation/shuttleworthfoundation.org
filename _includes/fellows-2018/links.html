@@ -13,7 +13,7 @@
 	{% for link in include.links limit:3 %}
 	<div class="link-block clearfix">
 	  <a href="{{ link.url }}"><img class="icon" src="/images/icons/{{ link.type }}-2018.svg" alt="{{ link.type }}" /></a>
-	  <a href="{{ link.url }}">{{ link.text }}</a></br>
+	  <a href="{{ link.url }}">{{ link.text }}</a><br/>
 	</div>
 	{% endfor %}
       </div>

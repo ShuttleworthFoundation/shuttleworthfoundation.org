@@ -17,7 +17,7 @@ links:
     text: Blog
 twitter:
     handle: chartgerink
-    tweet: "Okay today seems like a good day to share that @ShuttleworthFdn has awarded me a fellowship to build a radical alternative scholarly communication with @libscie and make it a worker cooperative so it wont be coopted by VC or other moralless profit maximizing comps &#129299"
+    tweet: "Okay today seems like a good day to share that @ShuttleworthFdn has awarded me a fellowship to build a radical alternative scholarly communication with @libscie and make it a worker cooperative so it wont be coopted by VC or other moralless profit maximizing comps &#129299;"
 date:   2019-02-10
 photo: /images/fellows/chris-hartgerink.jpg
 video:
