@@ -15,7 +15,7 @@ Firstly, he has grown Africa Check from a skeleton team in Johannesburg to becom
 
 We caught up with Peter to discuss his story, the growth of Africa Check and the global fact-checking network, and the outcomes and impacts of his hugely successful fellowship. 
 
-### ___““The Foundation provided booster rockets to our development. The question is, can you keep going when they fall off, or will you tumble back to Earth? I think… I think... we’re in orbit.” - Peter Cunliffe-Jones___
+### ___“The Foundation provided booster rockets to our development. The question is, can you keep going when they fall off, or will you tumble back to Earth? I think… I think... we’re in orbit.” - Peter Cunliffe-Jones___
 
 
 ### The problem: Facts vs Fiction
