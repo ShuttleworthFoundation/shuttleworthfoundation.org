@@ -98,5 +98,5 @@ After three years, Steve  left his role at Pearson to return to UNESCO until 201
 
 “You realize there’s a lot of ignorance in closed communities about open; they think that all open content is of low quality, for example. We need to engage and educate them otherwise. There are some small wins we are seeing, for example, since 2016 Pearson publishes some of its [Open Ideas](https://www.pearson.com/corporate/about-pearson/innovation/open-ideas-at-pearson.html) papers under a CC Attribution 4.0 International Licence. 
 
-“It really is the people inside that push these agendas and who can make the difference, and I saw that at the Foundation. When I was a Fellow there were quite classic verticals - education, law etc - and it seems that's opened up a lot. I think that the team are totally committed to learning and to helping it to grow. ”
+“It really is the people inside that push these agendas and who can make the difference, and I saw that at the Foundation. When I was a Fellow there were quite classic verticals - education, law etc - and it seems that's opened up a lot. I think that the team are totally committed to learning and to helping it to grow.”
 

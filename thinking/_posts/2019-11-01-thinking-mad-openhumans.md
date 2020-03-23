@@ -76,7 +76,7 @@ During Mad’s two years as a fellow, they have changed the direction of the ori
 
 The Foundation’s investment in the individual has also delivered a positive outcome. Not only is the project looking sustainable and strategically well-placed now, but Mad’s profile has grown, too. They have recently joined the board of a Finnish organisation called [MyData](https://mydata.org/), which looks at personal data rights in a similar vein to Open Humans. 
 
-“They have a global vision, “explains Mad. “They aren’t just talking about privacy - they are talking about portability and access, which are important values for us. It’s just one of the ways my work with Open Humans has translated and expanded. 
+“They have a global vision,” explains Mad. “They aren’t just talking about privacy - they are talking about portability and access, which are important values for us. It’s just one of the ways my work with Open Humans has translated and expanded.
 
 “I will always see myself working towards the greater good in open data and health, and advancing these open approaches. And I hope to continue my relationship with the Shuttleworth Foundation - it’s so valuable to be a part of the fellowship community.”
 

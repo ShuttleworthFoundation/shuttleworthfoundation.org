@@ -60,7 +60,7 @@ At this stage, Sean and the group had managed to unearth a few Geiger counters a
 
 “We rigged it up pretty much overnight,” he continues. “We used a laptop, a Geiger counter and GPS, duct taped the counter to a car window, and took pictures from an iPhone every few minutes.
 
-“It was an absolute nightmare to process. So the next step was to automate it and start driving around with them right away. ”
+“It was an absolute nightmare to process. So the next step was to automate it and start driving around with them right away.”
 
 What happened next was revelatory. Straight away, the team saw their readings fluctuate on a highly localised level, giving richer, more accurate data than the vague averages of large areas presented in the official figures.
 

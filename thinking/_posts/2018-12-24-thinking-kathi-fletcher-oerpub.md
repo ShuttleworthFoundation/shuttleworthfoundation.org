@@ -50,7 +50,7 @@ From the Foundation’s perspective, this was a timely and necessary idea. While
 
 It was also clear that Kathi had the ability to get the project off the ground. She had already established relationships with many teacher connections, after meeting and working with with [Mark Horner of Siyavula](http://www.siyavulaeducation.com/). And as well as having a wealth of technical and project management, she shared the Foundation’s values on openness. 
 
-“I feel like I have been brought up with open,” Kathi says. “In grad school we were sharing all the time, and it seems entirely normal to me. I mean - what if someone had copyrighted the number system? Open is just part of who I am. ”
+“I feel like I have been brought up with open,” Kathi says. “In grad school we were sharing all the time, and it seems entirely normal to me. I mean - what if someone had copyrighted the number system? Open is just part of who I am.”
 
 
 ### Funding & the Project
