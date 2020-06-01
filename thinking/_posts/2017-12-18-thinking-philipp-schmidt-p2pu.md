@@ -25,7 +25,7 @@ In the late 2000s, Philipp Schmidt was already enthused by open education but ex
 
 After many discussions about uncovering the missing piece of the jigsaw, Philipp and a friend - Neeru Paharia - hit upon a possible solution. 
 
-‘We wanted to create a platform for people to share learning, and improve access to education” says Philipp. “Neeru came up with the name [Peer 2 Peer University](http://p2pu.org/en/) a few weeks later, and that was it.
+“We wanted to create a platform for people to share learning, and improve access to education” says Philipp. “Neeru came up with the name [Peer 2 Peer University](http://p2pu.org/en/) a few weeks later, and that was it.
 
 
 ### ___"Once I had the idea, I knew I would do this and nothing else."___ ###  
@@ -50,7 +50,7 @@ Getting a project like P2PU off the ground is tough. It was a big idea and posed
 
 The salary issue was prominent, too. Without money in the bank, it’s hard to focus on your ideas as you are spending too much time trying to earn a living. Funding was the obvious solution, but it wasn’t without its own problems. 
 
-”In the social impact space, applying to foundations from the development aid world is a pain,’ he explains. “You write out applications, wait six months for funding, present big reports and go to endless meetings. It takes a huge amount of time, and nothing ever gets done.
+”In the social impact space, applying to foundations from the development aid world is a pain,” he explains. “You write out applications, wait six months for funding, present big reports and go to endless meetings. It takes a huge amount of time, and nothing ever gets done.
 
 “Many funders are metric driven, and apply business logic to socially-driven ideas - they can't invest because it’s not in their model. You are up against a lot of bureaucracy.”
 
@@ -59,7 +59,7 @@ The salary issue was prominent, too. Without money in the bank, it’s hard to f
 
 In 2008, the Hewlett Foundation awarded a small start-up grant to P2PU, and it wasn’t long afterwards that Philipp applied for funding from the Shuttleworth Foundation. 
 
-“The Foundation was exactly what I was looking for,’ explains Philipp. “Openness is at its core, and it shares the same values as P2PU - it was a perfect fit. Having a group of people around you that share those values is vital. You can depend on it.
+“The Foundation was exactly what I was looking for,” explains Philipp. “Openness is at its core, and it shares the same values as P2PU - it was a perfect fit. Having a group of people around you that share those values is vital. You can depend on it.
 
 “But the most impressive thing in the early stages was the feeling of backing; someone taking a bet on your crazy idea. 
 
@@ -75,7 +75,7 @@ The [Foundation funding](https://www.shuttleworthfoundation.org/fellows/) helped
 
 It also gave Philipp the time and space to find and grow the communities P2PU needed to run and take part in courses - and tap into them. 
 
-“The funding enabled us to run a workshop in Berlin with a community of people who had taken part in our courses before,” explains Philipp. “ It was the best investment at that stage, as it gave us invaluable feedback on how we should make changes and refine P2PU.”
+“The funding enabled us to run a workshop in Berlin with a community of people who had taken part in our courses before,” explains Philipp. “It was the best investment at that stage, as it gave us invaluable feedback on how we should make changes and refine P2PU.”
 
 And it wasn’t just the P2PU communities that were growing - Philipp underwent something of a growth period, too. 
 
@@ -119,7 +119,7 @@ When things are looking bleak in the social impact space, many investors walk aw
 
 It was a tough time for P2PU. The impact of MOOCs meant the organisation had to scale down, people were let go, and the possibility of ending the venture was floated. 
 
-”Accessing a community of other people you can turn to or have been through similar things is really important, remembers Philipp. “Everyone fails, it's how you deal with it that counts.
+“Accessing a community of other people you can turn to or have been through similar things is really important, remembers Philipp. “Everyone fails, it's how you deal with it that counts.
 
 “You need friends, allies, and a support network. The Foundation embraces - and even enjoys - the failures and are keen to put them right.”
 
@@ -130,7 +130,7 @@ Philipp and the team came close to calling it a day and had even made peace with
 
 But far from being the end, it was actually a new beginning. After hearing of a Knight Foundation News Challenge for libraries, Philipp got in touch with a contact at [Chicago Public Library](https://www.chipublib.org/news/join-a-study-group-and-take-an-online-course/), and they started on a plan to recreate the online P2PU idea in a face-to-face environment. 
 
-“It made complete sense,” says Philipp.”The idea was to include librarians as hosts, rather than teachers or experts, and make all this online content available offline at the public libraries.
+“It made complete sense,” says Philipp. ”The idea was to include librarians as hosts, rather than teachers or experts, and make all this online content available offline at the public libraries.
 
 “It fit into what the libraries were trying to do at the time, and it gave us the opportunity to turn things around.”
 

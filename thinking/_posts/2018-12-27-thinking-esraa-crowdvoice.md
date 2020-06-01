@@ -21,7 +21,7 @@ We caught up with Esra’a to discuss her memories of the Shuttleworth Fellowshi
 
 Esra’a has always shown a keen interest in politics - her background is in political science - and it was a fascination with the Internet that provoked her interest in technology. Coming from one of the many parts of the world where censorship and surveillance are the norms, that attraction was powerful. 
 
-“You were always aching for that thing that connects you to the world,’ she explains. “For me, that thing was the Internet. No other medium was as self-moderated as the web, where you could really create your vision, implement it and have little concern about global censorship. 
+“You were always aching for that thing that connects you to the world,” she explains. “For me, that thing was the Internet. No other medium was as self-moderated as the web, where you could really create your vision, implement it and have little concern about global censorship. 
 
 “Maybe it would be censored in Bahrain - which CrowdVoice still is to this day - but the rest of the world still has access. Sometimes that's enough for me, for people to see the information for themselves and to be able to use, repurpose it and adapt it.”
 

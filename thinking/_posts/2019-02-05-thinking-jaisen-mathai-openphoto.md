@@ -37,7 +37,7 @@ A few months later, with the help of the international open source community, th
 
 The final aspect of the project was some creative thinking on interoperability. By allowing and linking data portability and data ownership, users could switch services whenever they liked. It was a key differentiator to everything else on the market. However, there was a problem.
 
-“It was a real challenge to find funding”, recalls Jaisen. “The model wasn't motivated purely to generate a lot of profits. I wanted to be a self-sustainable business, but because there was a lot of control placed back in the users hands, there wasn't much lock in. It made for a difficult story to sell to investors.
+“It was a real challenge to find funding,” recalls Jaisen. “The model wasn't motivated purely to generate a lot of profits. I wanted to be a self-sustainable business, but because there was a lot of control placed back in the users hands, there wasn't much lock in. It made for a difficult story to sell to investors.
 
 “I was able to get a lot of feedback that validated the idea and got in front of some prominent VC funds, but couldn’t close any deals.”
 

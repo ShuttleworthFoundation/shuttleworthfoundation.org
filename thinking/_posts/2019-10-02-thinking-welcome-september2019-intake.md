@@ -100,7 +100,7 @@ Sean’s fellowship is focussed on scaling AIAC up and out from the margins of g
 .
 One open aspect of Sean’s project is based around licensing. All of the content on AIAC is available under a Creative Commons license, and he sees this as an essential tool to compete with the reach of global media companies. Where TV stations and newspapers have wealthy backers and millions of customers to pay for distribution, AIAC looks to freedom, sharing and people to spread its message. It is an exciting opportunity that, if successful, could create an environment where open content can begin to pitch itself against traditional media. 
 
-Open is also integral to a critical part of the project’s new direction. In a continent where languages number in the thousands, English - the dominant media language - leaves far too many behind. “Creative Commons is key for us,” says Sean. “ Anybody is free to use, recycle and change our content, and we want to see people translating the work so it is accessible to new audiences. 
+Open is also integral to a critical part of the project’s new direction. In a continent where languages number in the thousands, English - the dominant media language - leaves far too many behind. “Creative Commons is key for us,” says Sean. “Anybody is free to use, recycle and change our content, and we want to see people translating the work so it is accessible to new audiences.
 
 “But not just in Africa,” he continues. “I want to see this work published in India, and written in Tamil. I would like to see it in Russian. And I think if people are free to share it and use it, and circulate it, then we have a chance of being David against Goliath.”
 

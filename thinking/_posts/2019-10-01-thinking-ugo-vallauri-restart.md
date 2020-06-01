@@ -79,7 +79,7 @@ The same is happening in the policy-making space. Ugo and his Restart team are a
 
 "But this is only a first crucial milestone. The hope is that it will trigger a much broader movement because the reality is that the legislation will only improve fridges, washing machines, dishwashers and televisions. There are a lot of other products out there. The ability to repair your smartphone is missing from the regulations so far. 
 
-"It's absurd. If you ask anyone in the street, everyone would agree with you that they want the ability to repair products and there is a high level, cross-party support for these ideas. Yet,  the powers that be have invested so much in their marketing machine to prevent common-sense thriving. It is such a fight to push back.
+"It's absurd. If you ask anyone in the street, everyone would agree with you that they want the ability to repair products and there is a high level, cross-party support for these ideas. Yet, the powers that be have invested so much in their marketing machine to prevent common-sense thriving. It is such a fight to push back.
 
 "So, you can see that this takes time. You can't make a significant change in a year, and this is such important reasoning for the Shuttleworth Foundation's investment in long-term goals, without the need to achieve change in a short period."
 

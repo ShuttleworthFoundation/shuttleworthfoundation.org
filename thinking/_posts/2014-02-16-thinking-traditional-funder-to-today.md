@@ -39,7 +39,7 @@ We brought the projects in-house and offered residential fellowships to thematic
 
 - It is better to support an idea where it originates, than try to make it conform to a geographic context. We support Fellows where were based, not just in South Africa.
 
-- While the policy space remains very important in removing barriers to change,  action based initiatives are a better fit for us. It allows us to test theories about ideal policy in a real world and examine the results. We focus on implementation rather than policy.
+- While the policy space remains very important in removing barriers to change, action based initiatives are a better fit for us. It allows us to test theories about ideal policy in a real world and examine the results. We focus on implementation rather than policy.
 
 - Only some ideas will get traction and that is fine. It is the nature of being experimental and  encouraging innovation. We actively encourage being bold, and learning from things that fail.
 
