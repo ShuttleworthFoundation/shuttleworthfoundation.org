@@ -41,7 +41,7 @@ From the moment they take up employment, the everyday worker’s ability to enga
 
 This is a systemic problem visible in every corner of society, in systems seeking to maximise its profits as well as those with social endeavours. Workers are subjected to someone else’s mission rather than stimulated to act on their own beliefs. They find themselves tied to their submissive roles, precariously working paycheck to paycheck and too numbed to focus on the (collective) challenges that matter, despite being best-placed to make the optimal decisions on the issues they face. It is an unsustainable environment for the many, while highly desirable for the few. And it is worrying, given the state of the world today.
 
-We look to the the ideas of scientists to solve humanity’s problems and we are reliant on the organisations they work for to define their missions. But if those missions are determined by funding sources or publication potential rather than need, we are unlikely to see positive change happening as quickly as is needed. 
+We look to the ideas of scientists to solve humanity’s problems and we are reliant on the organisations they work for to define their missions. But if those missions are determined by funding sources or publication potential rather than need, we are unlikely to see positive change happening as quickly as is needed.
 
 
 # The Idea

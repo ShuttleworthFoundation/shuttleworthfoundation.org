@@ -48,7 +48,7 @@ Kathi’s proposal to the Shuttleworth Foundation Fellowship was to work on some
 
 From the Foundation’s perspective, this was a timely and necessary idea. While OERs at the time granted legal rights, user access was locked in silos across different platforms and lacked the ecosystem needed for everyday communities, teachers and educators to benefit. 
 
-It was also clear that Kathi had the ability to get the project off the ground. She had already established relationships with many teacher connections, after meeting and working with with [Mark Horner of Siyavula](http://www.siyavulaeducation.com/). And as well as having a wealth of technical and project management, she shared the Foundation’s values on openness. 
+It was also clear that Kathi had the ability to get the project off the ground. She had already established relationships with many teacher connections, after meeting and working with [Mark Horner of Siyavula](http://www.siyavulaeducation.com/). And as well as having a wealth of technical and project management, she shared the Foundation’s values on openness.
 
 “I feel like I have been brought up with open,” Kathi says. “In grad school we were sharing all the time, and it seems entirely normal to me. I mean - what if someone had copyrighted the number system? Open is just part of who I am. ”
 
@@ -74,7 +74,7 @@ Over the course of the three-year journey, Kathi created an API for publishing O
 
 “I loved meeting with the other Fellows,” recalls Kathi of her time with the Foundation. “Partly because it’s so unlike large organisations where there is a certain amount of conservatism and a narrowing of focus. 
 
-“But the Fellowship was also important in a psychological way. These are people working on problems that, if solved, will make the the world a better place in 10-15 years. It’s really nice to be part of a group that has big goals.
+“But the Fellowship was also important in a psychological way. These are people working on problems that, if solved, will make the world a better place in 10-15 years. It’s really nice to be part of a group that has big goals.
 
 “What’s absolutely unique about the Fellowship, Fellows and gatherings is that there is no sense of competition. You get to try different things and be radical, but there is a sense of safety in that space. It’s very nice and refreshing - just knowing it exists is helpful. 
 

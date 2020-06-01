@@ -100,7 +100,7 @@ Secondly, collaboration is encouraged between Fellows. “I counted maybe nine o
 
 Today, Hypothes.is continues to mature, both technologically and organisationally. With a staff of fourteen full-timers, Dan Whaley and the team are expanding and deepening the product as a general purpose application you can use anywhere on the web. 
 
-“Eight years in, and we have 200,000 users and 4.5 million annotations,” says Dan. “It’s bringing arguments about specific details at a fine grain level to the online document itself. You don’t have to go elsewhere to to read the rebuttal - it’s right there.”
+“Eight years in, and we have 200,000 users and 4.5 million annotations,” says Dan. “It’s bringing arguments about specific details at a fine grain level to the online document itself. You don’t have to go elsewhere to read the rebuttal - it’s right there.”
 
 Supported by several funding organisations, Hypothes.is signed their first commercial contract in 2017, and have plans to make it possible for people and organisations to run their own servers and publish annotations into a universal client. 
 

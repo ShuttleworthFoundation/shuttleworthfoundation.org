@@ -61,7 +61,7 @@ In a crowded consumer space with so many competitors, it was tough to grow enoug
 
 “But with the same product we were selling the service to for profit enterprises and there were features and aspects that weren't open source. If it was something that we felt wasn't valuable to the community and we felt we could build it quicker if not in the open, we would.”
 
-Jaisen recalls the Foundation’s support as valuable and helpful, particularly in overcoming the the challenges in open source, and the model of freedom on offer. 
+Jaisen recalls the Foundation’s support as valuable and helpful, particularly in overcoming the challenges in open source, and the model of freedom on offer.
 
 “We tried various approaches to realising our original goals,” he remembers. “They were supportive of us sacrificing openness in an effort to achieve that sustainability. 
 

@@ -33,7 +33,7 @@ I've been involved in trying to make the internet cheaper and more pervasive sin
 
 **What led you to the Shuttleworth Foundation?**
 
-I was working for a Canadian research agency - the International Development Research Centre - when I met met [Jason Hudson](https://shuttleworthfoundation.org/team/jason-hudson/) at a workshop in London.
+I was working for a Canadian research agency - the International Development Research Centre - when I met [Jason Hudson](https://shuttleworthfoundation.org/team/jason-hudson/) at a workshop in London.
 
 The IDRC were funding a wireless technology project teaching people to build their own wireless communication networks, so we talked. 
 
