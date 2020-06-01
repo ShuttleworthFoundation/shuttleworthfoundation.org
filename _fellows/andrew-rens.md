@@ -31,7 +31,7 @@ A renowned speaker in his field, Andrew has delivered addresses at the Second Co
 {% contentfor funding %}
 ## Highlights and outcomes: 
 
-Andrew worked extensively on access to knowledge, IP law reform and open education in South Africa throughout his fellowship. With his help, we defined many of the legal frameworks we rely on today, and for much of the progress we have made towards making open viable in a overtly-closed world. 
+Andrew worked extensively on access to knowledge, IP law reform and open education in South Africa throughout his fellowship. With his help, we defined many of the legal frameworks we rely on today, and for much of the progress we have made towards making open viable in an overtly-closed world.
 
 Following his fellowship, Andrew continued to work with the Foundation as counsel, and helped us establish the hugely innovative Open Lock: an agreement baking a founder’s commitment to open into an organisation’s legal structure. Andrew also launched opencounsel.net to help social entrepreneurs, change makers and activists make better use of open licenses, standards and policies. 
 

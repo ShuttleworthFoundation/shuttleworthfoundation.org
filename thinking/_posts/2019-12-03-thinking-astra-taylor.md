@@ -73,7 +73,7 @@ Building on the success and experience of the app, attention turned back to the 
 
 The Debt Collective made extraordinary progress with the debt strike to win new rights, overwhelm the Department of Education and force rule change under the Obama administration. It was no mean feat. The Democratic Party might have said right-on things in public, but its main concerns was keeping a check on spending, inflation, and interest rates rather than giving people what they need. And at least with a government of outwardly liberal intentions - even if superficial - there is an elasticity you can push against to force change. 
 
-The other side of the Amercican political equation only offers brick walls. Donald Trump and the new Republican administration held rather unsurprising views on student debtors and immediately set about rolling back the rights Astra and the team had secured. It was a hard and frustrating lesson: you can establish a new policy, but it can always be overturned. A necessary change of strategy duly followed. 
+The other side of the American political equation only offers brick walls. Donald Trump and the new Republican administration held rather unsurprising views on student debtors and immediately set about rolling back the rights Astra and the team had secured. It was a hard and frustrating lesson: you can establish a new policy, but it can always be overturned. A necessary change of strategy duly followed.
 
 “We would only be able to win additional rights under a liberal administration,” explains Astra. “You have to recognise the limits of your tactics, so instead we are focussed on helping people enact the rights they have already. It’s bureaucratically impossible at the moment because the powers that be make it so difficult. 
 

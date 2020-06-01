@@ -85,7 +85,7 @@ The biotech research industry's current dial is set firmly to 'patent everything
 
 There are clear ramifications. Scientists from low-to-middle income countries have limited access to the tools and resources needed to research and solve local problems. Community labs struggle to afford expensive licenses. And startup companies with bold, fresh ideas frustratedly navigate complex IP landscapes.
 
-We're at a pivotal moment. Do we accept that big business will keep everything locked down behind closed doors, or is there room for open science to create a bioeconomy that works for everyone? And can openness lead to biotech innovation in areas that will benefit all of our communities and ensure we have legal access to to the core IP underpinning real progress? 
+We're at a pivotal moment. Do we accept that big business will keep everything locked down behind closed doors, or is there room for open science to create a bioeconomy that works for everyone? And can openness lead to biotech innovation in areas that will benefit all of our communities and ensure we have legal access to the core IP underpinning real progress?
 
 __The Idea__
 

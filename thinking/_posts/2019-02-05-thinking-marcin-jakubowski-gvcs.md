@@ -13,7 +13,7 @@ image_source: "https://www.livingcircular.veolia.com/en/eco-citizen/open-source-
 on_report: true
 ---
 
-These machines -  a real world LEGO set, if you like - promise to deliver a small civilisation everything it needs to to live comfortably, independently and sustainably in the modern world. Marcin spent two years on the Shuttleworth Foundation programme from 2012, and we caught up with him to reflect on his experience, and see how is plans for a new, open source economy are progressing.
+These machines -  a real world LEGO set, if you like - promise to deliver a small civilisation everything it needs to live comfortably, independently and sustainably in the modern world. Marcin spent two years on the Shuttleworth Foundation programme from 2012, and we caught up with him to reflect on his experience, and see how is plans for a new, open source economy are progressing.
 
 ### Marcin Jakubowski -The Background
 

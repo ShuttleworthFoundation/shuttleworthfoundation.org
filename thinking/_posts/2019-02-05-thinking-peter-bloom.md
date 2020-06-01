@@ -25,7 +25,7 @@ Peter’s Fellowship story with [Rhizomatica](https://www.rhizomatica.org/) begi
 
 “The devices were cool, but there was a lack of access to the network and when you were sending sensitive documentation over the mobile network, it wasn’t safe. Essentially, this is what birthed the idea of Rhizomatica and I started investigating community-owned infrastructure for telecommunications.”
 
-Peter’s search for a solution over the next couple of years eventually led him to [Paul Gardner-Stephen](https://www.shuttleworthfoundation.org/fellows/paul-gardner-stephen/) and the Serval Project, who who provided software and advice during the creation of Rhizomatica’s first network."
+Peter’s search for a solution over the next couple of years eventually led him to [Paul Gardner-Stephen](https://www.shuttleworthfoundation.org/fellows/paul-gardner-stephen/) and the Serval Project, who provided software and advice during the creation of Rhizomatica’s first network."
 
 “We were in touch for a while,” remembers Peter. “He became a Shuttleworth Fellow shortly after - it’s how I became aware of the Foundation. 
 
