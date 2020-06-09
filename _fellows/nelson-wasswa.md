@@ -10,7 +10,7 @@ project:
   description: "The goal of this project is to establish a freshwater contaminant monitoring system and empower Ugandan communities with rich, open environmental data."
 links:
   - type: github
-    url: https://github.com/Nelwa256
+    url: https://github.com/Sodzo-Foundation
     text: Github
   - type: linkedin
     url: https://ug.linkedin.com/in/wasswa-nelson-999b8746

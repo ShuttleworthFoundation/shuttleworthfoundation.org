@@ -12,6 +12,9 @@ links:
   - type: linkedin
     url: https://www.linkedin.com/in/andrew-lamb-17b21211
     text: Andrew lamb
+  - type: web
+    url: http://www.andrewlamb.info/
+    text: Personal site
 date:   2017-02-03
 photo: /images/fellows/andrew-lamb.jpg
 video:
