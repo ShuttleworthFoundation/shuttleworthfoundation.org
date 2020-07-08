@@ -2,7 +2,7 @@
 layout: post
 post_date: 2 July 2020
 tags:
-  - open
+  - philanthropy
 title: "The system is rigged, 2020 has shown us how much"
 author: SF Team
 banner: "/images/blog/blog-open-strategy 2.jpg"
