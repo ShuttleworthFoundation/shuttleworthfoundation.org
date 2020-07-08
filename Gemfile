@@ -5,3 +5,4 @@ gem "jekyll-archives"
 gem "jekyll-contentblocks"
 gem "jekyll-redirect-from"
 gem "html-proofer"
+gem 'jekyll-seo-tag'

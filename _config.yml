@@ -31,6 +31,7 @@ plugins:
   - jekyll-archives
   - jekyll-redirect-from
   - jekyll-contentblocks
+  - jekyll-seo-tag
 
 ##
 # JEKYLL-ARCHIVES
