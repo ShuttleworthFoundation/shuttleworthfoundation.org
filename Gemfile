@@ -6,3 +6,5 @@ gem "jekyll-contentblocks"
 gem "jekyll-redirect-from"
 gem "html-proofer"
 gem 'jekyll-seo-tag'
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'

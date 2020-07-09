@@ -32,6 +32,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll-contentblocks
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
 
 ##
 # JEKYLL-ARCHIVES
@@ -54,4 +56,10 @@ collections:
     output: true
   team:
     output: true
+
+##
+# JEKYLL FEED
+##
+jekyll-feed:
+  date:
 

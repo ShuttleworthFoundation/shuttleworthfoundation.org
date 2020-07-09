@@ -12,7 +12,7 @@ image_credit: "Gabriel Saldana (CC BY-SA)"
 image_source: "https://www.flickr.com/photos/gabrielsaldana/7488934812/in/photostream/"
 on_report: true
 ---
-Money is an element of the relationship between the any funder and those who it funds (in our case, the Foundation and the Fellows), but we’ve moved away from being simply a funder and towards being a holistic support system.
+Money is an element of the relationship between the funder and those who it funds (in our case, the Foundation and the Fellows), but we’ve moved away from being simply a funder and towards being a holistic support system.
 
 “Money is power” is a cliché because of the truth it holds. It’s also wildly incorrect. Traditional philanthropic models use money as a proxy for knowledge or wisdom, wielding the exchange of money as pay-to-play. This is because true power comes from knowledge, but money is a more tangible metric to measure.
 
