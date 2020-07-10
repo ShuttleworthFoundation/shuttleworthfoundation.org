@@ -20,7 +20,7 @@ If money could solve all the world’s ills, it would have long since fixed pove
 
 Money is a resource, not a goal. Centres of power in most funding models lack balance. Any power gained from a finite resource like money is also finite. Giving away money means giving away power. 
 
-Conversely, shared power born of infinite resources like knowledge, community, and trust are limitless. The more you share power the more you create. Collective power and its growth lie in paradox – you must give it away to expand the community and grow the knowledge and trust that fuel collective power. 
+Conversely, shared power born of infinite resources like knowledge, community, and trust is limitless. The more you share power the more you create. Collective power and its growth lie in paradox – you must give it away to expand the community and grow the knowledge and trust that fuel collective power. 
 
 Money is an effective tool, but a poor substitute for community. When power is exerted by the use of money and placed at the centre of the relationship ideas are created and experiments undertaken in order to obtain or unlock further funding. Money ultimately becomes the measure of success which leads to the purity of the idea being abstracted and the original undertaking rendered corrupt. By focusing on infinite resources and collective power we build stronger futures for everyone at the table.
 
