@@ -12,7 +12,7 @@ image_credit: "Luke Price (CC BY)"
 image_source: "https://www.flickr.com/photos/lukeprice88/9703431992/"
 on_report: true
 ---
-As the crisis develops, members of the Shuttleworth community are pooling their resources together to form coherent responses to the worldwide shortage of Personal Protective Equipment. We were unsurprised, as, for many, it is a natural extension of their work in open hardware and a desire to do the right thing. For example, Tarek Loubani is 3D-printing face shields for medical workers in Canada, while Luka Mustafa is working with Slovenian companies and Fab Labs to design and produce a variety of PPE including masks and visors. 
+As the crisis develops, members of the Shuttleworth community are pooling their resources together to form coherent responses to the worldwide shortage of Personal Protective Equipment. We were unsurprised, as, for many, it is a natural extension of their work in open hardware and a desire to do the right thing. For example, Tarek Loubani is 3D-printing face shields for medical workers in Canada, while Luka Mustafa is working with Slovenian companies and Fab Labs to design and produce a variety of personal protective equipment (PPE), including masks and visors.
 
 What has been revelatory is the speed and breadth that many other groups are springing up as part of the global collaborative effort, openly sharing knowledge and designs and creating in schools and community labs. Some are part of coordinated action; others are going it alone by turning garden sheds or garages into 3D-printing workshops.  
 
