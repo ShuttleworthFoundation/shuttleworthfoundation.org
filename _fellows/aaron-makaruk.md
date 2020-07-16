@@ -3,7 +3,8 @@ title: "Aaron Makaruk"
 layout: fellow-2018
 name: "Aaron Makaruk"
 project:
-    name: "Open designs for sustainable urban farming"
+    name: "AKER Kits and OS Beehives"
+    summary: "Open designs for sustainable urban farming"
 current: false
 type: "Seeding food gardens"
 date:   2015-09-01
