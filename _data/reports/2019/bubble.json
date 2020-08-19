@@ -1,0 +1,222 @@
+{
+  "taxonomy": "fb", 
+  "name": "Total Spend",
+  "label": "Total Spend",
+  "amount":    6525506.41,
+  "children": [
+    {
+      "taxonomy": "fb", 
+      "amount":  5778408.78, 
+      "label": "Fellowship Program", 
+      "children": [
+        {
+          "taxonomy": "fb", 
+          "amount":  5196572.90, 
+          "label": "Grants & Project Funding", 
+          "children": [
+            {
+              "taxonomy": "fb", 
+              "amount":  2684.48, 
+              "label": "Accounting", 
+              "children": [], 
+              "name": "Accounting"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  386935.44, 
+              "label": "Infrastructure", 
+              "children": [], 
+              "name": "Infrastructure"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  15982.38, 
+              "label": "Legal", 
+              "children": [], 
+              "name": "Legal"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  238521.06, 
+              "label": "Marketing", 
+              "children": [], 
+              "name": "Marketing"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  18816.92, 
+              "label": "Office-space", 
+              "children": [], 
+              "name": "Office-space"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  4241986.87, 
+              "label": "People", 
+              "children": [], 
+              "name": "People"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  142755.62, 
+              "label": "Software", 
+              "children": [], 
+              "name": "Software"
+            },  
+            {
+              "taxonomy": "fb", 
+              "amount":  148890.12, 
+              "label": "Travel", 
+              "children": [], 
+              "name": "Travel"
+            }
+          ], 
+          "name": "Grants & Project Funding"
+        }, 
+        {
+          "taxonomy": "fb", 
+          "amount":  310000.00, 
+          "label": "Flash Grants", 
+          "children": [], 
+          "name": "Flash Grants"
+        },
+        {
+          "taxonomy": "fb", 
+          "amount":  271835.88, 
+          "label": "Gathering", 
+          "children": [], 
+          "name": "Gathering"
+        },
+      ], 
+      "name": "Fellowship Program"
+    }, 
+    {
+      "taxonomy": "fb", 
+      "amount":   747097.63, 
+      "label": "Operational Costs", 
+      "children": [
+        {
+          "taxonomy": "fb", 
+          "amount":  415467.80, 
+          "label": "Salaries", 
+          "children": [], 
+          "name": "Salaries"
+        }, 
+        {
+          "taxonomy": "fb", 
+          "amount":   331629.84, 
+          "label": "Overheads", 
+          "children": [
+            {
+              "taxonomy": "fb", 
+              "amount":  48622.28, 
+              "label": "Book Sprint", 
+              "children": [], 
+              "name": "Book Sprint"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  22211.56, 
+              "label": "Travel", 
+              "children": [], 
+              "name": "Travel"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  49702.76, 
+              "label": "Communications", 
+              "children": [], 
+              "name": "Communications"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  78686.21, 
+              "label": "Legal fees", 
+              "children": [], 
+              "name": "Legal fees"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  15891.90, 
+              "label": "Consulting fees", 
+              "children": [], 
+              "name": "Consulting fees"
+            },
+            {
+              "taxonomy": "fb", 
+              "amount":  427.16, 
+              "label": "Training", 
+              "children": [], 
+              "name": "Training"
+            },
+            {
+              "taxonomy": "fb", 
+              "amount":  17938.80, 
+              "label": "IT Expenses", 
+              "children": [], 
+              "name": "IT Expenses"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  1850.21, 
+              "label": "IT Equipment", 
+              "children": [], 
+              "name": "IT Equipment"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  8760.18, 
+              "label": "Software development", 
+              "children": [], 
+              "name": "Software development"
+            }, 
+            {
+              "taxonomy": "fb", 
+              "amount":  29473.00, 
+              "label": "Audit fees", 
+              "children": [], 
+              "name": "Audit fees"
+            },
+            {
+              "taxonomy": "fb", 
+              "amount":  11514.99, 
+              "label": "Bank charges", 
+              "children": [], 
+              "name": "Bank charges"
+            },
+            {
+              "taxonomy": "fb", 
+              "amount":   44256.78, 
+              "label": "Finance management costs & insurance", 
+              "children": [], 
+              "name": "Finance management costs & insurance"
+            },
+            {
+              "taxonomy": "fb", 
+              "amount":   254.04, 
+              "label": "Office space & utilities", 
+              "children": [], 
+              "name": "Office space & utilities"
+            },
+            {
+              "taxonomy": "fb", 
+              "amount":  2039.94, 
+              "label": "Payroll costs", 
+              "children": [], 
+              "name": "Payroll costs"
+            },
+            {
+              "taxonomy": "fb", 
+              "amount": -4096.99, 
+              "label": "Interest & Fasset received", 
+              "children": [], 
+              "name": "Interest & Fasset received"
+            }
+          ], 
+          "name": "Overheads"
+        }
+      ], 
+      "name": "Operational Costs"
+    }
+  ]
+}

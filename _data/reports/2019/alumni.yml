@@ -1,0 +1,29 @@
+- categories: [Hardware, Telecoms]
+  fellow_contribution:  11639.05
+  fellowship_duration: 3
+  fellowship_end: March 2018
+  fellowship_start: March 2015
+  foundation_contribution:  122330.87
+  id: luka-mustafa
+  name: Luka Mustafa
+  spend:
+  - {amount: 128030, category: People}
+  total:  128030.0
+  twitter: institute_irnas
+  web: http://koruza.net/
+  blog: http://irnas.eu/blog.html
+- categories: [Data, Government, Transparency]
+  fellow_contribution:  6623.81
+  fellowship_duration: 3
+  fellowship_end: September 2018
+  fellowship_start: September 2015
+  foundation_contribution:  181920.45
+  id: astra-taylor
+  name: Astra Taylor
+  spend:
+  - {amount: 72000, category: People}
+  - {amount: 862, category: Office-space}
+  total:  72862.0
+  twitter: astradisastra
+  web: https://debtcollective.org/
+  blog: http://www.hiddendriver.com/
