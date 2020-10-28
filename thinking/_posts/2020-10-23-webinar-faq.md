@@ -215,7 +215,7 @@ We will consider how you’ve developed your work, discuss what we have learned 
 ### Who gets to see my application?
 
 
-The application process is not made public, and we are always respectful of your privacy to prevent exclusion of individuals discussing sensitive issues or who are in sensitive situations. We want you to have the confidence to discuss the problem you see in the world and how you will make a change without fear or repurcussion.
+The application process is not made public, and we are always respectful of your privacy to prevent exclusion of individuals discussing sensitive issues or who are in sensitive situations. We want you to have the confidence to discuss the problem you see in the world and how you will make a change without fear or repercussion.
 
 
 Further reading:
