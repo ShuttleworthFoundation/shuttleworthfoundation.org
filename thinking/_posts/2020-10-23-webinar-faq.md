@@ -142,7 +142,12 @@ Further reading:
 
 ### Why is the application designed this way?
 
-The application form consists of three parts, which we review in this order: the video, the essay-based questions, and a set of data-based questions. We want to establish four key facts to help us fully understand your idea. What are you going to do?  Why this idea? Why now? And finally, why you?
+The application form consists of three parts, which we review in this order: the video, the essay-based questions, and a set of data-based questions. We want to establish four key facts to help us fully understand your idea:
+
+- What are you going to do?
+- Why this idea?
+- Why now?
+- And finally, why you?
 
 We are looking for you to tell us your story within the context of your idea and application, and give us a sense of your current status. The application process is designed to be as helpful to you as it is for us. It is not supposed to trip you up, but instead prompt thoughts on what you believe about the world and what you want from this opportunity. 
 
