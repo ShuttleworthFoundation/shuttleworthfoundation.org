@@ -187,7 +187,7 @@ Further reading:
 ### What is the deadline?
 
 
-The deadline for our next fellowship intake is November 3rd, 2020. We take time zones into consideration and will happily receive applications any time before the end of day [Anywhere on Earth](https://time.is/Anywhere_on_Earth).
+The deadline for our next fellowship intake is {{ site.intake.close }}. We take time zones into consideration and will happily receive applications any time before the end of day [Anywhere on Earth](https://time.is/Anywhere_on_Earth).
 
 
 ### What is the timeline from submission to notification?
@@ -301,4 +301,4 @@ Fellowship Stories:
 
 
 
-REMINDER: Applications for our next fellowship round close on **November 3rd, 2020**.
+REMINDER: Applications for our next fellowship round close on {{ site.intake.close }}.
