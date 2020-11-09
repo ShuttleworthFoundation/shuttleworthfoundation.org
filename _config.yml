@@ -14,7 +14,7 @@ intake:
   reopen: 1 August 2021
   current: March 2021
   next: March 2022
-  close: 3 November 2020
+  close: 3 November 2021
   notify: 1 January 2021
 
 exclude: [Makefile, README.md, vendor, Gemfile]
