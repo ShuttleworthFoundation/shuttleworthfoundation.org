@@ -14,10 +14,10 @@ on_report: true
 
 
 <div id="post_img_left" class="img-credit">
-        <img src="/images/fellows/cecilia-oliveira.jpg" alt="Cecilia Oliveira">
+        <img src="/images/fellows/cecilia-olliveira.jpg" alt="Cecilia Olliveira">
       </div>
 
-__Introducing:__ [Cecília Olliveira](https://shuttleworthfoundation.org/fellows/cecilia-oliveira/)
+__Introducing:__ [Cecília Olliveira](https://shuttleworthfoundation.org/fellows/cecilia-olliveira/)
 
 
 __Background:__  A Brazilian investigative journalist, researcher and activist.
