@@ -21,6 +21,6 @@ Cecilia is challenging dysfunctional justice and destructive narratives around g
 
 Delphine seeks information justice for whistleblowers and society with The Signals Network. She is navigating the opaque legal frameworks surrounding whistleblowing disclosure and unblocking the flow of information to increase public knowledge of wrongdoing. [Read more](/thinking/2021/02/28/thinking-welcome-delphine/) 
 
-Uzoma is remedying a total malfunction of the U.S. criminal justice system that leads to mass incarceration. He is starting by decoupling incarceration from profit in a system failing to rehabiliate and allowing a predatory prison communications duopoly to flourish. With Ameelio, he is expanding a suite of communication tools to enable supportive contact and prevent families of the incarcerated falling into debt. [Read more](/thinking/2021/02/28/thinking-welcome-zo/)
+Uzoma is remedying a total malfunction of the U.S. criminal justice system that leads to mass incarceration. He is starting by decoupling incarceration from profit in a system failing to rehabilitate and allowing a predatory prison communications duopoly to flourish. With Ameelio, he is expanding a suite of communication tools to enable supportive contact and prevent families of the incarcerated falling into debt. [Read more](/thinking/2021/02/28/thinking-welcome-zo/)
 
 To Cecília, Delphine and Uzoma, the Foundation and fellowship community welcomes you and looks forward to sharing stories, experiences and advice from the frontlines of social innovation.

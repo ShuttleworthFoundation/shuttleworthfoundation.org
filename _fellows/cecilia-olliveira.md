@@ -1,7 +1,7 @@
 ---
 layout: fellow-2018
-title: "Cecilia Oliveira"
-name: "Cecilia Oliveira"
+title: "Cecilia Olliveira"
+name: "Cecilia Olliveira"
 firstname: "Cecilia"
 current: true
 project:
@@ -19,7 +19,7 @@ twitter:
     handle: Cecillia
     tweet: "Homicide increased by 5% in 2020. Data is provisional, as it does not include the numbers of deaths from police intervention. And why not include? Because not all states pass this on monthly. And why don't they pass it on? Because they don't want to. It's not good, and we don't even really know the reality..."
 date:   2021-02-03
-photo: /images/fellows/cecilia-oliveira.jpg
+photo: /images/fellows/cecilia-olliveira.jpg
 video:
 fellowship:
   start: 2020-03-01
