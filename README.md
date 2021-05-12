@@ -2,6 +2,7 @@
     <img src="https://github.com/ShuttleworthFoundation/shuttleworthfoundation.org/blob/master/images/icon.png" alt="Shuttleworth Foundation"
          title="Shuttleworth Foundation" align="right" />
 </a>
+
 # Please note
 
 This is an archive. Active development is happening via our GitLab instance: https://git.shuttleworthfoundation.org/shuttleworth-foundation/shuttleworthfoundation-org
